@@ -1,0 +1,5 @@
+# One generated-output path per human-approved raster asset.
+# Keep empty while source photos await rights, consent and alt-text review.
+# Leaflet's non-photographic map controls are the only current raster exceptions.
+_next/static/media/layers*.png
+_next/static/media/marker-icon*.png

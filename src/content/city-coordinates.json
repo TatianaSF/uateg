@@ -1,0 +1,277 @@
+[
+  {
+    "id": "banská-bystrica",
+    "coordinates": [
+      48.73947,
+      19.14932
+    ],
+    "coordinateSourceUrl": "https://www.geonames.org/3061186/",
+    "geoNamesId": "3061186",
+    "featureCode": "PPLA",
+    "countryCode": "SK"
+  },
+  {
+    "id": "warsaw",
+    "coordinates": [
+      52.22977,
+      21.01178
+    ],
+    "coordinateSourceUrl": "https://www.geonames.org/756135/",
+    "geoNamesId": "756135",
+    "featureCode": "PPLC",
+    "countryCode": "PL"
+  },
+  {
+    "id": "prešov",
+    "coordinates": [
+      48.99923,
+      21.2355
+    ],
+    "coordinateSourceUrl": "https://www.geonames.org/723819/",
+    "geoNamesId": "723819",
+    "featureCode": "PPLA",
+    "countryCode": "SK"
+  },
+  {
+    "id": "košice",
+    "coordinates": [
+      48.71441,
+      21.25802
+    ],
+    "coordinateSourceUrl": "https://www.geonames.org/724443/",
+    "geoNamesId": "724443",
+    "featureCode": "PPLA",
+    "countryCode": "SK"
+  },
+  {
+    "id": "toronto",
+    "coordinates": [
+      43.65333,
+      -79.38389
+    ],
+    "coordinateSourceUrl": "https://www.geonames.org/6167865/",
+    "geoNamesId": "6167865",
+    "featureCode": "PPLA",
+    "countryCode": "CA"
+  },
+  {
+    "id": "montréal",
+    "coordinates": [
+      45.50884,
+      -73.58781
+    ],
+    "coordinateSourceUrl": "https://www.geonames.org/6077243/",
+    "geoNamesId": "6077243",
+    "featureCode": "PPLA2",
+    "countryCode": "CA"
+  },
+  {
+    "id": "québec-city",
+    "coordinates": [
+      46.81228,
+      -71.21454
+    ],
+    "coordinateSourceUrl": "https://www.geonames.org/6325494/",
+    "geoNamesId": "6325494",
+    "featureCode": "PPLA",
+    "countryCode": "CA"
+  },
+  {
+    "id": "edmonton",
+    "coordinates": [
+      53.55014,
+      -113.46871
+    ],
+    "coordinateSourceUrl": "https://www.geonames.org/5946768/",
+    "geoNamesId": "5946768",
+    "featureCode": "PPLA",
+    "countryCode": "CA"
+  },
+  {
+    "id": "winnipeg",
+    "coordinates": [
+      49.8844,
+      -97.14704
+    ],
+    "coordinateSourceUrl": "https://www.geonames.org/6183235/",
+    "geoNamesId": "6183235",
+    "featureCode": "PPLA",
+    "countryCode": "CA"
+  },
+  {
+    "id": "bratislava",
+    "coordinates": [
+      48.14816,
+      17.10674
+    ],
+    "coordinateSourceUrl": "https://www.geonames.org/3060972/",
+    "geoNamesId": "3060972",
+    "featureCode": "PPLC",
+    "countryCode": "SK"
+  },
+  {
+    "id": "kežmarok",
+    "coordinates": [
+      49.13571,
+      20.43352
+    ],
+    "coordinateSourceUrl": "https://www.geonames.org/724503/",
+    "geoNamesId": "724503",
+    "featureCode": "PPLA2",
+    "countryCode": "SK"
+  },
+  {
+    "id": "sliema",
+    "coordinates": [
+      35.91247,
+      14.50175
+    ],
+    "coordinateSourceUrl": "https://www.geonames.org/2562501/",
+    "geoNamesId": "2562501",
+    "featureCode": "PPLA",
+    "countryCode": "MT"
+  },
+  {
+    "id": "valletta",
+    "coordinates": [
+      35.89968,
+      14.5148
+    ],
+    "coordinateSourceUrl": "https://www.geonames.org/2562305/",
+    "geoNamesId": "2562305",
+    "featureCode": "PPLC",
+    "countryCode": "MT"
+  },
+  {
+    "id": "stockholm",
+    "coordinates": [
+      59.32938,
+      18.06871
+    ],
+    "coordinateSourceUrl": "https://www.geonames.org/2673730/",
+    "geoNamesId": "2673730",
+    "featureCode": "PPLC",
+    "countryCode": "SE"
+  },
+  {
+    "id": "uppsala",
+    "coordinates": [
+      59.85882,
+      17.63889
+    ],
+    "coordinateSourceUrl": "https://www.geonames.org/2666199/",
+    "geoNamesId": "2666199",
+    "featureCode": "PPLA",
+    "countryCode": "SE"
+  },
+  {
+    "id": "newbury",
+    "coordinates": [
+      51.40148,
+      -1.32471
+    ],
+    "coordinateSourceUrl": "https://www.geonames.org/2641689/",
+    "geoNamesId": "2641689",
+    "featureCode": "PPLA2",
+    "countryCode": "GB"
+  },
+  {
+    "id": "berlin",
+    "coordinates": [
+      52.52437,
+      13.41053
+    ],
+    "coordinateSourceUrl": "https://www.geonames.org/2950159/",
+    "geoNamesId": "2950159",
+    "featureCode": "PPLC",
+    "countryCode": "DE"
+  },
+  {
+    "id": "leipzig",
+    "coordinates": [
+      51.33962,
+      12.37129
+    ],
+    "coordinateSourceUrl": "https://www.geonames.org/2879139/",
+    "geoNamesId": "2879139",
+    "featureCode": "PPLA3",
+    "countryCode": "DE"
+  },
+  {
+    "id": "potsdam",
+    "coordinates": [
+      52.39886,
+      13.06566
+    ],
+    "coordinateSourceUrl": "https://www.geonames.org/2852458/",
+    "geoNamesId": "2852458",
+    "featureCode": "PPLA",
+    "countryCode": "DE"
+  },
+  {
+    "id": "shrewsbury",
+    "coordinates": [
+      52.71009,
+      -2.75208
+    ],
+    "coordinateSourceUrl": "https://www.geonames.org/2637891/",
+    "geoNamesId": "2637891",
+    "featureCode": "PPLA2",
+    "countryCode": "GB"
+  },
+  {
+    "id": "cleobury-mortimer",
+    "coordinates": [
+      52.37853,
+      -2.48196
+    ],
+    "coordinateSourceUrl": "https://www.geonames.org/2652874/",
+    "geoNamesId": "2652874",
+    "featureCode": "PPL",
+    "countryCode": "GB"
+  },
+  {
+    "id": "ludlow",
+    "coordinates": [
+      52.37431,
+      -2.71311
+    ],
+    "coordinateSourceUrl": "https://www.geonames.org/2643425/",
+    "geoNamesId": "2643425",
+    "featureCode": "PPL",
+    "countryCode": "GB"
+  },
+  {
+    "id": "limassol",
+    "coordinates": [
+      34.68406,
+      33.03794
+    ],
+    "coordinateSourceUrl": "https://www.geonames.org/146384/",
+    "geoNamesId": "146384",
+    "featureCode": "PPLA",
+    "countryCode": "CY"
+  },
+  {
+    "id": "larnaca",
+    "coordinates": [
+      34.9221,
+      33.62794
+    ],
+    "coordinateSourceUrl": "https://www.geonames.org/146400/",
+    "geoNamesId": "146400",
+    "featureCode": "PPLA",
+    "countryCode": "CY"
+  },
+  {
+    "id": "žilina",
+    "coordinates": [
+      49.22315,
+      18.73941
+    ],
+    "coordinateSourceUrl": "https://www.geonames.org/3056508/",
+    "geoNamesId": "3056508",
+    "featureCode": "PPLA",
+    "countryCode": "SK"
+  }
+]
