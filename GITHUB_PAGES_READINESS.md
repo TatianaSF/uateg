@@ -5,8 +5,8 @@
 ## Release record
 
 - Public repository: `https://github.com/TatianaSF/uateg` (`main`).
-- Deployed commit: `dfc75a5b605de70ea243b4c29de8bc7ace019abd`.
-- Workflow run: `42523993421` — build and deploy jobs completed successfully.
+- Application/media release commit: `dfc75a5b605de70ea243b4c29de8bc7ace019abd`.
+- Latest successful Pages deploy: commit `29845e1d525e76991b0869237aa06d51dd9a3d60`, workflow run `42524270859` — build and deploy jobs completed successfully. That follow-up commit only updated release reports; the generated website content is unchanged.
 - Pages publishing source: GitHub Actions; workflow is `workflow_dispatch` only and deployment is restricted to `main`.
 - Export size: **75,468,058 bytes**. Repository Git objects before transfer: **63.57 MiB**.
 - Original PDF: public and byte-identical to the source, **55,077,592 bytes**. GitHub accepted the push with its documented >50 MiB warning; file remains below the 100 MiB hard block.
@@ -24,6 +24,7 @@
 - Export route/link checks: **PASS**, 82 localized non-home routes including 66 event pages, locale homes, root, 404, sitemap, robots and `.nojekyll`.
 - Local HTTP preview: **PASS**, 82/82 checked pages and PDF route returned 200.
 - Live HTTPS: **PASS**, 169/169 checks returned 200: 85 routes, 83 image files and source PDF HEAD. This verifies reachability, not visual layout.
+- GitHub Actions advisory: current workflow actions completed under the runner's Node 24 compatibility mode; GitHub emitted an advisory that some action versions declare Node 20. It did not affect either successful run.
 
 ## Visual review not verified
 
