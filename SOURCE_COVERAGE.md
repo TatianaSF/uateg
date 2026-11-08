@@ -1,6 +1,6 @@
 # Source coverage report
 
-The 15 October 2025 PDF is retained locally under the ignored `/source-private/` path. For every page, `source-private/extracted/` stores independently extracted PDF text, the supplied inventory text, a rendered PNG page preview and extracted embedded-image references. The extraction manifest records image xref, SHA-256, dimensions, file reference, a private 1800px WebP review derivative and whether normalized words match the draft inventory. Original images, derivatives and page previews are not included in public assets.
+The unchanged 15 October 2025 PDF is published at `public/archive/angels-of-ukraine-source-2025-10-15.pdf`; a private working copy and extraction materials remain under ignored `/source-private/`. The public catalog preserves event-page transcriptions and page references. `MEDIA_COVERAGE.md` maps all 126 source image placements to 83 deduplicated public WebP files. Private page previews and contact sheets are not published.
 
 | PDF page | Source category | Website representation |
 |---:|---|---|
@@ -43,13 +43,13 @@ The 15 October 2025 PDF is retained locally under the ignored `/source-private/`
 | 37 | First Košice event and origin story | Home, About, and `/en/events/kosice-2022-06-01-p37/` + Ukrainian equivalent |
 | 38 | Public invitation and mission | Organizer guide |
 | 39 | Organizer requirements and materials | Organizer checklist |
-| 40 | Initiative originators and coordinator | Team page explains publication approval gate; identities withheld |
-| 41 | Personal contact/social/QR details | Contact and privacy pages explain withheld data; private archive only |
+| 40 | Initiative originators and coordinator | Bilingual team page, source portraits, names and roles |
+| 41 | Personal contact/social/QR details | Contact page with source image, QR, phone and email details |
 
 ## Counts
 
 - PDF pages: **41/41** independently extracted and represented above.
 - Event pages: **33/33**, with separate pages for recurring city events.
 - Canonical cities: **25**; countries: **8**.
-- Embedded image occurrences extracted to private archive: **126**; unique assets: **83**; repeated placements beyond the first: **43**; private optimized WebP review derivatives: **83**; published images: **0** pending rights and consent review. The ignored `source-private/media-review/` folder contains two contact sheets and an occurrence-level manifest.
+- Embedded image occurrences represented publicly: **126**; unique assets: **83**; repeated placements beyond the first: **43**; optimized WebP assets: **83**. The ignored `source-private/media-review/` contact sheets remain private.
 - Normalized inventory/PDF page text comparison: **41/41 word multisets match**.

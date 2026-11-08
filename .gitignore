@@ -8,5 +8,7 @@ test-results/
 !.env.example
 /source-private/
 *.pdf
+!public/archive/angels-of-ukraine-source-2025-10-15.pdf
 *.tsbuildinfo
 .vercel/
+__pycache__/

@@ -3,6 +3,7 @@ import { notFound } from "next/navigation";
 import type { Locale } from "@/content/schema";
 import { validLocale, t } from "@/lib/i18n";
 import { OrganizerInquiry } from "@/components/OrganizerInquiry";
+import { MediaGallery, pagePlacements } from "@/components/MediaGallery";
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {
   const { locale } = await params;
@@ -16,6 +17,7 @@ export default async function OrganizePage({ params }: { params: Promise<{ local
   const locale = value as Locale;
   return <section className="content-section organize-page">
     <header className="page-heading"><p className="eyebrow">{locale === "en" ? "For local organizers" : "Для місцевих організаторів"}</p><h1>{locale === "en" ? "Bring the memorial to your city." : "Принесіть меморіал до свого міста."}</h1><p className="lead">{locale === "en" ? "The original invitation asks communities to help keep public attention on the continuing war and its effect on children." : "Оригінальне запрошення закликає громади допомагати привертати увагу до війни, що триває, та її впливу на дітей."}</p><p className="source-ref">{t(locale, "source")} 38–39 · {locale === "en" ? "Translation needs editorial review." : "Переклад потребує редакційної перевірки."}</p></header>
+    <MediaGallery placements={[...pagePlacements(38), ...pagePlacements(39)]} locale={locale} label={locale === "en" ? "Invitation and requirements in the source" : "Запрошення та вимоги з першоджерела"} />
     <div className="organize-layout"><div className="organize-steps"><h2>{t(locale, "checklist")}</h2>
       <ol><li><strong>{locale === "en" ? "Gather a small local team." : "Зберіть невелику місцеву команду."}</strong><p>{locale === "en" ? "The source asks for a strong desire and a little time to prepare the gathering." : "У джерелі зазначено, що для підготовки потрібні щире бажання та трохи часу."}</p></li>
         <li><strong>{locale === "en" ? "Agree on a suitable place and date." : "Оберіть зручне місце й дату."}</strong><p>{locale === "en" ? "Keep the installation accessible and make room for visitors to pause respectfully." : "Подбайте про доступність інсталяції та простір, де відвідувачі зможуть зупинитися й вшанувати пам’ять."}</p></li>

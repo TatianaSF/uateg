@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build && python scripts/check_public.py out && python scripts/check_export.py out",
+    "build": "next build && python scripts/check_public.py out && python scripts/check_media_coverage.py out && python scripts/check_export.py out",
     "lint": "eslint",
     "typecheck": "tsc --noEmit",
     "test": "tsx --test tests/events.test.ts tests/organizer.test.ts",

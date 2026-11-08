@@ -29,6 +29,9 @@ export const EventSchema = z.object({
   coordinateSourceUrl: z.string().url().nullable(),
   media: z.array(z.string()),
   publicationStatus: z.string(),
+  sourceTranscription: z.string(),
+  historicalDescription: z.object({ en: z.string(), uk: z.string() }),
+  sourceDiscrepancy: z.object({ en: z.string(), uk: z.string() }).optional(),
 }).superRefine((event, context) => {
   if (Boolean(event.coordinates) !== Boolean(event.coordinateSourceUrl)) {
     context.addIssue({ code: "custom", path: ["coordinateSourceUrl"], message: "Coordinates and a citation must be supplied together." });

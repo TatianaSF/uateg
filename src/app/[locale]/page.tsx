@@ -6,6 +6,10 @@ import { EventCard } from "@/components/EventCard";
 import { ReviewNotice } from "@/components/ReviewNotice";
 import { validLocale, t } from "@/lib/i18n";
 import { notFound } from "next/navigation";
+import Image from "next/image";
+import { pagePlacements } from "@/components/MediaGallery";
+import { sitePath } from "@/lib/site";
+import mediaData from "@/content/media.json";
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {
   const { locale } = await params;
@@ -22,6 +26,8 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
   if (!validLocale(rawLocale)) notFound();
   const locale = rawLocale as Locale;
   const featured = [allEvents[0], allEvents[1], allEvents[allEvents.length - 1]];
+  const originPhoto = pagePlacements(37)[0];
+  const originAsset = originPhoto ? mediaData.assets.find((asset) => asset.id === originPhoto.assetId) : undefined;
   return <>
     <section className="hero-section">
       <div className="hero-copy">
@@ -29,12 +35,9 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
         <h1>{locale === "en" ? <>A quiet reminder.<br /><em>A shared promise.</em></> : <>Тихе нагадування.<br /><em>Спільна обіцянка.</em></>}</h1>
         <p className="hero-lead">{locale === "en" ? "Angels of Ukraine is a travelling memorial installation and a living record of communities who gathered to remember children lost to Russia’s war against Ukraine." : "«Янголи України» — мандрівна меморіальна інсталяція та літопис громад, які збиралися вшанувати пам’ять дітей, загиблих через російську агресію проти України."}</p>
         <div className="hero-actions"><Link className="button button-primary" href={`/${locale}/events/`}>{t(locale, "explore")}</Link><Link className="button button-outline" href={`/${locale}/organize/`}>{t(locale, "organizeCta")}</Link></div>
-        <ReviewNotice locale={locale}>{locale === "en" ? "Historical source reviewed; translations and publication permissions remain in editorial review." : "Історичне джерело опрацьовано; переклади та дозволи на публікацію ще перевіряються."}</ReviewNotice>
+        <ReviewNotice locale={locale}>{locale === "en" ? "Historical material is published with page references. Ukrainian translations and source discrepancies remain under editorial review." : "Історичні матеріали опубліковано з посиланнями на сторінки. Українські переклади й розбіжності джерела ще перевіряються редакційно."}</ReviewNotice>
       </div>
-      <div className="hero-art" role="img" aria-label={locale === "en" ? "Abstract paper angel memorial motif in blue and yellow" : "Умовний мотив паперового янгола в синьо-жовтих кольорах"}>
-        <div className="art-sun" /><div className="angel-motif"><span className="angel-wing left-wing" /><span className="angel-body" /><span className="angel-wing right-wing" /><span className="angel-star">✳</span></div>
-        <div className="art-caption">{locale === "en" ? "A memorial carried from city to city" : "Меморіал, що мандрує від міста до міста"}</div>
-      </div>
+      {originAsset && originPhoto && <figure className="hero-photo"><Image src={sitePath(originAsset.src)} width={originAsset.width} height={originAsset.height} alt={originPhoto.alt[locale]} priority unoptimized /><figcaption>{locale === "en" ? "The first gathering in Košice · source page 37" : "Перша акція в Кошицях · сторінка джерела 37"}</figcaption></figure>}
     </section>
     <section className="stats-band" aria-label={locale === "en" ? "Archive summary" : "Підсумок архіву"}>
       <p>{t(locale, "stats")}</p><div className="stats-grid"><div><strong>33</strong><span>{t(locale, "events")}</span></div><div><strong>25</strong><span>{t(locale, "cities")}</span></div><div><strong>8</strong><span>{t(locale, "countries")}</span></div></div>

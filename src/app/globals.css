@@ -256,3 +256,18 @@ main { min-height: 55vh; }
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { scroll-behavior: auto !important; transition-duration: .01ms !important; animation-duration: .01ms !important; animation-iteration-count: 1 !important; }
 }
+
+.hero-photo { margin: 0; overflow: hidden; border-radius: 1.25rem; background: #f5f2ed; box-shadow: 0 18px 50px #243a4a1a; }
+.hero-photo img { display: block; width: 100%; height: auto; max-height: 620px; object-fit: cover; }
+.hero-photo figcaption, .media-gallery figcaption { padding: .65rem .9rem; color: #52616a; font-size: .85rem; }
+.media-gallery { margin-block: 2rem; }
+.media-gallery h2 { margin-bottom: 1rem; }
+.media-gallery-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 240px), 1fr)); gap: 1rem; align-items: start; }
+.media-gallery figure { margin: 0; overflow: hidden; border: 1px solid #e8e4dd; border-radius: .85rem; background: white; }
+.media-gallery img { display: block; width: 100%; height: auto; max-height: 520px; object-fit: contain; background: #f7f6f3; }
+.contact-list { padding: 1.25rem; margin-block: 1.5rem; border-radius: .85rem; background: #f5f7f8; }
+.contact-list p { margin: .65rem 0; overflow-wrap: anywhere; }
+.contact-list small { display: block; margin-top: 1rem; color: #59656b; }
+.detail-copy pre { white-space: pre-wrap; overflow-wrap: anywhere; font: inherit; }
+.detail-copy details { margin-top: 1.25rem; }
+.team-placeholder { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 1.5rem; padding: 1.25rem 0; }

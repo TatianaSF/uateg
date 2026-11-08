@@ -1,6 +1,6 @@
 # Angels of Ukraine
 
-A bilingual, mobile-first historical archive and organizer guide built for a static GitHub Pages deployment at `uaTeg.com`.
+A bilingual, mobile-first historical archive and organizer guide. The first deployment targets `https://tatianasf.github.io/uateg/` using the GitHub Pages project-site path. The future `uaTeg.com` root domain is not configured yet.
 
 ## Local development
 
@@ -30,7 +30,7 @@ npm test
 npm run build
 ```
 
-`npm run build` runs the Next.js static export and then scans `out/` for private filenames, likely email addresses and phone numbers. `npm run source:migrate` is a local-only migration step and requires the ignored `source-private/` source files plus PyMuPDF and Pillow.
+`npm run build` runs the Next.js static export and checks the exact authorized original PDF, source-derived image allowlist, archive coverage, localized routes and likely unrelated contact data. `npm run source:migrate` and `python scripts/prepare_public_archive.py` are local source preparation steps requiring files under ignored `source-private/`.
 
 To install the private-source migration tools on a machine with access to the local source files, run `python -m pip install -r requirements-source.txt`.
 
@@ -42,10 +42,10 @@ To install the private-source migration tools on a machine with access to the lo
 
 ## Content safety
 
-Public content is a reduced, reviewed-safe projection in `src/content/events.json`. Raw source text, original PDF, page previews and extracted media belong only in `/source-private/`, which is excluded by `.gitignore`. Public photographs and people/contact details remain unpublished pending explicit review. A private contact sheet and per-image manifest are under ignored `/source-private/media-review/`. `scripts/approved_public_media.txt` permits only Leaflet's UI icon files; new raster assets require an explicit reviewed-output path. Current public text is marked for editorial or translation review. See `SOURCE_COVERAGE.md`, `CITY_COORDINATES.md` and `EDITORIAL_REVIEW.md`.
+The public event catalog is in `src/content/events.json`; the deduplicated image catalog and occurrence links are in `src/content/media.json`. The unchanged source PDF and 83 source-derived WebP images are public under `public/`. The 126 image placements map to 41 PDF pages. Temporary contact sheets, page previews, raw inventories and extracted originals remain in ignored `source-private/`. The project owner explicitly authorized publishing historical photos, names and contact data; this does not claim independent third-party consent or rights verification. See `MEDIA_COVERAGE.md`, `SOURCE_COVERAGE.md`, `CITY_COORDINATES.md` and `EDITORIAL_REVIEW.md`.
 
 No organizer form provider or public contact channel is approved for this release, so the guide shows `FORM_NOT_CONFIGURED` and does not claim to send inquiries.
 
 ## Deployment
 
-See [`GITHUB_PAGES_DEPLOYMENT.md`](GITHUB_PAGES_DEPLOYMENT.md). The export writes to `out/`; no live deployment, DNS change or GitHub repository has been performed from this workspace.
+The manual-only workflow builds with `NEXT_PUBLIC_BASE_PATH=/uateg` and `NEXT_PUBLIC_SITE_URL=https://tatianasf.github.io`. For the future custom domain, use an empty base path and `NEXT_PUBLIC_SITE_URL=https://uaTeg.com`; no DNS or custom-domain configuration is part of this release.

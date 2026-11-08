@@ -14,8 +14,8 @@ export const copy = {
     search: "Search by city or country", year: "Year", country: "Country", city: "City", all: "All", results: "events found",
     monthOnly: "Month only in source", mapFallback: "No event coordinates have been verified yet. The grouped city index below keeps every event available without guessing locations.",
     coordinatesPending: "Location review pending", checklist: "Before you organize", formOff: "FORM_NOT_CONFIGURED — no application form is active yet.",
-    noContact: "A public contact address has not been approved. Please use the preparation checklist below and keep your inquiry draft until an official channel is published.",
-    reviewBanner: "Editorial review pending", rightsPending: "Photograph permissions are still under review. No source photographs are shown here.",
+    noContact: "The source contact details are published on the Contact page. The inquiry form is not configured and does not send submissions.",
+    reviewBanner: "Editorial review pending", rightsPending: "Source photographs appear in the gallery with their PDF page references.",
     back: "Back to archive", privacyConsent: "I agree to the privacy notice for an organizer inquiry.",
   },
   uk: {
@@ -28,8 +28,8 @@ export const copy = {
     search: "Пошук за містом або країною", year: "Рік", country: "Країна", city: "Місто", all: "Усі", results: "подій знайдено",
     monthOnly: "У джерелі вказано лише місяць", mapFallback: "Перевірених координат подій поки немає. Нижче наведено список за містами, щоб не вгадувати місця.",
     coordinatesPending: "Перевірка місць триває", checklist: "Перш ніж організовувати", formOff: "FORM_NOT_CONFIGURED — форму звернення ще не налаштовано.",
-    noContact: "Публічну контактну адресу ще не погоджено. Скористайтеся списком підготовки нижче та збережіть чернетку звернення до появи офіційного каналу.",
-    reviewBanner: "Очікує редакційної перевірки", rightsPending: "Дозволи на фотографії ще перевіряються. Фотографії з джерела тут не показано.",
+    noContact: "Контактні дані з джерела опубліковано на сторінці «Контакти». Форму звернення не налаштовано, і вона не надсилає повідомлень.",
+    reviewBanner: "Очікує редакційної перевірки", rightsPending: "Фотографії з джерела наведено в галереї з посиланнями на сторінки PDF.",
     back: "До архіву", privacyConsent: "Я погоджуюся з повідомленням про приватність для звернення організатора.",
   },
 } as const;

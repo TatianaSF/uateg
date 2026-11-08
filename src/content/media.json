@@ -1,0 +1,2312 @@
+{
+  "sourcePdf": "/archive/angels-of-ukraine-source-2025-10-15.pdf",
+  "sourcePdfSha256": "48e6f594751de93204491e78f451610231ddf798d29d4b7e71ed1db037d8dc7b",
+  "assetCount": 83,
+  "placementCount": 126,
+  "assets": [
+    {
+      "id": "844fa479db60ae4c6ab305783f3bdce680b376f7ffef6aed9900051f6b220ebc",
+      "src": "/images/archive/844fa479db60ae4c6ab305783f3bdce680b376f7ffef6aed9900051f6b220ebc.webp",
+      "width": 1080,
+      "height": 864,
+      "webpBytes": 76402,
+      "assetType": "source-image"
+    },
+    {
+      "id": "8ce30b02eea734e2509a02042c790f1f240c7332696808f1816828f2bf9a3696",
+      "src": "/images/archive/8ce30b02eea734e2509a02042c790f1f240c7332696808f1816828f2bf9a3696.webp",
+      "width": 225,
+      "height": 225,
+      "webpBytes": 2940,
+      "assetType": "emblem"
+    },
+    {
+      "id": "efb526e1909de5b6a5139906c48b7096863df555064419012841a14857c96d53",
+      "src": "/images/archive/efb526e1909de5b6a5139906c48b7096863df555064419012841a14857c96d53.webp",
+      "width": 966,
+      "height": 1094,
+      "webpBytes": 219296,
+      "assetType": "source-image"
+    },
+    {
+      "id": "313533092d2e1df5999b004ece21ccb3cacfec86538c2a98f41e6bf3bc487e72",
+      "src": "/images/archive/313533092d2e1df5999b004ece21ccb3cacfec86538c2a98f41e6bf3bc487e72.webp",
+      "width": 720,
+      "height": 1600,
+      "webpBytes": 240442,
+      "assetType": "source-image"
+    },
+    {
+      "id": "2b2f867a075b91f6a784148b7b2d0c1fe14537564080099f22a5967e893789f0",
+      "src": "/images/archive/2b2f867a075b91f6a784148b7b2d0c1fe14537564080099f22a5967e893789f0.webp",
+      "width": 1800,
+      "height": 1200,
+      "webpBytes": 433868,
+      "assetType": "source-image"
+    },
+    {
+      "id": "d91e6a91fc39f96aa6e60f3282971896fdc44d67806ab9d3c68ae316ea80f120",
+      "src": "/images/archive/d91e6a91fc39f96aa6e60f3282971896fdc44d67806ab9d3c68ae316ea80f120.webp",
+      "width": 1800,
+      "height": 1200,
+      "webpBytes": 126722,
+      "assetType": "source-image"
+    },
+    {
+      "id": "b2dc6e2bc763a2ceb7e2246d9a03cb1629ffc6dde8e087aadf73e9e093959a61",
+      "src": "/images/archive/b2dc6e2bc763a2ceb7e2246d9a03cb1629ffc6dde8e087aadf73e9e093959a61.webp",
+      "width": 2400,
+      "height": 1600,
+      "webpBytes": 190018,
+      "assetType": "source-image"
+    },
+    {
+      "id": "7dba5c43d302c78846198d3c2ccfe22e334054770e2e5d5761e021692b492ea0",
+      "src": "/images/archive/7dba5c43d302c78846198d3c2ccfe22e334054770e2e5d5761e021692b492ea0.webp",
+      "width": 145,
+      "height": 43,
+      "webpBytes": 1414,
+      "assetType": "source-image"
+    },
+    {
+      "id": "7d85cbc0fdeb04bf3e91431d9ee341214dd73a2e7f6b2215e4a170c4e10e9cdf",
+      "src": "/images/archive/7d85cbc0fdeb04bf3e91431d9ee341214dd73a2e7f6b2215e4a170c4e10e9cdf.webp",
+      "width": 960,
+      "height": 720,
+      "webpBytes": 73806,
+      "assetType": "source-image"
+    },
+    {
+      "id": "09506622126eb882b496dc96448f003effacfbbe9c97c1643897a98dde281633",
+      "src": "/images/archive/09506622126eb882b496dc96448f003effacfbbe9c97c1643897a98dde281633.webp",
+      "width": 820,
+      "height": 551,
+      "webpBytes": 32950,
+      "assetType": "source-image"
+    },
+    {
+      "id": "f1c34a30d04ae091df4df4052cec7537a2863a9f4d0a16bca0fd6a3dd9bcb94c",
+      "src": "/images/archive/f1c34a30d04ae091df4df4052cec7537a2863a9f4d0a16bca0fd6a3dd9bcb94c.webp",
+      "width": 820,
+      "height": 552,
+      "webpBytes": 40614,
+      "assetType": "source-image"
+    },
+    {
+      "id": "e1d96107a013b7bc14249230eba74a761993a5eec7df64f7e6977f1db3b32809",
+      "src": "/images/archive/e1d96107a013b7bc14249230eba74a761993a5eec7df64f7e6977f1db3b32809.webp",
+      "width": 846,
+      "height": 927,
+      "webpBytes": 54916,
+      "assetType": "source-image"
+    },
+    {
+      "id": "1421a570dd56d2805fc05a49f5905801917daa66beef5d92bea6d822d493ebdf",
+      "src": "/images/archive/1421a570dd56d2805fc05a49f5905801917daa66beef5d92bea6d822d493ebdf.webp",
+      "width": 864,
+      "height": 1152,
+      "webpBytes": 86226,
+      "assetType": "source-image"
+    },
+    {
+      "id": "a8488655ec08381cafe6b48183818881f583fdd2250fc4f9b0fd98c79c06f651",
+      "src": "/images/archive/a8488655ec08381cafe6b48183818881f583fdd2250fc4f9b0fd98c79c06f651.webp",
+      "width": 896,
+      "height": 672,
+      "webpBytes": 79380,
+      "assetType": "source-image"
+    },
+    {
+      "id": "83c3882495b049142bb54c6617c47b064ed5eba73967d5a55f22973f1cd3d7ea",
+      "src": "/images/archive/83c3882495b049142bb54c6617c47b064ed5eba73967d5a55f22973f1cd3d7ea.webp",
+      "width": 627,
+      "height": 1392,
+      "webpBytes": 14648,
+      "assetType": "source-image"
+    },
+    {
+      "id": "9e11c6a23da454b4ff7e611b271093bf7f524b114e5a977ae44bf14a4efaed29",
+      "src": "/images/archive/9e11c6a23da454b4ff7e611b271093bf7f524b114e5a977ae44bf14a4efaed29.webp",
+      "width": 901,
+      "height": 1600,
+      "webpBytes": 199490,
+      "assetType": "source-image"
+    },
+    {
+      "id": "55915b4fae2a43b754fbccd0f5e5a0754c8b7aff7a8dc2da66342bcfda8ea44a",
+      "src": "/images/archive/55915b4fae2a43b754fbccd0f5e5a0754c8b7aff7a8dc2da66342bcfda8ea44a.webp",
+      "width": 720,
+      "height": 960,
+      "webpBytes": 122242,
+      "assetType": "source-image"
+    },
+    {
+      "id": "2f379a814c7e734b56f20f6b2900d66d958bdaa99778a7ae5358095b9cc2a2a5",
+      "src": "/images/archive/2f379a814c7e734b56f20f6b2900d66d958bdaa99778a7ae5358095b9cc2a2a5.webp",
+      "width": 960,
+      "height": 1280,
+      "webpBytes": 110912,
+      "assetType": "source-image"
+    },
+    {
+      "id": "3cd36219cf659c55fe949902178068f17005cf49674d77e05542924ece84fa18",
+      "src": "/images/archive/3cd36219cf659c55fe949902178068f17005cf49674d77e05542924ece84fa18.webp",
+      "width": 558,
+      "height": 298,
+      "webpBytes": 20240,
+      "assetType": "source-image"
+    },
+    {
+      "id": "f53a287337277d83eaa687a251968590df525f3cf816fa5d0889139b302256bd",
+      "src": "/images/archive/f53a287337277d83eaa687a251968590df525f3cf816fa5d0889139b302256bd.webp",
+      "width": 832,
+      "height": 1850,
+      "webpBytes": 232670,
+      "assetType": "source-image"
+    },
+    {
+      "id": "f5aea96f853601d9e8c629506920ff4c53049265e40b67fc2eb6b26b12ff1751",
+      "src": "/images/archive/f5aea96f853601d9e8c629506920ff4c53049265e40b67fc2eb6b26b12ff1751.webp",
+      "width": 832,
+      "height": 1850,
+      "webpBytes": 388050,
+      "assetType": "source-image"
+    },
+    {
+      "id": "9890981de06c3b9c941c21ecfdeaca48e8f6fac42c2fdfc09be8a83b6c4d3feb",
+      "src": "/images/archive/9890981de06c3b9c941c21ecfdeaca48e8f6fac42c2fdfc09be8a83b6c4d3feb.webp",
+      "width": 261,
+      "height": 196,
+      "webpBytes": 12496,
+      "assetType": "source-image"
+    },
+    {
+      "id": "1cb446a558ae5ba7c4aa94fcc452d8de21decf6b890653bf997359c7d5fcfcb9",
+      "src": "/images/archive/1cb446a558ae5ba7c4aa94fcc452d8de21decf6b890653bf997359c7d5fcfcb9.webp",
+      "width": 261,
+      "height": 196,
+      "webpBytes": 10400,
+      "assetType": "source-image"
+    },
+    {
+      "id": "9f938cded22660a2d4b613fb05b6c95843ef602cfda4b1b25b1c912181e8491f",
+      "src": "/images/archive/9f938cded22660a2d4b613fb05b6c95843ef602cfda4b1b25b1c912181e8491f.webp",
+      "width": 993,
+      "height": 1401,
+      "webpBytes": 36126,
+      "assetType": "source-image"
+    },
+    {
+      "id": "688263d7b896d49fa57667c0c799cf36ece042046e9f3f18d2ec9e6cf46694a6",
+      "src": "/images/archive/688263d7b896d49fa57667c0c799cf36ece042046e9f3f18d2ec9e6cf46694a6.webp",
+      "width": 1120,
+      "height": 840,
+      "webpBytes": 159064,
+      "assetType": "source-image"
+    },
+    {
+      "id": "31c33622bb6e7558f59153c30ca2873ee087c7895f3439f6996aa28e4345ddef",
+      "src": "/images/archive/31c33622bb6e7558f59153c30ca2873ee087c7895f3439f6996aa28e4345ddef.webp",
+      "width": 1440,
+      "height": 1152,
+      "webpBytes": 234182,
+      "assetType": "source-image"
+    },
+    {
+      "id": "8bb79206bb6c98c5f94929b6625ac74787b6b060ded27a7a0b8e51d9c4241b06",
+      "src": "/images/archive/8bb79206bb6c98c5f94929b6625ac74787b6b060ded27a7a0b8e51d9c4241b06.webp",
+      "width": 1210,
+      "height": 1613,
+      "webpBytes": 392140,
+      "assetType": "source-image"
+    },
+    {
+      "id": "d74c260e88ff744e0e49621d89817b6041032e3bb3cd27893c753abae240d78f",
+      "src": "/images/archive/d74c260e88ff744e0e49621d89817b6041032e3bb3cd27893c753abae240d78f.webp",
+      "width": 640,
+      "height": 360,
+      "webpBytes": 20198,
+      "assetType": "source-image"
+    },
+    {
+      "id": "57097e49c7f7ea8caa863abe7e74de49844bea1486a158163cf86e9c0acc0e2f",
+      "src": "/images/archive/57097e49c7f7ea8caa863abe7e74de49844bea1486a158163cf86e9c0acc0e2f.webp",
+      "width": 640,
+      "height": 360,
+      "webpBytes": 27872,
+      "assetType": "source-image"
+    },
+    {
+      "id": "f8d56cba9579977d14aa22c64844fc892fd1781311455f8aa526f8032c71301b",
+      "src": "/images/archive/f8d56cba9579977d14aa22c64844fc892fd1781311455f8aa526f8032c71301b.webp",
+      "width": 640,
+      "height": 360,
+      "webpBytes": 46122,
+      "assetType": "source-image"
+    },
+    {
+      "id": "c6ca1fd18b5cea99f3ef7aaf65fb84e19c9babcb535993abc86f0f617ca5a74e",
+      "src": "/images/archive/c6ca1fd18b5cea99f3ef7aaf65fb84e19c9babcb535993abc86f0f617ca5a74e.webp",
+      "width": 1844,
+      "height": 1038,
+      "webpBytes": 224190,
+      "assetType": "source-image"
+    },
+    {
+      "id": "f0ed8a9bc6f76ea72e9d734eb709105ef0690e61d7622e5d8d182d83d6eb767f",
+      "src": "/images/archive/f0ed8a9bc6f76ea72e9d734eb709105ef0690e61d7622e5d8d182d83d6eb767f.webp",
+      "width": 1850,
+      "height": 1040,
+      "webpBytes": 132050,
+      "assetType": "source-image"
+    },
+    {
+      "id": "a27a009a9b6d35ba590b3d35a42b6942a5f2ae1bc51004adf67294730c54eecb",
+      "src": "/images/archive/a27a009a9b6d35ba590b3d35a42b6942a5f2ae1bc51004adf67294730c54eecb.webp",
+      "width": 1044,
+      "height": 2320,
+      "webpBytes": 266806,
+      "assetType": "source-image"
+    },
+    {
+      "id": "d84ac81787f8843ff8260c688beb17c9c20fd7c3515c65e672167347dfbaad2e",
+      "src": "/images/archive/d84ac81787f8843ff8260c688beb17c9c20fd7c3515c65e672167347dfbaad2e.webp",
+      "width": 1280,
+      "height": 960,
+      "webpBytes": 93640,
+      "assetType": "source-image"
+    },
+    {
+      "id": "1f01ebf82226870c1a92c7f929c1a3a14f48cb258f4d03c98036a34a8eedcc80",
+      "src": "/images/archive/1f01ebf82226870c1a92c7f929c1a3a14f48cb258f4d03c98036a34a8eedcc80.webp",
+      "width": 1400,
+      "height": 1050,
+      "webpBytes": 326472,
+      "assetType": "source-image"
+    },
+    {
+      "id": "fc4864dba9d6977916befe8336af18dbb595b62a06ad4844c491d8653af4e565",
+      "src": "/images/archive/fc4864dba9d6977916befe8336af18dbb595b62a06ad4844c491d8653af4e565.webp",
+      "width": 750,
+      "height": 1000,
+      "webpBytes": 190096,
+      "assetType": "source-image"
+    },
+    {
+      "id": "c90ce308f166732813547e364c48ff3c9175c58cb778bd921fb8837b16d4aeac",
+      "src": "/images/archive/c90ce308f166732813547e364c48ff3c9175c58cb778bd921fb8837b16d4aeac.webp",
+      "width": 750,
+      "height": 1000,
+      "webpBytes": 166512,
+      "assetType": "source-image"
+    },
+    {
+      "id": "84cb437b044a7fe458a1887beb1831bdcb12a7e1303b3d631702e701ca5ecbea",
+      "src": "/images/archive/84cb437b044a7fe458a1887beb1831bdcb12a7e1303b3d631702e701ca5ecbea.webp",
+      "width": 1280,
+      "height": 960,
+      "webpBytes": 137136,
+      "assetType": "source-image"
+    },
+    {
+      "id": "a40bcf8e927da6eea4b1a8254cb8087b68cf26ce1be76df3024b0e5b9de63c4c",
+      "src": "/images/archive/a40bcf8e927da6eea4b1a8254cb8087b68cf26ce1be76df3024b0e5b9de63c4c.webp",
+      "width": 960,
+      "height": 1280,
+      "webpBytes": 142080,
+      "assetType": "source-image"
+    },
+    {
+      "id": "21f776344bd8937994e526c92f1a53c0caa45c2d5794f105f0acda8de700b9c3",
+      "src": "/images/archive/21f776344bd8937994e526c92f1a53c0caa45c2d5794f105f0acda8de700b9c3.webp",
+      "width": 922,
+      "height": 1229,
+      "webpBytes": 88584,
+      "assetType": "source-image"
+    },
+    {
+      "id": "63bef8cfc5122dbc959aba5e3628efd2f3fe58903766f1c58db55aaba91bca6f",
+      "src": "/images/archive/63bef8cfc5122dbc959aba5e3628efd2f3fe58903766f1c58db55aaba91bca6f.webp",
+      "width": 864,
+      "height": 1152,
+      "webpBytes": 104944,
+      "assetType": "source-image"
+    },
+    {
+      "id": "57e873181fdca1af18778cb17e6d2d46bc98cf132638165314be3a1352075385",
+      "src": "/images/archive/57e873181fdca1af18778cb17e6d2d46bc98cf132638165314be3a1352075385.webp",
+      "width": 225,
+      "height": 225,
+      "webpBytes": 5054,
+      "assetType": "source-image"
+    },
+    {
+      "id": "4d99719dc707fa453804ac61d22937dfcc47c27d303aedab6a33c4fedc684a9b",
+      "src": "/images/archive/4d99719dc707fa453804ac61d22937dfcc47c27d303aedab6a33c4fedc684a9b.webp",
+      "width": 280,
+      "height": 100,
+      "webpBytes": 2370,
+      "assetType": "source-image"
+    },
+    {
+      "id": "8ec0f395cf73ec789a5b8750d59c5a7c0a04497b5d0d68d698933971a9a4ee97",
+      "src": "/images/archive/8ec0f395cf73ec789a5b8750d59c5a7c0a04497b5d0d68d698933971a9a4ee97.webp",
+      "width": 1040,
+      "height": 2312,
+      "webpBytes": 319598,
+      "assetType": "source-image"
+    },
+    {
+      "id": "070f4668f241b2719400a0221de47344f3eca8e5fa7f4e8778fc62704fd7361f",
+      "src": "/images/archive/070f4668f241b2719400a0221de47344f3eca8e5fa7f4e8778fc62704fd7361f.webp",
+      "width": 720,
+      "height": 1280,
+      "webpBytes": 119364,
+      "assetType": "source-image"
+    },
+    {
+      "id": "b8c2c9b136452dd9669ef6935e504e567d7cbd884bdd0b74ab8c6e036e32b2a6",
+      "src": "/images/archive/b8c2c9b136452dd9669ef6935e504e567d7cbd884bdd0b74ab8c6e036e32b2a6.webp",
+      "width": 1229,
+      "height": 818,
+      "webpBytes": 152048,
+      "assetType": "source-image"
+    },
+    {
+      "id": "e3fd3ac32db11b6658c8a8ef656a2f9edc300a318802d703644a9a182ae8fc01",
+      "src": "/images/archive/e3fd3ac32db11b6658c8a8ef656a2f9edc300a318802d703644a9a182ae8fc01.webp",
+      "width": 1229,
+      "height": 803,
+      "webpBytes": 190366,
+      "assetType": "source-image"
+    },
+    {
+      "id": "bef9f42be21ec187042b3931bf8abd092cc1396b8736aaaf45a9b5a5e13ee6b3",
+      "src": "/images/archive/bef9f42be21ec187042b3931bf8abd092cc1396b8736aaaf45a9b5a5e13ee6b3.webp",
+      "width": 750,
+      "height": 771,
+      "webpBytes": 91698,
+      "assetType": "source-image"
+    },
+    {
+      "id": "4d0c6384fa02f631182813ac9e7a462787011a6aaf438a6af9997f24115bf7fd",
+      "src": "/images/archive/4d0c6384fa02f631182813ac9e7a462787011a6aaf438a6af9997f24115bf7fd.webp",
+      "width": 350,
+      "height": 74,
+      "webpBytes": 3362,
+      "assetType": "source-image"
+    },
+    {
+      "id": "02c99ca387c4e4211edd0a2693bdac9fa2a00ce25ad0fbceb80b9e65ec4867b7",
+      "src": "/images/archive/02c99ca387c4e4211edd0a2693bdac9fa2a00ce25ad0fbceb80b9e65ec4867b7.webp",
+      "width": 126,
+      "height": 126,
+      "webpBytes": 1522,
+      "assetType": "source-image"
+    },
+    {
+      "id": "99ba88d73c44c23d989496063c9f5b37a81465b0339a10f450f5a0d0ce72c8a7",
+      "src": "/images/archive/99ba88d73c44c23d989496063c9f5b37a81465b0339a10f450f5a0d0ce72c8a7.webp",
+      "width": 1229,
+      "height": 1639,
+      "webpBytes": 259706,
+      "assetType": "source-image"
+    },
+    {
+      "id": "fa2179bd42c6f454533770d7f9138443316aa447b3e98fb2e05822b79b1d9d10",
+      "src": "/images/archive/fa2179bd42c6f454533770d7f9138443316aa447b3e98fb2e05822b79b1d9d10.webp",
+      "width": 1639,
+      "height": 1229,
+      "webpBytes": 139062,
+      "assetType": "source-image"
+    },
+    {
+      "id": "8071e4fb838f14b3bc1283e90b5217c1be498eeeaf3cd98dca13d6a79eeb170b",
+      "src": "/images/archive/8071e4fb838f14b3bc1283e90b5217c1be498eeeaf3cd98dca13d6a79eeb170b.webp",
+      "width": 1229,
+      "height": 1639,
+      "webpBytes": 130684,
+      "assetType": "source-image"
+    },
+    {
+      "id": "c67a45a2ff7cac6c89d40801b63414277c866c363da930c09603b0513dec3886",
+      "src": "/images/archive/c67a45a2ff7cac6c89d40801b63414277c866c363da930c09603b0513dec3886.webp",
+      "width": 960,
+      "height": 1280,
+      "webpBytes": 178364,
+      "assetType": "source-image"
+    },
+    {
+      "id": "afe4fa2ae3eb62145541c95bdd90f6436ed7aac12668bc6abb75fbc2093cf86d",
+      "src": "/images/archive/afe4fa2ae3eb62145541c95bdd90f6436ed7aac12668bc6abb75fbc2093cf86d.webp",
+      "width": 936,
+      "height": 739,
+      "webpBytes": 129388,
+      "assetType": "source-image"
+    },
+    {
+      "id": "0f099834fb9d917cc66dee572bde35c41acd75415d681aed7720e4d7c96e9fcc",
+      "src": "/images/archive/0f099834fb9d917cc66dee572bde35c41acd75415d681aed7720e4d7c96e9fcc.webp",
+      "width": 2664,
+      "height": 2000,
+      "webpBytes": 174908,
+      "assetType": "source-image"
+    },
+    {
+      "id": "c4370cb039b77f8b51804313a55e0671335283cc3cb9a30163d18f7459d62bdc",
+      "src": "/images/archive/c4370cb039b77f8b51804313a55e0671335283cc3cb9a30163d18f7459d62bdc.webp",
+      "width": 1106,
+      "height": 1569,
+      "webpBytes": 61694,
+      "assetType": "source-image"
+    },
+    {
+      "id": "46ee0eb1a06d197ded39895f3b9dec01a75decdf6f25db04e9e3adcf2c5d13e2",
+      "src": "/images/archive/46ee0eb1a06d197ded39895f3b9dec01a75decdf6f25db04e9e3adcf2c5d13e2.webp",
+      "width": 1200,
+      "height": 1599,
+      "webpBytes": 36576,
+      "assetType": "source-image"
+    },
+    {
+      "id": "d8bd421080ab9869a0e18c799224fac56f9959102e81bf4b592e123bf9686333",
+      "src": "/images/archive/d8bd421080ab9869a0e18c799224fac56f9959102e81bf4b592e123bf9686333.webp",
+      "width": 408,
+      "height": 455,
+      "webpBytes": 31550,
+      "assetType": "source-image"
+    },
+    {
+      "id": "cc9e98377d80ea263eb50d993de31f9b0a09d19e4ca2bd586789e60dea6764f7",
+      "src": "/images/archive/cc9e98377d80ea263eb50d993de31f9b0a09d19e4ca2bd586789e60dea6764f7.webp",
+      "width": 904,
+      "height": 904,
+      "webpBytes": 92802,
+      "assetType": "source-image"
+    },
+    {
+      "id": "e1fd68e53e4ffc1815c78a1de8096550602f2025dc77e778e221d53d25416c7e",
+      "src": "/images/archive/e1fd68e53e4ffc1815c78a1de8096550602f2025dc77e778e221d53d25416c7e.webp",
+      "width": 768,
+      "height": 1024,
+      "webpBytes": 199938,
+      "assetType": "source-image"
+    },
+    {
+      "id": "df238bf4f75c043eceb2f5a00fba1f30812bb4ab26fe4af8e69937b0d953be5a",
+      "src": "/images/archive/df238bf4f75c043eceb2f5a00fba1f30812bb4ab26fe4af8e69937b0d953be5a.webp",
+      "width": 600,
+      "height": 600,
+      "webpBytes": 116618,
+      "assetType": "source-image"
+    },
+    {
+      "id": "a6bd5a963e065f397320c02a6fd167f4aecf48abedbf6ed68b5277b5ed7484a6",
+      "src": "/images/archive/a6bd5a963e065f397320c02a6fd167f4aecf48abedbf6ed68b5277b5ed7484a6.webp",
+      "width": 1434,
+      "height": 1076,
+      "webpBytes": 315572,
+      "assetType": "source-image"
+    },
+    {
+      "id": "6e0318a359230d1090d6f444123b56e74494654e5166a1c435cb0336519fbeb9",
+      "src": "/images/archive/6e0318a359230d1090d6f444123b56e74494654e5166a1c435cb0336519fbeb9.webp",
+      "width": 185,
+      "height": 83,
+      "webpBytes": 2054,
+      "assetType": "source-image"
+    },
+    {
+      "id": "ece94ca9f825ce2eaaf4e45636ec7648820d93d7fb9053d4dd0b6368a706ed3c",
+      "src": "/images/archive/ece94ca9f825ce2eaaf4e45636ec7648820d93d7fb9053d4dd0b6368a706ed3c.webp",
+      "width": 1280,
+      "height": 960,
+      "webpBytes": 208540,
+      "assetType": "source-image"
+    },
+    {
+      "id": "f1e49f5a40e40ed363d257d9e6eb0d71207a3aaa743d3567c9a35f5a37ab2f8c",
+      "src": "/images/archive/f1e49f5a40e40ed363d257d9e6eb0d71207a3aaa743d3567c9a35f5a37ab2f8c.webp",
+      "width": 960,
+      "height": 1280,
+      "webpBytes": 272234,
+      "assetType": "source-image"
+    },
+    {
+      "id": "000f4d5ace5c642320a8472e4964f78431183e7601fa7d70a8fba443d977a22e",
+      "src": "/images/archive/000f4d5ace5c642320a8472e4964f78431183e7601fa7d70a8fba443d977a22e.webp",
+      "width": 768,
+      "height": 576,
+      "webpBytes": 97090,
+      "assetType": "source-image"
+    },
+    {
+      "id": "789c8f11b32a8f9812e44e398558da1689ee5268fc7bb6f69eeebbf24807a575",
+      "src": "/images/archive/789c8f11b32a8f9812e44e398558da1689ee5268fc7bb6f69eeebbf24807a575.webp",
+      "width": 1024,
+      "height": 576,
+      "webpBytes": 70894,
+      "assetType": "source-image"
+    },
+    {
+      "id": "1cc2377d455c928884a425272e35a40020e8ee2b77991554fc5abd850a0d25b0",
+      "src": "/images/archive/1cc2377d455c928884a425272e35a40020e8ee2b77991554fc5abd850a0d25b0.webp",
+      "width": 960,
+      "height": 1280,
+      "webpBytes": 288292,
+      "assetType": "source-image"
+    },
+    {
+      "id": "0e222fc4d000be162e237bee5720d174960612a241c18d758bfeb75be8a6422e",
+      "src": "/images/archive/0e222fc4d000be162e237bee5720d174960612a241c18d758bfeb75be8a6422e.webp",
+      "width": 960,
+      "height": 1280,
+      "webpBytes": 264380,
+      "assetType": "source-image"
+    },
+    {
+      "id": "5a84a3b203635d0510320381a99d17dfa73dc0103ac31772682a5016fdab93d1",
+      "src": "/images/archive/5a84a3b203635d0510320381a99d17dfa73dc0103ac31772682a5016fdab93d1.webp",
+      "width": 1800,
+      "height": 1200,
+      "webpBytes": 504358,
+      "assetType": "source-image"
+    },
+    {
+      "id": "b0127ddd8bbda221a07a690c68e301ca619ccc9f4d2450458979e360dd3077de",
+      "src": "/images/archive/b0127ddd8bbda221a07a690c68e301ca619ccc9f4d2450458979e360dd3077de.webp",
+      "width": 1800,
+      "height": 1200,
+      "webpBytes": 283280,
+      "assetType": "source-image"
+    },
+    {
+      "id": "5d6789211c56ca6a35bac6da96b88accf124f482c7921e569e30ef43c96b0f47",
+      "src": "/images/archive/5d6789211c56ca6a35bac6da96b88accf124f482c7921e569e30ef43c96b0f47.webp",
+      "width": 721,
+      "height": 960,
+      "webpBytes": 70706,
+      "assetType": "source-image"
+    },
+    {
+      "id": "8f68e0ec565454206f46197d207cfaa67ab76013af14b3decfc7c634b675ecbc",
+      "src": "/images/archive/8f68e0ec565454206f46197d207cfaa67ab76013af14b3decfc7c634b675ecbc.webp",
+      "width": 1092,
+      "height": 1639,
+      "webpBytes": 241382,
+      "assetType": "source-image"
+    },
+    {
+      "id": "84d3c5b13f90850658b1f0ae60a7ff1043e5c82bba7b60f42a76ce4798ed330f",
+      "src": "/images/archive/84d3c5b13f90850658b1f0ae60a7ff1043e5c82bba7b60f42a76ce4798ed330f.webp",
+      "width": 960,
+      "height": 720,
+      "webpBytes": 152270,
+      "assetType": "source-image"
+    },
+    {
+      "id": "b4057fd14cbb863f345cb3580d737048a6511d3dbdd3257b87621ddf7a213f48",
+      "src": "/images/archive/b4057fd14cbb863f345cb3580d737048a6511d3dbdd3257b87621ddf7a213f48.webp",
+      "width": 1428,
+      "height": 1065,
+      "webpBytes": 157580,
+      "assetType": "source-image"
+    },
+    {
+      "id": "87e24a8da3ab10684bc6e10087c83f3a2ceb1bd73a04a880b07f2ec1facaa683",
+      "src": "/images/archive/87e24a8da3ab10684bc6e10087c83f3a2ceb1bd73a04a880b07f2ec1facaa683.webp",
+      "width": 1152,
+      "height": 864,
+      "webpBytes": 239088,
+      "assetType": "source-image"
+    },
+    {
+      "id": "2c16b8b855d046549f32c3df9a32e5761cdfd61913d406fdc9efee9a143a42ee",
+      "src": "/images/archive/2c16b8b855d046549f32c3df9a32e5761cdfd61913d406fdc9efee9a143a42ee.webp",
+      "width": 1152,
+      "height": 868,
+      "webpBytes": 137978,
+      "assetType": "source-image"
+    },
+    {
+      "id": "549878cfa301b92e8a6188485ff130bd6a1a47503a3b1e771d6779df6614d2c6",
+      "src": "/images/archive/549878cfa301b92e8a6188485ff130bd6a1a47503a3b1e771d6779df6614d2c6.webp",
+      "width": 1600,
+      "height": 720,
+      "webpBytes": 328318,
+      "assetType": "source-image"
+    },
+    {
+      "id": "efb4167514c4f3bcee5877155949f5f2e97b6bb6f848b172108620b0cb14067e",
+      "src": "/images/archive/efb4167514c4f3bcee5877155949f5f2e97b6bb6f848b172108620b0cb14067e.webp",
+      "width": 410,
+      "height": 410,
+      "webpBytes": 23508,
+      "assetType": "portrait"
+    },
+    {
+      "id": "9b1591505f73611629743218d910b5deb002ad9f9d5481d3db1c340e38ec014a",
+      "src": "/images/archive/9b1591505f73611629743218d910b5deb002ad9f9d5481d3db1c340e38ec014a.webp",
+      "width": 410,
+      "height": 410,
+      "webpBytes": 25910,
+      "assetType": "portrait"
+    },
+    {
+      "id": "062f997adbbbac0fb02a942c49a250b4720a7ffc79cfe8ace3019d0d7dafafc3",
+      "src": "/images/archive/062f997adbbbac0fb02a942c49a250b4720a7ffc79cfe8ace3019d0d7dafafc3.webp",
+      "width": 1392,
+      "height": 627,
+      "webpBytes": 237846,
+      "assetType": "source-image"
+    },
+    {
+      "id": "2d482128a7fc6e6c9418d33d8dbb81ce624ac1bf9fc44b85a63f1e5b4bd2141b",
+      "src": "/images/archive/2d482128a7fc6e6c9418d33d8dbb81ce624ac1bf9fc44b85a63f1e5b4bd2141b.webp",
+      "width": 555,
+      "height": 555,
+      "webpBytes": 8612,
+      "assetType": "qr-code"
+    }
+  ],
+  "placements": [
+    {
+      "id": "p01-xref-54-occurrence-1",
+      "pdfPage": 1,
+      "occurrence": 1,
+      "assetId": "844fa479db60ae4c6ab305783f3bdce680b376f7ffef6aed9900051f6b220ebc",
+      "alt": {
+        "en": "Archival image from page 1 of the Angels of Ukraine source PDF.",
+        "uk": "Архівне зображення зі сторінки 1 PDF «Янголи України»."
+      },
+      "eventId": null,
+      "eventSlug": null,
+      "sourceXref": 54
+    },
+    {
+      "id": "p01-xref-56-occurrence-2",
+      "pdfPage": 1,
+      "occurrence": 2,
+      "assetId": "8ce30b02eea734e2509a02042c790f1f240c7332696808f1816828f2bf9a3696",
+      "alt": {
+        "en": "The Ukrainian trident emblem shown in the source document.",
+        "uk": "Тризуб — емблема України, зображена в першоджерелі."
+      },
+      "eventId": null,
+      "eventSlug": null,
+      "sourceXref": 56
+    },
+    {
+      "id": "p02-xref-60-occurrence-1",
+      "pdfPage": 2,
+      "occurrence": 1,
+      "assetId": "efb526e1909de5b6a5139906c48b7096863df555064419012841a14857c96d53",
+      "alt": {
+        "en": "Archival image from page 2 of the Angels of Ukraine source PDF.",
+        "uk": "Архівне зображення зі сторінки 2 PDF «Янголи України»."
+      },
+      "eventId": null,
+      "eventSlug": null,
+      "sourceXref": 60
+    },
+    {
+      "id": "p02-xref-63-occurrence-2",
+      "pdfPage": 2,
+      "occurrence": 2,
+      "assetId": "8ce30b02eea734e2509a02042c790f1f240c7332696808f1816828f2bf9a3696",
+      "alt": {
+        "en": "The Ukrainian trident emblem shown in the source document.",
+        "uk": "Тризуб — емблема України, зображена в першоджерелі."
+      },
+      "eventId": null,
+      "eventSlug": null,
+      "sourceXref": 63
+    },
+    {
+      "id": "p03-xref-69-occurrence-1",
+      "pdfPage": 3,
+      "occurrence": 1,
+      "assetId": "8ce30b02eea734e2509a02042c790f1f240c7332696808f1816828f2bf9a3696",
+      "alt": {
+        "en": "The Ukrainian trident emblem shown in the source document.",
+        "uk": "Тризуб — емблема України, зображена в першоджерелі."
+      },
+      "eventId": null,
+      "eventSlug": null,
+      "sourceXref": 69
+    },
+    {
+      "id": "p04-xref-76-occurrence-1",
+      "pdfPage": 4,
+      "occurrence": 1,
+      "assetId": "313533092d2e1df5999b004ece21ccb3cacfec86538c2a98f41e6bf3bc487e72",
+      "alt": {
+        "en": "Archival image from page 4 of the Angels of Ukraine source PDF.",
+        "uk": "Архівне зображення зі сторінки 4 PDF «Янголи України»."
+      },
+      "eventId": null,
+      "eventSlug": null,
+      "sourceXref": 76
+    },
+    {
+      "id": "p04-xref-78-occurrence-2",
+      "pdfPage": 4,
+      "occurrence": 2,
+      "assetId": "8ce30b02eea734e2509a02042c790f1f240c7332696808f1816828f2bf9a3696",
+      "alt": {
+        "en": "The Ukrainian trident emblem shown in the source document.",
+        "uk": "Тризуб — емблема України, зображена в першоджерелі."
+      },
+      "eventId": null,
+      "eventSlug": null,
+      "sourceXref": 78
+    },
+    {
+      "id": "p05-xref-85-occurrence-1",
+      "pdfPage": 5,
+      "occurrence": 1,
+      "assetId": "8ce30b02eea734e2509a02042c790f1f240c7332696808f1816828f2bf9a3696",
+      "alt": {
+        "en": "The Ukrainian trident emblem shown in the source document.",
+        "uk": "Тризуб — емблема України, зображена в першоджерелі."
+      },
+      "eventId": "banska-bystrica-2025-08-24-p5",
+      "eventSlug": "banska-bystrica-2025-08-24-p5",
+      "sourceXref": 85
+    },
+    {
+      "id": "p05-xref-89-occurrence-2",
+      "pdfPage": 5,
+      "occurrence": 2,
+      "assetId": "2b2f867a075b91f6a784148b7b2d0c1fe14537564080099f22a5967e893789f0",
+      "alt": {
+        "en": "Archival image accompanying the Angels of Ukraine record for Banská Bystrica, Slovakia, source page 5.",
+        "uk": "Архівне зображення до запису «Янголи України» про місто Банська Бистриця, Словаччина, сторінка 5 першоджерела."
+      },
+      "eventId": "banska-bystrica-2025-08-24-p5",
+      "eventSlug": "banska-bystrica-2025-08-24-p5",
+      "sourceXref": 89
+    },
+    {
+      "id": "p05-xref-90-occurrence-3",
+      "pdfPage": 5,
+      "occurrence": 3,
+      "assetId": "d91e6a91fc39f96aa6e60f3282971896fdc44d67806ab9d3c68ae316ea80f120",
+      "alt": {
+        "en": "Archival image accompanying the Angels of Ukraine record for Banská Bystrica, Slovakia, source page 5.",
+        "uk": "Архівне зображення до запису «Янголи України» про місто Банська Бистриця, Словаччина, сторінка 5 першоджерела."
+      },
+      "eventId": "banska-bystrica-2025-08-24-p5",
+      "eventSlug": "banska-bystrica-2025-08-24-p5",
+      "sourceXref": 90
+    },
+    {
+      "id": "p05-xref-91-occurrence-4",
+      "pdfPage": 5,
+      "occurrence": 4,
+      "assetId": "b2dc6e2bc763a2ceb7e2246d9a03cb1629ffc6dde8e087aadf73e9e093959a61",
+      "alt": {
+        "en": "Archival image accompanying the Angels of Ukraine record for Banská Bystrica, Slovakia, source page 5.",
+        "uk": "Архівне зображення до запису «Янголи України» про місто Банська Бистриця, Словаччина, сторінка 5 першоджерела."
+      },
+      "eventId": "banska-bystrica-2025-08-24-p5",
+      "eventSlug": "banska-bystrica-2025-08-24-p5",
+      "sourceXref": 91
+    },
+    {
+      "id": "p06-xref-96-occurrence-1",
+      "pdfPage": 6,
+      "occurrence": 1,
+      "assetId": "8ce30b02eea734e2509a02042c790f1f240c7332696808f1816828f2bf9a3696",
+      "alt": {
+        "en": "The Ukrainian trident emblem shown in the source document.",
+        "uk": "Тризуб — емблема України, зображена в першоджерелі."
+      },
+      "eventId": "warsaw-2025-02-23-p6",
+      "eventSlug": "warsaw-2025-02-23-p6",
+      "sourceXref": 96
+    },
+    {
+      "id": "p06-xref-97-occurrence-2",
+      "pdfPage": 6,
+      "occurrence": 2,
+      "assetId": "7dba5c43d302c78846198d3c2ccfe22e334054770e2e5d5761e021692b492ea0",
+      "alt": {
+        "en": "Archival image accompanying the Angels of Ukraine record for Warsaw, Poland, source page 6.",
+        "uk": "Архівне зображення до запису «Янголи України» про місто Варшава, Польща, сторінка 6 першоджерела."
+      },
+      "eventId": "warsaw-2025-02-23-p6",
+      "eventSlug": "warsaw-2025-02-23-p6",
+      "sourceXref": 97
+    },
+    {
+      "id": "p06-xref-101-occurrence-3",
+      "pdfPage": 6,
+      "occurrence": 3,
+      "assetId": "7d85cbc0fdeb04bf3e91431d9ee341214dd73a2e7f6b2215e4a170c4e10e9cdf",
+      "alt": {
+        "en": "Archival image accompanying the Angels of Ukraine record for Warsaw, Poland, source page 6.",
+        "uk": "Архівне зображення до запису «Янголи України» про місто Варшава, Польща, сторінка 6 першоджерела."
+      },
+      "eventId": "warsaw-2025-02-23-p6",
+      "eventSlug": "warsaw-2025-02-23-p6",
+      "sourceXref": 101
+    },
+    {
+      "id": "p06-xref-102-occurrence-4",
+      "pdfPage": 6,
+      "occurrence": 4,
+      "assetId": "09506622126eb882b496dc96448f003effacfbbe9c97c1643897a98dde281633",
+      "alt": {
+        "en": "Archival image accompanying the Angels of Ukraine record for Warsaw, Poland, source page 6.",
+        "uk": "Архівне зображення до запису «Янголи України» про місто Варшава, Польща, сторінка 6 першоджерела."
+      },
+      "eventId": "warsaw-2025-02-23-p6",
+      "eventSlug": "warsaw-2025-02-23-p6",
+      "sourceXref": 102
+    },
+    {
+      "id": "p06-xref-103-occurrence-5",
+      "pdfPage": 6,
+      "occurrence": 5,
+      "assetId": "f1c34a30d04ae091df4df4052cec7537a2863a9f4d0a16bca0fd6a3dd9bcb94c",
+      "alt": {
+        "en": "Archival image accompanying the Angels of Ukraine record for Warsaw, Poland, source page 6.",
+        "uk": "Архівне зображення до запису «Янголи України» про місто Варшава, Польща, сторінка 6 першоджерела."
+      },
+      "eventId": "warsaw-2025-02-23-p6",
+      "eventSlug": "warsaw-2025-02-23-p6",
+      "sourceXref": 103
+    },
+    {
+      "id": "p07-xref-108-occurrence-1",
+      "pdfPage": 7,
+      "occurrence": 1,
+      "assetId": "8ce30b02eea734e2509a02042c790f1f240c7332696808f1816828f2bf9a3696",
+      "alt": {
+        "en": "The Ukrainian trident emblem shown in the source document.",
+        "uk": "Тризуб — емблема України, зображена в першоджерелі."
+      },
+      "eventId": "presov-2024-12-06-p7",
+      "eventSlug": "presov-2024-12-06-p7",
+      "sourceXref": 108
+    },
+    {
+      "id": "p07-xref-112-occurrence-2",
+      "pdfPage": 7,
+      "occurrence": 2,
+      "assetId": "e1d96107a013b7bc14249230eba74a761993a5eec7df64f7e6977f1db3b32809",
+      "alt": {
+        "en": "Archival image accompanying the Angels of Ukraine record for Prešov, Slovakia, source page 7.",
+        "uk": "Архівне зображення до запису «Янголи України» про місто Пряшів, Словаччина, сторінка 7 першоджерела."
+      },
+      "eventId": "presov-2024-12-06-p7",
+      "eventSlug": "presov-2024-12-06-p7",
+      "sourceXref": 112
+    },
+    {
+      "id": "p07-xref-113-occurrence-3",
+      "pdfPage": 7,
+      "occurrence": 3,
+      "assetId": "1421a570dd56d2805fc05a49f5905801917daa66beef5d92bea6d822d493ebdf",
+      "alt": {
+        "en": "Archival image accompanying the Angels of Ukraine record for Prešov, Slovakia, source page 7.",
+        "uk": "Архівне зображення до запису «Янголи України» про місто Пряшів, Словаччина, сторінка 7 першоджерела."
+      },
+      "eventId": "presov-2024-12-06-p7",
+      "eventSlug": "presov-2024-12-06-p7",
+      "sourceXref": 113
+    },
+    {
+      "id": "p07-xref-114-occurrence-4",
+      "pdfPage": 7,
+      "occurrence": 4,
+      "assetId": "a8488655ec08381cafe6b48183818881f583fdd2250fc4f9b0fd98c79c06f651",
+      "alt": {
+        "en": "Archival image accompanying the Angels of Ukraine record for Prešov, Slovakia, source page 7.",
+        "uk": "Архівне зображення до запису «Янголи України» про місто Пряшів, Словаччина, сторінка 7 першоджерела."
+      },
+      "eventId": "presov-2024-12-06-p7",
+      "eventSlug": "presov-2024-12-06-p7",
+      "sourceXref": 114
+    },
+    {
+      "id": "p07-xref-115-occurrence-5",
+      "pdfPage": 7,
+      "occurrence": 5,
+      "assetId": "83c3882495b049142bb54c6617c47b064ed5eba73967d5a55f22973f1cd3d7ea",
+      "alt": {
+        "en": "Archival image accompanying the Angels of Ukraine record for Prešov, Slovakia, source page 7.",
+        "uk": "Архівне зображення до запису «Янголи України» про місто Пряшів, Словаччина, сторінка 7 першоджерела."
+      },
+      "eventId": "presov-2024-12-06-p7",
+      "eventSlug": "presov-2024-12-06-p7",
+      "sourceXref": 115
+    },
+    {
+      "id": "p08-xref-120-occurrence-1",
+      "pdfPage": 8,
+      "occurrence": 1,
+      "assetId": "8ce30b02eea734e2509a02042c790f1f240c7332696808f1816828f2bf9a3696",
+      "alt": {
+        "en": "The Ukrainian trident emblem shown in the source document.",
+        "uk": "Тризуб — емблема України, зображена в першоджерелі."
+      },
+      "eventId": "kosice-2024-11-19-p8",
+      "eventSlug": "kosice-2024-11-19-p8",
+      "sourceXref": 120
+    },
+    {
+      "id": "p08-xref-126-occurrence-2",
+      "pdfPage": 8,
+      "occurrence": 2,
+      "assetId": "9e11c6a23da454b4ff7e611b271093bf7f524b114e5a977ae44bf14a4efaed29",
+      "alt": {
+        "en": "Archival image accompanying the Angels of Ukraine record for Košice, Slovakia, source page 8.",
+        "uk": "Архівне зображення до запису «Янголи України» про місто Кошице, Словаччина, сторінка 8 першоджерела."
+      },
+      "eventId": "kosice-2024-11-19-p8",
+      "eventSlug": "kosice-2024-11-19-p8",
+      "sourceXref": 126
+    },
+    {
+      "id": "p08-xref-127-occurrence-3",
+      "pdfPage": 8,
+      "occurrence": 3,
+      "assetId": "55915b4fae2a43b754fbccd0f5e5a0754c8b7aff7a8dc2da66342bcfda8ea44a",
+      "alt": {
+        "en": "Archival image accompanying the Angels of Ukraine record for Košice, Slovakia, source page 8.",
+        "uk": "Архівне зображення до запису «Янголи України» про місто Кошице, Словаччина, сторінка 8 першоджерела."
+      },
+      "eventId": "kosice-2024-11-19-p8",
+      "eventSlug": "kosice-2024-11-19-p8",
+      "sourceXref": 127
+    },
+    {
+      "id": "p08-xref-128-occurrence-4",
+      "pdfPage": 8,
+      "occurrence": 4,
+      "assetId": "2f379a814c7e734b56f20f6b2900d66d958bdaa99778a7ae5358095b9cc2a2a5",
+      "alt": {
+        "en": "Archival image accompanying the Angels of Ukraine record for Košice, Slovakia, source page 8.",
+        "uk": "Архівне зображення до запису «Янголи України» про місто Кошице, Словаччина, сторінка 8 першоджерела."
+      },
+      "eventId": "kosice-2024-11-19-p8",
+      "eventSlug": "kosice-2024-11-19-p8",
+      "sourceXref": 128
+    },
+    {
+      "id": "p09-xref-133-occurrence-1",
+      "pdfPage": 9,
+      "occurrence": 1,
+      "assetId": "8ce30b02eea734e2509a02042c790f1f240c7332696808f1816828f2bf9a3696",
+      "alt": {
+        "en": "The Ukrainian trident emblem shown in the source document.",
+        "uk": "Тризуб — емблема України, зображена в першоджерелі."
+      },
+      "eventId": "kosice-2024-09-22-p9",
+      "eventSlug": "kosice-2024-09-22-p9",
+      "sourceXref": 133
+    },
+    {
+      "id": "p09-xref-137-occurrence-2",
+      "pdfPage": 9,
+      "occurrence": 2,
+      "assetId": "3cd36219cf659c55fe949902178068f17005cf49674d77e05542924ece84fa18",
+      "alt": {
+        "en": "Archival image accompanying the Angels of Ukraine record for Košice, Slovakia, source page 9.",
+        "uk": "Архівне зображення до запису «Янголи України» про місто Кошице, Словаччина, сторінка 9 першоджерела."
+      },
+      "eventId": "kosice-2024-09-22-p9",
+      "eventSlug": "kosice-2024-09-22-p9",
+      "sourceXref": 137
+    },
+    {
+      "id": "p09-xref-138-occurrence-3",
+      "pdfPage": 9,
+      "occurrence": 3,
+      "assetId": "f53a287337277d83eaa687a251968590df525f3cf816fa5d0889139b302256bd",
+      "alt": {
+        "en": "Archival image accompanying the Angels of Ukraine record for Košice, Slovakia, source page 9.",
+        "uk": "Архівне зображення до запису «Янголи України» про місто Кошице, Словаччина, сторінка 9 першоджерела."
+      },
+      "eventId": "kosice-2024-09-22-p9",
+      "eventSlug": "kosice-2024-09-22-p9",
+      "sourceXref": 138
+    },
+    {
+      "id": "p09-xref-139-occurrence-4",
+      "pdfPage": 9,
+      "occurrence": 4,
+      "assetId": "f5aea96f853601d9e8c629506920ff4c53049265e40b67fc2eb6b26b12ff1751",
+      "alt": {
+        "en": "Archival image accompanying the Angels of Ukraine record for Košice, Slovakia, source page 9.",
+        "uk": "Архівне зображення до запису «Янголи України» про місто Кошице, Словаччина, сторінка 9 першоджерела."
+      },
+      "eventId": "kosice-2024-09-22-p9",
+      "eventSlug": "kosice-2024-09-22-p9",
+      "sourceXref": 139
+    },
+    {
+      "id": "p10-xref-145-occurrence-1",
+      "pdfPage": 10,
+      "occurrence": 1,
+      "assetId": "8ce30b02eea734e2509a02042c790f1f240c7332696808f1816828f2bf9a3696",
+      "alt": {
+        "en": "The Ukrainian trident emblem shown in the source document.",
+        "uk": "Тризуб — емблема України, зображена в першоджерелі."
+      },
+      "eventId": "toronto-2024-08-24-p10",
+      "eventSlug": "toronto-2024-08-24-p10",
+      "sourceXref": 145
+    },
+    {
+      "id": "p10-xref-149-occurrence-2",
+      "pdfPage": 10,
+      "occurrence": 2,
+      "assetId": "9890981de06c3b9c941c21ecfdeaca48e8f6fac42c2fdfc09be8a83b6c4d3feb",
+      "alt": {
+        "en": "Archival image accompanying the Angels of Ukraine record for Toronto, Canada, source page 10.",
+        "uk": "Архівне зображення до запису «Янголи України» про місто Торонто, Канада, сторінка 10 першоджерела."
+      },
+      "eventId": "toronto-2024-08-24-p10",
+      "eventSlug": "toronto-2024-08-24-p10",
+      "sourceXref": 149
+    },
+    {
+      "id": "p10-xref-150-occurrence-3",
+      "pdfPage": 10,
+      "occurrence": 3,
+      "assetId": "1cb446a558ae5ba7c4aa94fcc452d8de21decf6b890653bf997359c7d5fcfcb9",
+      "alt": {
+        "en": "Archival image accompanying the Angels of Ukraine record for Toronto, Canada, source page 10.",
+        "uk": "Архівне зображення до запису «Янголи України» про місто Торонто, Канада, сторінка 10 першоджерела."
+      },
+      "eventId": "toronto-2024-08-24-p10",
+      "eventSlug": "toronto-2024-08-24-p10",
+      "sourceXref": 150
+    },
+    {
+      "id": "p10-xref-151-occurrence-4",
+      "pdfPage": 10,
+      "occurrence": 4,
+      "assetId": "9f938cded22660a2d4b613fb05b6c95843ef602cfda4b1b25b1c912181e8491f",
+      "alt": {
+        "en": "Archival image accompanying the Angels of Ukraine record for Toronto, Canada, source page 10.",
+        "uk": "Архівне зображення до запису «Янголи України» про місто Торонто, Канада, сторінка 10 першоджерела."
+      },
+      "eventId": "toronto-2024-08-24-p10",
+      "eventSlug": "toronto-2024-08-24-p10",
+      "sourceXref": 151
+    },
+    {
+      "id": "p11-xref-156-occurrence-1",
+      "pdfPage": 11,
+      "occurrence": 1,
+      "assetId": "8ce30b02eea734e2509a02042c790f1f240c7332696808f1816828f2bf9a3696",
+      "alt": {
+        "en": "The Ukrainian trident emblem shown in the source document.",
+        "uk": "Тризуб — емблема України, зображена в першоджерелі."
+      },
+      "eventId": "montreal-2024-07-p11",
+      "eventSlug": "montreal-2024-07-p11",
+      "sourceXref": 156
+    },
+    {
+      "id": "p11-xref-160-occurrence-2",
+      "pdfPage": 11,
+      "occurrence": 2,
+      "assetId": "688263d7b896d49fa57667c0c799cf36ece042046e9f3f18d2ec9e6cf46694a6",
+      "alt": {
+        "en": "Archival image accompanying the Angels of Ukraine record for Montréal, Canada, source page 11.",
+        "uk": "Архівне зображення до запису «Янголи України» про місто Монреаль, Канада, сторінка 11 першоджерела."
+      },
+      "eventId": "montreal-2024-07-p11",
+      "eventSlug": "montreal-2024-07-p11",
+      "sourceXref": 160
+    },
+    {
+      "id": "p12-xref-165-occurrence-1",
+      "pdfPage": 12,
+      "occurrence": 1,
+      "assetId": "8ce30b02eea734e2509a02042c790f1f240c7332696808f1816828f2bf9a3696",
+      "alt": {
+        "en": "The Ukrainian trident emblem shown in the source document.",
+        "uk": "Тризуб — емблема України, зображена в першоджерелі."
+      },
+      "eventId": "quebec-city-2024-07-17-p12",
+      "eventSlug": "quebec-city-2024-07-17-p12",
+      "sourceXref": 165
+    },
+    {
+      "id": "p12-xref-169-occurrence-2",
+      "pdfPage": 12,
+      "occurrence": 2,
+      "assetId": "31c33622bb6e7558f59153c30ca2873ee087c7895f3439f6996aa28e4345ddef",
+      "alt": {
+        "en": "Archival image accompanying the Angels of Ukraine record for Québec City, Canada, source page 12.",
+        "uk": "Архівне зображення до запису «Янголи України» про місто Квебек, Канада, сторінка 12 першоджерела."
+      },
+      "eventId": "quebec-city-2024-07-17-p12",
+      "eventSlug": "quebec-city-2024-07-17-p12",
+      "sourceXref": 169
+    },
+    {
+      "id": "p13-xref-174-occurrence-1",
+      "pdfPage": 13,
+      "occurrence": 1,
+      "assetId": "8ce30b02eea734e2509a02042c790f1f240c7332696808f1816828f2bf9a3696",
+      "alt": {
+        "en": "The Ukrainian trident emblem shown in the source document.",
+        "uk": "Тризуб — емблема України, зображена в першоджерелі."
+      },
+      "eventId": "montreal-2024-07-12-p13",
+      "eventSlug": "montreal-2024-07-12-p13",
+      "sourceXref": 174
+    },
+    {
+      "id": "p13-xref-178-occurrence-2",
+      "pdfPage": 13,
+      "occurrence": 2,
+      "assetId": "8bb79206bb6c98c5f94929b6625ac74787b6b060ded27a7a0b8e51d9c4241b06",
+      "alt": {
+        "en": "Archival image accompanying the Angels of Ukraine record for Montréal, Canada, source page 13.",
+        "uk": "Архівне зображення до запису «Янголи України» про місто Монреаль, Канада, сторінка 13 першоджерела."
+      },
+      "eventId": "montreal-2024-07-12-p13",
+      "eventSlug": "montreal-2024-07-12-p13",
+      "sourceXref": 178
+    },
+    {
+      "id": "p14-xref-183-occurrence-1",
+      "pdfPage": 14,
+      "occurrence": 1,
+      "assetId": "8ce30b02eea734e2509a02042c790f1f240c7332696808f1816828f2bf9a3696",
+      "alt": {
+        "en": "The Ukrainian trident emblem shown in the source document.",
+        "uk": "Тризуб — емблема України, зображена в першоджерелі."
+      },
+      "eventId": "edmonton-2024-04-p14",
+      "eventSlug": "edmonton-2024-04-p14",
+      "sourceXref": 183
+    },
+    {
+      "id": "p14-xref-187-occurrence-2",
+      "pdfPage": 14,
+      "occurrence": 2,
+      "assetId": "d74c260e88ff744e0e49621d89817b6041032e3bb3cd27893c753abae240d78f",
+      "alt": {
+        "en": "Archival image accompanying the Angels of Ukraine record for Edmonton, Canada, source page 14.",
+        "uk": "Архівне зображення до запису «Янголи України» про місто Едмонтон, Канада, сторінка 14 першоджерела."
+      },
+      "eventId": "edmonton-2024-04-p14",
+      "eventSlug": "edmonton-2024-04-p14",
+      "sourceXref": 187
+    },
+    {
+      "id": "p14-xref-188-occurrence-3",
+      "pdfPage": 14,
+      "occurrence": 3,
+      "assetId": "57097e49c7f7ea8caa863abe7e74de49844bea1486a158163cf86e9c0acc0e2f",
+      "alt": {
+        "en": "Archival image accompanying the Angels of Ukraine record for Edmonton, Canada, source page 14.",
+        "uk": "Архівне зображення до запису «Янголи України» про місто Едмонтон, Канада, сторінка 14 першоджерела."
+      },
+      "eventId": "edmonton-2024-04-p14",
+      "eventSlug": "edmonton-2024-04-p14",
+      "sourceXref": 188
+    },
+    {
+      "id": "p14-xref-189-occurrence-4",
+      "pdfPage": 14,
+      "occurrence": 4,
+      "assetId": "f8d56cba9579977d14aa22c64844fc892fd1781311455f8aa526f8032c71301b",
+      "alt": {
+        "en": "Archival image accompanying the Angels of Ukraine record for Edmonton, Canada, source page 14.",
+        "uk": "Архівне зображення до запису «Янголи України» про місто Едмонтон, Канада, сторінка 14 першоджерела."
+      },
+      "eventId": "edmonton-2024-04-p14",
+      "eventSlug": "edmonton-2024-04-p14",
+      "sourceXref": 189
+    },
+    {
+      "id": "p15-xref-194-occurrence-1",
+      "pdfPage": 15,
+      "occurrence": 1,
+      "assetId": "8ce30b02eea734e2509a02042c790f1f240c7332696808f1816828f2bf9a3696",
+      "alt": {
+        "en": "The Ukrainian trident emblem shown in the source document.",
+        "uk": "Тризуб — емблема України, зображена в першоджерелі."
+      },
+      "eventId": "winnipeg-2024-04-p15",
+      "eventSlug": "winnipeg-2024-04-p15",
+      "sourceXref": 194
+    },
+    {
+      "id": "p15-xref-198-occurrence-2",
+      "pdfPage": 15,
+      "occurrence": 2,
+      "assetId": "c6ca1fd18b5cea99f3ef7aaf65fb84e19c9babcb535993abc86f0f617ca5a74e",
+      "alt": {
+        "en": "Archival image accompanying the Angels of Ukraine record for Winnipeg, Canada, source page 15.",
+        "uk": "Архівне зображення до запису «Янголи України» про місто Вінніпег, Канада, сторінка 15 першоджерела."
+      },
+      "eventId": "winnipeg-2024-04-p15",
+      "eventSlug": "winnipeg-2024-04-p15",
+      "sourceXref": 198
+    },
+    {
+      "id": "p16-xref-203-occurrence-1",
+      "pdfPage": 16,
+      "occurrence": 1,
+      "assetId": "8ce30b02eea734e2509a02042c790f1f240c7332696808f1816828f2bf9a3696",
+      "alt": {
+        "en": "The Ukrainian trident emblem shown in the source document.",
+        "uk": "Тризуб — емблема України, зображена в першоджерелі."
+      },
+      "eventId": "bratislava-2024-02-24-p16",
+      "eventSlug": "bratislava-2024-02-24-p16",
+      "sourceXref": 203
+    },
+    {
+      "id": "p16-xref-209-occurrence-2",
+      "pdfPage": 16,
+      "occurrence": 2,
+      "assetId": "f0ed8a9bc6f76ea72e9d734eb709105ef0690e61d7622e5d8d182d83d6eb767f",
+      "alt": {
+        "en": "Archival image accompanying the Angels of Ukraine record for Bratislava, Slovakia, source page 16.",
+        "uk": "Архівне зображення до запису «Янголи України» про місто Братислава, Словаччина, сторінка 16 першоджерела."
+      },
+      "eventId": "bratislava-2024-02-24-p16",
+      "eventSlug": "bratislava-2024-02-24-p16",
+      "sourceXref": 209
+    },
+    {
+      "id": "p16-xref-210-occurrence-3",
+      "pdfPage": 16,
+      "occurrence": 3,
+      "assetId": "a27a009a9b6d35ba590b3d35a42b6942a5f2ae1bc51004adf67294730c54eecb",
+      "alt": {
+        "en": "Archival image accompanying the Angels of Ukraine record for Bratislava, Slovakia, source page 16.",
+        "uk": "Архівне зображення до запису «Янголи України» про місто Братислава, Словаччина, сторінка 16 першоджерела."
+      },
+      "eventId": "bratislava-2024-02-24-p16",
+      "eventSlug": "bratislava-2024-02-24-p16",
+      "sourceXref": 210
+    },
+    {
+      "id": "p17-xref-216-occurrence-1",
+      "pdfPage": 17,
+      "occurrence": 1,
+      "assetId": "8ce30b02eea734e2509a02042c790f1f240c7332696808f1816828f2bf9a3696",
+      "alt": {
+        "en": "The Ukrainian trident emblem shown in the source document.",
+        "uk": "Тризуб — емблема України, зображена в першоджерелі."
+      },
+      "eventId": "kezmarok-2023-12-p17",
+      "eventSlug": "kezmarok-2023-12-p17",
+      "sourceXref": 216
+    },
+    {
+      "id": "p17-xref-220-occurrence-2",
+      "pdfPage": 17,
+      "occurrence": 2,
+      "assetId": "d84ac81787f8843ff8260c688beb17c9c20fd7c3515c65e672167347dfbaad2e",
+      "alt": {
+        "en": "Archival image accompanying the Angels of Ukraine record for Kežmarok, Slovakia, source page 17.",
+        "uk": "Архівне зображення до запису «Янголи України» про місто Кежмарок, Словаччина, сторінка 17 першоджерела."
+      },
+      "eventId": "kezmarok-2023-12-p17",
+      "eventSlug": "kezmarok-2023-12-p17",
+      "sourceXref": 220
+    },
+    {
+      "id": "p17-xref-221-occurrence-3",
+      "pdfPage": 17,
+      "occurrence": 3,
+      "assetId": "1f01ebf82226870c1a92c7f929c1a3a14f48cb258f4d03c98036a34a8eedcc80",
+      "alt": {
+        "en": "Archival image accompanying the Angels of Ukraine record for Kežmarok, Slovakia, source page 17.",
+        "uk": "Архівне зображення до запису «Янголи України» про місто Кежмарок, Словаччина, сторінка 17 першоджерела."
+      },
+      "eventId": "kezmarok-2023-12-p17",
+      "eventSlug": "kezmarok-2023-12-p17",
+      "sourceXref": 221
+    },
+    {
+      "id": "p17-xref-222-occurrence-4",
+      "pdfPage": 17,
+      "occurrence": 4,
+      "assetId": "fc4864dba9d6977916befe8336af18dbb595b62a06ad4844c491d8653af4e565",
+      "alt": {
+        "en": "Archival image accompanying the Angels of Ukraine record for Kežmarok, Slovakia, source page 17.",
+        "uk": "Архівне зображення до запису «Янголи України» про місто Кежмарок, Словаччина, сторінка 17 першоджерела."
+      },
+      "eventId": "kezmarok-2023-12-p17",
+      "eventSlug": "kezmarok-2023-12-p17",
+      "sourceXref": 222
+    },
+    {
+      "id": "p17-xref-223-occurrence-5",
+      "pdfPage": 17,
+      "occurrence": 5,
+      "assetId": "c90ce308f166732813547e364c48ff3c9175c58cb778bd921fb8837b16d4aeac",
+      "alt": {
+        "en": "Archival image accompanying the Angels of Ukraine record for Kežmarok, Slovakia, source page 17.",
+        "uk": "Архівне зображення до запису «Янголи України» про місто Кежмарок, Словаччина, сторінка 17 першоджерела."
+      },
+      "eventId": "kezmarok-2023-12-p17",
+      "eventSlug": "kezmarok-2023-12-p17",
+      "sourceXref": 223
+    },
+    {
+      "id": "p18-xref-228-occurrence-1",
+      "pdfPage": 18,
+      "occurrence": 1,
+      "assetId": "8ce30b02eea734e2509a02042c790f1f240c7332696808f1816828f2bf9a3696",
+      "alt": {
+        "en": "The Ukrainian trident emblem shown in the source document.",
+        "uk": "Тризуб — емблема України, зображена в першоджерелі."
+      },
+      "eventId": "sliema-2023-11-04-p18",
+      "eventSlug": "sliema-2023-11-04-p18",
+      "sourceXref": 228
+    },
+    {
+      "id": "p18-xref-232-occurrence-2",
+      "pdfPage": 18,
+      "occurrence": 2,
+      "assetId": "d84ac81787f8843ff8260c688beb17c9c20fd7c3515c65e672167347dfbaad2e",
+      "alt": {
+        "en": "Archival image accompanying the Angels of Ukraine record for Sliema, Malta, source page 18.",
+        "uk": "Архівне зображення до запису «Янголи України» про місто Сліма, Мальта, сторінка 18 першоджерела."
+      },
+      "eventId": "sliema-2023-11-04-p18",
+      "eventSlug": "sliema-2023-11-04-p18",
+      "sourceXref": 232
+    },
+    {
+      "id": "p18-xref-233-occurrence-3",
+      "pdfPage": 18,
+      "occurrence": 3,
+      "assetId": "84cb437b044a7fe458a1887beb1831bdcb12a7e1303b3d631702e701ca5ecbea",
+      "alt": {
+        "en": "Archival image accompanying the Angels of Ukraine record for Sliema, Malta, source page 18.",
+        "uk": "Архівне зображення до запису «Янголи України» про місто Сліма, Мальта, сторінка 18 першоджерела."
+      },
+      "eventId": "sliema-2023-11-04-p18",
+      "eventSlug": "sliema-2023-11-04-p18",
+      "sourceXref": 233
+    },
+    {
+      "id": "p19-xref-238-occurrence-1",
+      "pdfPage": 19,
+      "occurrence": 1,
+      "assetId": "8ce30b02eea734e2509a02042c790f1f240c7332696808f1816828f2bf9a3696",
+      "alt": {
+        "en": "The Ukrainian trident emblem shown in the source document.",
+        "uk": "Тризуб — емблема України, зображена в першоджерелі."
+      },
+      "eventId": "valletta-2023-10-28-p19",
+      "eventSlug": "valletta-2023-10-28-p19",
+      "sourceXref": 238
+    },
+    {
+      "id": "p19-xref-242-occurrence-2",
+      "pdfPage": 19,
+      "occurrence": 2,
+      "assetId": "a40bcf8e927da6eea4b1a8254cb8087b68cf26ce1be76df3024b0e5b9de63c4c",
+      "alt": {
+        "en": "Archival image accompanying the Angels of Ukraine record for Valletta, Malta, source page 19.",
+        "uk": "Архівне зображення до запису «Янголи України» про місто Валлетта, Мальта, сторінка 19 першоджерела."
+      },
+      "eventId": "valletta-2023-10-28-p19",
+      "eventSlug": "valletta-2023-10-28-p19",
+      "sourceXref": 242
+    },
+    {
+      "id": "p20-xref-247-occurrence-1",
+      "pdfPage": 20,
+      "occurrence": 1,
+      "assetId": "8ce30b02eea734e2509a02042c790f1f240c7332696808f1816828f2bf9a3696",
+      "alt": {
+        "en": "The Ukrainian trident emblem shown in the source document.",
+        "uk": "Тризуб — емблема України, зображена в першоджерелі."
+      },
+      "eventId": "kosice-2023-09-24-p20",
+      "eventSlug": "kosice-2023-09-24-p20",
+      "sourceXref": 247
+    },
+    {
+      "id": "p20-xref-250-occurrence-2",
+      "pdfPage": 20,
+      "occurrence": 2,
+      "assetId": "21f776344bd8937994e526c92f1a53c0caa45c2d5794f105f0acda8de700b9c3",
+      "alt": {
+        "en": "Archival image accompanying the Angels of Ukraine record for Košice, Slovakia, source page 20.",
+        "uk": "Архівне зображення до запису «Янголи України» про місто Кошице, Словаччина, сторінка 20 першоджерела."
+      },
+      "eventId": "kosice-2023-09-24-p20",
+      "eventSlug": "kosice-2023-09-24-p20",
+      "sourceXref": 250
+    },
+    {
+      "id": "p20-xref-251-occurrence-3",
+      "pdfPage": 20,
+      "occurrence": 3,
+      "assetId": "63bef8cfc5122dbc959aba5e3628efd2f3fe58903766f1c58db55aaba91bca6f",
+      "alt": {
+        "en": "Archival image accompanying the Angels of Ukraine record for Košice, Slovakia, source page 20.",
+        "uk": "Архівне зображення до запису «Янголи України» про місто Кошице, Словаччина, сторінка 20 першоджерела."
+      },
+      "eventId": "kosice-2023-09-24-p20",
+      "eventSlug": "kosice-2023-09-24-p20",
+      "sourceXref": 251
+    },
+    {
+      "id": "p20-xref-252-occurrence-4",
+      "pdfPage": 20,
+      "occurrence": 4,
+      "assetId": "57e873181fdca1af18778cb17e6d2d46bc98cf132638165314be3a1352075385",
+      "alt": {
+        "en": "Archival image accompanying the Angels of Ukraine record for Košice, Slovakia, source page 20.",
+        "uk": "Архівне зображення до запису «Янголи України» про місто Кошице, Словаччина, сторінка 20 першоджерела."
+      },
+      "eventId": "kosice-2023-09-24-p20",
+      "eventSlug": "kosice-2023-09-24-p20",
+      "sourceXref": 252
+    },
+    {
+      "id": "p20-xref-253-occurrence-5",
+      "pdfPage": 20,
+      "occurrence": 5,
+      "assetId": "7dba5c43d302c78846198d3c2ccfe22e334054770e2e5d5761e021692b492ea0",
+      "alt": {
+        "en": "Archival image accompanying the Angels of Ukraine record for Košice, Slovakia, source page 20.",
+        "uk": "Архівне зображення до запису «Янголи України» про місто Кошице, Словаччина, сторінка 20 першоджерела."
+      },
+      "eventId": "kosice-2023-09-24-p20",
+      "eventSlug": "kosice-2023-09-24-p20",
+      "sourceXref": 253
+    },
+    {
+      "id": "p20-xref-254-occurrence-6",
+      "pdfPage": 20,
+      "occurrence": 6,
+      "assetId": "4d99719dc707fa453804ac61d22937dfcc47c27d303aedab6a33c4fedc684a9b",
+      "alt": {
+        "en": "Archival image accompanying the Angels of Ukraine record for Košice, Slovakia, source page 20.",
+        "uk": "Архівне зображення до запису «Янголи України» про місто Кошице, Словаччина, сторінка 20 першоджерела."
+      },
+      "eventId": "kosice-2023-09-24-p20",
+      "eventSlug": "kosice-2023-09-24-p20",
+      "sourceXref": 254
+    },
+    {
+      "id": "p20-xref-255-occurrence-7",
+      "pdfPage": 20,
+      "occurrence": 7,
+      "assetId": "3cd36219cf659c55fe949902178068f17005cf49674d77e05542924ece84fa18",
+      "alt": {
+        "en": "Archival image accompanying the Angels of Ukraine record for Košice, Slovakia, source page 20.",
+        "uk": "Архівне зображення до запису «Янголи України» про місто Кошице, Словаччина, сторінка 20 першоджерела."
+      },
+      "eventId": "kosice-2023-09-24-p20",
+      "eventSlug": "kosice-2023-09-24-p20",
+      "sourceXref": 255
+    },
+    {
+      "id": "p20-xref-256-occurrence-8",
+      "pdfPage": 20,
+      "occurrence": 8,
+      "assetId": "8ec0f395cf73ec789a5b8750d59c5a7c0a04497b5d0d68d698933971a9a4ee97",
+      "alt": {
+        "en": "Archival image accompanying the Angels of Ukraine record for Košice, Slovakia, source page 20.",
+        "uk": "Архівне зображення до запису «Янголи України» про місто Кошице, Словаччина, сторінка 20 першоджерела."
+      },
+      "eventId": "kosice-2023-09-24-p20",
+      "eventSlug": "kosice-2023-09-24-p20",
+      "sourceXref": 256
+    },
+    {
+      "id": "p21-xref-262-occurrence-1",
+      "pdfPage": 21,
+      "occurrence": 1,
+      "assetId": "8ce30b02eea734e2509a02042c790f1f240c7332696808f1816828f2bf9a3696",
+      "alt": {
+        "en": "The Ukrainian trident emblem shown in the source document.",
+        "uk": "Тризуб — емблема України, зображена в першоджерелі."
+      },
+      "eventId": "stockholm-2023-09-10-p21",
+      "eventSlug": "stockholm-2023-09-10-p21",
+      "sourceXref": 262
+    },
+    {
+      "id": "p21-xref-265-occurrence-2",
+      "pdfPage": 21,
+      "occurrence": 2,
+      "assetId": "070f4668f241b2719400a0221de47344f3eca8e5fa7f4e8778fc62704fd7361f",
+      "alt": {
+        "en": "Archival image accompanying the Angels of Ukraine record for Stockholm, Sweden, source page 21.",
+        "uk": "Архівне зображення до запису «Янголи України» про місто Стокгольм, Швеція, сторінка 21 першоджерела."
+      },
+      "eventId": "stockholm-2023-09-10-p21",
+      "eventSlug": "stockholm-2023-09-10-p21",
+      "sourceXref": 265
+    },
+    {
+      "id": "p22-xref-270-occurrence-1",
+      "pdfPage": 22,
+      "occurrence": 1,
+      "assetId": "8ce30b02eea734e2509a02042c790f1f240c7332696808f1816828f2bf9a3696",
+      "alt": {
+        "en": "The Ukrainian trident emblem shown in the source document.",
+        "uk": "Тризуб — емблема України, зображена в першоджерелі."
+      },
+      "eventId": "uppsala-2023-08-20-p22",
+      "eventSlug": "uppsala-2023-08-20-p22",
+      "sourceXref": 270
+    },
+    {
+      "id": "p22-xref-273-occurrence-2",
+      "pdfPage": 22,
+      "occurrence": 2,
+      "assetId": "b8c2c9b136452dd9669ef6935e504e567d7cbd884bdd0b74ab8c6e036e32b2a6",
+      "alt": {
+        "en": "Archival image accompanying the Angels of Ukraine record for Uppsala, Sweden, source page 22.",
+        "uk": "Архівне зображення до запису «Янголи України» про місто Уппсала, Швеція, сторінка 22 першоджерела."
+      },
+      "eventId": "uppsala-2023-08-20-p22",
+      "eventSlug": "uppsala-2023-08-20-p22",
+      "sourceXref": 273
+    },
+    {
+      "id": "p22-xref-274-occurrence-3",
+      "pdfPage": 22,
+      "occurrence": 3,
+      "assetId": "e3fd3ac32db11b6658c8a8ef656a2f9edc300a318802d703644a9a182ae8fc01",
+      "alt": {
+        "en": "Archival image accompanying the Angels of Ukraine record for Uppsala, Sweden, source page 22.",
+        "uk": "Архівне зображення до запису «Янголи України» про місто Уппсала, Швеція, сторінка 22 першоджерела."
+      },
+      "eventId": "uppsala-2023-08-20-p22",
+      "eventSlug": "uppsala-2023-08-20-p22",
+      "sourceXref": 274
+    },
+    {
+      "id": "p23-xref-279-occurrence-1",
+      "pdfPage": 23,
+      "occurrence": 1,
+      "assetId": "8ce30b02eea734e2509a02042c790f1f240c7332696808f1816828f2bf9a3696",
+      "alt": {
+        "en": "The Ukrainian trident emblem shown in the source document.",
+        "uk": "Тризуб — емблема України, зображена в першоджерелі."
+      },
+      "eventId": "newbury-2023-07-12-p23",
+      "eventSlug": "newbury-2023-07-12-p23",
+      "sourceXref": 279
+    },
+    {
+      "id": "p23-xref-282-occurrence-2",
+      "pdfPage": 23,
+      "occurrence": 2,
+      "assetId": "bef9f42be21ec187042b3931bf8abd092cc1396b8736aaaf45a9b5a5e13ee6b3",
+      "alt": {
+        "en": "Archival image accompanying the Angels of Ukraine record for Newbury, United Kingdom, source page 23.",
+        "uk": "Архівне зображення до запису «Янголи України» про місто Ньюбері, Велика Британія, сторінка 23 першоджерела."
+      },
+      "eventId": "newbury-2023-07-12-p23",
+      "eventSlug": "newbury-2023-07-12-p23",
+      "sourceXref": 282
+    },
+    {
+      "id": "p23-xref-283-occurrence-3",
+      "pdfPage": 23,
+      "occurrence": 3,
+      "assetId": "4d0c6384fa02f631182813ac9e7a462787011a6aaf438a6af9997f24115bf7fd",
+      "alt": {
+        "en": "Archival image accompanying the Angels of Ukraine record for Newbury, United Kingdom, source page 23.",
+        "uk": "Архівне зображення до запису «Янголи України» про місто Ньюбері, Велика Британія, сторінка 23 першоджерела."
+      },
+      "eventId": "newbury-2023-07-12-p23",
+      "eventSlug": "newbury-2023-07-12-p23",
+      "sourceXref": 283
+    },
+    {
+      "id": "p23-xref-284-occurrence-4",
+      "pdfPage": 23,
+      "occurrence": 4,
+      "assetId": "02c99ca387c4e4211edd0a2693bdac9fa2a00ce25ad0fbceb80b9e65ec4867b7",
+      "alt": {
+        "en": "Archival image accompanying the Angels of Ukraine record for Newbury, United Kingdom, source page 23.",
+        "uk": "Архівне зображення до запису «Янголи України» про місто Ньюбері, Велика Британія, сторінка 23 першоджерела."
+      },
+      "eventId": "newbury-2023-07-12-p23",
+      "eventSlug": "newbury-2023-07-12-p23",
+      "sourceXref": 284
+    },
+    {
+      "id": "p24-xref-289-occurrence-1",
+      "pdfPage": 24,
+      "occurrence": 1,
+      "assetId": "8ce30b02eea734e2509a02042c790f1f240c7332696808f1816828f2bf9a3696",
+      "alt": {
+        "en": "The Ukrainian trident emblem shown in the source document.",
+        "uk": "Тризуб — емблема України, зображена в першоджерелі."
+      },
+      "eventId": "berlin-2023-06-01-p24",
+      "eventSlug": "berlin-2023-06-01-p24",
+      "sourceXref": 289
+    },
+    {
+      "id": "p24-xref-292-occurrence-2",
+      "pdfPage": 24,
+      "occurrence": 2,
+      "assetId": "99ba88d73c44c23d989496063c9f5b37a81465b0339a10f450f5a0d0ce72c8a7",
+      "alt": {
+        "en": "Archival image accompanying the Angels of Ukraine record for Berlin, Germany, source page 24.",
+        "uk": "Архівне зображення до запису «Янголи України» про місто Берлін, Німеччина, сторінка 24 першоджерела."
+      },
+      "eventId": "berlin-2023-06-01-p24",
+      "eventSlug": "berlin-2023-06-01-p24",
+      "sourceXref": 292
+    },
+    {
+      "id": "p24-xref-293-occurrence-3",
+      "pdfPage": 24,
+      "occurrence": 3,
+      "assetId": "fa2179bd42c6f454533770d7f9138443316aa447b3e98fb2e05822b79b1d9d10",
+      "alt": {
+        "en": "Archival image accompanying the Angels of Ukraine record for Berlin, Germany, source page 24.",
+        "uk": "Архівне зображення до запису «Янголи України» про місто Берлін, Німеччина, сторінка 24 першоджерела."
+      },
+      "eventId": "berlin-2023-06-01-p24",
+      "eventSlug": "berlin-2023-06-01-p24",
+      "sourceXref": 293
+    },
+    {
+      "id": "p24-xref-294-occurrence-4",
+      "pdfPage": 24,
+      "occurrence": 4,
+      "assetId": "8071e4fb838f14b3bc1283e90b5217c1be498eeeaf3cd98dca13d6a79eeb170b",
+      "alt": {
+        "en": "Archival image accompanying the Angels of Ukraine record for Berlin, Germany, source page 24.",
+        "uk": "Архівне зображення до запису «Янголи України» про місто Берлін, Німеччина, сторінка 24 першоджерела."
+      },
+      "eventId": "berlin-2023-06-01-p24",
+      "eventSlug": "berlin-2023-06-01-p24",
+      "sourceXref": 294
+    },
+    {
+      "id": "p25-xref-299-occurrence-1",
+      "pdfPage": 25,
+      "occurrence": 1,
+      "assetId": "8ce30b02eea734e2509a02042c790f1f240c7332696808f1816828f2bf9a3696",
+      "alt": {
+        "en": "The Ukrainian trident emblem shown in the source document.",
+        "uk": "Тризуб — емблема України, зображена в першоджерелі."
+      },
+      "eventId": "leipzig-2023-05-p25",
+      "eventSlug": "leipzig-2023-05-p25",
+      "sourceXref": 299
+    },
+    {
+      "id": "p25-xref-302-occurrence-2",
+      "pdfPage": 25,
+      "occurrence": 2,
+      "assetId": "c67a45a2ff7cac6c89d40801b63414277c866c363da930c09603b0513dec3886",
+      "alt": {
+        "en": "Archival image accompanying the Angels of Ukraine record for Leipzig, Germany, source page 25.",
+        "uk": "Архівне зображення до запису «Янголи України» про місто Лейпциг, Німеччина, сторінка 25 першоджерела."
+      },
+      "eventId": "leipzig-2023-05-p25",
+      "eventSlug": "leipzig-2023-05-p25",
+      "sourceXref": 302
+    },
+    {
+      "id": "p25-xref-303-occurrence-3",
+      "pdfPage": 25,
+      "occurrence": 3,
+      "assetId": "afe4fa2ae3eb62145541c95bdd90f6436ed7aac12668bc6abb75fbc2093cf86d",
+      "alt": {
+        "en": "Archival image accompanying the Angels of Ukraine record for Leipzig, Germany, source page 25.",
+        "uk": "Архівне зображення до запису «Янголи України» про місто Лейпциг, Німеччина, сторінка 25 першоджерела."
+      },
+      "eventId": "leipzig-2023-05-p25",
+      "eventSlug": "leipzig-2023-05-p25",
+      "sourceXref": 303
+    },
+    {
+      "id": "p26-xref-308-occurrence-1",
+      "pdfPage": 26,
+      "occurrence": 1,
+      "assetId": "8ce30b02eea734e2509a02042c790f1f240c7332696808f1816828f2bf9a3696",
+      "alt": {
+        "en": "The Ukrainian trident emblem shown in the source document.",
+        "uk": "Тризуб — емблема України, зображена в першоджерелі."
+      },
+      "eventId": "potsdam-2023-04-p26",
+      "eventSlug": "potsdam-2023-04-p26",
+      "sourceXref": 308
+    },
+    {
+      "id": "p26-xref-311-occurrence-2",
+      "pdfPage": 26,
+      "occurrence": 2,
+      "assetId": "0f099834fb9d917cc66dee572bde35c41acd75415d681aed7720e4d7c96e9fcc",
+      "alt": {
+        "en": "Archival image accompanying the Angels of Ukraine record for Potsdam, Germany, source page 26.",
+        "uk": "Архівне зображення до запису «Янголи України» про місто Потсдам, Німеччина, сторінка 26 першоджерела."
+      },
+      "eventId": "potsdam-2023-04-p26",
+      "eventSlug": "potsdam-2023-04-p26",
+      "sourceXref": 311
+    },
+    {
+      "id": "p26-xref-312-occurrence-3",
+      "pdfPage": 26,
+      "occurrence": 3,
+      "assetId": "c4370cb039b77f8b51804313a55e0671335283cc3cb9a30163d18f7459d62bdc",
+      "alt": {
+        "en": "Archival image accompanying the Angels of Ukraine record for Potsdam, Germany, source page 26.",
+        "uk": "Архівне зображення до запису «Янголи України» про місто Потсдам, Німеччина, сторінка 26 першоджерела."
+      },
+      "eventId": "potsdam-2023-04-p26",
+      "eventSlug": "potsdam-2023-04-p26",
+      "sourceXref": 312
+    },
+    {
+      "id": "p26-xref-313-occurrence-4",
+      "pdfPage": 26,
+      "occurrence": 4,
+      "assetId": "46ee0eb1a06d197ded39895f3b9dec01a75decdf6f25db04e9e3adcf2c5d13e2",
+      "alt": {
+        "en": "Archival image accompanying the Angels of Ukraine record for Potsdam, Germany, source page 26.",
+        "uk": "Архівне зображення до запису «Янголи України» про місто Потсдам, Німеччина, сторінка 26 першоджерела."
+      },
+      "eventId": "potsdam-2023-04-p26",
+      "eventSlug": "potsdam-2023-04-p26",
+      "sourceXref": 313
+    },
+    {
+      "id": "p27-xref-318-occurrence-1",
+      "pdfPage": 27,
+      "occurrence": 1,
+      "assetId": "8ce30b02eea734e2509a02042c790f1f240c7332696808f1816828f2bf9a3696",
+      "alt": {
+        "en": "The Ukrainian trident emblem shown in the source document.",
+        "uk": "Тризуб — емблема України, зображена в першоджерелі."
+      },
+      "eventId": "shrewsbury-2023-03-04-p27",
+      "eventSlug": "shrewsbury-2023-03-04-p27",
+      "sourceXref": 318
+    },
+    {
+      "id": "p27-xref-321-occurrence-2",
+      "pdfPage": 27,
+      "occurrence": 2,
+      "assetId": "d8bd421080ab9869a0e18c799224fac56f9959102e81bf4b592e123bf9686333",
+      "alt": {
+        "en": "Archival image accompanying the Angels of Ukraine record for Shrewsbury, United Kingdom, source page 27.",
+        "uk": "Архівне зображення до запису «Янголи України» про місто Шрусбері, Велика Британія, сторінка 27 першоджерела."
+      },
+      "eventId": "shrewsbury-2023-03-04-p27",
+      "eventSlug": "shrewsbury-2023-03-04-p27",
+      "sourceXref": 321
+    },
+    {
+      "id": "p27-xref-322-occurrence-3",
+      "pdfPage": 27,
+      "occurrence": 3,
+      "assetId": "cc9e98377d80ea263eb50d993de31f9b0a09d19e4ca2bd586789e60dea6764f7",
+      "alt": {
+        "en": "Archival image accompanying the Angels of Ukraine record for Shrewsbury, United Kingdom, source page 27.",
+        "uk": "Архівне зображення до запису «Янголи України» про місто Шрусбері, Велика Британія, сторінка 27 першоджерела."
+      },
+      "eventId": "shrewsbury-2023-03-04-p27",
+      "eventSlug": "shrewsbury-2023-03-04-p27",
+      "sourceXref": 322
+    },
+    {
+      "id": "p28-xref-327-occurrence-1",
+      "pdfPage": 28,
+      "occurrence": 1,
+      "assetId": "8ce30b02eea734e2509a02042c790f1f240c7332696808f1816828f2bf9a3696",
+      "alt": {
+        "en": "The Ukrainian trident emblem shown in the source document.",
+        "uk": "Тризуб — емблема України, зображена в першоджерелі."
+      },
+      "eventId": "cleobury-mortimer-2023-02-12-p28",
+      "eventSlug": "cleobury-mortimer-2023-02-12-p28",
+      "sourceXref": 327
+    },
+    {
+      "id": "p28-xref-330-occurrence-2",
+      "pdfPage": 28,
+      "occurrence": 2,
+      "assetId": "e1fd68e53e4ffc1815c78a1de8096550602f2025dc77e778e221d53d25416c7e",
+      "alt": {
+        "en": "Archival image accompanying the Angels of Ukraine record for Cleobury Mortimer, United Kingdom, source page 28.",
+        "uk": "Архівне зображення до запису «Янголи України» про місто Клебері-Мортімер, Велика Британія, сторінка 28 першоджерела."
+      },
+      "eventId": "cleobury-mortimer-2023-02-12-p28",
+      "eventSlug": "cleobury-mortimer-2023-02-12-p28",
+      "sourceXref": 330
+    },
+    {
+      "id": "p29-xref-335-occurrence-1",
+      "pdfPage": 29,
+      "occurrence": 1,
+      "assetId": "8ce30b02eea734e2509a02042c790f1f240c7332696808f1816828f2bf9a3696",
+      "alt": {
+        "en": "The Ukrainian trident emblem shown in the source document.",
+        "uk": "Тризуб — емблема України, зображена в першоджерелі."
+      },
+      "eventId": "ludlow-2023-01-21-p29",
+      "eventSlug": "ludlow-2023-01-21-p29",
+      "sourceXref": 335
+    },
+    {
+      "id": "p29-xref-338-occurrence-2",
+      "pdfPage": 29,
+      "occurrence": 2,
+      "assetId": "df238bf4f75c043eceb2f5a00fba1f30812bb4ab26fe4af8e69937b0d953be5a",
+      "alt": {
+        "en": "Archival image accompanying the Angels of Ukraine record for Ludlow, United Kingdom, source page 29.",
+        "uk": "Архівне зображення до запису «Янголи України» про місто Ладлоу, Велика Британія, сторінка 29 першоджерела."
+      },
+      "eventId": "ludlow-2023-01-21-p29",
+      "eventSlug": "ludlow-2023-01-21-p29",
+      "sourceXref": 338
+    },
+    {
+      "id": "p29-xref-339-occurrence-3",
+      "pdfPage": 29,
+      "occurrence": 3,
+      "assetId": "a6bd5a963e065f397320c02a6fd167f4aecf48abedbf6ed68b5277b5ed7484a6",
+      "alt": {
+        "en": "Archival image accompanying the Angels of Ukraine record for Ludlow, United Kingdom, source page 29.",
+        "uk": "Архівне зображення до запису «Янголи України» про місто Ладлоу, Велика Британія, сторінка 29 першоджерела."
+      },
+      "eventId": "ludlow-2023-01-21-p29",
+      "eventSlug": "ludlow-2023-01-21-p29",
+      "sourceXref": 339
+    },
+    {
+      "id": "p29-xref-340-occurrence-4",
+      "pdfPage": 29,
+      "occurrence": 4,
+      "assetId": "6e0318a359230d1090d6f444123b56e74494654e5166a1c435cb0336519fbeb9",
+      "alt": {
+        "en": "Archival image accompanying the Angels of Ukraine record for Ludlow, United Kingdom, source page 29.",
+        "uk": "Архівне зображення до запису «Янголи України» про місто Ладлоу, Велика Британія, сторінка 29 першоджерела."
+      },
+      "eventId": "ludlow-2023-01-21-p29",
+      "eventSlug": "ludlow-2023-01-21-p29",
+      "sourceXref": 340
+    },
+    {
+      "id": "p30-xref-344-occurrence-1",
+      "pdfPage": 30,
+      "occurrence": 1,
+      "assetId": "ece94ca9f825ce2eaaf4e45636ec7648820d93d7fb9053d4dd0b6368a706ed3c",
+      "alt": {
+        "en": "Archival image accompanying the Angels of Ukraine record for Limassol, Cyprus, source page 30.",
+        "uk": "Архівне зображення до запису «Янголи України» про місто Лімасол, Кіпр, сторінка 30 першоджерела."
+      },
+      "eventId": "limassol-2022-12-18-p30",
+      "eventSlug": "limassol-2022-12-18-p30",
+      "sourceXref": 344
+    },
+    {
+      "id": "p30-xref-346-occurrence-2",
+      "pdfPage": 30,
+      "occurrence": 2,
+      "assetId": "8ce30b02eea734e2509a02042c790f1f240c7332696808f1816828f2bf9a3696",
+      "alt": {
+        "en": "The Ukrainian trident emblem shown in the source document.",
+        "uk": "Тризуб — емблема України, зображена в першоджерелі."
+      },
+      "eventId": "limassol-2022-12-18-p30",
+      "eventSlug": "limassol-2022-12-18-p30",
+      "sourceXref": 346
+    },
+    {
+      "id": "p30-xref-349-occurrence-3",
+      "pdfPage": 30,
+      "occurrence": 3,
+      "assetId": "f1e49f5a40e40ed363d257d9e6eb0d71207a3aaa743d3567c9a35f5a37ab2f8c",
+      "alt": {
+        "en": "Archival image accompanying the Angels of Ukraine record for Limassol, Cyprus, source page 30.",
+        "uk": "Архівне зображення до запису «Янголи України» про місто Лімасол, Кіпр, сторінка 30 першоджерела."
+      },
+      "eventId": "limassol-2022-12-18-p30",
+      "eventSlug": "limassol-2022-12-18-p30",
+      "sourceXref": 349
+    },
+    {
+      "id": "p30-xref-350-occurrence-4",
+      "pdfPage": 30,
+      "occurrence": 4,
+      "assetId": "000f4d5ace5c642320a8472e4964f78431183e7601fa7d70a8fba443d977a22e",
+      "alt": {
+        "en": "Archival image accompanying the Angels of Ukraine record for Limassol, Cyprus, source page 30.",
+        "uk": "Архівне зображення до запису «Янголи України» про місто Лімасол, Кіпр, сторінка 30 першоджерела."
+      },
+      "eventId": "limassol-2022-12-18-p30",
+      "eventSlug": "limassol-2022-12-18-p30",
+      "sourceXref": 350
+    },
+    {
+      "id": "p30-xref-351-occurrence-5",
+      "pdfPage": 30,
+      "occurrence": 5,
+      "assetId": "789c8f11b32a8f9812e44e398558da1689ee5268fc7bb6f69eeebbf24807a575",
+      "alt": {
+        "en": "Archival image accompanying the Angels of Ukraine record for Limassol, Cyprus, source page 30.",
+        "uk": "Архівне зображення до запису «Янголи України» про місто Лімасол, Кіпр, сторінка 30 першоджерела."
+      },
+      "eventId": "limassol-2022-12-18-p30",
+      "eventSlug": "limassol-2022-12-18-p30",
+      "sourceXref": 351
+    },
+    {
+      "id": "p31-xref-356-occurrence-1",
+      "pdfPage": 31,
+      "occurrence": 1,
+      "assetId": "8ce30b02eea734e2509a02042c790f1f240c7332696808f1816828f2bf9a3696",
+      "alt": {
+        "en": "The Ukrainian trident emblem shown in the source document.",
+        "uk": "Тризуб — емблема України, зображена в першоджерелі."
+      },
+      "eventId": "larnaca-2022-12-07-p31",
+      "eventSlug": "larnaca-2022-12-07-p31",
+      "sourceXref": 356
+    },
+    {
+      "id": "p31-xref-359-occurrence-2",
+      "pdfPage": 31,
+      "occurrence": 2,
+      "assetId": "1cc2377d455c928884a425272e35a40020e8ee2b77991554fc5abd850a0d25b0",
+      "alt": {
+        "en": "Archival image accompanying the Angels of Ukraine record for Larnaca, Cyprus, source page 31.",
+        "uk": "Архівне зображення до запису «Янголи України» про місто Ларнака, Кіпр, сторінка 31 першоджерела."
+      },
+      "eventId": "larnaca-2022-12-07-p31",
+      "eventSlug": "larnaca-2022-12-07-p31",
+      "sourceXref": 359
+    },
+    {
+      "id": "p31-xref-360-occurrence-3",
+      "pdfPage": 31,
+      "occurrence": 3,
+      "assetId": "0e222fc4d000be162e237bee5720d174960612a241c18d758bfeb75be8a6422e",
+      "alt": {
+        "en": "Archival image accompanying the Angels of Ukraine record for Larnaca, Cyprus, source page 31.",
+        "uk": "Архівне зображення до запису «Янголи України» про місто Ларнака, Кіпр, сторінка 31 першоджерела."
+      },
+      "eventId": "larnaca-2022-12-07-p31",
+      "eventSlug": "larnaca-2022-12-07-p31",
+      "sourceXref": 360
+    },
+    {
+      "id": "p32-xref-364-occurrence-1",
+      "pdfPage": 32,
+      "occurrence": 1,
+      "assetId": "5a84a3b203635d0510320381a99d17dfa73dc0103ac31772682a5016fdab93d1",
+      "alt": {
+        "en": "Archival image accompanying the Angels of Ukraine record for Košice, Slovakia, source page 32.",
+        "uk": "Архівне зображення до запису «Янголи України» про місто Кошице, Словаччина, сторінка 32 першоджерела."
+      },
+      "eventId": "kosice-2022-09-25-p32",
+      "eventSlug": "kosice-2022-09-25-p32",
+      "sourceXref": 364
+    },
+    {
+      "id": "p32-xref-365-occurrence-2",
+      "pdfPage": 32,
+      "occurrence": 2,
+      "assetId": "b0127ddd8bbda221a07a690c68e301ca619ccc9f4d2450458979e360dd3077de",
+      "alt": {
+        "en": "Archival image accompanying the Angels of Ukraine record for Košice, Slovakia, source page 32.",
+        "uk": "Архівне зображення до запису «Янголи України» про місто Кошице, Словаччина, сторінка 32 першоджерела."
+      },
+      "eventId": "kosice-2022-09-25-p32",
+      "eventSlug": "kosice-2022-09-25-p32",
+      "sourceXref": 365
+    },
+    {
+      "id": "p32-xref-367-occurrence-3",
+      "pdfPage": 32,
+      "occurrence": 3,
+      "assetId": "8ce30b02eea734e2509a02042c790f1f240c7332696808f1816828f2bf9a3696",
+      "alt": {
+        "en": "The Ukrainian trident emblem shown in the source document.",
+        "uk": "Тризуб — емблема України, зображена в першоджерелі."
+      },
+      "eventId": "kosice-2022-09-25-p32",
+      "eventSlug": "kosice-2022-09-25-p32",
+      "sourceXref": 367
+    },
+    {
+      "id": "p33-xref-374-occurrence-1",
+      "pdfPage": 33,
+      "occurrence": 1,
+      "assetId": "5d6789211c56ca6a35bac6da96b88accf124f482c7921e569e30ef43c96b0f47",
+      "alt": {
+        "en": "Archival image accompanying the Angels of Ukraine record for Bratislava, Slovakia, source page 33.",
+        "uk": "Архівне зображення до запису «Янголи України» про місто Братислава, Словаччина, сторінка 33 першоджерела."
+      },
+      "eventId": "bratislava-2022-09-14-p33",
+      "eventSlug": "bratislava-2022-09-14-p33",
+      "sourceXref": 374
+    },
+    {
+      "id": "p33-xref-376-occurrence-2",
+      "pdfPage": 33,
+      "occurrence": 2,
+      "assetId": "8ce30b02eea734e2509a02042c790f1f240c7332696808f1816828f2bf9a3696",
+      "alt": {
+        "en": "The Ukrainian trident emblem shown in the source document.",
+        "uk": "Тризуб — емблема України, зображена в першоджерелі."
+      },
+      "eventId": "bratislava-2022-09-14-p33",
+      "eventSlug": "bratislava-2022-09-14-p33",
+      "sourceXref": 376
+    },
+    {
+      "id": "p34-xref-383-occurrence-1",
+      "pdfPage": 34,
+      "occurrence": 1,
+      "assetId": "8f68e0ec565454206f46197d207cfaa67ab76013af14b3decfc7c634b675ecbc",
+      "alt": {
+        "en": "Archival image accompanying the Angels of Ukraine record for Banská Bystrica, Slovakia, source page 34.",
+        "uk": "Архівне зображення до запису «Янголи України» про місто Банська Бистриця, Словаччина, сторінка 34 першоджерела."
+      },
+      "eventId": "banska-bystrica-2022-08-24-p34",
+      "eventSlug": "banska-bystrica-2022-08-24-p34",
+      "sourceXref": 383
+    },
+    {
+      "id": "p34-xref-385-occurrence-2",
+      "pdfPage": 34,
+      "occurrence": 2,
+      "assetId": "8ce30b02eea734e2509a02042c790f1f240c7332696808f1816828f2bf9a3696",
+      "alt": {
+        "en": "The Ukrainian trident emblem shown in the source document.",
+        "uk": "Тризуб — емблема України, зображена в першоджерелі."
+      },
+      "eventId": "banska-bystrica-2022-08-24-p34",
+      "eventSlug": "banska-bystrica-2022-08-24-p34",
+      "sourceXref": 385
+    },
+    {
+      "id": "p35-xref-391-occurrence-1",
+      "pdfPage": 35,
+      "occurrence": 1,
+      "assetId": "84d3c5b13f90850658b1f0ae60a7ff1043e5c82bba7b60f42a76ce4798ed330f",
+      "alt": {
+        "en": "Archival image accompanying the Angels of Ukraine record for Prešov, Slovakia, source page 35.",
+        "uk": "Архівне зображення до запису «Янголи України» про місто Пряшів, Словаччина, сторінка 35 першоджерела."
+      },
+      "eventId": "presov-2022-07-17-p35",
+      "eventSlug": "presov-2022-07-17-p35",
+      "sourceXref": 391
+    },
+    {
+      "id": "p35-xref-392-occurrence-2",
+      "pdfPage": 35,
+      "occurrence": 2,
+      "assetId": "b4057fd14cbb863f345cb3580d737048a6511d3dbdd3257b87621ddf7a213f48",
+      "alt": {
+        "en": "Archival image accompanying the Angels of Ukraine record for Prešov, Slovakia, source page 35.",
+        "uk": "Архівне зображення до запису «Янголи України» про місто Пряшів, Словаччина, сторінка 35 першоджерела."
+      },
+      "eventId": "presov-2022-07-17-p35",
+      "eventSlug": "presov-2022-07-17-p35",
+      "sourceXref": 392
+    },
+    {
+      "id": "p35-xref-394-occurrence-3",
+      "pdfPage": 35,
+      "occurrence": 3,
+      "assetId": "8ce30b02eea734e2509a02042c790f1f240c7332696808f1816828f2bf9a3696",
+      "alt": {
+        "en": "The Ukrainian trident emblem shown in the source document.",
+        "uk": "Тризуб — емблема України, зображена в першоджерелі."
+      },
+      "eventId": "presov-2022-07-17-p35",
+      "eventSlug": "presov-2022-07-17-p35",
+      "sourceXref": 394
+    },
+    {
+      "id": "p36-xref-401-occurrence-1",
+      "pdfPage": 36,
+      "occurrence": 1,
+      "assetId": "87e24a8da3ab10684bc6e10087c83f3a2ceb1bd73a04a880b07f2ec1facaa683",
+      "alt": {
+        "en": "Archival image accompanying the Angels of Ukraine record for Žilina, Slovakia, source page 36.",
+        "uk": "Архівне зображення до запису «Янголи України» про місто Жиліна, Словаччина, сторінка 36 першоджерела."
+      },
+      "eventId": "zilina-2022-07-12-p36",
+      "eventSlug": "zilina-2022-07-12-p36",
+      "sourceXref": 401
+    },
+    {
+      "id": "p36-xref-402-occurrence-2",
+      "pdfPage": 36,
+      "occurrence": 2,
+      "assetId": "2c16b8b855d046549f32c3df9a32e5761cdfd61913d406fdc9efee9a143a42ee",
+      "alt": {
+        "en": "Archival image accompanying the Angels of Ukraine record for Žilina, Slovakia, source page 36.",
+        "uk": "Архівне зображення до запису «Янголи України» про місто Жиліна, Словаччина, сторінка 36 першоджерела."
+      },
+      "eventId": "zilina-2022-07-12-p36",
+      "eventSlug": "zilina-2022-07-12-p36",
+      "sourceXref": 402
+    },
+    {
+      "id": "p36-xref-404-occurrence-3",
+      "pdfPage": 36,
+      "occurrence": 3,
+      "assetId": "8ce30b02eea734e2509a02042c790f1f240c7332696808f1816828f2bf9a3696",
+      "alt": {
+        "en": "The Ukrainian trident emblem shown in the source document.",
+        "uk": "Тризуб — емблема України, зображена в першоджерелі."
+      },
+      "eventId": "zilina-2022-07-12-p36",
+      "eventSlug": "zilina-2022-07-12-p36",
+      "sourceXref": 404
+    },
+    {
+      "id": "p37-xref-411-occurrence-1",
+      "pdfPage": 37,
+      "occurrence": 1,
+      "assetId": "549878cfa301b92e8a6188485ff130bd6a1a47503a3b1e771d6779df6614d2c6",
+      "alt": {
+        "en": "Archival image accompanying the Angels of Ukraine record for Košice, Slovakia, source page 37.",
+        "uk": "Архівне зображення до запису «Янголи України» про місто Кошице, Словаччина, сторінка 37 першоджерела."
+      },
+      "eventId": "kosice-2022-06-01-p37",
+      "eventSlug": "kosice-2022-06-01-p37",
+      "sourceXref": 411
+    },
+    {
+      "id": "p37-xref-413-occurrence-2",
+      "pdfPage": 37,
+      "occurrence": 2,
+      "assetId": "8ce30b02eea734e2509a02042c790f1f240c7332696808f1816828f2bf9a3696",
+      "alt": {
+        "en": "The Ukrainian trident emblem shown in the source document.",
+        "uk": "Тризуб — емблема України, зображена в першоджерелі."
+      },
+      "eventId": "kosice-2022-06-01-p37",
+      "eventSlug": "kosice-2022-06-01-p37",
+      "sourceXref": 413
+    },
+    {
+      "id": "p38-xref-425-occurrence-1",
+      "pdfPage": 38,
+      "occurrence": 1,
+      "assetId": "8ce30b02eea734e2509a02042c790f1f240c7332696808f1816828f2bf9a3696",
+      "alt": {
+        "en": "The Ukrainian trident emblem shown in the source document.",
+        "uk": "Тризуб — емблема України, зображена в першоджерелі."
+      },
+      "eventId": null,
+      "eventSlug": null,
+      "sourceXref": 425
+    },
+    {
+      "id": "p39-xref-434-occurrence-1",
+      "pdfPage": 39,
+      "occurrence": 1,
+      "assetId": "8ce30b02eea734e2509a02042c790f1f240c7332696808f1816828f2bf9a3696",
+      "alt": {
+        "en": "The Ukrainian trident emblem shown in the source document.",
+        "uk": "Тризуб — емблема України, зображена в першоджерелі."
+      },
+      "eventId": null,
+      "eventSlug": null,
+      "sourceXref": 434
+    },
+    {
+      "id": "p40-xref-444-occurrence-1",
+      "pdfPage": 40,
+      "occurrence": 1,
+      "assetId": "8ce30b02eea734e2509a02042c790f1f240c7332696808f1816828f2bf9a3696",
+      "alt": {
+        "en": "The Ukrainian trident emblem shown in the source document.",
+        "uk": "Тризуб — емблема України, зображена в першоджерелі."
+      },
+      "eventId": null,
+      "eventSlug": null,
+      "sourceXref": 444
+    },
+    {
+      "id": "p40-xref-1252-occurrence-2",
+      "pdfPage": 40,
+      "occurrence": 2,
+      "assetId": "efb4167514c4f3bcee5877155949f5f2e97b6bb6f848b172108620b0cb14067e",
+      "alt": {
+        "en": "Portrait of Nataliia Mitso, identified on source page 40.",
+        "uk": "Портрет Nataliia Mitso, зазначеної на сторінці 40 першоджерела."
+      },
+      "eventId": null,
+      "eventSlug": null,
+      "sourceXref": 1252
+    },
+    {
+      "id": "p40-xref-1255-occurrence-3",
+      "pdfPage": 40,
+      "occurrence": 3,
+      "assetId": "9b1591505f73611629743218d910b5deb002ad9f9d5481d3db1c340e38ec014a",
+      "alt": {
+        "en": "Portrait of Svitlana Peshterianu, identified on source page 40.",
+        "uk": "Портрет Svitlana Peshterianu, зазначеної на сторінці 40 першоджерела."
+      },
+      "eventId": null,
+      "eventSlug": null,
+      "sourceXref": 1255
+    },
+    {
+      "id": "p41-xref-458-occurrence-1",
+      "pdfPage": 41,
+      "occurrence": 1,
+      "assetId": "8ce30b02eea734e2509a02042c790f1f240c7332696808f1816828f2bf9a3696",
+      "alt": {
+        "en": "The Ukrainian trident emblem shown in the source document.",
+        "uk": "Тризуб — емблема України, зображена в першоджерелі."
+      },
+      "eventId": null,
+      "eventSlug": null,
+      "sourceXref": 458
+    },
+    {
+      "id": "p41-xref-459-occurrence-2",
+      "pdfPage": 41,
+      "occurrence": 2,
+      "assetId": "062f997adbbbac0fb02a942c49a250b4720a7ffc79cfe8ace3019d0d7dafafc3",
+      "alt": {
+        "en": "Archival image from page 41 of the Angels of Ukraine source PDF.",
+        "uk": "Архівне зображення зі сторінки 41 PDF «Янголи України»."
+      },
+      "eventId": null,
+      "eventSlug": null,
+      "sourceXref": 459
+    },
+    {
+      "id": "p41-xref-460-occurrence-3",
+      "pdfPage": 41,
+      "occurrence": 3,
+      "assetId": "2d482128a7fc6e6c9418d33d8dbb81ce624ac1bf9fc44b85a63f1e5b4bd2141b",
+      "alt": {
+        "en": "QR code printed on source page 41, beside the social media contact section.",
+        "uk": "QR-код зі сторінки 41 першоджерела поруч із розділом соціальних мереж."
+      },
+      "eventId": null,
+      "eventSlug": null,
+      "sourceXref": 460
+    }
+  ]
+}

@@ -5,12 +5,15 @@ import html.parser
 import json
 import re
 import sys
+import os
 from pathlib import Path
 from urllib.parse import unquote, urlsplit
 
 ROOT = Path(__file__).resolve().parents[1]
 OUT = Path(sys.argv[1]) if len(sys.argv) > 1 else ROOT / "out"
 events = json.loads((ROOT / "src/content/events.json").read_text(encoding="utf-8"))
+base_path = os.environ.get("NEXT_PUBLIC_BASE_PATH", "").rstrip("/")
+site_url = os.environ.get("NEXT_PUBLIC_SITE_URL", "https://uaTeg.com").rstrip("/")
 
 class Links(html.parser.HTMLParser):
     def __init__(self) -> None:
@@ -57,7 +60,7 @@ def main() -> int:
             sitemap_text = sitemap_path.read_text(encoding="utf-8", errors="replace")
             for locale in ("en", "uk"):
                 for event in events:
-                    expected = f"https://uaTeg.com/{locale}/events/{event['slug']}/"
+                    expected = f"{site_url}{base_path}/{locale}/events/{event['slug']}/"
                     if expected not in sitemap_text:
                         errors.append(f"sitemap is missing {expected}")
         for page in (path for path in all_files if path.suffix.lower() == ".html"):
@@ -67,7 +70,10 @@ def main() -> int:
                 parsed = urlsplit(value)
                 if parsed.scheme or parsed.netloc or not parsed.path.startswith("/"):
                     continue
-                route = unquote(parsed.path).lstrip("/")
+                logical_path = parsed.path
+                if base_path and logical_path.startswith(base_path + "/"):
+                    logical_path = logical_path[len(base_path):]
+                route = unquote(logical_path).lstrip("/")
                 if not route:
                     route = "index.html"
                 target = OUT / route
@@ -82,9 +88,14 @@ def main() -> int:
             if path.suffix.lower() not in {".html", ".js", ".css", ".json", ".txt", ".xml"}:
                 continue
             content = path.read_text(encoding="utf-8", errors="replace").lower()
-            for forbidden in ("/_next/image", "localhost:3000", "vercel.app", "/uateg/"):
+            forbidden_markers = ("localhost:3000", "vercel.app")
+            if path.suffix.lower() == ".html":
+                forbidden_markers += ("/_next/image",)
+            for forbidden in forbidden_markers:
                 if forbidden in content:
                     errors.append(f"unsupported runtime or base path marker {forbidden!r} in {path.relative_to(OUT)}")
+            if path.suffix.lower() == ".html" and base_path and "/images/archive/" in content and f"{base_path}/images/archive/" not in content:
+                errors.append(f"source image URL missing project base path in {path.relative_to(OUT)}")
 
     if errors:
         print(f"FAIL: static export validation found {len(errors)} issue(s)")

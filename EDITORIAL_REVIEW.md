@@ -4,7 +4,7 @@
 
 - **PDF:** 41 pages, dated 15 October 2025; SHA-256 `48e6f594751de93204491e78f451610231ddf798d29d4b7e71ed1db037d8dc7b`.
 - **Draft inventory:** 41 pages and 33 event records; source reconciliation confirms 33 events, 25 canonical cities and 8 countries.
-- **Public text:** concise bilingual descriptions are placeholders marked `needs_review`; they are not presented as approved translations of the source prose.
+- **Public text:** bilingual summaries are published with source transcriptions available on each event detail page; Ukrainian translations are project-owner-authorized working translations and still need fluent editorial proofreading.
 - **Historical counts:** the displayed event figure is labeled as a source-slide figure and never as current independently verified deaths.
 
 ## Items requiring human review
@@ -15,8 +15,8 @@
 4. Pages 5 and 34: original spelling `Banska Bystrytsia` is preserved alongside the canonical display name Banská Bystrica.
 5. Page 23: description contains “Dewbury” although the event is Newbury. The raw text remains private pending clarification.
 6. Pages 11, 14, 15, 17, 25 and 26: month-only dates remain month-only; confirm the desired display copy.
-7. Pages 40–41: individual names, portraits, personal contacts and the QR destination are excluded from public output pending explicit publication consent and review.
-8. The source has 126 embedded image occurrences, represented by 83 unique image assets. Original assets and private 1800px WebP review derivatives are archived locally; zero are published. Rights, participant consent, child safeguarding and suitable alt text must be checked asset by asset.
+7. Pages 40–41: names, portraits, contacts and QR are published under the project owner's explicit authorization. The QR destination and present-day contact validity have not been independently reconfirmed.
+8. All 126 source image placements are represented by 83 deduplicated WebP assets. The owner authorized publication. This is not an independent verification of copyright, participant consent, identifiable people, child safeguarding or QR destination; no such verification is claimed.
 9. All 33 Ukrainian event descriptions are preliminary translated placeholders and need a fluent Ukrainian editorial review. Site navigation is translated, but page copy also needs proofreading before launch.
 10. The source inventory does not identify venue coordinates. Approximate city-level points are now sourced from GeoNames records and linked per city; they are explicitly not presented as event venues. Review the coordinate list and keep the city index available if map tiles fail.
 
@@ -26,9 +26,10 @@ The supplied JSON inventory is a draft aid. PDF text was extracted independently
 
 ## Launch blockers
 
-- Approval for public use of source photographs, profiles and any event-specific organizer/partner attributions.
 - Editorial validation of the source anomalies above and all Ukrainian copy.
 - A selected external form provider, privacy/retention review, spam controls and approved endpoint; until then `FORM_NOT_CONFIGURED` remains.
-- A public contact channel approved by its owner; current personal contacts remain private.
+- Confirm whether the historical contacts and QR destination are still current; source-publication authorization does not establish current availability.
 - Confirm GeoNames attribution wording and the approximate city-level coordinate list during editorial review; do not interpret map markers as event venues.
-- A Git repository, repository owner/name, public-repository decision, GitHub Pages settings, domain verification and DNS review.
+- GitHub public-repository creation and GitHub Pages workflow settings remain to be completed after the local release passes validation.
+- Live visual/accessibility review remains pending. The requested `TatianaSF.com` Chrome profile is not currently connected; available profile label is `TatianaSFcom` and is not used.
+- No custom-domain verification or DNS review is part of the current `/uateg/` publication.

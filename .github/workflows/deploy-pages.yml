@@ -15,6 +15,7 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: read
+      pages: read
     steps:
       - name: Check out approved branch
         uses: actions/checkout@v4
@@ -36,6 +37,9 @@ jobs:
       - name: Audit dependencies
         run: npm audit --audit-level=moderate
       - name: Static export and public-data scan
+        env:
+          NEXT_PUBLIC_BASE_PATH: /uateg
+          NEXT_PUBLIC_SITE_URL: https://tatianasf.github.io
         run: npm run build
       - name: Report artifact size
         shell: bash
@@ -44,7 +48,7 @@ jobs:
           echo "Static export size: ${size} bytes"
           test "$size" -lt 1073741824
       - name: Upload Pages artifact
-        uses: actions/upload-pages-artifact@v3
+        uses: actions/upload-pages-artifact@v4
         with:
           path: out
 

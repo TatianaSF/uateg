@@ -28,24 +28,34 @@
       "uk": "«Янголи України» у місті Banská Bystrica"
     },
     "description": {
-      "en": "A memorial gathering documented in the Angels of Ukraine source archive. This short description is an unpublished editorial draft.",
-      "uk": "Меморіальну акцію задокументовано в архіві «Янголи України». Цей короткий опис є редакційною чернеткою."
+      "en": "The Angels were first invited to the city by Olga Arakelyan in 2022, organizing the Independence Day of Ukraine. There were 363 children killed in the war. The war continues.",
+      "uk": "У 2022 році Ольга Arakelyan уперше запросила Янголів до міста, організувавши захід до Дня Незалежності України. У війні загинуло 363 дитини. Війна триває."
     },
     "translationStatus": {
-      "en": "needs_review",
-      "uk": "needs_review"
+      "en": "source-transcription",
+      "uk": "owner-authorized-editorial-translation"
     },
     "editorialFlags": [
       "source_description_not_published",
       "translation_needs_review",
-      "image_rights_pending",
-      "coordinates_unverified"
+      "historical-source-discrepancies-preserved",
+      "historical-source-discrepancies-preserved"
     ],
     "rawArchiveRef": "archive-page:05",
     "coordinates": null,
     "coordinateSourceUrl": null,
-    "media": [],
-    "publicationStatus": "public_safe_metadata_only"
+    "media": [
+      "8ce30b02eea734e2509a02042c790f1f240c7332696808f1816828f2bf9a3696",
+      "2b2f867a075b91f6a784148b7b2d0c1fe14537564080099f22a5967e893789f0",
+      "d91e6a91fc39f96aa6e60f3282971896fdc44d67806ab9d3c68ae316ea80f120",
+      "b2dc6e2bc763a2ceb7e2246d9a03cb1629ffc6dde8e087aadf73e9e093959a61"
+    ],
+    "publicationStatus": "owner-authorized-public-release",
+    "sourceTranscription": "The Angels were first invited to the city by Olga\nArakelyan in 2022, organizing the Independence\nDay of Ukraine.\nThere were 363 children killed in the war.\nThe war continues. \n648 Angels-children\n24.08.2025\nBanska Bystrytsia\nSlovakia",
+    "historicalDescription": {
+      "en": "The Angels were first invited to the city by Olga Arakelyan in 2022, organizing the Independence Day of Ukraine. There were 363 children killed in the war. The war continues.",
+      "uk": "У 2022 році Ольга Arakelyan уперше запросила Янголів до міста, організувавши захід до Дня Незалежності України. У війні загинуло 363 дитини. Війна триває."
+    }
   },
   {
     "id": "warsaw-2025-02-23-p6",
@@ -76,24 +86,35 @@
       "uk": "«Янголи України» у місті Warsaw"
     },
     "description": {
-      "en": "A memorial gathering documented in the Angels of Ukraine source archive. This short description is an unpublished editorial draft.",
-      "uk": "Меморіальну акцію задокументовано в архіві «Янголи України». Цей короткий опис є редакційною чернеткою."
+      "en": "A charity event was held for the 3rd anniversary of the full-scale invasion of the Russian Federation. The event was organized by UA HUB and Plast Warsaw. The angels were taken care of by Olga Kasian.",
+      "uk": "Благодійний захід відбувся до третьої річниці повномасштабного вторгнення Російської Федерації. Захід організували UA HUB і Plast Warsaw. За Янголами доглядала Olga Kasian."
     },
     "translationStatus": {
-      "en": "needs_review",
-      "uk": "needs_review"
+      "en": "source-transcription",
+      "uk": "owner-authorized-editorial-translation"
     },
     "editorialFlags": [
       "source_description_not_published",
       "translation_needs_review",
-      "image_rights_pending",
-      "coordinates_unverified"
+      "historical-source-discrepancies-preserved",
+      "historical-source-discrepancies-preserved"
     ],
     "rawArchiveRef": "archive-page:06",
     "coordinates": null,
     "coordinateSourceUrl": null,
-    "media": [],
-    "publicationStatus": "public_safe_metadata_only"
+    "media": [
+      "8ce30b02eea734e2509a02042c790f1f240c7332696808f1816828f2bf9a3696",
+      "7dba5c43d302c78846198d3c2ccfe22e334054770e2e5d5761e021692b492ea0",
+      "7d85cbc0fdeb04bf3e91431d9ee341214dd73a2e7f6b2215e4a170c4e10e9cdf",
+      "09506622126eb882b496dc96448f003effacfbbe9c97c1643897a98dde281633",
+      "f1c34a30d04ae091df4df4052cec7537a2863a9f4d0a16bca0fd6a3dd9bcb94c"
+    ],
+    "publicationStatus": "owner-authorized-public-release",
+    "sourceTranscription": "A charity event was held for the 3rd anniversary\nof the full-scale invasion of the Russian\nFederation. \nThe event was organized by UA HUB and Plast\nWarsaw.\nThe angels were taken care of by Olga Kasian. \n599 Angels-children\n23.02.2025\nWarsaw\nPoland",
+    "historicalDescription": {
+      "en": "A charity event was held for the 3rd anniversary of the full-scale invasion of the Russian Federation. The event was organized by UA HUB and Plast Warsaw. The angels were taken care of by Olga Kasian.",
+      "uk": "Благодійний захід відбувся до третьої річниці повномасштабного вторгнення Російської Федерації. Захід організували UA HUB і Plast Warsaw. За Янголами доглядала Olga Kasian."
+    }
   },
   {
     "id": "presov-2024-12-06-p7",
@@ -124,24 +145,35 @@
       "uk": "«Янголи України» у місті Prešov"
     },
     "description": {
-      "en": "A memorial gathering documented in the Angels of Ukraine source archive. This short description is an unpublished editorial draft.",
-      "uk": "Меморіальну акцію задокументовано в архіві «Янголи України». Цей короткий опис є редакційною чернеткою."
+      "en": "The event was held a day before the St. Nickolas day, in memory of the “Angels of Ukraine”. Big thanks to the chairman of the Rusíni-Ukrajinci SR association, Mr. Pavlа Bohdana, and Vitalia Tuzhelyak for your assistance and help.",
+      "uk": "Захід відбувся за день до дня Святого Миколая, на вшанування пам’яті в межах «Янголів України». Велика подяка голові об’єднання Rusíni-Ukrajinci SR, Mr. Pavlа Bohdana, та Vitalia Tuzhelyak за сприяння й допомогу."
     },
     "translationStatus": {
-      "en": "needs_review",
-      "uk": "needs_review"
+      "en": "source-transcription",
+      "uk": "owner-authorized-editorial-translation"
     },
     "editorialFlags": [
       "source_description_not_published",
       "translation_needs_review",
-      "image_rights_pending",
-      "coordinates_unverified"
+      "historical-source-discrepancies-preserved",
+      "historical-source-discrepancies-preserved"
     ],
     "rawArchiveRef": "archive-page:07",
     "coordinates": null,
     "coordinateSourceUrl": null,
-    "media": [],
-    "publicationStatus": "public_safe_metadata_only"
+    "media": [
+      "8ce30b02eea734e2509a02042c790f1f240c7332696808f1816828f2bf9a3696",
+      "e1d96107a013b7bc14249230eba74a761993a5eec7df64f7e6977f1db3b32809",
+      "1421a570dd56d2805fc05a49f5905801917daa66beef5d92bea6d822d493ebdf",
+      "a8488655ec08381cafe6b48183818881f583fdd2250fc4f9b0fd98c79c06f651",
+      "83c3882495b049142bb54c6617c47b064ed5eba73967d5a55f22973f1cd3d7ea"
+    ],
+    "publicationStatus": "owner-authorized-public-release",
+    "sourceTranscription": "593 Angels-children\n6.12.2024\nPrešov\nSlovakia\nThe event was held a day before the St. Nickolas\nday, in memory of the “Angels of Ukraine”.\nBig thanks to the chairman of the Rusíni-Ukrajinci SR\nassociation, Mr. Pavlа Bohdana, and Vitalia\nTuzhelyak for your assistance and help.",
+    "historicalDescription": {
+      "en": "The event was held a day before the St. Nickolas day, in memory of the “Angels of Ukraine”. Big thanks to the chairman of the Rusíni-Ukrajinci SR association, Mr. Pavlа Bohdana, and Vitalia Tuzhelyak for your assistance and help.",
+      "uk": "Захід відбувся за день до дня Святого Миколая, на вшанування пам’яті в межах «Янголів України». Велика подяка голові об’єднання Rusíni-Ukrajinci SR, Mr. Pavlа Bohdana, та Vitalia Tuzhelyak за сприяння й допомогу."
+    }
   },
   {
     "id": "kosice-2024-11-19-p8",
@@ -172,24 +204,34 @@
       "uk": "«Янголи України» у місті Košice"
     },
     "description": {
-      "en": "A memorial gathering documented in the Angels of Ukraine source archive. This short description is an unpublished editorial draft.",
-      "uk": "Меморіальну акцію задокументовано в архіві «Янголи України». Цей короткий опис є редакційною чернеткою."
+      "en": "Olga Kasian · 1000 Days of Unbreaking.",
+      "uk": "Olga Kasian\n«1000 днів незламності»."
     },
     "translationStatus": {
-      "en": "needs_review",
-      "uk": "needs_review"
+      "en": "source-transcription",
+      "uk": "owner-authorized-editorial-translation"
     },
     "editorialFlags": [
       "source_description_not_published",
       "translation_needs_review",
-      "image_rights_pending",
-      "coordinates_unverified"
+      "historical-source-discrepancies-preserved",
+      "historical-source-discrepancies-preserved"
     ],
     "rawArchiveRef": "archive-page:08",
     "coordinates": null,
     "coordinateSourceUrl": null,
-    "media": [],
-    "publicationStatus": "public_safe_metadata_only"
+    "media": [
+      "8ce30b02eea734e2509a02042c790f1f240c7332696808f1816828f2bf9a3696",
+      "9e11c6a23da454b4ff7e611b271093bf7f524b114e5a977ae44bf14a4efaed29",
+      "55915b4fae2a43b754fbccd0f5e5a0754c8b7aff7a8dc2da66342bcfda8ea44a",
+      "2f379a814c7e734b56f20f6b2900d66d958bdaa99778a7ae5358095b9cc2a2a5"
+    ],
+    "publicationStatus": "owner-authorized-public-release",
+    "sourceTranscription": "Olga Kasian \n591 Angels-children\n19.11.2024\nKošice\nSlovakia\n1000 Days of Unbreaking",
+    "historicalDescription": {
+      "en": "Olga Kasian · 1000 Days of Unbreaking.",
+      "uk": "Olga Kasian\n«1000 днів незламності»."
+    }
   },
   {
     "id": "kosice-2024-09-22-p9",
@@ -220,24 +262,34 @@
       "uk": "«Янголи України» у місті Košice"
     },
     "description": {
-      "en": "A memorial gathering documented in the Angels of Ukraine source archive. This short description is an unpublished editorial draft.",
-      "uk": "Меморіальну акцію задокументовано в архіві «Янголи України». Цей короткий опис є редакційною чернеткою."
+      "en": "Little angels, barefoot and bewildered, walk in the sky. They rise, as if climbing steps, through the clouds toward God. The event took place during the annual event in Košice “DAYS OF UKRAINE 2024” — Veteran’s Mile. Sofia Yehorova recited the poem “Little Angel” by Hleb Babich. ",
+      "uk": "Над небом босоніж ідуть маленькі розгублені янголята. Підіймаються, наче сходинками, крізь хмари вгору до Бога. Захід відбувся під час щорічного заходу в Кошицях «DAYS OF UKRAINE 2024» — Veteran’s Mile. Sofia Yehorova прочитала вірш «Little Angel» Hleb Babich. Plast-Stanytsia Kos"
     },
     "translationStatus": {
-      "en": "needs_review",
-      "uk": "needs_review"
+      "en": "source-transcription",
+      "uk": "owner-authorized-editorial-translation"
     },
     "editorialFlags": [
       "source_description_not_published",
       "translation_needs_review",
-      "image_rights_pending",
-      "coordinates_unverified"
+      "historical-source-discrepancies-preserved",
+      "historical-source-discrepancies-preserved"
     ],
     "rawArchiveRef": "archive-page:09",
     "coordinates": null,
     "coordinateSourceUrl": null,
-    "media": [],
-    "publicationStatus": "public_safe_metadata_only"
+    "media": [
+      "8ce30b02eea734e2509a02042c790f1f240c7332696808f1816828f2bf9a3696",
+      "3cd36219cf659c55fe949902178068f17005cf49674d77e05542924ece84fa18",
+      "f53a287337277d83eaa687a251968590df525f3cf816fa5d0889139b302256bd",
+      "f5aea96f853601d9e8c629506920ff4c53049265e40b67fc2eb6b26b12ff1751"
+    ],
+    "publicationStatus": "owner-authorized-public-release",
+    "sourceTranscription": "593 Angels-children\n22.09.2024\nKošice\nSlovakia\nЙдуть по небу\nбосоніж маленькі\nрозгублені\nянголятка,\nПіднімаються,\nначе по\nсходинках,\nхмарами вгору до\nБога.\nThe event took place during the annual event in\nKošice \"DAYS OF UKRAINE 2024\" - Veteran's Mile. \nSofia Yehorova recited the poem \"Little Angel\" by\nHleb Babich. \nPlast-Stanytsia Kosice actively participated.",
+    "historicalDescription": {
+      "en": "Little angels, barefoot and bewildered, walk in the sky. They rise, as if climbing steps, through the clouds toward God. The event took place during the annual event in Košice “DAYS OF UKRAINE 2024” — Veteran’s Mile. Sofia Yehorova recited the poem “Little Angel” by Hleb Babich. Plast-Stanytsia Kosice actively participated.",
+      "uk": "Над небом босоніж ідуть маленькі розгублені янголята. Підіймаються, наче сходинками, крізь хмари вгору до Бога. Захід відбувся під час щорічного заходу в Кошицях «DAYS OF UKRAINE 2024» — Veteran’s Mile. Sofia Yehorova прочитала вірш «Little Angel» Hleb Babich. Plast-Stanytsia Kosice брала активну участь."
+    }
   },
   {
     "id": "toronto-2024-08-24-p10",
@@ -268,24 +320,34 @@
       "uk": "«Янголи України» у місті Toronto"
     },
     "description": {
-      "en": "A memorial gathering documented in the Angels of Ukraine source archive. This short description is an unpublished editorial draft.",
-      "uk": "Меморіальну акцію задокументовано в архіві «Янголи України». Цей короткий опис є редакційною чернеткою."
+      "en": "Organized by the Ukrainian-Canadian School Council of Toronto and the Congress of Ukrainians of Canada, a touching “Angels of Ukraine” event was held in Central Park in Toronto. The official commemoration took place at the opening of Independence Day, bringing together students, ",
+      "uk": "Зворушливий захід «Янголи України», організований Українською шкільною радою Торонто та Конґресом українців Канади, відбувся в Центральному парку Торонто. Офіційне вшанування відбулося під час відкриття Дня Незалежності та об’єднало учнів, батьків і небайдужих мешканців Торонто, "
     },
     "translationStatus": {
-      "en": "needs_review",
-      "uk": "needs_review"
+      "en": "source-transcription",
+      "uk": "owner-authorized-editorial-translation"
     },
     "editorialFlags": [
       "source_description_not_published",
       "translation_needs_review",
-      "image_rights_pending",
-      "coordinates_unverified"
+      "historical-source-discrepancies-preserved",
+      "historical-source-discrepancies-preserved"
     ],
     "rawArchiveRef": "archive-page:10",
     "coordinates": null,
     "coordinateSourceUrl": null,
-    "media": [],
-    "publicationStatus": "public_safe_metadata_only"
+    "media": [
+      "8ce30b02eea734e2509a02042c790f1f240c7332696808f1816828f2bf9a3696",
+      "9890981de06c3b9c941c21ecfdeaca48e8f6fac42c2fdfc09be8a83b6c4d3feb",
+      "1cb446a558ae5ba7c4aa94fcc452d8de21decf6b890653bf997359c7d5fcfcb9",
+      "9f938cded22660a2d4b613fb05b6c95843ef602cfda4b1b25b1c912181e8491f"
+    ],
+    "publicationStatus": "owner-authorized-public-release",
+    "sourceTranscription": "564 Angels-children\n24.08.2024\nToronto\nCanada\nOrganized by the Ukrainian-Canadian School\nCouncil of Toronto and the Congress of Ukrainians\nof Canada, a touching event “Angels of Ukraine”\nwas held in Central Park in Toronto.\nThe official commemoration took place at the\nopening of Independence Day, bringing together\nstudents, parents and caring citizens of Toronto to\nhonor the memory of the innocent victims of war. \nThe Angels' visit to Canada was made possible\nthanks to Tatyana Sunak.",
+    "historicalDescription": {
+      "en": "Organized by the Ukrainian-Canadian School Council of Toronto and the Congress of Ukrainians of Canada, a touching “Angels of Ukraine” event was held in Central Park in Toronto. The official commemoration took place at the opening of Independence Day, bringing together students, parents and caring citizens of Toronto to honor the memory of the innocent victims of war. The Angels' visit to Canada was made possible thanks to Tatyana Sunak.",
+      "uk": "Зворушливий захід «Янголи України», організований Українською шкільною радою Торонто та Конґресом українців Канади, відбувся в Центральному парку Торонто. Офіційне вшанування відбулося під час відкриття Дня Незалежності та об’єднало учнів, батьків і небайдужих мешканців Торонто, щоб ушанувати пам’ять невинних жертв війни. Візит Янголів до Канади став можливим завдяки Tatyana Sunak."
+    }
   },
   {
     "id": "montreal-2024-07-p11",
@@ -316,24 +378,32 @@
       "uk": "«Янголи України» у місті Montréal"
     },
     "description": {
-      "en": "A memorial gathering documented in the Angels of Ukraine source archive. This short description is an unpublished editorial draft.",
-      "uk": "Меморіальну акцію задокументовано в архіві «Янголи України». Цей короткий опис є редакційною чернеткою."
+      "en": "The Ukrainian People's Fund Desjardins in Montreal (Caise populaire Desjardins ukrainienne de Montréal) joined the memory marathon and exhibited the Engels for 2 weeks. It was a great opportunity to remind locals about the long war and its horrors in Ukraine. Events in Montreal a",
+      "uk": "Ukrainian People's Fund Desjardins у Монреалі (Caise populaire Desjardins ukrainienne de Montréal) долучився до марафону пам’яті й виставляв Янголів протягом двох тижнів. Це була чудова нагода нагадати місцевим мешканцям про тривалу війну та її жахіття в Україні. За проведення за"
     },
     "translationStatus": {
-      "en": "needs_review",
-      "uk": "needs_review"
+      "en": "source-transcription",
+      "uk": "owner-authorized-editorial-translation"
     },
     "editorialFlags": [
       "source_description_not_published",
       "translation_needs_review",
-      "image_rights_pending",
-      "coordinates_unverified"
+      "historical-source-discrepancies-preserved",
+      "historical-source-discrepancies-preserved"
     ],
     "rawArchiveRef": "archive-page:11",
     "coordinates": null,
     "coordinateSourceUrl": null,
-    "media": [],
-    "publicationStatus": "public_safe_metadata_only"
+    "media": [
+      "8ce30b02eea734e2509a02042c790f1f240c7332696808f1816828f2bf9a3696",
+      "688263d7b896d49fa57667c0c799cf36ece042046e9f3f18d2ec9e6cf46694a6"
+    ],
+    "publicationStatus": "owner-authorized-public-release",
+    "sourceTranscription": "562 Angels-children\n07.2024\nMontreal\nCanada\nThe Ukrainian People's Fund Desjardins in\nMontreal (Caise populaire Desjardins\nukrainienne de Montréal) joined the memory\nmarathon and exhibited the Engels for 2 weeks. \nIt was a great opportunity to remind locals\nabout the long war and its horrors in Ukraine.\nEvents in Montreal and Quebec were held\nthanks to Nataliya Khrushch.",
+    "historicalDescription": {
+      "en": "The Ukrainian People's Fund Desjardins in Montreal (Caise populaire Desjardins ukrainienne de Montréal) joined the memory marathon and exhibited the Engels for 2 weeks. It was a great opportunity to remind locals about the long war and its horrors in Ukraine. Events in Montreal and Quebec were held thanks to Nataliya Khrushch.",
+      "uk": "Ukrainian People's Fund Desjardins у Монреалі (Caise populaire Desjardins ukrainienne de Montréal) долучився до марафону пам’яті й виставляв Янголів протягом двох тижнів. Це була чудова нагода нагадати місцевим мешканцям про тривалу війну та її жахіття в Україні. За проведення заходів у Монреалі та Квебеку дякуємо Nataliya Khrushch."
+    }
   },
   {
     "id": "quebec-city-2024-07-17-p12",
@@ -364,24 +434,32 @@
       "uk": "«Янголи України» у місті Québec City"
     },
     "description": {
-      "en": "A memorial gathering documented in the Angels of Ukraine source archive. This short description is an unpublished editorial draft.",
-      "uk": "Меморіальну акцію задокументовано в архіві «Янголи України». Цей короткий опис є редакційною чернеткою."
+      "en": "The event took place before the charity concert of the Barvinok dance ensemble.",
+      "uk": "Захід відбувся перед благодійним концертом танцювального ансамблю Barvinok."
     },
     "translationStatus": {
-      "en": "needs_review",
-      "uk": "needs_review"
+      "en": "source-transcription",
+      "uk": "owner-authorized-editorial-translation"
     },
     "editorialFlags": [
       "source_description_not_published",
       "translation_needs_review",
-      "image_rights_pending",
-      "coordinates_unverified"
+      "historical-source-discrepancies-preserved",
+      "historical-source-discrepancies-preserved"
     ],
     "rawArchiveRef": "archive-page:12",
     "coordinates": null,
     "coordinateSourceUrl": null,
-    "media": [],
-    "publicationStatus": "public_safe_metadata_only"
+    "media": [
+      "8ce30b02eea734e2509a02042c790f1f240c7332696808f1816828f2bf9a3696",
+      "31c33622bb6e7558f59153c30ca2873ee087c7895f3439f6996aa28e4345ddef"
+    ],
+    "publicationStatus": "owner-authorized-public-release",
+    "sourceTranscription": "562 Angels-children\n17.07.2024\nQuebec\nCanada\nThe event took place before the charity\nconcert of the Barvinok dance ensemble.",
+    "historicalDescription": {
+      "en": "The event took place before the charity concert of the Barvinok dance ensemble.",
+      "uk": "Захід відбувся перед благодійним концертом танцювального ансамблю Barvinok."
+    }
   },
   {
     "id": "montreal-2024-07-12-p13",
@@ -412,24 +490,36 @@
       "uk": "«Янголи України» у місті Montréal"
     },
     "description": {
-      "en": "A memorial gathering documented in the Angels of Ukraine source archive. This short description is an unpublished editorial draft.",
-      "uk": "Меморіальну акцію задокументовано в архіві «Янголи України». Цей короткий опис є редакційною чернеткою."
+      "en": "In the center of Montreal, Quebec province, on Phillips Square, the Ukrainian community came out for a protest/condemnation against Russia's attack on the “Okhmadit” children's hospital in Kyiv on July 8, 2025.",
+      "uk": "У центрі Монреаля, у провінції Квебек, на площі Phillips українська громада вийшла на протест і засудила напад Росії на дитячу лікарню «Okhmadit» у Києві 8 липня 2025 року."
     },
     "translationStatus": {
-      "en": "needs_review",
-      "uk": "needs_review"
+      "en": "source-transcription",
+      "uk": "owner-authorized-editorial-translation"
     },
     "editorialFlags": [
       "source_description_not_published",
       "translation_needs_review",
-      "image_rights_pending",
-      "coordinates_unverified"
+      "historical-source-discrepancies-preserved",
+      "historical-source-discrepancies-preserved"
     ],
     "rawArchiveRef": "archive-page:13",
     "coordinates": null,
     "coordinateSourceUrl": null,
-    "media": [],
-    "publicationStatus": "public_safe_metadata_only"
+    "media": [
+      "8ce30b02eea734e2509a02042c790f1f240c7332696808f1816828f2bf9a3696",
+      "8bb79206bb6c98c5f94929b6625ac74787b6b060ded27a7a0b8e51d9c4241b06"
+    ],
+    "publicationStatus": "owner-authorized-public-release",
+    "sourceTranscription": "561 Angels-children\n12.07.2024\nMontreal\nCanada\nIn the center of Montreal, Quebec province, on\nPhillips Square, the Ukrainian community came\nout for a protest/condemnation against Russia's\nattack on the \"Okhmadit\" children's hospital in\nKyiv on July 8, 2025.",
+    "historicalDescription": {
+      "en": "In the center of Montreal, Quebec province, on Phillips Square, the Ukrainian community came out for a protest/condemnation against Russia's attack on the “Okhmadit” children's hospital in Kyiv on July 8, 2025.",
+      "uk": "У центрі Монреаля, у провінції Квебек, на площі Phillips українська громада вийшла на протест і засудила напад Росії на дитячу лікарню «Okhmadit» у Києві 8 липня 2025 року."
+    },
+    "sourceDiscrepancy": {
+      "en": "The source prints the event date as 12 July 2024, while its description refers to the 8 July 2025 attack on the Okhmadit children’s hospital. Both source statements are preserved without choosing which date is correct.",
+      "uk": "У джерелі надруковано дату події 12 липня 2024 року, тоді як опис згадує напад на дитячу лікарню «Охматдит» 8 липня 2025 року. Обидва твердження джерела збережено без припущень, яка дата правильна."
+    }
   },
   {
     "id": "edmonton-2024-04-p14",
@@ -460,24 +550,34 @@
       "uk": "«Янголи України» у місті Edmonton"
     },
     "description": {
-      "en": "A memorial gathering documented in the Angels of Ukraine source archive. This short description is an unpublished editorial draft.",
-      "uk": "Меморіальну акцію задокументовано в архіві «Янголи України». Цей короткий опис є редакційною чернеткою."
+      "en": "Pupils of the Ivan Franko Ukrainian Studies Courses of the Ukrainian school honored the young Ukrainian children who died because of Russian aggression. This campaign was organized by Liliya Sukhy.",
+      "uk": "Учні курсів українознавства Ivan Franko при українській школі вшанували пам’ять юних українських дітей, які загинули внаслідок російської агресії. Акцію організувала Liliya Sukhy."
     },
     "translationStatus": {
-      "en": "needs_review",
-      "uk": "needs_review"
+      "en": "source-transcription",
+      "uk": "owner-authorized-editorial-translation"
     },
     "editorialFlags": [
       "source_description_not_published",
       "translation_needs_review",
-      "image_rights_pending",
-      "coordinates_unverified"
+      "historical-source-discrepancies-preserved",
+      "historical-source-discrepancies-preserved"
     ],
     "rawArchiveRef": "archive-page:14",
     "coordinates": null,
     "coordinateSourceUrl": null,
-    "media": [],
-    "publicationStatus": "public_safe_metadata_only"
+    "media": [
+      "8ce30b02eea734e2509a02042c790f1f240c7332696808f1816828f2bf9a3696",
+      "d74c260e88ff744e0e49621d89817b6041032e3bb3cd27893c753abae240d78f",
+      "57097e49c7f7ea8caa863abe7e74de49844bea1486a158163cf86e9c0acc0e2f",
+      "f8d56cba9579977d14aa22c64844fc892fd1781311455f8aa526f8032c71301b"
+    ],
+    "publicationStatus": "owner-authorized-public-release",
+    "sourceTranscription": "545 Angels-children\n04.2024\nEdmonton\nCanada\nPupils of the Ivan Franko Ukrainian Studies\nCourses of the Ukrainian school honored the\nyoung Ukrainian children who died because of\nRussian aggression. \nThis campaign was organized by Liliya Sukhy.",
+    "historicalDescription": {
+      "en": "Pupils of the Ivan Franko Ukrainian Studies Courses of the Ukrainian school honored the young Ukrainian children who died because of Russian aggression. This campaign was organized by Liliya Sukhy.",
+      "uk": "Учні курсів українознавства Ivan Franko при українській школі вшанували пам’ять юних українських дітей, які загинули внаслідок російської агресії. Акцію організувала Liliya Sukhy."
+    }
   },
   {
     "id": "winnipeg-2024-04-p15",
@@ -508,24 +608,32 @@
       "uk": "«Янголи України» у місті Winnipeg"
     },
     "description": {
-      "en": "A memorial gathering documented in the Angels of Ukraine source archive. This short description is an unpublished editorial draft.",
-      "uk": "Меморіальну акцію задокументовано в архіві «Янголи України». Цей короткий опис є редакційною чернеткою."
+      "en": "Winnipeg became the first Canadian city where the “Angels of Ukraine” event took place. It received support from the Congress of Ukrainians in Canada and the Provincial Council of Manitoba. Angels were invited to Canada by Tatiana Sunak, the Head of the National Ukrainian Educati",
+      "uk": "Вінніпег став першим містом Канади, де відбувся захід «Янголи України». Його підтримали Конґрес українців Канади та Провінційна рада Манітоби. До Канади Янголів запросила Tatiana Sunak, голова Національної української освітньої ради КУК. Організаторки: Nataliya Sovinska та Susan "
     },
     "translationStatus": {
-      "en": "needs_review",
-      "uk": "needs_review"
+      "en": "source-transcription",
+      "uk": "owner-authorized-editorial-translation"
     },
     "editorialFlags": [
       "source_description_not_published",
       "translation_needs_review",
-      "image_rights_pending",
-      "coordinates_unverified"
+      "historical-source-discrepancies-preserved",
+      "historical-source-discrepancies-preserved"
     ],
     "rawArchiveRef": "archive-page:15",
     "coordinates": null,
     "coordinateSourceUrl": null,
-    "media": [],
-    "publicationStatus": "public_safe_metadata_only"
+    "media": [
+      "8ce30b02eea734e2509a02042c790f1f240c7332696808f1816828f2bf9a3696",
+      "c6ca1fd18b5cea99f3ef7aaf65fb84e19c9babcb535993abc86f0f617ca5a74e"
+    ],
+    "publicationStatus": "owner-authorized-public-release",
+    "sourceTranscription": "545 Angels-children\n04.2024\nWinnipeg\nCanada\nWinnipeg became the first Canadian city where\nthe \"Angels of Ukraine\" event took place. It\nreceived \nsupport \nfrom \nthe \nCongress \nof\nUkrainians in Canada and the Provincial Council\nof Manitoba.\nAngels were invited to Canada by Tatiana\nSunak, the Head of the National Ukrainian\nEducational Council of the KUK. \nOrganizers: Nataliya Sovinska and Susan Zuk",
+    "historicalDescription": {
+      "en": "Winnipeg became the first Canadian city where the “Angels of Ukraine” event took place. It received support from the Congress of Ukrainians in Canada and the Provincial Council of Manitoba. Angels were invited to Canada by Tatiana Sunak, the Head of the National Ukrainian Educational Council of the KUK. Organizers: Nataliya Sovinska and Susan Zuk.",
+      "uk": "Вінніпег став першим містом Канади, де відбувся захід «Янголи України». Його підтримали Конґрес українців Канади та Провінційна рада Манітоби. До Канади Янголів запросила Tatiana Sunak, голова Національної української освітньої ради КУК. Організаторки: Nataliya Sovinska та Susan Zuk."
+    }
   },
   {
     "id": "bratislava-2024-02-24-p16",
@@ -556,24 +664,33 @@
       "uk": "«Янголи України» у місті Bratislava"
     },
     "description": {
-      "en": "A memorial gathering documented in the Angels of Ukraine source archive. This short description is an unpublished editorial draft.",
-      "uk": "Меморіальну акцію задокументовано в архіві «Янголи України». Цей короткий опис є редакційною чернеткою."
+      "en": "As part of the events dedicated to the second anniversary of the beginning of large-scale Russian aggression, conducted by Mier Ukraine together with other organizations. Our Angels were directly “looked after” by SME SPOLU.",
+      "uk": "Захід відбувся в межах подій до другої річниці початку повномасштабної російської агресії, організованих Mier Ukraine спільно з іншими організаціями. Безпосередньо за нашими Янголами доглядали SME SPOLU."
     },
     "translationStatus": {
-      "en": "needs_review",
-      "uk": "needs_review"
+      "en": "source-transcription",
+      "uk": "owner-authorized-editorial-translation"
     },
     "editorialFlags": [
       "source_description_not_published",
       "translation_needs_review",
-      "image_rights_pending",
-      "coordinates_unverified"
+      "historical-source-discrepancies-preserved",
+      "historical-source-discrepancies-preserved"
     ],
     "rawArchiveRef": "archive-page:16",
     "coordinates": null,
     "coordinateSourceUrl": null,
-    "media": [],
-    "publicationStatus": "public_safe_metadata_only"
+    "media": [
+      "8ce30b02eea734e2509a02042c790f1f240c7332696808f1816828f2bf9a3696",
+      "f0ed8a9bc6f76ea72e9d734eb709105ef0690e61d7622e5d8d182d83d6eb767f",
+      "a27a009a9b6d35ba590b3d35a42b6942a5f2ae1bc51004adf67294730c54eecb"
+    ],
+    "publicationStatus": "owner-authorized-public-release",
+    "sourceTranscription": "528 Angels-children\n24.02.2024\nBratislava\nSlovakia\nAs part of the events\ndedicated to the\nsecond anniversary of\nthe beginning of large-\nscale Russian aggression\nwhich were conducted\nby Mier Ukraine together\nwith other organizations. \nOur Angels were directly\n\"looked after\" by SME\nSPOLU.",
+    "historicalDescription": {
+      "en": "As part of the events dedicated to the second anniversary of the beginning of large-scale Russian aggression, conducted by Mier Ukraine together with other organizations. Our Angels were directly “looked after” by SME SPOLU.",
+      "uk": "Захід відбувся в межах подій до другої річниці початку повномасштабної російської агресії, організованих Mier Ukraine спільно з іншими організаціями. Безпосередньо за нашими Янголами доглядали SME SPOLU."
+    }
   },
   {
     "id": "kezmarok-2023-12-p17",
@@ -604,24 +721,35 @@
       "uk": "«Янголи України» у місті Kežmarok"
     },
     "description": {
-      "en": "A memorial gathering documented in the Angels of Ukraine source archive. This short description is an unpublished editorial draft.",
-      "uk": "Меморіальну акцію задокументовано в архіві «Янголи України». Цей короткий опис є редакційною чернеткою."
+      "en": "The Ukrainian-Slovakian Hub involved this gorgeous, tourist city in the memory marathon.",
+      "uk": "Українсько-словацький хаб долучив це чудове туристичне місто до марафону пам’яті."
     },
     "translationStatus": {
-      "en": "needs_review",
-      "uk": "needs_review"
+      "en": "source-transcription",
+      "uk": "owner-authorized-editorial-translation"
     },
     "editorialFlags": [
       "source_description_not_published",
       "translation_needs_review",
-      "image_rights_pending",
-      "coordinates_unverified"
+      "historical-source-discrepancies-preserved",
+      "historical-source-discrepancies-preserved"
     ],
     "rawArchiveRef": "archive-page:17",
     "coordinates": null,
     "coordinateSourceUrl": null,
-    "media": [],
-    "publicationStatus": "public_safe_metadata_only"
+    "media": [
+      "8ce30b02eea734e2509a02042c790f1f240c7332696808f1816828f2bf9a3696",
+      "d84ac81787f8843ff8260c688beb17c9c20fd7c3515c65e672167347dfbaad2e",
+      "1f01ebf82226870c1a92c7f929c1a3a14f48cb258f4d03c98036a34a8eedcc80",
+      "fc4864dba9d6977916befe8336af18dbb595b62a06ad4844c491d8653af4e565",
+      "c90ce308f166732813547e364c48ff3c9175c58cb778bd921fb8837b16d4aeac"
+    ],
+    "publicationStatus": "owner-authorized-public-release",
+    "sourceTranscription": "512 Angels-children\n12.2023\nKežmarok\nSlovakia\nThe Ukrainian-Slovakian Hub involved this\ngorgeous, tourist city in the memory marathon.",
+    "historicalDescription": {
+      "en": "The Ukrainian-Slovakian Hub involved this gorgeous, tourist city in the memory marathon.",
+      "uk": "Українсько-словацький хаб долучив це чудове туристичне місто до марафону пам’яті."
+    }
   },
   {
     "id": "sliema-2023-11-04-p18",
@@ -652,24 +780,33 @@
       "uk": "«Янголи України» у місті Sliema"
     },
     "description": {
-      "en": "A memorial gathering documented in the Angels of Ukraine source archive. This short description is an unpublished editorial draft.",
-      "uk": "Меморіальну акцію задокументовано в архіві «Янголи України». Цей короткий опис є редакційною чернеткою."
+      "en": "The initiator — Olena Chaplytska — made the 20-meter flag.",
+      "uk": "Ініціаторка Olena Chaplytska виготовила 20-метровий прапор."
     },
     "translationStatus": {
-      "en": "needs_review",
-      "uk": "needs_review"
+      "en": "source-transcription",
+      "uk": "owner-authorized-editorial-translation"
     },
     "editorialFlags": [
       "source_description_not_published",
       "translation_needs_review",
-      "image_rights_pending",
-      "coordinates_unverified"
+      "historical-source-discrepancies-preserved",
+      "historical-source-discrepancies-preserved"
     ],
     "rawArchiveRef": "archive-page:18",
     "coordinates": null,
     "coordinateSourceUrl": null,
-    "media": [],
-    "publicationStatus": "public_safe_metadata_only"
+    "media": [
+      "8ce30b02eea734e2509a02042c790f1f240c7332696808f1816828f2bf9a3696",
+      "d84ac81787f8843ff8260c688beb17c9c20fd7c3515c65e672167347dfbaad2e",
+      "84cb437b044a7fe458a1887beb1831bdcb12a7e1303b3d631702e701ca5ecbea"
+    ],
+    "publicationStatus": "owner-authorized-public-release",
+    "sourceTranscription": "510 Angels-children\n4.11.2023\nSliema\nMalta\nThe initiator - Olena Chaplytska, made the 20-\nmeter flag.",
+    "historicalDescription": {
+      "en": "The initiator — Olena Chaplytska — made the 20-meter flag.",
+      "uk": "Ініціаторка Olena Chaplytska виготовила 20-метровий прапор."
+    }
   },
   {
     "id": "valletta-2023-10-28-p19",
@@ -700,24 +837,32 @@
       "uk": "«Янголи України» у місті Valletta"
     },
     "description": {
-      "en": "A memorial gathering documented in the Angels of Ukraine source archive. This short description is an unpublished editorial draft.",
-      "uk": "Меморіальну акцію задокументовано в архіві «Янголи України». Цей короткий опис є редакційною чернеткою."
+      "en": "The event was held at the same time as the summit on the Ukrainian “peace formula” in Malta, with the participation of 66 countries. The initiator is Olena Chaplytska.",
+      "uk": "Захід відбувся одночасно із самітом щодо української «формули миру» на Мальті за участю 66 країн. Ініціаторка — Olena Chaplytska."
     },
     "translationStatus": {
-      "en": "needs_review",
-      "uk": "needs_review"
+      "en": "source-transcription",
+      "uk": "owner-authorized-editorial-translation"
     },
     "editorialFlags": [
       "source_description_not_published",
       "translation_needs_review",
-      "image_rights_pending",
-      "coordinates_unverified"
+      "historical-source-discrepancies-preserved",
+      "historical-source-discrepancies-preserved"
     ],
     "rawArchiveRef": "archive-page:19",
     "coordinates": null,
     "coordinateSourceUrl": null,
-    "media": [],
-    "publicationStatus": "public_safe_metadata_only"
+    "media": [
+      "8ce30b02eea734e2509a02042c790f1f240c7332696808f1816828f2bf9a3696",
+      "a40bcf8e927da6eea4b1a8254cb8087b68cf26ce1be76df3024b0e5b9de63c4c"
+    ],
+    "publicationStatus": "owner-authorized-public-release",
+    "sourceTranscription": "510 Angels-children\n28.10.2023\nThe event was held at the same time as the\nsummit on the Ukrainian \"peace formula\" in\nMalta, with the participation of 66 countries. The\ninitiator is Olena Chaplytska.\nValletta\nMalta",
+    "historicalDescription": {
+      "en": "The event was held at the same time as the summit on the Ukrainian “peace formula” in Malta, with the participation of 66 countries. The initiator is Olena Chaplytska.",
+      "uk": "Захід відбувся одночасно із самітом щодо української «формули миру» на Мальті за участю 66 країн. Ініціаторка — Olena Chaplytska."
+    }
   },
   {
     "id": "kosice-2023-09-24-p20",
@@ -748,24 +893,38 @@
       "uk": "«Янголи України» у місті Košice"
     },
     "description": {
-      "en": "A memorial gathering documented in the Angels of Ukraine source archive. This short description is an unpublished editorial draft.",
-      "uk": "Меморіальну акцію задокументовано в архіві «Янголи України». Цей короткий опис є редакційною чернеткою."
+      "en": "The action occured during the 9th annual event “DAYS OF UKRAINE 2023” — “Veteran`s MilLE” in Košice. Event organizer Eduard Buras. Plast-Stanytsia Kosice actively participated.",
+      "uk": "Акція відбулася під час дев’ятого щорічного заходу «DAYS OF UKRAINE 2023» — Veteran’s Mile у Кошицях. Організатор заходу — Eduard Buras. Plast-Stanytsia Kosice брала активну участь."
     },
     "translationStatus": {
-      "en": "needs_review",
-      "uk": "needs_review"
+      "en": "source-transcription",
+      "uk": "owner-authorized-editorial-translation"
     },
     "editorialFlags": [
       "source_description_not_published",
       "translation_needs_review",
-      "image_rights_pending",
-      "coordinates_unverified"
+      "historical-source-discrepancies-preserved",
+      "historical-source-discrepancies-preserved"
     ],
     "rawArchiveRef": "archive-page:20",
     "coordinates": null,
     "coordinateSourceUrl": null,
-    "media": [],
-    "publicationStatus": "public_safe_metadata_only"
+    "media": [
+      "8ce30b02eea734e2509a02042c790f1f240c7332696808f1816828f2bf9a3696",
+      "21f776344bd8937994e526c92f1a53c0caa45c2d5794f105f0acda8de700b9c3",
+      "63bef8cfc5122dbc959aba5e3628efd2f3fe58903766f1c58db55aaba91bca6f",
+      "57e873181fdca1af18778cb17e6d2d46bc98cf132638165314be3a1352075385",
+      "7dba5c43d302c78846198d3c2ccfe22e334054770e2e5d5761e021692b492ea0",
+      "4d99719dc707fa453804ac61d22937dfcc47c27d303aedab6a33c4fedc684a9b",
+      "3cd36219cf659c55fe949902178068f17005cf49674d77e05542924ece84fa18",
+      "8ec0f395cf73ec789a5b8750d59c5a7c0a04497b5d0d68d698933971a9a4ee97"
+    ],
+    "publicationStatus": "owner-authorized-public-release",
+    "sourceTranscription": "The action occured during the 9th annual event\n\"DAYS OF UKRAINE 2023\" - “Veteran`s MilLE” in\nKošice. Event organizer Eduard Buras. \nPlast-Stanytsia Kosice was actively participated. \nKosice\nSlovakia\n504 Angels-children\n24.09.2023",
+    "historicalDescription": {
+      "en": "The action occured during the 9th annual event “DAYS OF UKRAINE 2023” — “Veteran`s MilLE” in Košice. Event organizer Eduard Buras. Plast-Stanytsia Kosice actively participated.",
+      "uk": "Акція відбулася під час дев’ятого щорічного заходу «DAYS OF UKRAINE 2023» — Veteran’s Mile у Кошицях. Організатор заходу — Eduard Buras. Plast-Stanytsia Kosice брала активну участь."
+    }
   },
   {
     "id": "stockholm-2023-09-10-p21",
@@ -796,24 +955,32 @@
       "uk": "«Янголи України» у місті Stockholm"
     },
     "description": {
-      "en": "A memorial gathering documented in the Angels of Ukraine source archive. This short description is an unpublished editorial draft.",
-      "uk": "Меморіальну акцію задокументовано в архіві «Янголи України». Цей короткий опис є редакційною чернеткою."
+      "en": "Angels visited the demonstration held by the Nordic Ukraine Forum. Appreciations to Oksana Dudarko and Inna Volchkova. Glib Babich's poem “Little Angel” precisely reflects the current situating in Ukraine.",
+      "uk": "Янголи долучилися до демонстрації, організованої Nordic Ukraine Forum. Подяка Oksana Dudarko та Inna Volchkova. Вірш Glib Babich «Little Angel» точно відображає нинішню ситуацію в Україні."
     },
     "translationStatus": {
-      "en": "needs_review",
-      "uk": "needs_review"
+      "en": "source-transcription",
+      "uk": "owner-authorized-editorial-translation"
     },
     "editorialFlags": [
       "source_description_not_published",
       "translation_needs_review",
-      "image_rights_pending",
-      "coordinates_unverified"
+      "historical-source-discrepancies-preserved",
+      "historical-source-discrepancies-preserved"
     ],
     "rawArchiveRef": "archive-page:21",
     "coordinates": null,
     "coordinateSourceUrl": null,
-    "media": [],
-    "publicationStatus": "public_safe_metadata_only"
+    "media": [
+      "8ce30b02eea734e2509a02042c790f1f240c7332696808f1816828f2bf9a3696",
+      "070f4668f241b2719400a0221de47344f3eca8e5fa7f4e8778fc62704fd7361f"
+    ],
+    "publicationStatus": "owner-authorized-public-release",
+    "sourceTranscription": "Angels visited the demonstration held by the\nNordic Ukraine Forum, Appreciations to Oksana\nDudarko and Inna Volchkova. \nGlib Babich's poem \"Little Angel\" precisely\nreflects the current situating in Ukraine.\nStockholm\nSweden\n503 Angels-children\n10.09.2023",
+    "historicalDescription": {
+      "en": "Angels visited the demonstration held by the Nordic Ukraine Forum. Appreciations to Oksana Dudarko and Inna Volchkova. Glib Babich's poem “Little Angel” precisely reflects the current situating in Ukraine.",
+      "uk": "Янголи долучилися до демонстрації, організованої Nordic Ukraine Forum. Подяка Oksana Dudarko та Inna Volchkova. Вірш Glib Babich «Little Angel» точно відображає нинішню ситуацію в Україні."
+    }
   },
   {
     "id": "uppsala-2023-08-20-p22",
@@ -844,24 +1011,33 @@
       "uk": "«Янголи України» у місті Uppsala"
     },
     "description": {
-      "en": "A memorial gathering documented in the Angels of Ukraine source archive. This short description is an unpublished editorial draft.",
-      "uk": "Меморіальну акцію задокументовано в архіві «Янголи України». Цей короткий опис є редакційною чернеткою."
+      "en": "The event was organized by Oksana Dudarko. Supported by A. Plahotnyuk, the Plenipotentiary Ambassador of Ukraine in Sweden, the Ukrainian Greek Catholic Church in Stockholm, and O. Andriy. The adornment of the event was Favorit Studio, Olena Bryl.",
+      "uk": "Захід організувала Oksana Dudarko. Підтримку надали A. Plahotnyuk, повноважний посол України у Швеції, Українська греко-католицька церква у Стокгольмі та O. Andriy. Окрасою заходу стала Favorit Studio, Olena Bryl."
     },
     "translationStatus": {
-      "en": "needs_review",
-      "uk": "needs_review"
+      "en": "source-transcription",
+      "uk": "owner-authorized-editorial-translation"
     },
     "editorialFlags": [
       "source_description_not_published",
       "translation_needs_review",
-      "image_rights_pending",
-      "coordinates_unverified"
+      "historical-source-discrepancies-preserved",
+      "historical-source-discrepancies-preserved"
     ],
     "rawArchiveRef": "archive-page:22",
     "coordinates": null,
     "coordinateSourceUrl": null,
-    "media": [],
-    "publicationStatus": "public_safe_metadata_only"
+    "media": [
+      "8ce30b02eea734e2509a02042c790f1f240c7332696808f1816828f2bf9a3696",
+      "b8c2c9b136452dd9669ef6935e504e567d7cbd884bdd0b74ab8c6e036e32b2a6",
+      "e3fd3ac32db11b6658c8a8ef656a2f9edc300a318802d703644a9a182ae8fc01"
+    ],
+    "publicationStatus": "owner-authorized-public-release",
+    "sourceTranscription": "The event was organized by Oksana Dudarko.\nSupported by A. Plahotnyuk, the Plenipotentiary\nAmbassador of Ukraine in Sweden, the Ukrainian\nGreek Catholic Church in Stockholm, O. Andriy.\nThe adornment of the event was Favorit Studio,\nOlena Bryl.\nUppsala\nSweden\n503 Angels-children\n20.08.2023",
+    "historicalDescription": {
+      "en": "The event was organized by Oksana Dudarko. Supported by A. Plahotnyuk, the Plenipotentiary Ambassador of Ukraine in Sweden, the Ukrainian Greek Catholic Church in Stockholm, and O. Andriy. The adornment of the event was Favorit Studio, Olena Bryl.",
+      "uk": "Захід організувала Oksana Dudarko. Підтримку надали A. Plahotnyuk, повноважний посол України у Швеції, Українська греко-католицька церква у Стокгольмі та O. Andriy. Окрасою заходу стала Favorit Studio, Olena Bryl."
+    }
   },
   {
     "id": "newbury-2023-07-12-p23",
@@ -892,24 +1068,34 @@
       "uk": "«Янголи України» у місті Newbury"
     },
     "description": {
-      "en": "A memorial gathering documented in the Angels of Ukraine source archive. This short description is an unpublished editorial draft.",
-      "uk": "Меморіальну акцію задокументовано в архіві «Янголи України». Цей короткий опис є редакційною чернеткою."
+      "en": "Thanks for the organization of the event to Nataliia Buhrii-Shramk. We also thank Dewbury and West Berkshire Ukraine Support Group for all the support.",
+      "uk": "Дякуємо Nataliia Buhrii-Shramk за організацію заходу. Також дякуємо Dewbury та West Berkshire Ukraine Support Group за підтримку."
     },
     "translationStatus": {
-      "en": "needs_review",
-      "uk": "needs_review"
+      "en": "source-transcription",
+      "uk": "owner-authorized-editorial-translation"
     },
     "editorialFlags": [
       "source_description_not_published",
       "translation_needs_review",
-      "image_rights_pending",
-      "coordinates_unverified"
+      "historical-source-discrepancies-preserved",
+      "historical-source-discrepancies-preserved"
     ],
     "rawArchiveRef": "archive-page:23",
     "coordinates": null,
     "coordinateSourceUrl": null,
-    "media": [],
-    "publicationStatus": "public_safe_metadata_only"
+    "media": [
+      "8ce30b02eea734e2509a02042c790f1f240c7332696808f1816828f2bf9a3696",
+      "bef9f42be21ec187042b3931bf8abd092cc1396b8736aaaf45a9b5a5e13ee6b3",
+      "4d0c6384fa02f631182813ac9e7a462787011a6aaf438a6af9997f24115bf7fd",
+      "02c99ca387c4e4211edd0a2693bdac9fa2a00ce25ad0fbceb80b9e65ec4867b7"
+    ],
+    "publicationStatus": "owner-authorized-public-release",
+    "sourceTranscription": "Newbury\nUnited Kingdom\n494 Angels-children\n12.07.2023\nThanks for the organization of the event to\nNataliia Buhrii-Shramk. We also thank Dewbury\nand West Berkshire Ukraine Support Group for all\nthe support.",
+    "historicalDescription": {
+      "en": "Thanks for the organization of the event to Nataliia Buhrii-Shramk. We also thank Dewbury and West Berkshire Ukraine Support Group for all the support.",
+      "uk": "Дякуємо Nataliia Buhrii-Shramk за організацію заходу. Також дякуємо Dewbury та West Berkshire Ukraine Support Group за підтримку."
+    }
   },
   {
     "id": "berlin-2023-06-01-p24",
@@ -940,24 +1126,34 @@
       "uk": "«Янголи України» у місті Berlin"
     },
     "description": {
-      "en": "A memorial gathering documented in the Angels of Ukraine source archive. This short description is an unpublished editorial draft.",
-      "uk": "Меморіальну акцію задокументовано в архіві «Янголи України». Цей короткий опис є редакційною чернеткою."
+      "en": "The support of Ukrainische Botschaft in Berlin / Embassy of Ukraine in Berlin — Alisa Podolyak and Iryna Samchenko — Heinrich Böll Foundation.",
+      "uk": "Підтримку надали Ukrainische Botschaft in Berlin / Посольство України в Берліні — Alisa Podolyak та Iryna Samchenko — Heinrich Böll Foundation."
     },
     "translationStatus": {
-      "en": "needs_review",
-      "uk": "needs_review"
+      "en": "source-transcription",
+      "uk": "owner-authorized-editorial-translation"
     },
     "editorialFlags": [
       "source_description_not_published",
       "translation_needs_review",
-      "image_rights_pending",
-      "coordinates_unverified"
+      "historical-source-discrepancies-preserved",
+      "historical-source-discrepancies-preserved"
     ],
     "rawArchiveRef": "archive-page:24",
     "coordinates": null,
     "coordinateSourceUrl": null,
-    "media": [],
-    "publicationStatus": "public_safe_metadata_only"
+    "media": [
+      "8ce30b02eea734e2509a02042c790f1f240c7332696808f1816828f2bf9a3696",
+      "99ba88d73c44c23d989496063c9f5b37a81465b0339a10f450f5a0d0ce72c8a7",
+      "fa2179bd42c6f454533770d7f9138443316aa447b3e98fb2e05822b79b1d9d10",
+      "8071e4fb838f14b3bc1283e90b5217c1be498eeeaf3cd98dca13d6a79eeb170b"
+    ],
+    "publicationStatus": "owner-authorized-public-release",
+    "sourceTranscription": "Berlin\nGermany\n484 Angels-children\n1.06.2023\nThe support of Ukrainische Botschaft in Berlin /\nEmbassy of Ukraine in Berlin - Alisa Podolyak and\nIryna Samchenko - Heinrich Böll Foundation.",
+    "historicalDescription": {
+      "en": "The support of Ukrainische Botschaft in Berlin / Embassy of Ukraine in Berlin — Alisa Podolyak and Iryna Samchenko — Heinrich Böll Foundation.",
+      "uk": "Підтримку надали Ukrainische Botschaft in Berlin / Посольство України в Берліні — Alisa Podolyak та Iryna Samchenko — Heinrich Böll Foundation."
+    }
   },
   {
     "id": "leipzig-2023-05-p25",
@@ -988,24 +1184,33 @@
       "uk": "«Янголи України» у місті Leipzig"
     },
     "description": {
-      "en": "A memorial gathering documented in the Angels of Ukraine source archive. This short description is an unpublished editorial draft.",
-      "uk": "Меморіальну акцію задокументовано в архіві «Янголи України». Цей короткий опис є редакційною чернеткою."
+      "en": "The event at Katholische Propstei St. Trinitatis was organized and held by Anna Logachova and Olga Kashchuk.",
+      "uk": "Захід у Katholische Propstei St. Trinitatis організували й провели Anna Logachova та Olga Kashchuk."
     },
     "translationStatus": {
-      "en": "needs_review",
-      "uk": "needs_review"
+      "en": "source-transcription",
+      "uk": "owner-authorized-editorial-translation"
     },
     "editorialFlags": [
       "source_description_not_published",
       "translation_needs_review",
-      "image_rights_pending",
-      "coordinates_unverified"
+      "historical-source-discrepancies-preserved",
+      "historical-source-discrepancies-preserved"
     ],
     "rawArchiveRef": "archive-page:25",
     "coordinates": null,
     "coordinateSourceUrl": null,
-    "media": [],
-    "publicationStatus": "public_safe_metadata_only"
+    "media": [
+      "8ce30b02eea734e2509a02042c790f1f240c7332696808f1816828f2bf9a3696",
+      "c67a45a2ff7cac6c89d40801b63414277c866c363da930c09603b0513dec3886",
+      "afe4fa2ae3eb62145541c95bdd90f6436ed7aac12668bc6abb75fbc2093cf86d"
+    ],
+    "publicationStatus": "owner-authorized-public-release",
+    "sourceTranscription": "Leipzig\nGermany\n477 Angels-children\n05.2023\nThe event at Katholische Propstei St. Trinitatis was\norganized and held by Anna Logachova and\nOlga Kashchuk.",
+    "historicalDescription": {
+      "en": "The event at Katholische Propstei St. Trinitatis was organized and held by Anna Logachova and Olga Kashchuk.",
+      "uk": "Захід у Katholische Propstei St. Trinitatis організували й провели Anna Logachova та Olga Kashchuk."
+    }
   },
   {
     "id": "potsdam-2023-04-p26",
@@ -1036,24 +1241,34 @@
       "uk": "«Янголи України» у місті Potsdam"
     },
     "description": {
-      "en": "A memorial gathering documented in the Angels of Ukraine source archive. This short description is an unpublished editorial draft.",
-      "uk": "Меморіальну акцію задокументовано в архіві «Янголи України». Цей короткий опис є редакційною чернеткою."
+      "en": "Photos provided by Borys Bukhman (Odessa UA). St. Nicholas' Church. All three Actions in Germany took place thanks to the active position of Daria Kostyukova.",
+      "uk": "Фотографії надав Borys Bukhman (Одеса, Україна). Церква Святого Миколая. Усі три акції в Німеччині відбулися завдяки активній позиції Daria Kostyukova."
     },
     "translationStatus": {
-      "en": "needs_review",
-      "uk": "needs_review"
+      "en": "source-transcription",
+      "uk": "owner-authorized-editorial-translation"
     },
     "editorialFlags": [
       "source_description_not_published",
       "translation_needs_review",
-      "image_rights_pending",
-      "coordinates_unverified"
+      "historical-source-discrepancies-preserved",
+      "historical-source-discrepancies-preserved"
     ],
     "rawArchiveRef": "archive-page:26",
     "coordinates": null,
     "coordinateSourceUrl": null,
-    "media": [],
-    "publicationStatus": "public_safe_metadata_only"
+    "media": [
+      "8ce30b02eea734e2509a02042c790f1f240c7332696808f1816828f2bf9a3696",
+      "0f099834fb9d917cc66dee572bde35c41acd75415d681aed7720e4d7c96e9fcc",
+      "c4370cb039b77f8b51804313a55e0671335283cc3cb9a30163d18f7459d62bdc",
+      "46ee0eb1a06d197ded39895f3b9dec01a75decdf6f25db04e9e3adcf2c5d13e2"
+    ],
+    "publicationStatus": "owner-authorized-public-release",
+    "sourceTranscription": "Potsdam\nGermany\n470 Angels-children\n04.2023\nphotos provided by Borys Bukhman\n(Odessa UA)\nSt. Nicholas' Church. All three Actions in Germany\ntook place thanks to the active position of Daria\nKostyukova.",
+    "historicalDescription": {
+      "en": "Photos provided by Borys Bukhman (Odessa UA). St. Nicholas' Church. All three Actions in Germany took place thanks to the active position of Daria Kostyukova.",
+      "uk": "Фотографії надав Borys Bukhman (Одеса, Україна). Церква Святого Миколая. Усі три акції в Німеччині відбулися завдяки активній позиції Daria Kostyukova."
+    }
   },
   {
     "id": "shrewsbury-2023-03-04-p27",
@@ -1084,24 +1299,33 @@
       "uk": "«Янголи України» у місті Shrewsbury"
     },
     "description": {
-      "en": "A memorial gathering documented in the Angels of Ukraine source archive. This short description is an unpublished editorial draft.",
-      "uk": "Меморіальну акцію задокументовано в архіві «Янголи України». Цей короткий опис є редакційною чернеткою."
+      "en": "Historical archive entry for Shrewsbury.",
+      "uk": "Запис з історичного архіву."
     },
     "translationStatus": {
-      "en": "needs_review",
-      "uk": "needs_review"
+      "en": "source-transcription",
+      "uk": "owner-authorized-editorial-translation"
     },
     "editorialFlags": [
       "source_description_not_published",
       "translation_needs_review",
-      "image_rights_pending",
-      "coordinates_unverified"
+      "historical-source-discrepancies-preserved",
+      "historical-source-discrepancies-preserved"
     ],
     "rawArchiveRef": "archive-page:27",
     "coordinates": null,
     "coordinateSourceUrl": null,
-    "media": [],
-    "publicationStatus": "public_safe_metadata_only"
+    "media": [
+      "8ce30b02eea734e2509a02042c790f1f240c7332696808f1816828f2bf9a3696",
+      "d8bd421080ab9869a0e18c799224fac56f9959102e81bf4b592e123bf9686333",
+      "cc9e98377d80ea263eb50d993de31f9b0a09d19e4ca2bd586789e60dea6764f7"
+    ],
+    "publicationStatus": "owner-authorized-public-release",
+    "sourceTranscription": "Shrewsbury\nUnited Kingdom\n465 Angels-children\n04.03.2023",
+    "historicalDescription": {
+      "en": "",
+      "uk": "На слайді немає додаткового описового абзацу."
+    }
   },
   {
     "id": "cleobury-mortimer-2023-02-12-p28",
@@ -1132,24 +1356,32 @@
       "uk": "«Янголи України» у місті Cleobury Mortimer"
     },
     "description": {
-      "en": "A memorial gathering documented in the Angels of Ukraine source archive. This short description is an unpublished editorial draft.",
-      "uk": "Меморіальну акцію задокументовано в архіві «Янголи України». Цей короткий опис є редакційною чернеткою."
+      "en": "Historical archive entry for Cleobury Mortimer.",
+      "uk": "Запис з історичного архіву."
     },
     "translationStatus": {
-      "en": "needs_review",
-      "uk": "needs_review"
+      "en": "source-transcription",
+      "uk": "owner-authorized-editorial-translation"
     },
     "editorialFlags": [
       "source_description_not_published",
       "translation_needs_review",
-      "image_rights_pending",
-      "coordinates_unverified"
+      "historical-source-discrepancies-preserved",
+      "historical-source-discrepancies-preserved"
     ],
     "rawArchiveRef": "archive-page:28",
     "coordinates": null,
     "coordinateSourceUrl": null,
-    "media": [],
-    "publicationStatus": "public_safe_metadata_only"
+    "media": [
+      "8ce30b02eea734e2509a02042c790f1f240c7332696808f1816828f2bf9a3696",
+      "e1fd68e53e4ffc1815c78a1de8096550602f2025dc77e778e221d53d25416c7e"
+    ],
+    "publicationStatus": "owner-authorized-public-release",
+    "sourceTranscription": "Cleobury Mortimer\nUnited Kingdom\n461 Angels-children\n12.02.2023",
+    "historicalDescription": {
+      "en": "",
+      "uk": "На слайді немає додаткового описового абзацу."
+    }
   },
   {
     "id": "ludlow-2023-01-21-p29",
@@ -1180,24 +1412,34 @@
       "uk": "«Янголи України» у місті Ludlow"
     },
     "description": {
-      "en": "A memorial gathering documented in the Angels of Ukraine source archive. This short description is an unpublished editorial draft.",
-      "uk": "Меморіальну акцію задокументовано в архіві «Янголи України». Цей короткий опис є редакційною чернеткою."
+      "en": "This is the result of Svitlana Dzedzey's cooperation with the Ludlow Supports Refugees organization.",
+      "uk": "Це результат співпраці Svitlana Dzedzey з організацією Ludlow Supports Refugees."
     },
     "translationStatus": {
-      "en": "needs_review",
-      "uk": "needs_review"
+      "en": "source-transcription",
+      "uk": "owner-authorized-editorial-translation"
     },
     "editorialFlags": [
       "source_description_not_published",
       "translation_needs_review",
-      "image_rights_pending",
-      "coordinates_unverified"
+      "historical-source-discrepancies-preserved",
+      "historical-source-discrepancies-preserved"
     ],
     "rawArchiveRef": "archive-page:29",
     "coordinates": null,
     "coordinateSourceUrl": null,
-    "media": [],
-    "publicationStatus": "public_safe_metadata_only"
+    "media": [
+      "8ce30b02eea734e2509a02042c790f1f240c7332696808f1816828f2bf9a3696",
+      "df238bf4f75c043eceb2f5a00fba1f30812bb4ab26fe4af8e69937b0d953be5a",
+      "a6bd5a963e065f397320c02a6fd167f4aecf48abedbf6ed68b5277b5ed7484a6",
+      "6e0318a359230d1090d6f444123b56e74494654e5166a1c435cb0336519fbeb9"
+    ],
+    "publicationStatus": "owner-authorized-public-release",
+    "sourceTranscription": "Ludlow\nUnited Kingdom\nThis is the result of Svitlana Dzedzey's\ncooperation with the Ludlow Supports Refugees\norganization.\n459 Angels-children\n21.01.2023",
+    "historicalDescription": {
+      "en": "This is the result of Svitlana Dzedzey's cooperation with the Ludlow Supports Refugees organization.",
+      "uk": "Це результат співпраці Svitlana Dzedzey з організацією Ludlow Supports Refugees."
+    }
   },
   {
     "id": "limassol-2022-12-18-p30",
@@ -1228,24 +1470,35 @@
       "uk": "«Янголи України» у місті Limassol"
     },
     "description": {
-      "en": "A memorial gathering documented in the Angels of Ukraine source archive. This short description is an unpublished editorial draft.",
-      "uk": "Меморіальну акцію задокументовано в архіві «Янголи України». Цей короткий опис є редакційною чернеткою."
+      "en": "The events were supported by Ukrainians in Cyprus, Plast Cyprus, and the Pastoral Ministry of the Ukrainian Greek-Catholic Church in the Republic of Cyprus. Initiator — Lyolya Filimonova.",
+      "uk": "Заходи підтримали українці на Кіпрі, Plast Cyprus і душпастирство Української греко-католицької церкви в Республіці Кіпр. Ініціаторка — Lyolya Filimonova."
     },
     "translationStatus": {
-      "en": "needs_review",
-      "uk": "needs_review"
+      "en": "source-transcription",
+      "uk": "owner-authorized-editorial-translation"
     },
     "editorialFlags": [
       "source_description_not_published",
       "translation_needs_review",
-      "image_rights_pending",
-      "coordinates_unverified"
+      "historical-source-discrepancies-preserved",
+      "historical-source-discrepancies-preserved"
     ],
     "rawArchiveRef": "archive-page:30",
     "coordinates": null,
     "coordinateSourceUrl": null,
-    "media": [],
-    "publicationStatus": "public_safe_metadata_only"
+    "media": [
+      "ece94ca9f825ce2eaaf4e45636ec7648820d93d7fb9053d4dd0b6368a706ed3c",
+      "8ce30b02eea734e2509a02042c790f1f240c7332696808f1816828f2bf9a3696",
+      "f1e49f5a40e40ed363d257d9e6eb0d71207a3aaa743d3567c9a35f5a37ab2f8c",
+      "000f4d5ace5c642320a8472e4964f78431183e7601fa7d70a8fba443d977a22e",
+      "789c8f11b32a8f9812e44e398558da1689ee5268fc7bb6f69eeebbf24807a575"
+    ],
+    "publicationStatus": "owner-authorized-public-release",
+    "sourceTranscription": "Limassol\nCyprus\n450 Angels-children\n18.12.2022\nThe events were supported by Ukrainians in\nCyprus, Plast Cyprus, Pastoral Ministry of the\nUkrainian Greek-Catholic Church in the Republic\nof Cyprus. \nInitiator - Lyolya Filimonova.",
+    "historicalDescription": {
+      "en": "The events were supported by Ukrainians in Cyprus, Plast Cyprus, and the Pastoral Ministry of the Ukrainian Greek-Catholic Church in the Republic of Cyprus. Initiator — Lyolya Filimonova.",
+      "uk": "Заходи підтримали українці на Кіпрі, Plast Cyprus і душпастирство Української греко-католицької церкви в Республіці Кіпр. Ініціаторка — Lyolya Filimonova."
+    }
   },
   {
     "id": "larnaca-2022-12-07-p31",
@@ -1276,24 +1529,33 @@
       "uk": "«Янголи України» у місті Larnaca"
     },
     "description": {
-      "en": "A memorial gathering documented in the Angels of Ukraine source archive. This short description is an unpublished editorial draft.",
-      "uk": "Меморіальну акцію задокументовано в архіві «Янголи України». Цей короткий опис є редакційною чернеткою."
+      "en": "The events were supported by Ukrainians in Cyprus and Obiimy Cyprusi. Initiator — Lyolya Filimonova.",
+      "uk": "Заходи підтримали українці на Кіпрі та Obiimy Cyprusi. Ініціаторка — Lyolya Filimonova."
     },
     "translationStatus": {
-      "en": "needs_review",
-      "uk": "needs_review"
+      "en": "source-transcription",
+      "uk": "owner-authorized-editorial-translation"
     },
     "editorialFlags": [
       "source_description_not_published",
       "translation_needs_review",
-      "image_rights_pending",
-      "coordinates_unverified"
+      "historical-source-discrepancies-preserved",
+      "historical-source-discrepancies-preserved"
     ],
     "rawArchiveRef": "archive-page:31",
     "coordinates": null,
     "coordinateSourceUrl": null,
-    "media": [],
-    "publicationStatus": "public_safe_metadata_only"
+    "media": [
+      "8ce30b02eea734e2509a02042c790f1f240c7332696808f1816828f2bf9a3696",
+      "1cc2377d455c928884a425272e35a40020e8ee2b77991554fc5abd850a0d25b0",
+      "0e222fc4d000be162e237bee5720d174960612a241c18d758bfeb75be8a6422e"
+    ],
+    "publicationStatus": "owner-authorized-public-release",
+    "sourceTranscription": "Larnaca\nCyprus\n443 Angels-children\n7.12. 2022\nThe events were supported by Ukrainians in Cyprus\nand Obiimy Cyprusi. \nInitiator - Lyolya Filimonova.",
+    "historicalDescription": {
+      "en": "The events were supported by Ukrainians in Cyprus and Obiimy Cyprusi. Initiator — Lyolya Filimonova.",
+      "uk": "Заходи підтримали українці на Кіпрі та Obiimy Cyprusi. Ініціаторка — Lyolya Filimonova."
+    }
   },
   {
     "id": "kosice-2022-09-25-p32",
@@ -1324,24 +1586,33 @@
       "uk": "«Янголи України» у місті Košice"
     },
     "description": {
-      "en": "A memorial gathering documented in the Angels of Ukraine source archive. This short description is an unpublished editorial draft.",
-      "uk": "Меморіальну акцію задокументовано в архіві «Янголи України». Цей короткий опис є редакційною чернеткою."
+      "en": "We honored the memory of those who died, and we joined the “Veteran`s MilLE” during the Days of Ukraine 2022 in Kosice.",
+      "uk": "Ми вшанували пам’ять загиблих і долучилися до Veteran’s Mile під час Днів України 2022 у Кошицях."
     },
     "translationStatus": {
-      "en": "needs_review",
-      "uk": "needs_review"
+      "en": "source-transcription",
+      "uk": "owner-authorized-editorial-translation"
     },
     "editorialFlags": [
       "source_description_not_published",
       "translation_needs_review",
-      "image_rights_pending",
-      "coordinates_unverified"
+      "historical-source-discrepancies-preserved",
+      "historical-source-discrepancies-preserved"
     ],
     "rawArchiveRef": "archive-page:32",
     "coordinates": null,
     "coordinateSourceUrl": null,
-    "media": [],
-    "publicationStatus": "public_safe_metadata_only"
+    "media": [
+      "5a84a3b203635d0510320381a99d17dfa73dc0103ac31772682a5016fdab93d1",
+      "b0127ddd8bbda221a07a690c68e301ca619ccc9f4d2450458979e360dd3077de",
+      "8ce30b02eea734e2509a02042c790f1f240c7332696808f1816828f2bf9a3696"
+    ],
+    "publicationStatus": "owner-authorized-public-release",
+    "sourceTranscription": "We honored the memory of those who died,\nand we joined the “Veteran`s MilLE” during\nthe Days of Ukraine 2022 in Kosice.\nKosice\nSlovakia\n391 Angels-children\n25.09.2022",
+    "historicalDescription": {
+      "en": "We honored the memory of those who died, and we joined the “Veteran`s MilLE” during the Days of Ukraine 2022 in Kosice.",
+      "uk": "Ми вшанували пам’ять загиблих і долучилися до Veteran’s Mile під час Днів України 2022 у Кошицях."
+    }
   },
   {
     "id": "bratislava-2022-09-14-p33",
@@ -1372,24 +1643,32 @@
       "uk": "«Янголи України» у місті Bratislava"
     },
     "description": {
-      "en": "A memorial gathering documented in the Angels of Ukraine source archive. This short description is an unpublished editorial draft.",
-      "uk": "Меморіальну акцію задокументовано в архіві «Янголи України». Цей короткий опис є редакційною чернеткою."
+      "en": "During the Charity Concert supported by OZ Zdielaj. Organizer: Lucia Salzerova.",
+      "uk": "У межах благодійного концерту, який підтримала OZ Zdielaj. Організаторка: Lucia Salzerova."
     },
     "translationStatus": {
-      "en": "needs_review",
-      "uk": "needs_review"
+      "en": "source-transcription",
+      "uk": "owner-authorized-editorial-translation"
     },
     "editorialFlags": [
       "source_description_not_published",
       "translation_needs_review",
-      "image_rights_pending",
-      "coordinates_unverified"
+      "historical-source-discrepancies-preserved",
+      "historical-source-discrepancies-preserved"
     ],
     "rawArchiveRef": "archive-page:33",
     "coordinates": null,
     "coordinateSourceUrl": null,
-    "media": [],
-    "publicationStatus": "public_safe_metadata_only"
+    "media": [
+      "5d6789211c56ca6a35bac6da96b88accf124f482c7921e569e30ef43c96b0f47",
+      "8ce30b02eea734e2509a02042c790f1f240c7332696808f1816828f2bf9a3696"
+    ],
+    "publicationStatus": "owner-authorized-public-release",
+    "sourceTranscription": "During the Charity Concert supported by OZ\nZdielaj. \nOrganizer: Lucia Salzerova.\nBratislava\nSlovakia\n382 Angels-children\n14.09.2022",
+    "historicalDescription": {
+      "en": "During the Charity Concert supported by OZ Zdielaj. Organizer: Lucia Salzerova.",
+      "uk": "У межах благодійного концерту, який підтримала OZ Zdielaj. Організаторка: Lucia Salzerova."
+    }
   },
   {
     "id": "banska-bystrica-2022-08-24-p34",
@@ -1420,24 +1699,32 @@
       "uk": "«Янголи України» у місті Banská Bystrica"
     },
     "description": {
-      "en": "A memorial gathering documented in the Angels of Ukraine source archive. This short description is an unpublished editorial draft.",
-      "uk": "Меморіальну акцію задокументовано в архіві «Янголи України». Цей короткий опис є редакційною чернеткою."
+      "en": "The action started as part of the Festival of Ukrainian Culture in Banska Bystrica. Festival organizer Olia Arakelian. Action coordinator Evnika Pochapska.",
+      "uk": "Акція розпочалася в межах Фестивалю української культури в Banska Bystrica. Організаторка фестивалю — Olia Arakelian. Координаторка акції — Evnika Pochapska."
     },
     "translationStatus": {
-      "en": "needs_review",
-      "uk": "needs_review"
+      "en": "source-transcription",
+      "uk": "owner-authorized-editorial-translation"
     },
     "editorialFlags": [
       "source_description_not_published",
       "translation_needs_review",
-      "image_rights_pending",
-      "coordinates_unverified"
+      "historical-source-discrepancies-preserved",
+      "historical-source-discrepancies-preserved"
     ],
     "rawArchiveRef": "archive-page:34",
     "coordinates": null,
     "coordinateSourceUrl": null,
-    "media": [],
-    "publicationStatus": "public_safe_metadata_only"
+    "media": [
+      "8f68e0ec565454206f46197d207cfaa67ab76013af14b3decfc7c634b675ecbc",
+      "8ce30b02eea734e2509a02042c790f1f240c7332696808f1816828f2bf9a3696"
+    ],
+    "publicationStatus": "owner-authorized-public-release",
+    "sourceTranscription": "363 Angels-children\n24.08.2022\nThe action started as part of the Festival of\nUkrainian Culture in Banska Bystrica. \nFestival organizer Olia Arakelian,\nAction coordinator Evnika Pochapska.\nBanska Bystrytsia\nSlovakia",
+    "historicalDescription": {
+      "en": "The action started as part of the Festival of Ukrainian Culture in Banska Bystrica. Festival organizer Olia Arakelian. Action coordinator Evnika Pochapska.",
+      "uk": "Акція розпочалася в межах Фестивалю української культури в Banska Bystrica. Організаторка фестивалю — Olia Arakelian. Координаторка акції — Evnika Pochapska."
+    }
   },
   {
     "id": "presov-2022-07-17-p35",
@@ -1468,24 +1755,33 @@
       "uk": "«Янголи України» у місті Prešov"
     },
     "description": {
-      "en": "A memorial gathering documented in the Angels of Ukraine source archive. This short description is an unpublished editorial draft.",
-      "uk": "Меморіальну акцію задокументовано в архіві «Янголи України». Цей короткий опис є редакційною чернеткою."
+      "en": "The “Angels of Ukraine” memorial event was held together with an exhibition of children`s drawings. Thanks for the support of the head of the Rusíni-Ukrainci SR union Mr.Pavol Bohdan and Mr.Ivan Tuželjak, with the participation of Vitalya Tuželjak.",
+      "uk": "Меморіальний захід «Янголи України» відбувся разом із виставкою дитячих малюнків. Дякуємо за підтримку голові об’єднання Rusíni-Ukrainci SR Mr.Pavol Bohdan і Mr.Ivan Tuželjak, а також за участь Vitalya Tuželjak."
     },
     "translationStatus": {
-      "en": "needs_review",
-      "uk": "needs_review"
+      "en": "source-transcription",
+      "uk": "owner-authorized-editorial-translation"
     },
     "editorialFlags": [
       "source_description_not_published",
       "translation_needs_review",
-      "image_rights_pending",
-      "coordinates_unverified"
+      "historical-source-discrepancies-preserved",
+      "historical-source-discrepancies-preserved"
     ],
     "rawArchiveRef": "archive-page:35",
     "coordinates": null,
     "coordinateSourceUrl": null,
-    "media": [],
-    "publicationStatus": "public_safe_metadata_only"
+    "media": [
+      "84d3c5b13f90850658b1f0ae60a7ff1043e5c82bba7b60f42a76ce4798ed330f",
+      "b4057fd14cbb863f345cb3580d737048a6511d3dbdd3257b87621ddf7a213f48",
+      "8ce30b02eea734e2509a02042c790f1f240c7332696808f1816828f2bf9a3696"
+    ],
+    "publicationStatus": "owner-authorized-public-release",
+    "sourceTranscription": "353 Angels-children\n17.07.2022\nThe “Angels of Ukraine” memorial event was held\ntogether with an exhibition of children`s drawings.\nThanks for the support of the head of the Rusíni-\nUkrainci SR union Mr.Pavol Bohdan and \nMr.Ivan Tuželjak, with the participation of \nVitalya Tuželjak.\nPryashiv\nSlovakia",
+    "historicalDescription": {
+      "en": "The “Angels of Ukraine” memorial event was held together with an exhibition of children`s drawings. Thanks for the support of the head of the Rusíni-Ukrainci SR union Mr.Pavol Bohdan and Mr.Ivan Tuželjak, with the participation of Vitalya Tuželjak.",
+      "uk": "Меморіальний захід «Янголи України» відбувся разом із виставкою дитячих малюнків. Дякуємо за підтримку голові об’єднання Rusíni-Ukrainci SR Mr.Pavol Bohdan і Mr.Ivan Tuželjak, а також за участь Vitalya Tuželjak."
+    }
   },
   {
     "id": "zilina-2022-07-12-p36",
@@ -1516,24 +1812,33 @@
       "uk": "«Янголи України» у місті Žilina"
     },
     "description": {
-      "en": "A memorial gathering documented in the Angels of Ukraine source archive. This short description is an unpublished editorial draft.",
-      "uk": "Меморіальну акцію задокументовано в архіві «Янголи України». Цей короткий опис є редакційною чернеткою."
+      "en": "The action was held on the initiative of the Ukrainian Union in the city of Zhilina, carried out a promotion by Inna Onyshchenko.",
+      "uk": "Акцію організувала Українська спілка в місті Zhilina за ініціативи Inna Onyshchenko."
     },
     "translationStatus": {
-      "en": "needs_review",
-      "uk": "needs_review"
+      "en": "source-transcription",
+      "uk": "owner-authorized-editorial-translation"
     },
     "editorialFlags": [
       "source_description_not_published",
       "translation_needs_review",
-      "image_rights_pending",
-      "coordinates_unverified"
+      "historical-source-discrepancies-preserved",
+      "historical-source-discrepancies-preserved"
     ],
     "rawArchiveRef": "archive-page:36",
     "coordinates": null,
     "coordinateSourceUrl": null,
-    "media": [],
-    "publicationStatus": "public_safe_metadata_only"
+    "media": [
+      "87e24a8da3ab10684bc6e10087c83f3a2ceb1bd73a04a880b07f2ec1facaa683",
+      "2c16b8b855d046549f32c3df9a32e5761cdfd61913d406fdc9efee9a143a42ee",
+      "8ce30b02eea734e2509a02042c790f1f240c7332696808f1816828f2bf9a3696"
+    ],
+    "publicationStatus": "owner-authorized-public-release",
+    "sourceTranscription": "The action was held on the initiative of the\nUkrainian Union in the city of Zhilina, carried out\na promotion by Inna Onyshchenko.\nZhilina\nSlovakia\n349 Angels-children\n12.07.2022",
+    "historicalDescription": {
+      "en": "The action was held on the initiative of the Ukrainian Union in the city of Zhilina, carried out a promotion by Inna Onyshchenko.",
+      "uk": "Акцію організувала Українська спілка в місті Zhilina за ініціативи Inna Onyshchenko."
+    }
   },
   {
     "id": "kosice-2022-06-01-p37",
@@ -1564,23 +1869,31 @@
       "uk": "«Янголи України» у місті Košice"
     },
     "description": {
-      "en": "A memorial gathering documented in the Angels of Ukraine source archive. This short description is an unpublished editorial draft.",
-      "uk": "Меморіальну акцію задокументовано в архіві «Янголи України». Цей короткий опис є редакційною чернеткою."
+      "en": "The first event took place in Kosice on Children`s Day and lasted a week. Ukrainian women who found refuge with their children in Slovakia knitted 243 angels from yellow and blue threads and hung them in the city center. Since then, the Angels began to travel through the cities o",
+      "uk": "Перша акція відбулася в Кошицях на День захисту дітей і тривала тиждень. Українки, які знайшли прихисток у Словаччині разом із дітьми, зв’язали 243 янголи з жовтої та синьої ниток і повісили їх у центрі міста. Відтоді Янголи почали подорожувати містами різних країн."
     },
     "translationStatus": {
-      "en": "needs_review",
-      "uk": "needs_review"
+      "en": "source-transcription",
+      "uk": "owner-authorized-editorial-translation"
     },
     "editorialFlags": [
       "source_description_not_published",
       "translation_needs_review",
-      "image_rights_pending",
-      "coordinates_unverified"
+      "historical-source-discrepancies-preserved",
+      "historical-source-discrepancies-preserved"
     ],
     "rawArchiveRef": "archive-page:37",
     "coordinates": null,
     "coordinateSourceUrl": null,
-    "media": [],
-    "publicationStatus": "public_safe_metadata_only"
+    "media": [
+      "549878cfa301b92e8a6188485ff130bd6a1a47503a3b1e771d6779df6614d2c6",
+      "8ce30b02eea734e2509a02042c790f1f240c7332696808f1816828f2bf9a3696"
+    ],
+    "publicationStatus": "owner-authorized-public-release",
+    "sourceTranscription": "Since then, the Angels began to travel through\nthe cities of different countries. \nThe first event took place in Kosice on Children`s\nDay and lasted a week.\nUkrainian women who found refuge with their\nchildren in Slovakia knitted 243 angels from\nyellow and blue threads and hung them in the\ncity center. \n243 Angels-children\n1.06.2022\nKosice\nSlovakia",
+    "historicalDescription": {
+      "en": "The first event took place in Kosice on Children`s Day and lasted a week. Ukrainian women who found refuge with their children in Slovakia knitted 243 angels from yellow and blue threads and hung them in the city center. Since then, the Angels began to travel through the cities of different countries.",
+      "uk": "Перша акція відбулася в Кошицях на День захисту дітей і тривала тиждень. Українки, які знайшли прихисток у Словаччині разом із дітьми, зв’язали 243 янголи з жовтої та синьої ниток і повісили їх у центрі міста. Відтоді Янголи почали подорожувати містами різних країн."
+    }
   }
 ]
