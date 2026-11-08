@@ -1,50 +1,44 @@
-# GitHub Pages readiness review
+# GitHub Pages release and QA report
 
-**Status: NO-GO for public release today.** The static site builds and the local route checks pass, but editorial approvals are incomplete and no browser screenshots were captured in this review.
+**Deployment: SUCCESS.** First public release is available at `https://tatianasf.github.io/uateg/`.
 
-## Verified locally
+## Release record
 
-- Next.js static export (`output: "export"`, trailing slash routes) completed successfully.
-- Public artifact: `out/`, **6,985,279 bytes**; source/private file and contact-detail scan passed.
-- Export check passed: 82 localized non-home routes, 66 localized event pages, locale homes, root, `404.html`, `sitemap.xml`, `robots.txt` and `.nojekyll`; local links resolved.
-- HTTP preview returned 200 for all 88 checked routes; English/Ukrainian language, map notice and disabled organizer channel were checked in the generated HTML.
-- Catalog integrity: 33 events, 25 canonical cities and 8 countries. City points are approximate GeoNames populated-place points, not event venues; source citations and OSM tile attribution appear on the map.
-- `npm ci`: passed, 0 reported vulnerabilities. npm emitted ESLint peer-range warnings and an `esbuild` install-script approval notice.
-- `npm run typecheck`: passed.
-- `npm run lint`: passed.
-- `npm test`: **17 passed, 0 failed**.
-- `npm run build`: passed, including the static-export, private-data and route-link checks.
-- The deployment workflow is `workflow_dispatch` only and deploys only from `main`; no push, PR or schedule trigger. Add required reviewers to the `github-pages` environment after repository creation if a second-person release gate is desired.
+- Public repository: `https://github.com/TatianaSF/uateg` (`main`).
+- Deployed commit: `dfc75a5b605de70ea243b4c29de8bc7ace019abd`.
+- Workflow run: `42523993421` — build and deploy jobs completed successfully.
+- Pages publishing source: GitHub Actions; workflow is `workflow_dispatch` only and deployment is restricted to `main`.
+- Export size: **75,468,058 bytes**. Repository Git objects before transfer: **63.57 MiB**.
+- Original PDF: public and byte-identical to the source, **55,077,592 bytes**. GitHub accepted the push with its documented >50 MiB warning; file remains below the 100 MiB hard block.
+- Public catalog: 33 events, 25 canonical cities, 8 countries, English and Ukrainian, 83 unique WebP assets and all 126 placements across 41 PDF pages.
 
-## Not verified in a browser
+## Validation results
 
-At the user's direction, no browser screenshots were captured. Desktop/mobile visual review at 320, 390, 768 and 1440 px, interactive language-switch testing, keyboard/screen-reader inspection and Lighthouse were not performed. HTTP and static-export checks do not substitute for those checks.
+- `npm ci`: **PASS**, 354 packages installed, 0 reported vulnerabilities. npm warned that `esbuild` install scripts are not approved by its current allow-scripts configuration; Next build and CI build both completed successfully.
+- `npm run typecheck`: **PASS**.
+- `npm run lint`: **PASS**, no warnings or errors.
+- `npm test`: **PASS**, 17 passed, 0 failed.
+- `npm run build` with `/uateg` path and GitHub Pages origin: **PASS**; 90 static pages generated.
+- Public data scan: **PASS**; only the exact owner-authorized PDF, source WebPs and contacts are allowed; no private source folder or unrelated contact details found.
+- Media coverage: **PASS**, 83/83 assets, 126/126 placements, all 41 source pages and source PDF SHA-256 verified.
+- Export route/link checks: **PASS**, 82 localized non-home routes including 66 event pages, locale homes, root, 404, sitemap, robots and `.nojekyll`.
+- Local HTTP preview: **PASS**, 82/82 checked pages and PDF route returned 200.
+- Live HTTPS: **PASS**, 169/169 checks returned 200: 85 routes, 83 image files and source PDF HEAD. This verifies reachability, not visual layout.
 
-## Release blockers
+## Visual review not verified
 
-- Review translation/editorial copy and source inconsistencies in `EDITORIAL_REVIEW.md`.
-- Review candidate images privately; there are **0** approved public photographs. Per-image rights, adult consent, minor safeguarding, privacy/context, event linkage and bilingual alt text remain required.
-- Approve the approximate city coordinate list and GeoNames attribution.
-- Select and review an organizer form provider and public contact channel; the form is intentionally disabled.
-- Select the public repository owner/name, public-repository decision and repository settings.
-- Complete browser-based visual/accessibility review and screenshots before publication.
-- Review `uaTeg.com` DNS and GitHub Pages domain verification separately; no DNS or Pages settings were changed.
+No public-site screenshots, viewport inspection at 320/390/768/1440 px, Lighthouse report, keyboard review or interactive map/language-switch browser test were captured. The user-selected exact Chrome profile `TatianaSF.com` was not connected; the available profile label `TatianaSFcom` did not match and was not used. Direct HTTP verification is not a substitute for browser QA.
 
-## Local repository state
+## Historical/editorial notes
 
-This folder was initialized locally on branch `main` with an initial commit after staging and ignore/security checks. It has no remote configured. No push or deployment was performed. Private source data, PDFs, build output, dependencies and environment secrets are ignored.
+- Source discrepancies remain visible and documented: p13 event-date/content mismatch; p8/p9 figures 591/593; source city spellings and month-only dates. Ukrainian translation needs editorial proofreading.
+- Source photographs, profiles and contacts were published under the project owner's explicit authorization. This does not claim independent third-party consent, copyright review, current contact verification or QR destination verification.
+- Organizer form stays disabled; it does not simulate a successful submission. The contact page provides the source-listed method.
+- Map points are approximate city locations from cited GeoNames records, not event venues; city index remains available if map tiles fail.
+- No `uaTeg.com` custom domain, DNS records or CNAME were configured.
 
-## Next publishing steps
+## Next steps
 
-1. Finish the release blockers above and review all staged/public files.
-2. Create an empty **public** GitHub repository under the selected owner; do not initialize it with a README, license or `.gitignore`.
-3. Add the remote and push only when separately authorized:
-
-   ```powershell
-   git remote add origin https://github.com/OWNER/REPOSITORY.git
-   git remote -v
-   git push -u origin main
-   ```
-
-4. Configure a required reviewer for the `github-pages` environment, then set Pages source to GitHub Actions and run `deploy-pages.yml` manually from `main` only after publication is approved.
-5. Verify the site and custom-domain prerequisites before entering `uaTeg.com` in Pages settings. DNS stays unchanged until a separately reviewed plan exists.
+1. Connect the exact `TatianaSF.com` Chrome profile and review the published site at the four target viewport widths; capture screenshots and verify map interaction, language switching and keyboard access.
+2. Proofread the Ukrainian translations and decide how to annotate the documented source discrepancies.
+3. When ready for the future root domain, configure `uaTeg.com` in repository Pages settings, review existing DNS first, then add only the GitHub Pages records required by the official domain guide. Switch build configuration to an empty `NEXT_PUBLIC_BASE_PATH` and `NEXT_PUBLIC_SITE_URL=https://uaTeg.com`; do not add a `CNAME` for the current project-site release.

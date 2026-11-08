@@ -44,7 +44,7 @@ To install the private-source migration tools on a machine with access to the lo
 
 The public event catalog is in `src/content/events.json`; the deduplicated image catalog and occurrence links are in `src/content/media.json`. The unchanged source PDF and 83 source-derived WebP images are public under `public/`. The 126 image placements map to 41 PDF pages. Temporary contact sheets, page previews, raw inventories and extracted originals remain in ignored `source-private/`. The project owner explicitly authorized publishing historical photos, names and contact data; this does not claim independent third-party consent or rights verification. See `MEDIA_COVERAGE.md`, `SOURCE_COVERAGE.md`, `CITY_COORDINATES.md` and `EDITORIAL_REVIEW.md`.
 
-No organizer form provider or public contact channel is approved for this release, so the guide shows `FORM_NOT_CONFIGURED` and does not claim to send inquiries.
+No organizer form provider is configured, so the guide shows `FORM_NOT_CONFIGURED` and does not claim to send inquiries. Source-listed contact methods are displayed on the Contact page under the project owner's publication authorization.
 
 ## Deployment
 
