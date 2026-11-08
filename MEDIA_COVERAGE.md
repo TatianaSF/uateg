@@ -3,6 +3,8 @@
 - Original PDF: `archive/angels-of-ukraine-source-2025-10-15.pdf` (55,077,592 bytes; SHA-256 `48e6f594751de93204491e78f451610231ddf798d29d4b7e71ed1db037d8dc7b`).
 - Source image placements represented: **126/126**.
 - Unique source image assets published once: **83/83**.
+- Photographic assets (including portraits): **71**; source graphics (logos, emblem, posters and QR): **12**.
+- The contact-sheet audit classified each unique asset as a photograph, portrait, logo, emblem, document graphic or QR code; event cards and the photo gallery select only photographs and portraits.
 - The image files are the private review WebP derivatives; no contact sheets, page previews, inventories or temporary extraction files are copied to the site.
 - Image placement alt text is source-page based and bilingual. People and partner names follow the source text; no new captions or photographer credits are invented.
 

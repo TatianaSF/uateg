@@ -37,13 +37,16 @@ test("locales are complete and event dates retain source precision", () => {
   assert.ok(!formatEventDate(monthEvents[0], "en").includes("1,"));
 });
 
-test("source photography is linked to its event pages while map points remain city-level", () => {
-  const media = JSON.parse(readFileSync(new URL("../src/content/media.json", import.meta.url), "utf8")) as { assets: { id: string }[]; placements: { pdfPage: number }[] };
+test("source photographs and graphics are classified and linked to every event", () => {
+  const media = JSON.parse(readFileSync(new URL("../src/content/media.json", import.meta.url), "utf8")) as { assets: { id: string; assetType: string }[]; placements: { pdfPage: number }[] };
   const assetIds = new Set(media.assets.map((asset) => asset.id));
   assert.equal(media.assets.length, 83);
   assert.equal(media.placements.length, 126);
+  assert.equal(media.assets.filter((asset) => ["photograph", "portrait"].includes(asset.assetType)).length, 71);
+  assert.equal(media.assets.filter((asset) => ["emblem", "logo", "document-graphic", "qr-code"].includes(asset.assetType)).length, 12);
   assert.ok(allEvents.every((event) => event.coordinates === null));
-  assert.ok(allEvents.some((event) => event.media.length > 0));
+  const photos = new Set(media.assets.filter((asset) => ["photograph", "portrait"].includes(asset.assetType)).map((asset) => asset.id));
+  assert.ok(allEvents.every((event) => event.media.some((assetId) => photos.has(assetId))));
   assert.ok(allEvents.every((event) => event.media.every((assetId) => assetIds.has(assetId))));
   assert.ok(cities.every((city) => city.coordinates !== null));
 });

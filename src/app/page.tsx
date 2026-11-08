@@ -1,13 +1,15 @@
-import Link from "next/link";
+import type { Metadata } from "next";
+import { HomeLanding } from "@/components/HomeLanding";
+import { SiteHeader } from "@/components/SiteHeader";
+import { SiteFooter } from "@/components/SiteFooter";
+import { absoluteUrl } from "@/lib/site";
+
+export const metadata: Metadata = {
+  title: "Angels of Ukraine · A travelling memorial",
+  description: "Explore the Angels of Ukraine memorial story, photographs and historical events across eight countries.",
+  alternates: { canonical: absoluteUrl("/"), languages: { en: absoluteUrl("/"), uk: absoluteUrl("/uk/") } },
+};
 
 export default function EntryPage() {
-  return <main className="entry-page">
-    <div className="entry-card">
-      <span className="brand-mark large-mark" aria-hidden="true">✳</span>
-      <p className="eyebrow">A travelling memorial</p>
-      <h1>Angels of Ukraine</h1>
-      <p className="lead">A respectful archive of memorial events and a guide for communities who wish to organize.</p>
-      <div className="entry-links"><Link className="button button-primary" href="/en/">English</Link><Link className="button button-outline" href="/uk/" lang="uk">Українська</Link></div>
-    </div>
-  </main>;
+  return <><a className="skip-link" href="#main-content">Skip to content</a><SiteHeader locale="en" /><main id="main-content"><HomeLanding locale="en" /></main><SiteFooter locale="en" /></>;
 }

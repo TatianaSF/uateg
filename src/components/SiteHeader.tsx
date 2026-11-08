@@ -6,7 +6,7 @@ import { LocaleSwitch } from "./LocaleSwitch";
 export function SiteHeader({ locale }: { locale: Locale }) {
   const links = [
     ["about", t(locale, "about")], ["events", t(locale, "archive")], ["map", t(locale, "map")],
-    ["timeline", t(locale, "timeline")], ["organize", t(locale, "organize")],
+    ["timeline", t(locale, "timeline")], ["gallery", locale === "en" ? "Gallery" : "Галерея"], ["organize", t(locale, "organize")],
   ] as const;
   return <header className="site-header">
     <div className="header-inner">

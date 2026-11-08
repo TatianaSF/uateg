@@ -13,7 +13,7 @@ ROOT = Path(__file__).resolve().parents[1]
 OUT = Path(sys.argv[1]) if len(sys.argv) > 1 else ROOT / "out"
 events = json.loads((ROOT / "src/content/events.json").read_text(encoding="utf-8"))
 base_path = os.environ.get("NEXT_PUBLIC_BASE_PATH", "").rstrip("/")
-site_url = os.environ.get("NEXT_PUBLIC_SITE_URL", "https://uaTeg.com").rstrip("/")
+site_url = os.environ.get("NEXT_PUBLIC_SITE_URL", "https://uaTeg.com").rstrip("/").lower()
 
 class Links(html.parser.HTMLParser):
     def __init__(self) -> None:
@@ -32,7 +32,7 @@ def main() -> int:
             errors.append(f"missing required export file: {route}")
     route_count = 0
     for locale in ("en", "uk"):
-        for route in ("about", "events", "map", "timeline", "team", "organize", "contact", "privacy"):
+        for route in ("about", "events", "map", "timeline", "team", "organize", "contact", "privacy", "gallery"):
             route_count += 1
             if not (OUT / locale / route / "index.html").is_file():
                 errors.append(f"missing route: /{locale}/{route}/")
@@ -47,6 +47,15 @@ def main() -> int:
         errors.append(f"export folder does not exist: {OUT}")
     else:
         all_files = [path for path in OUT.rglob("*") if path.is_file()]
+        root_html = (OUT / "index.html").read_text(encoding="utf-8", errors="replace") if (OUT / "index.html").is_file() else ""
+        if "Memory that travels" not in root_html or "Explore Our Story" not in root_html:
+            errors.append("root route must render the English landing page")
+        if "Photographs &amp; source materials" not in (OUT / "en" / "gallery" / "index.html").read_text(encoding="utf-8", errors="replace") if (OUT / "en" / "gallery" / "index.html").is_file() else True:
+            errors.append("English photo archive page is missing its gallery heading")
+        for locale in ("en", "uk"):
+            gallery = OUT / locale / "gallery" / "index.html"
+            if gallery.is_file() and "photo-archive-grid" not in gallery.read_text(encoding="utf-8", errors="replace"):
+                errors.append(f"photo gallery /{locale}/gallery/ has no rendered archive grid")
         for locale in ("en", "uk"):
             organizer_page = OUT / locale / "organize" / "index.html"
             if organizer_page.is_file():
@@ -102,7 +111,7 @@ def main() -> int:
         print("\n".join(f"- {item}" for item in errors[:40]))
         return 1
     size = sum(path.stat().st_size for path in OUT.rglob("*") if path.is_file())
-    print(f"PASS: {route_count} non-home localized routes including 66 event pages, localized homes, root/404/sitemap/robots/.nojekyll; local links resolve; {size:,} bytes")
+    print(f"PASS: {route_count} non-home localized routes including 66 event pages, localized homes, root landing, bilingual photo galleries, 404/sitemap/robots/.nojekyll; local links resolve; {size:,} bytes")
     return 0
 
 if __name__ == "__main__":

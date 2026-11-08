@@ -26,6 +26,37 @@ ASSET_DIR = PUBLIC / "images" / "archive"
 APPROVED_MEDIA = ROOT / "scripts" / "approved_public_media.txt"
 REPORT_PATH = ROOT / "MEDIA_COVERAGE.md"
 PDF_SHA256 = "48e6f594751de93204491e78f451610231ddf798d29d4b7e71ed1db037d8dc7b"
+ASSET_TYPES = {
+    "8ce30b02eea734e2509a02042c790f1f240c7332696808f1816828f2bf9a3696": "emblem",
+    "7dba5c43d302c78846198d3c2ccfe22e334054770e2e5d5761e021692b492ea0": "logo",
+    "57e873181fdca1af18778cb17e6e2d46bc98cf132638165314be3a1352075385": "logo",
+    "4d99719dc707fa453804ac61d22937dfcc47c27d303aedab6a33c4fedc684a9b": "logo",
+    "4d0c6384fa02f631182813ac9e7a462787011a6aaf438a6af9997f24115bf7fd": "logo",
+    "02c99ca387c4e4211edd0a2693bdac9fa2a00ce25ad0fbceb80b9e65ec4867b7": "logo",
+    "6e0318a359230d1090d6f444123b56e74494654e5166a1c935e504e567d7cbd884bdd0b74ab8c6e036e32b2a6": "logo",
+    "3cd36219cf659c55fe949902178068f17005cf49674d77e05542924ece84fa18": "document-graphic",
+    "9f938cded22660a2d4b613fb05b6c95843ef602cfda4b1b25b1c912181e8491f": "document-graphic",
+    "8071e4fb838f14b3bc1283e90b5217c1be498eeeaf3cd98dca13d6a79eeb170b": "document-graphic",
+    "cc9e98377d80ea263eb50d993de31f9b0a09d19e4ca2bd586789e60dea6764f7": "document-graphic",
+    "2d482128a7fc6e6c9418d33d8dbb81ce624ac1bf9fc44b85a63f1e5b4bd2141b": "qr-code",
+    "efb4167514c4f3bcee5877155949f5f2e97b6bb6f848b172108620b0cb14067e": "portrait",
+    "9b1591505f73611629743218d910b5deb002ad9f9d5481d3db1c340e38ec014a": "portrait",
+}
+LOGO_LABELS = {
+    "7dba5c43d302c78846198d3c2ccfe22e334054770e2e5d5761e021692b492ea0": "Plast logo",
+    "57e873181fdca1af18778cb17e6e2d46bc98cf132638165314be3a1352075385": "scouting emblem",
+    "4d99719dc707fa453804ac61d22937dfcc47c27d303aedab6a33c4fedc684a9b": "FEMAN logo",
+    "4d0c6384fa02f631182813ac9e7a462787011a6aaf438a6af9997f24115bf7fd": "Newbury Today logo",
+    "02c99ca387c4e4211edd0a2693bdac9fa2a00ce25ad0fbceb80b9e65ec4867b7": "BBC News logo",
+    "6e0318a359230d1090d6f444123b56e74494654e5166a1c935e504e567d7cbd884bdd0b74ab8c6e036e32b2a6": "Ludlow Town Council logo",
+}
+
+LOGO_PREFIX_LABELS = {"57e873": "scouting emblem", "6e0318": "Ludlow Town Council logo"}
+
+def classify_asset(asset_id: str) -> str:
+    if asset_id.startswith(("57e873", "6e0318")):
+        return "logo"
+    return ASSET_TYPES.get(asset_id, "photograph")
 
 UKRAINIAN_TRANSLATIONS: dict[int, str] = {
     5: "У 2022 році Ольга Arakelyan уперше запросила Янголів до міста, організувавши захід до Дня Незалежності України. У війні загинуло 363 дитини. Війна триває.",
@@ -110,37 +141,44 @@ def main() -> None:
                     "width": item["width"],
                     "height": item["height"],
                     "webpBytes": target_webp.stat().st_size,
-                    "assetType": "source-image",
+                    "assetType": classify_asset(asset_id),
                 }
-            if asset_id == "8ce30b02eea734e2509a02042c790f1f240c7332696808f1816828f2bf9a3696":
+            asset_type = classify_asset(asset_id)
+            assets[asset_id]["assetType"] = asset_type
+            if asset_type == "emblem":
                 alt_en = "The Ukrainian trident emblem shown in the source document."
                 alt_uk = "Тризуб — емблема України, зображена в першоджерелі."
-                assets[asset_id]["assetType"] = "emblem"
-            elif page_number == 40 and item["width"] == 410:
-                person = "Nataliia Mitso" if occurrence == 2 else "Svitlana Peshterianu"
+            elif asset_type == "portrait":
+                person = "Nataliia Mitso" if asset_id.startswith("efb416") else "Svitlana Peshterianu"
                 alt_en = f"Portrait of {person}, identified on source page 40."
                 alt_uk = f"Портрет {person}, зазначеної на сторінці 40 першоджерела."
-                assets[asset_id]["assetType"] = "portrait"
-            elif page_number == 41 and item["width"] == 555:
+            elif asset_type == "qr-code":
                 alt_en = "QR code printed on source page 41, beside the social media contact section."
                 alt_uk = "QR-код зі сторінки 41 першоджерела поруч із розділом соціальних мереж."
-                assets[asset_id]["assetType"] = "qr-code"
+            elif asset_type == "logo":
+                label = LOGO_PREFIX_LABELS.get(asset_id[:6], LOGO_LABELS.get(asset_id, "organization logo"))
+                alt_en = f"{label} reproduced on source page {page_number}."
+                alt_uk = f"Логотип «{label}» зі сторінки {page_number} першоджерела."
+            elif asset_type == "document-graphic":
+                alt_en = f"Event graphic or printed poster reproduced on source page {page_number}."
+                alt_uk = f"Графічний матеріал або афіша зі сторінки {page_number} першоджерела."
             else:
                 if event:
                     city_en = event["city"]["en"]
                     city_uk = event["city"]["uk"]
                     country_en = event["country"]["en"]
                     country_uk = event["country"]["uk"]
-                    alt_en = f"Archival image accompanying the Angels of Ukraine record for {city_en}, {country_en}, source page {page_number}."
-                    alt_uk = f"Архівне зображення до запису «Янголи України» про місто {city_uk}, {country_uk}, сторінка {page_number} першоджерела."
+                    alt_en = f"Source photograph accompanying the Angels of Ukraine memorial event in {city_en}, {country_en}; PDF page {page_number}."
+                    alt_uk = f"Фотографія з першоджерела до меморіальної акції «Янголи України» у місті {city_uk}, {country_uk}; сторінка PDF {page_number}."
                 else:
-                    alt_en = f"Archival image from page {page_number} of the Angels of Ukraine source PDF."
-                    alt_uk = f"Архівне зображення зі сторінки {page_number} PDF «Янголи України»."
+                    alt_en = f"Source photograph from page {page_number} of the Angels of Ukraine archive."
+                    alt_uk = f"Фотографія з першоджерела «Янголи України», сторінка {page_number}."
             placement = {
                 "id": f"p{page_number:02d}-xref-{item['xref']}-occurrence-{occurrence}",
                 "pdfPage": page_number,
                 "occurrence": occurrence,
                 "assetId": asset_id,
+                "assetType": asset_type,
                 "alt": {"en": alt_en, "uk": alt_uk},
                 "eventId": event["id"] if event else None,
                 "eventSlug": event["slug"] if event else None,
@@ -149,6 +187,12 @@ def main() -> None:
             placements.append(placement)
             if event and asset_id not in event_media[page_number]:
                 event_media[page_number].append(asset_id)
+
+    for asset_id, asset in assets.items():
+        references = [placement for placement in placements if placement["assetId"] == asset_id]
+        asset["sourcePages"] = sorted({placement["pdfPage"] for placement in references})
+        asset["eventSlugs"] = list(dict.fromkeys(placement["eventSlug"] for placement in references if placement["eventSlug"]))
+        asset["alt"] = next((placement["alt"] for placement in references), {"en": "Source archive image.", "uk": "Зображення з першоджерела."})
 
     for event in events:
         page = event["sourcePageIds"][0]
@@ -219,8 +263,11 @@ def main() -> None:
                 "en": "The source prints the event date as 12 July 2024, while its description refers to the 8 July 2025 attack on the Okhmadit children’s hospital. Both source statements are preserved without choosing which date is correct.",
                 "uk": "У джерелі надруковано дату події 12 липня 2024 року, тоді як опис згадує напад на дитячу лікарню «Охматдит» 8 липня 2025 року. Обидва твердження джерела збережено без припущень, яка дата правильна.",
             }
-        event["editorialFlags"] = [flag for flag in event["editorialFlags"] if flag not in {"image_rights_pending", "coordinates_unverified"}]
-        event["editorialFlags"].append("historical-source-discrepancies-preserved")
+        event["editorialFlags"] = list(dict.fromkeys(flag for flag in event["editorialFlags"] if flag not in {"image_rights_pending", "coordinates_unverified"}))
+        if "historical-source-discrepancies-preserved" not in event["editorialFlags"]:
+            event["editorialFlags"].append("historical-source-discrepancies-preserved")
+        if page != 13:
+            event.pop("sourceDiscrepancy", None)
 
     ASSET_DIR.mkdir(parents=True, exist_ok=True)
     PDF_TARGET.parent.mkdir(parents=True, exist_ok=True)
@@ -250,6 +297,8 @@ def main() -> None:
         f"- Original PDF: `archive/angels-of-ukraine-source-2025-10-15.pdf` ({PDF_TARGET.stat().st_size:,} bytes; SHA-256 `{PDF_SHA256}`).",
         f"- Source image placements represented: **{len(placements)}/126**.",
         f"- Unique source image assets published once: **{len(assets)}/83**.",
+        f"- Photographic assets (including portraits): **{sum(1 for asset in assets.values() if asset['assetType'] in {'photograph', 'portrait'})}**; source graphics (logos, emblem, posters and QR): **{sum(1 for asset in assets.values() if asset['assetType'] not in {'photograph', 'portrait'})}**.",
+        "- The contact-sheet audit classified each unique asset as a photograph, portrait, logo, emblem, document graphic or QR code; event cards and the photo gallery select only photographs and portraits.",
         "- The image files are the private review WebP derivatives; no contact sheets, page previews, inventories or temporary extraction files are copied to the site.",
         "- Image placement alt text is source-page based and bilingual. People and partner names follow the source text; no new captions or photographer credits are invented.",
         "",

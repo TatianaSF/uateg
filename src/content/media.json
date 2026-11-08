@@ -10,7 +10,15 @@
       "width": 1080,
       "height": 864,
       "webpBytes": 76402,
-      "assetType": "source-image"
+      "assetType": "photograph",
+      "sourcePages": [
+        1
+      ],
+      "eventSlugs": [],
+      "alt": {
+        "en": "Source photograph from page 1 of the Angels of Ukraine archive.",
+        "uk": "Фотографія з першоджерела «Янголи України», сторінка 1."
+      }
     },
     {
       "id": "8ce30b02eea734e2509a02042c790f1f240c7332696808f1816828f2bf9a3696",
@@ -18,7 +26,89 @@
       "width": 225,
       "height": 225,
       "webpBytes": 2940,
-      "assetType": "emblem"
+      "assetType": "emblem",
+      "sourcePages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41
+      ],
+      "eventSlugs": [
+        "banska-bystrica-2025-08-24-p5",
+        "warsaw-2025-02-23-p6",
+        "presov-2024-12-06-p7",
+        "kosice-2024-11-19-p8",
+        "kosice-2024-09-22-p9",
+        "toronto-2024-08-24-p10",
+        "montreal-2024-07-p11",
+        "quebec-city-2024-07-17-p12",
+        "montreal-2024-07-12-p13",
+        "edmonton-2024-04-p14",
+        "winnipeg-2024-04-p15",
+        "bratislava-2024-02-24-p16",
+        "kezmarok-2023-12-p17",
+        "sliema-2023-11-04-p18",
+        "valletta-2023-10-28-p19",
+        "kosice-2023-09-24-p20",
+        "stockholm-2023-09-10-p21",
+        "uppsala-2023-08-20-p22",
+        "newbury-2023-07-12-p23",
+        "berlin-2023-06-01-p24",
+        "leipzig-2023-05-p25",
+        "potsdam-2023-04-p26",
+        "shrewsbury-2023-03-04-p27",
+        "cleobury-mortimer-2023-02-12-p28",
+        "ludlow-2023-01-21-p29",
+        "limassol-2022-12-18-p30",
+        "larnaca-2022-12-07-p31",
+        "kosice-2022-09-25-p32",
+        "bratislava-2022-09-14-p33",
+        "banska-bystrica-2022-08-24-p34",
+        "presov-2022-07-17-p35",
+        "zilina-2022-07-12-p36",
+        "kosice-2022-06-01-p37"
+      ],
+      "alt": {
+        "en": "The Ukrainian trident emblem shown in the source document.",
+        "uk": "Тризуб — емблема України, зображена в першоджерелі."
+      }
     },
     {
       "id": "efb526e1909de5b6a5139906c48b7096863df555064419012841a14857c96d53",
@@ -26,7 +116,15 @@
       "width": 966,
       "height": 1094,
       "webpBytes": 219296,
-      "assetType": "source-image"
+      "assetType": "photograph",
+      "sourcePages": [
+        2
+      ],
+      "eventSlugs": [],
+      "alt": {
+        "en": "Source photograph from page 2 of the Angels of Ukraine archive.",
+        "uk": "Фотографія з першоджерела «Янголи України», сторінка 2."
+      }
     },
     {
       "id": "313533092d2e1df5999b004ece21ccb3cacfec86538c2a98f41e6bf3bc487e72",
@@ -34,7 +132,15 @@
       "width": 720,
       "height": 1600,
       "webpBytes": 240442,
-      "assetType": "source-image"
+      "assetType": "photograph",
+      "sourcePages": [
+        4
+      ],
+      "eventSlugs": [],
+      "alt": {
+        "en": "Source photograph from page 4 of the Angels of Ukraine archive.",
+        "uk": "Фотографія з першоджерела «Янголи України», сторінка 4."
+      }
     },
     {
       "id": "2b2f867a075b91f6a784148b7b2d0c1fe14537564080099f22a5967e893789f0",
@@ -42,7 +148,17 @@
       "width": 1800,
       "height": 1200,
       "webpBytes": 433868,
-      "assetType": "source-image"
+      "assetType": "photograph",
+      "sourcePages": [
+        5
+      ],
+      "eventSlugs": [
+        "banska-bystrica-2025-08-24-p5"
+      ],
+      "alt": {
+        "en": "Source photograph accompanying the Angels of Ukraine memorial event in Banská Bystrica, Slovakia; PDF page 5.",
+        "uk": "Фотографія з першоджерела до меморіальної акції «Янголи України» у місті Банська Бистриця, Словаччина; сторінка PDF 5."
+      }
     },
     {
       "id": "d91e6a91fc39f96aa6e60f3282971896fdc44d67806ab9d3c68ae316ea80f120",
@@ -50,7 +166,17 @@
       "width": 1800,
       "height": 1200,
       "webpBytes": 126722,
-      "assetType": "source-image"
+      "assetType": "photograph",
+      "sourcePages": [
+        5
+      ],
+      "eventSlugs": [
+        "banska-bystrica-2025-08-24-p5"
+      ],
+      "alt": {
+        "en": "Source photograph accompanying the Angels of Ukraine memorial event in Banská Bystrica, Slovakia; PDF page 5.",
+        "uk": "Фотографія з першоджерела до меморіальної акції «Янголи України» у місті Банська Бистриця, Словаччина; сторінка PDF 5."
+      }
     },
     {
       "id": "b2dc6e2bc763a2ceb7e2246d9a03cb1629ffc6dde8e087aadf73e9e093959a61",
@@ -58,7 +184,17 @@
       "width": 2400,
       "height": 1600,
       "webpBytes": 190018,
-      "assetType": "source-image"
+      "assetType": "photograph",
+      "sourcePages": [
+        5
+      ],
+      "eventSlugs": [
+        "banska-bystrica-2025-08-24-p5"
+      ],
+      "alt": {
+        "en": "Source photograph accompanying the Angels of Ukraine memorial event in Banská Bystrica, Slovakia; PDF page 5.",
+        "uk": "Фотографія з першоджерела до меморіальної акції «Янголи України» у місті Банська Бистриця, Словаччина; сторінка PDF 5."
+      }
     },
     {
       "id": "7dba5c43d302c78846198d3c2ccfe22e334054770e2e5d5761e021692b492ea0",
@@ -66,7 +202,19 @@
       "width": 145,
       "height": 43,
       "webpBytes": 1414,
-      "assetType": "source-image"
+      "assetType": "logo",
+      "sourcePages": [
+        6,
+        20
+      ],
+      "eventSlugs": [
+        "warsaw-2025-02-23-p6",
+        "kosice-2023-09-24-p20"
+      ],
+      "alt": {
+        "en": "Plast logo reproduced on source page 6.",
+        "uk": "Логотип «Plast logo» зі сторінки 6 першоджерела."
+      }
     },
     {
       "id": "7d85cbc0fdeb04bf3e91431d9ee341214dd73a2e7f6b2215e4a170c4e10e9cdf",
@@ -74,7 +222,17 @@
       "width": 960,
       "height": 720,
       "webpBytes": 73806,
-      "assetType": "source-image"
+      "assetType": "photograph",
+      "sourcePages": [
+        6
+      ],
+      "eventSlugs": [
+        "warsaw-2025-02-23-p6"
+      ],
+      "alt": {
+        "en": "Source photograph accompanying the Angels of Ukraine memorial event in Warsaw, Poland; PDF page 6.",
+        "uk": "Фотографія з першоджерела до меморіальної акції «Янголи України» у місті Варшава, Польща; сторінка PDF 6."
+      }
     },
     {
       "id": "09506622126eb882b496dc96448f003effacfbbe9c97c1643897a98dde281633",
@@ -82,7 +240,17 @@
       "width": 820,
       "height": 551,
       "webpBytes": 32950,
-      "assetType": "source-image"
+      "assetType": "photograph",
+      "sourcePages": [
+        6
+      ],
+      "eventSlugs": [
+        "warsaw-2025-02-23-p6"
+      ],
+      "alt": {
+        "en": "Source photograph accompanying the Angels of Ukraine memorial event in Warsaw, Poland; PDF page 6.",
+        "uk": "Фотографія з першоджерела до меморіальної акції «Янголи України» у місті Варшава, Польща; сторінка PDF 6."
+      }
     },
     {
       "id": "f1c34a30d04ae091df4df4052cec7537a2863a9f4d0a16bca0fd6a3dd9bcb94c",
@@ -90,7 +258,17 @@
       "width": 820,
       "height": 552,
       "webpBytes": 40614,
-      "assetType": "source-image"
+      "assetType": "photograph",
+      "sourcePages": [
+        6
+      ],
+      "eventSlugs": [
+        "warsaw-2025-02-23-p6"
+      ],
+      "alt": {
+        "en": "Source photograph accompanying the Angels of Ukraine memorial event in Warsaw, Poland; PDF page 6.",
+        "uk": "Фотографія з першоджерела до меморіальної акції «Янголи України» у місті Варшава, Польща; сторінка PDF 6."
+      }
     },
     {
       "id": "e1d96107a013b7bc14249230eba74a761993a5eec7df64f7e6977f1db3b32809",
@@ -98,7 +276,17 @@
       "width": 846,
       "height": 927,
       "webpBytes": 54916,
-      "assetType": "source-image"
+      "assetType": "photograph",
+      "sourcePages": [
+        7
+      ],
+      "eventSlugs": [
+        "presov-2024-12-06-p7"
+      ],
+      "alt": {
+        "en": "Source photograph accompanying the Angels of Ukraine memorial event in Prešov, Slovakia; PDF page 7.",
+        "uk": "Фотографія з першоджерела до меморіальної акції «Янголи України» у місті Пряшів, Словаччина; сторінка PDF 7."
+      }
     },
     {
       "id": "1421a570dd56d2805fc05a49f5905801917daa66beef5d92bea6d822d493ebdf",
@@ -106,7 +294,17 @@
       "width": 864,
       "height": 1152,
       "webpBytes": 86226,
-      "assetType": "source-image"
+      "assetType": "photograph",
+      "sourcePages": [
+        7
+      ],
+      "eventSlugs": [
+        "presov-2024-12-06-p7"
+      ],
+      "alt": {
+        "en": "Source photograph accompanying the Angels of Ukraine memorial event in Prešov, Slovakia; PDF page 7.",
+        "uk": "Фотографія з першоджерела до меморіальної акції «Янголи України» у місті Пряшів, Словаччина; сторінка PDF 7."
+      }
     },
     {
       "id": "a8488655ec08381cafe6b48183818881f583fdd2250fc4f9b0fd98c79c06f651",
@@ -114,7 +312,17 @@
       "width": 896,
       "height": 672,
       "webpBytes": 79380,
-      "assetType": "source-image"
+      "assetType": "photograph",
+      "sourcePages": [
+        7
+      ],
+      "eventSlugs": [
+        "presov-2024-12-06-p7"
+      ],
+      "alt": {
+        "en": "Source photograph accompanying the Angels of Ukraine memorial event in Prešov, Slovakia; PDF page 7.",
+        "uk": "Фотографія з першоджерела до меморіальної акції «Янголи України» у місті Пряшів, Словаччина; сторінка PDF 7."
+      }
     },
     {
       "id": "83c3882495b049142bb54c6617c47b064ed5eba73967d5a55f22973f1cd3d7ea",
@@ -122,7 +330,17 @@
       "width": 627,
       "height": 1392,
       "webpBytes": 14648,
-      "assetType": "source-image"
+      "assetType": "photograph",
+      "sourcePages": [
+        7
+      ],
+      "eventSlugs": [
+        "presov-2024-12-06-p7"
+      ],
+      "alt": {
+        "en": "Source photograph accompanying the Angels of Ukraine memorial event in Prešov, Slovakia; PDF page 7.",
+        "uk": "Фотографія з першоджерела до меморіальної акції «Янголи України» у місті Пряшів, Словаччина; сторінка PDF 7."
+      }
     },
     {
       "id": "9e11c6a23da454b4ff7e611b271093bf7f524b114e5a977ae44bf14a4efaed29",
@@ -130,7 +348,17 @@
       "width": 901,
       "height": 1600,
       "webpBytes": 199490,
-      "assetType": "source-image"
+      "assetType": "photograph",
+      "sourcePages": [
+        8
+      ],
+      "eventSlugs": [
+        "kosice-2024-11-19-p8"
+      ],
+      "alt": {
+        "en": "Source photograph accompanying the Angels of Ukraine memorial event in Košice, Slovakia; PDF page 8.",
+        "uk": "Фотографія з першоджерела до меморіальної акції «Янголи України» у місті Кошице, Словаччина; сторінка PDF 8."
+      }
     },
     {
       "id": "55915b4fae2a43b754fbccd0f5e5a0754c8b7aff7a8dc2da66342bcfda8ea44a",
@@ -138,7 +366,17 @@
       "width": 720,
       "height": 960,
       "webpBytes": 122242,
-      "assetType": "source-image"
+      "assetType": "photograph",
+      "sourcePages": [
+        8
+      ],
+      "eventSlugs": [
+        "kosice-2024-11-19-p8"
+      ],
+      "alt": {
+        "en": "Source photograph accompanying the Angels of Ukraine memorial event in Košice, Slovakia; PDF page 8.",
+        "uk": "Фотографія з першоджерела до меморіальної акції «Янголи України» у місті Кошице, Словаччина; сторінка PDF 8."
+      }
     },
     {
       "id": "2f379a814c7e734b56f20f6b2900d66d958bdaa99778a7ae5358095b9cc2a2a5",
@@ -146,7 +384,17 @@
       "width": 960,
       "height": 1280,
       "webpBytes": 110912,
-      "assetType": "source-image"
+      "assetType": "photograph",
+      "sourcePages": [
+        8
+      ],
+      "eventSlugs": [
+        "kosice-2024-11-19-p8"
+      ],
+      "alt": {
+        "en": "Source photograph accompanying the Angels of Ukraine memorial event in Košice, Slovakia; PDF page 8.",
+        "uk": "Фотографія з першоджерела до меморіальної акції «Янголи України» у місті Кошице, Словаччина; сторінка PDF 8."
+      }
     },
     {
       "id": "3cd36219cf659c55fe949902178068f17005cf49674d77e05542924ece84fa18",
@@ -154,7 +402,19 @@
       "width": 558,
       "height": 298,
       "webpBytes": 20240,
-      "assetType": "source-image"
+      "assetType": "document-graphic",
+      "sourcePages": [
+        9,
+        20
+      ],
+      "eventSlugs": [
+        "kosice-2024-09-22-p9",
+        "kosice-2023-09-24-p20"
+      ],
+      "alt": {
+        "en": "Event graphic or printed poster reproduced on source page 9.",
+        "uk": "Графічний матеріал або афіша зі сторінки 9 першоджерела."
+      }
     },
     {
       "id": "f53a287337277d83eaa687a251968590df525f3cf816fa5d0889139b302256bd",
@@ -162,7 +422,17 @@
       "width": 832,
       "height": 1850,
       "webpBytes": 232670,
-      "assetType": "source-image"
+      "assetType": "photograph",
+      "sourcePages": [
+        9
+      ],
+      "eventSlugs": [
+        "kosice-2024-09-22-p9"
+      ],
+      "alt": {
+        "en": "Source photograph accompanying the Angels of Ukraine memorial event in Košice, Slovakia; PDF page 9.",
+        "uk": "Фотографія з першоджерела до меморіальної акції «Янголи України» у місті Кошице, Словаччина; сторінка PDF 9."
+      }
     },
     {
       "id": "f5aea96f853601d9e8c629506920ff4c53049265e40b67fc2eb6b26b12ff1751",
@@ -170,7 +440,17 @@
       "width": 832,
       "height": 1850,
       "webpBytes": 388050,
-      "assetType": "source-image"
+      "assetType": "photograph",
+      "sourcePages": [
+        9
+      ],
+      "eventSlugs": [
+        "kosice-2024-09-22-p9"
+      ],
+      "alt": {
+        "en": "Source photograph accompanying the Angels of Ukraine memorial event in Košice, Slovakia; PDF page 9.",
+        "uk": "Фотографія з першоджерела до меморіальної акції «Янголи України» у місті Кошице, Словаччина; сторінка PDF 9."
+      }
     },
     {
       "id": "9890981de06c3b9c941c21ecfdeaca48e8f6fac42c2fdfc09be8a83b6c4d3feb",
@@ -178,7 +458,17 @@
       "width": 261,
       "height": 196,
       "webpBytes": 12496,
-      "assetType": "source-image"
+      "assetType": "photograph",
+      "sourcePages": [
+        10
+      ],
+      "eventSlugs": [
+        "toronto-2024-08-24-p10"
+      ],
+      "alt": {
+        "en": "Source photograph accompanying the Angels of Ukraine memorial event in Toronto, Canada; PDF page 10.",
+        "uk": "Фотографія з першоджерела до меморіальної акції «Янголи України» у місті Торонто, Канада; сторінка PDF 10."
+      }
     },
     {
       "id": "1cb446a558ae5ba7c4aa94fcc452d8de21decf6b890653bf997359c7d5fcfcb9",
@@ -186,7 +476,17 @@
       "width": 261,
       "height": 196,
       "webpBytes": 10400,
-      "assetType": "source-image"
+      "assetType": "photograph",
+      "sourcePages": [
+        10
+      ],
+      "eventSlugs": [
+        "toronto-2024-08-24-p10"
+      ],
+      "alt": {
+        "en": "Source photograph accompanying the Angels of Ukraine memorial event in Toronto, Canada; PDF page 10.",
+        "uk": "Фотографія з першоджерела до меморіальної акції «Янголи України» у місті Торонто, Канада; сторінка PDF 10."
+      }
     },
     {
       "id": "9f938cded22660a2d4b613fb05b6c95843ef602cfda4b1b25b1c912181e8491f",
@@ -194,7 +494,17 @@
       "width": 993,
       "height": 1401,
       "webpBytes": 36126,
-      "assetType": "source-image"
+      "assetType": "document-graphic",
+      "sourcePages": [
+        10
+      ],
+      "eventSlugs": [
+        "toronto-2024-08-24-p10"
+      ],
+      "alt": {
+        "en": "Event graphic or printed poster reproduced on source page 10.",
+        "uk": "Графічний матеріал або афіша зі сторінки 10 першоджерела."
+      }
     },
     {
       "id": "688263d7b896d49fa57667c0c799cf36ece042046e9f3f18d2ec9e6cf46694a6",
@@ -202,7 +512,17 @@
       "width": 1120,
       "height": 840,
       "webpBytes": 159064,
-      "assetType": "source-image"
+      "assetType": "photograph",
+      "sourcePages": [
+        11
+      ],
+      "eventSlugs": [
+        "montreal-2024-07-p11"
+      ],
+      "alt": {
+        "en": "Source photograph accompanying the Angels of Ukraine memorial event in Montréal, Canada; PDF page 11.",
+        "uk": "Фотографія з першоджерела до меморіальної акції «Янголи України» у місті Монреаль, Канада; сторінка PDF 11."
+      }
     },
     {
       "id": "31c33622bb6e7558f59153c30ca2873ee087c7895f3439f6996aa28e4345ddef",
@@ -210,7 +530,17 @@
       "width": 1440,
       "height": 1152,
       "webpBytes": 234182,
-      "assetType": "source-image"
+      "assetType": "photograph",
+      "sourcePages": [
+        12
+      ],
+      "eventSlugs": [
+        "quebec-city-2024-07-17-p12"
+      ],
+      "alt": {
+        "en": "Source photograph accompanying the Angels of Ukraine memorial event in Québec City, Canada; PDF page 12.",
+        "uk": "Фотографія з першоджерела до меморіальної акції «Янголи України» у місті Квебек, Канада; сторінка PDF 12."
+      }
     },
     {
       "id": "8bb79206bb6c98c5f94929b6625ac74787b6b060ded27a7a0b8e51d9c4241b06",
@@ -218,7 +548,17 @@
       "width": 1210,
       "height": 1613,
       "webpBytes": 392140,
-      "assetType": "source-image"
+      "assetType": "photograph",
+      "sourcePages": [
+        13
+      ],
+      "eventSlugs": [
+        "montreal-2024-07-12-p13"
+      ],
+      "alt": {
+        "en": "Source photograph accompanying the Angels of Ukraine memorial event in Montréal, Canada; PDF page 13.",
+        "uk": "Фотографія з першоджерела до меморіальної акції «Янголи України» у місті Монреаль, Канада; сторінка PDF 13."
+      }
     },
     {
       "id": "d74c260e88ff744e0e49621d89817b6041032e3bb3cd27893c753abae240d78f",
@@ -226,7 +566,17 @@
       "width": 640,
       "height": 360,
       "webpBytes": 20198,
-      "assetType": "source-image"
+      "assetType": "photograph",
+      "sourcePages": [
+        14
+      ],
+      "eventSlugs": [
+        "edmonton-2024-04-p14"
+      ],
+      "alt": {
+        "en": "Source photograph accompanying the Angels of Ukraine memorial event in Edmonton, Canada; PDF page 14.",
+        "uk": "Фотографія з першоджерела до меморіальної акції «Янголи України» у місті Едмонтон, Канада; сторінка PDF 14."
+      }
     },
     {
       "id": "57097e49c7f7ea8caa863abe7e74de49844bea1486a158163cf86e9c0acc0e2f",
@@ -234,7 +584,17 @@
       "width": 640,
       "height": 360,
       "webpBytes": 27872,
-      "assetType": "source-image"
+      "assetType": "photograph",
+      "sourcePages": [
+        14
+      ],
+      "eventSlugs": [
+        "edmonton-2024-04-p14"
+      ],
+      "alt": {
+        "en": "Source photograph accompanying the Angels of Ukraine memorial event in Edmonton, Canada; PDF page 14.",
+        "uk": "Фотографія з першоджерела до меморіальної акції «Янголи України» у місті Едмонтон, Канада; сторінка PDF 14."
+      }
     },
     {
       "id": "f8d56cba9579977d14aa22c64844fc892fd1781311455f8aa526f8032c71301b",
@@ -242,7 +602,17 @@
       "width": 640,
       "height": 360,
       "webpBytes": 46122,
-      "assetType": "source-image"
+      "assetType": "photograph",
+      "sourcePages": [
+        14
+      ],
+      "eventSlugs": [
+        "edmonton-2024-04-p14"
+      ],
+      "alt": {
+        "en": "Source photograph accompanying the Angels of Ukraine memorial event in Edmonton, Canada; PDF page 14.",
+        "uk": "Фотографія з першоджерела до меморіальної акції «Янголи України» у місті Едмонтон, Канада; сторінка PDF 14."
+      }
     },
     {
       "id": "c6ca1fd18b5cea99f3ef7aaf65fb84e19c9babcb535993abc86f0f617ca5a74e",
@@ -250,7 +620,17 @@
       "width": 1844,
       "height": 1038,
       "webpBytes": 224190,
-      "assetType": "source-image"
+      "assetType": "photograph",
+      "sourcePages": [
+        15
+      ],
+      "eventSlugs": [
+        "winnipeg-2024-04-p15"
+      ],
+      "alt": {
+        "en": "Source photograph accompanying the Angels of Ukraine memorial event in Winnipeg, Canada; PDF page 15.",
+        "uk": "Фотографія з першоджерела до меморіальної акції «Янголи України» у місті Вінніпег, Канада; сторінка PDF 15."
+      }
     },
     {
       "id": "f0ed8a9bc6f76ea72e9d734eb709105ef0690e61d7622e5d8d182d83d6eb767f",
@@ -258,7 +638,17 @@
       "width": 1850,
       "height": 1040,
       "webpBytes": 132050,
-      "assetType": "source-image"
+      "assetType": "photograph",
+      "sourcePages": [
+        16
+      ],
+      "eventSlugs": [
+        "bratislava-2024-02-24-p16"
+      ],
+      "alt": {
+        "en": "Source photograph accompanying the Angels of Ukraine memorial event in Bratislava, Slovakia; PDF page 16.",
+        "uk": "Фотографія з першоджерела до меморіальної акції «Янголи України» у місті Братислава, Словаччина; сторінка PDF 16."
+      }
     },
     {
       "id": "a27a009a9b6d35ba590b3d35a42b6942a5f2ae1bc51004adf67294730c54eecb",
@@ -266,7 +656,17 @@
       "width": 1044,
       "height": 2320,
       "webpBytes": 266806,
-      "assetType": "source-image"
+      "assetType": "photograph",
+      "sourcePages": [
+        16
+      ],
+      "eventSlugs": [
+        "bratislava-2024-02-24-p16"
+      ],
+      "alt": {
+        "en": "Source photograph accompanying the Angels of Ukraine memorial event in Bratislava, Slovakia; PDF page 16.",
+        "uk": "Фотографія з першоджерела до меморіальної акції «Янголи України» у місті Братислава, Словаччина; сторінка PDF 16."
+      }
     },
     {
       "id": "d84ac81787f8843ff8260c688beb17c9c20fd7c3515c65e672167347dfbaad2e",
@@ -274,7 +674,19 @@
       "width": 1280,
       "height": 960,
       "webpBytes": 93640,
-      "assetType": "source-image"
+      "assetType": "photograph",
+      "sourcePages": [
+        17,
+        18
+      ],
+      "eventSlugs": [
+        "kezmarok-2023-12-p17",
+        "sliema-2023-11-04-p18"
+      ],
+      "alt": {
+        "en": "Source photograph accompanying the Angels of Ukraine memorial event in Kežmarok, Slovakia; PDF page 17.",
+        "uk": "Фотографія з першоджерела до меморіальної акції «Янголи України» у місті Кежмарок, Словаччина; сторінка PDF 17."
+      }
     },
     {
       "id": "1f01ebf82226870c1a92c7f929c1a3a14f48cb258f4d03c98036a34a8eedcc80",
@@ -282,7 +694,17 @@
       "width": 1400,
       "height": 1050,
       "webpBytes": 326472,
-      "assetType": "source-image"
+      "assetType": "photograph",
+      "sourcePages": [
+        17
+      ],
+      "eventSlugs": [
+        "kezmarok-2023-12-p17"
+      ],
+      "alt": {
+        "en": "Source photograph accompanying the Angels of Ukraine memorial event in Kežmarok, Slovakia; PDF page 17.",
+        "uk": "Фотографія з першоджерела до меморіальної акції «Янголи України» у місті Кежмарок, Словаччина; сторінка PDF 17."
+      }
     },
     {
       "id": "fc4864dba9d6977916befe8336af18dbb595b62a06ad4844c491d8653af4e565",
@@ -290,7 +712,17 @@
       "width": 750,
       "height": 1000,
       "webpBytes": 190096,
-      "assetType": "source-image"
+      "assetType": "photograph",
+      "sourcePages": [
+        17
+      ],
+      "eventSlugs": [
+        "kezmarok-2023-12-p17"
+      ],
+      "alt": {
+        "en": "Source photograph accompanying the Angels of Ukraine memorial event in Kežmarok, Slovakia; PDF page 17.",
+        "uk": "Фотографія з першоджерела до меморіальної акції «Янголи України» у місті Кежмарок, Словаччина; сторінка PDF 17."
+      }
     },
     {
       "id": "c90ce308f166732813547e364c48ff3c9175c58cb778bd921fb8837b16d4aeac",
@@ -298,7 +730,17 @@
       "width": 750,
       "height": 1000,
       "webpBytes": 166512,
-      "assetType": "source-image"
+      "assetType": "photograph",
+      "sourcePages": [
+        17
+      ],
+      "eventSlugs": [
+        "kezmarok-2023-12-p17"
+      ],
+      "alt": {
+        "en": "Source photograph accompanying the Angels of Ukraine memorial event in Kežmarok, Slovakia; PDF page 17.",
+        "uk": "Фотографія з першоджерела до меморіальної акції «Янголи України» у місті Кежмарок, Словаччина; сторінка PDF 17."
+      }
     },
     {
       "id": "84cb437b044a7fe458a1887beb1831bdcb12a7e1303b3d631702e701ca5ecbea",
@@ -306,7 +748,17 @@
       "width": 1280,
       "height": 960,
       "webpBytes": 137136,
-      "assetType": "source-image"
+      "assetType": "photograph",
+      "sourcePages": [
+        18
+      ],
+      "eventSlugs": [
+        "sliema-2023-11-04-p18"
+      ],
+      "alt": {
+        "en": "Source photograph accompanying the Angels of Ukraine memorial event in Sliema, Malta; PDF page 18.",
+        "uk": "Фотографія з першоджерела до меморіальної акції «Янголи України» у місті Сліма, Мальта; сторінка PDF 18."
+      }
     },
     {
       "id": "a40bcf8e927da6eea4b1a8254cb8087b68cf26ce1be76df3024b0e5b9de63c4c",
@@ -314,7 +766,17 @@
       "width": 960,
       "height": 1280,
       "webpBytes": 142080,
-      "assetType": "source-image"
+      "assetType": "photograph",
+      "sourcePages": [
+        19
+      ],
+      "eventSlugs": [
+        "valletta-2023-10-28-p19"
+      ],
+      "alt": {
+        "en": "Source photograph accompanying the Angels of Ukraine memorial event in Valletta, Malta; PDF page 19.",
+        "uk": "Фотографія з першоджерела до меморіальної акції «Янголи України» у місті Валлетта, Мальта; сторінка PDF 19."
+      }
     },
     {
       "id": "21f776344bd8937994e526c92f1a53c0caa45c2d5794f105f0acda8de700b9c3",
@@ -322,7 +784,17 @@
       "width": 922,
       "height": 1229,
       "webpBytes": 88584,
-      "assetType": "source-image"
+      "assetType": "photograph",
+      "sourcePages": [
+        20
+      ],
+      "eventSlugs": [
+        "kosice-2023-09-24-p20"
+      ],
+      "alt": {
+        "en": "Source photograph accompanying the Angels of Ukraine memorial event in Košice, Slovakia; PDF page 20.",
+        "uk": "Фотографія з першоджерела до меморіальної акції «Янголи України» у місті Кошице, Словаччина; сторінка PDF 20."
+      }
     },
     {
       "id": "63bef8cfc5122dbc959aba5e3628efd2f3fe58903766f1c58db55aaba91bca6f",
@@ -330,7 +802,17 @@
       "width": 864,
       "height": 1152,
       "webpBytes": 104944,
-      "assetType": "source-image"
+      "assetType": "photograph",
+      "sourcePages": [
+        20
+      ],
+      "eventSlugs": [
+        "kosice-2023-09-24-p20"
+      ],
+      "alt": {
+        "en": "Source photograph accompanying the Angels of Ukraine memorial event in Košice, Slovakia; PDF page 20.",
+        "uk": "Фотографія з першоджерела до меморіальної акції «Янголи України» у місті Кошице, Словаччина; сторінка PDF 20."
+      }
     },
     {
       "id": "57e873181fdca1af18778cb17e6d2d46bc98cf132638165314be3a1352075385",
@@ -338,7 +820,17 @@
       "width": 225,
       "height": 225,
       "webpBytes": 5054,
-      "assetType": "source-image"
+      "assetType": "logo",
+      "sourcePages": [
+        20
+      ],
+      "eventSlugs": [
+        "kosice-2023-09-24-p20"
+      ],
+      "alt": {
+        "en": "scouting emblem reproduced on source page 20.",
+        "uk": "Логотип «scouting emblem» зі сторінки 20 першоджерела."
+      }
     },
     {
       "id": "4d99719dc707fa453804ac61d22937dfcc47c27d303aedab6a33c4fedc684a9b",
@@ -346,7 +838,17 @@
       "width": 280,
       "height": 100,
       "webpBytes": 2370,
-      "assetType": "source-image"
+      "assetType": "logo",
+      "sourcePages": [
+        20
+      ],
+      "eventSlugs": [
+        "kosice-2023-09-24-p20"
+      ],
+      "alt": {
+        "en": "FEMAN logo reproduced on source page 20.",
+        "uk": "Логотип «FEMAN logo» зі сторінки 20 першоджерела."
+      }
     },
     {
       "id": "8ec0f395cf73ec789a5b8750d59c5a7c0a04497b5d0d68d698933971a9a4ee97",
@@ -354,7 +856,17 @@
       "width": 1040,
       "height": 2312,
       "webpBytes": 319598,
-      "assetType": "source-image"
+      "assetType": "photograph",
+      "sourcePages": [
+        20
+      ],
+      "eventSlugs": [
+        "kosice-2023-09-24-p20"
+      ],
+      "alt": {
+        "en": "Source photograph accompanying the Angels of Ukraine memorial event in Košice, Slovakia; PDF page 20.",
+        "uk": "Фотографія з першоджерела до меморіальної акції «Янголи України» у місті Кошице, Словаччина; сторінка PDF 20."
+      }
     },
     {
       "id": "070f4668f241b2719400a0221de47344f3eca8e5fa7f4e8778fc62704fd7361f",
@@ -362,7 +874,17 @@
       "width": 720,
       "height": 1280,
       "webpBytes": 119364,
-      "assetType": "source-image"
+      "assetType": "photograph",
+      "sourcePages": [
+        21
+      ],
+      "eventSlugs": [
+        "stockholm-2023-09-10-p21"
+      ],
+      "alt": {
+        "en": "Source photograph accompanying the Angels of Ukraine memorial event in Stockholm, Sweden; PDF page 21.",
+        "uk": "Фотографія з першоджерела до меморіальної акції «Янголи України» у місті Стокгольм, Швеція; сторінка PDF 21."
+      }
     },
     {
       "id": "b8c2c9b136452dd9669ef6935e504e567d7cbd884bdd0b74ab8c6e036e32b2a6",
@@ -370,7 +892,17 @@
       "width": 1229,
       "height": 818,
       "webpBytes": 152048,
-      "assetType": "source-image"
+      "assetType": "photograph",
+      "sourcePages": [
+        22
+      ],
+      "eventSlugs": [
+        "uppsala-2023-08-20-p22"
+      ],
+      "alt": {
+        "en": "Source photograph accompanying the Angels of Ukraine memorial event in Uppsala, Sweden; PDF page 22.",
+        "uk": "Фотографія з першоджерела до меморіальної акції «Янголи України» у місті Уппсала, Швеція; сторінка PDF 22."
+      }
     },
     {
       "id": "e3fd3ac32db11b6658c8a8ef656a2f9edc300a318802d703644a9a182ae8fc01",
@@ -378,7 +910,17 @@
       "width": 1229,
       "height": 803,
       "webpBytes": 190366,
-      "assetType": "source-image"
+      "assetType": "photograph",
+      "sourcePages": [
+        22
+      ],
+      "eventSlugs": [
+        "uppsala-2023-08-20-p22"
+      ],
+      "alt": {
+        "en": "Source photograph accompanying the Angels of Ukraine memorial event in Uppsala, Sweden; PDF page 22.",
+        "uk": "Фотографія з першоджерела до меморіальної акції «Янголи України» у місті Уппсала, Швеція; сторінка PDF 22."
+      }
     },
     {
       "id": "bef9f42be21ec187042b3931bf8abd092cc1396b8736aaaf45a9b5a5e13ee6b3",
@@ -386,7 +928,17 @@
       "width": 750,
       "height": 771,
       "webpBytes": 91698,
-      "assetType": "source-image"
+      "assetType": "photograph",
+      "sourcePages": [
+        23
+      ],
+      "eventSlugs": [
+        "newbury-2023-07-12-p23"
+      ],
+      "alt": {
+        "en": "Source photograph accompanying the Angels of Ukraine memorial event in Newbury, United Kingdom; PDF page 23.",
+        "uk": "Фотографія з першоджерела до меморіальної акції «Янголи України» у місті Ньюбері, Велика Британія; сторінка PDF 23."
+      }
     },
     {
       "id": "4d0c6384fa02f631182813ac9e7a462787011a6aaf438a6af9997f24115bf7fd",
@@ -394,7 +946,17 @@
       "width": 350,
       "height": 74,
       "webpBytes": 3362,
-      "assetType": "source-image"
+      "assetType": "logo",
+      "sourcePages": [
+        23
+      ],
+      "eventSlugs": [
+        "newbury-2023-07-12-p23"
+      ],
+      "alt": {
+        "en": "Newbury Today logo reproduced on source page 23.",
+        "uk": "Логотип «Newbury Today logo» зі сторінки 23 першоджерела."
+      }
     },
     {
       "id": "02c99ca387c4e4211edd0a2693bdac9fa2a00ce25ad0fbceb80b9e65ec4867b7",
@@ -402,7 +964,17 @@
       "width": 126,
       "height": 126,
       "webpBytes": 1522,
-      "assetType": "source-image"
+      "assetType": "logo",
+      "sourcePages": [
+        23
+      ],
+      "eventSlugs": [
+        "newbury-2023-07-12-p23"
+      ],
+      "alt": {
+        "en": "BBC News logo reproduced on source page 23.",
+        "uk": "Логотип «BBC News logo» зі сторінки 23 першоджерела."
+      }
     },
     {
       "id": "99ba88d73c44c23d989496063c9f5b37a81465b0339a10f450f5a0d0ce72c8a7",
@@ -410,7 +982,17 @@
       "width": 1229,
       "height": 1639,
       "webpBytes": 259706,
-      "assetType": "source-image"
+      "assetType": "photograph",
+      "sourcePages": [
+        24
+      ],
+      "eventSlugs": [
+        "berlin-2023-06-01-p24"
+      ],
+      "alt": {
+        "en": "Source photograph accompanying the Angels of Ukraine memorial event in Berlin, Germany; PDF page 24.",
+        "uk": "Фотографія з першоджерела до меморіальної акції «Янголи України» у місті Берлін, Німеччина; сторінка PDF 24."
+      }
     },
     {
       "id": "fa2179bd42c6f454533770d7f9138443316aa447b3e98fb2e05822b79b1d9d10",
@@ -418,7 +1000,17 @@
       "width": 1639,
       "height": 1229,
       "webpBytes": 139062,
-      "assetType": "source-image"
+      "assetType": "photograph",
+      "sourcePages": [
+        24
+      ],
+      "eventSlugs": [
+        "berlin-2023-06-01-p24"
+      ],
+      "alt": {
+        "en": "Source photograph accompanying the Angels of Ukraine memorial event in Berlin, Germany; PDF page 24.",
+        "uk": "Фотографія з першоджерела до меморіальної акції «Янголи України» у місті Берлін, Німеччина; сторінка PDF 24."
+      }
     },
     {
       "id": "8071e4fb838f14b3bc1283e90b5217c1be498eeeaf3cd98dca13d6a79eeb170b",
@@ -426,7 +1018,17 @@
       "width": 1229,
       "height": 1639,
       "webpBytes": 130684,
-      "assetType": "source-image"
+      "assetType": "document-graphic",
+      "sourcePages": [
+        24
+      ],
+      "eventSlugs": [
+        "berlin-2023-06-01-p24"
+      ],
+      "alt": {
+        "en": "Event graphic or printed poster reproduced on source page 24.",
+        "uk": "Графічний матеріал або афіша зі сторінки 24 першоджерела."
+      }
     },
     {
       "id": "c67a45a2ff7cac6c89d40801b63414277c866c363da930c09603b0513dec3886",
@@ -434,7 +1036,17 @@
       "width": 960,
       "height": 1280,
       "webpBytes": 178364,
-      "assetType": "source-image"
+      "assetType": "photograph",
+      "sourcePages": [
+        25
+      ],
+      "eventSlugs": [
+        "leipzig-2023-05-p25"
+      ],
+      "alt": {
+        "en": "Source photograph accompanying the Angels of Ukraine memorial event in Leipzig, Germany; PDF page 25.",
+        "uk": "Фотографія з першоджерела до меморіальної акції «Янголи України» у місті Лейпциг, Німеччина; сторінка PDF 25."
+      }
     },
     {
       "id": "afe4fa2ae3eb62145541c95bdd90f6436ed7aac12668bc6abb75fbc2093cf86d",
@@ -442,7 +1054,17 @@
       "width": 936,
       "height": 739,
       "webpBytes": 129388,
-      "assetType": "source-image"
+      "assetType": "photograph",
+      "sourcePages": [
+        25
+      ],
+      "eventSlugs": [
+        "leipzig-2023-05-p25"
+      ],
+      "alt": {
+        "en": "Source photograph accompanying the Angels of Ukraine memorial event in Leipzig, Germany; PDF page 25.",
+        "uk": "Фотографія з першоджерела до меморіальної акції «Янголи України» у місті Лейпциг, Німеччина; сторінка PDF 25."
+      }
     },
     {
       "id": "0f099834fb9d917cc66dee572bde35c41acd75415d681aed7720e4d7c96e9fcc",
@@ -450,7 +1072,17 @@
       "width": 2664,
       "height": 2000,
       "webpBytes": 174908,
-      "assetType": "source-image"
+      "assetType": "photograph",
+      "sourcePages": [
+        26
+      ],
+      "eventSlugs": [
+        "potsdam-2023-04-p26"
+      ],
+      "alt": {
+        "en": "Source photograph accompanying the Angels of Ukraine memorial event in Potsdam, Germany; PDF page 26.",
+        "uk": "Фотографія з першоджерела до меморіальної акції «Янголи України» у місті Потсдам, Німеччина; сторінка PDF 26."
+      }
     },
     {
       "id": "c4370cb039b77f8b51804313a55e0671335283cc3cb9a30163d18f7459d62bdc",
@@ -458,7 +1090,17 @@
       "width": 1106,
       "height": 1569,
       "webpBytes": 61694,
-      "assetType": "source-image"
+      "assetType": "photograph",
+      "sourcePages": [
+        26
+      ],
+      "eventSlugs": [
+        "potsdam-2023-04-p26"
+      ],
+      "alt": {
+        "en": "Source photograph accompanying the Angels of Ukraine memorial event in Potsdam, Germany; PDF page 26.",
+        "uk": "Фотографія з першоджерела до меморіальної акції «Янголи України» у місті Потсдам, Німеччина; сторінка PDF 26."
+      }
     },
     {
       "id": "46ee0eb1a06d197ded39895f3b9dec01a75decdf6f25db04e9e3adcf2c5d13e2",
@@ -466,7 +1108,17 @@
       "width": 1200,
       "height": 1599,
       "webpBytes": 36576,
-      "assetType": "source-image"
+      "assetType": "photograph",
+      "sourcePages": [
+        26
+      ],
+      "eventSlugs": [
+        "potsdam-2023-04-p26"
+      ],
+      "alt": {
+        "en": "Source photograph accompanying the Angels of Ukraine memorial event in Potsdam, Germany; PDF page 26.",
+        "uk": "Фотографія з першоджерела до меморіальної акції «Янголи України» у місті Потсдам, Німеччина; сторінка PDF 26."
+      }
     },
     {
       "id": "d8bd421080ab9869a0e18c799224fac56f9959102e81bf4b592e123bf9686333",
@@ -474,7 +1126,17 @@
       "width": 408,
       "height": 455,
       "webpBytes": 31550,
-      "assetType": "source-image"
+      "assetType": "photograph",
+      "sourcePages": [
+        27
+      ],
+      "eventSlugs": [
+        "shrewsbury-2023-03-04-p27"
+      ],
+      "alt": {
+        "en": "Source photograph accompanying the Angels of Ukraine memorial event in Shrewsbury, United Kingdom; PDF page 27.",
+        "uk": "Фотографія з першоджерела до меморіальної акції «Янголи України» у місті Шрусбері, Велика Британія; сторінка PDF 27."
+      }
     },
     {
       "id": "cc9e98377d80ea263eb50d993de31f9b0a09d19e4ca2bd586789e60dea6764f7",
@@ -482,7 +1144,17 @@
       "width": 904,
       "height": 904,
       "webpBytes": 92802,
-      "assetType": "source-image"
+      "assetType": "document-graphic",
+      "sourcePages": [
+        27
+      ],
+      "eventSlugs": [
+        "shrewsbury-2023-03-04-p27"
+      ],
+      "alt": {
+        "en": "Event graphic or printed poster reproduced on source page 27.",
+        "uk": "Графічний матеріал або афіша зі сторінки 27 першоджерела."
+      }
     },
     {
       "id": "e1fd68e53e4ffc1815c78a1de8096550602f2025dc77e778e221d53d25416c7e",
@@ -490,7 +1162,17 @@
       "width": 768,
       "height": 1024,
       "webpBytes": 199938,
-      "assetType": "source-image"
+      "assetType": "photograph",
+      "sourcePages": [
+        28
+      ],
+      "eventSlugs": [
+        "cleobury-mortimer-2023-02-12-p28"
+      ],
+      "alt": {
+        "en": "Source photograph accompanying the Angels of Ukraine memorial event in Cleobury Mortimer, United Kingdom; PDF page 28.",
+        "uk": "Фотографія з першоджерела до меморіальної акції «Янголи України» у місті Клебері-Мортімер, Велика Британія; сторінка PDF 28."
+      }
     },
     {
       "id": "df238bf4f75c043eceb2f5a00fba1f30812bb4ab26fe4af8e69937b0d953be5a",
@@ -498,7 +1180,17 @@
       "width": 600,
       "height": 600,
       "webpBytes": 116618,
-      "assetType": "source-image"
+      "assetType": "photograph",
+      "sourcePages": [
+        29
+      ],
+      "eventSlugs": [
+        "ludlow-2023-01-21-p29"
+      ],
+      "alt": {
+        "en": "Source photograph accompanying the Angels of Ukraine memorial event in Ludlow, United Kingdom; PDF page 29.",
+        "uk": "Фотографія з першоджерела до меморіальної акції «Янголи України» у місті Ладлоу, Велика Британія; сторінка PDF 29."
+      }
     },
     {
       "id": "a6bd5a963e065f397320c02a6fd167f4aecf48abedbf6ed68b5277b5ed7484a6",
@@ -506,7 +1198,17 @@
       "width": 1434,
       "height": 1076,
       "webpBytes": 315572,
-      "assetType": "source-image"
+      "assetType": "photograph",
+      "sourcePages": [
+        29
+      ],
+      "eventSlugs": [
+        "ludlow-2023-01-21-p29"
+      ],
+      "alt": {
+        "en": "Source photograph accompanying the Angels of Ukraine memorial event in Ludlow, United Kingdom; PDF page 29.",
+        "uk": "Фотографія з першоджерела до меморіальної акції «Янголи України» у місті Ладлоу, Велика Британія; сторінка PDF 29."
+      }
     },
     {
       "id": "6e0318a359230d1090d6f444123b56e74494654e5166a1c435cb0336519fbeb9",
@@ -514,7 +1216,17 @@
       "width": 185,
       "height": 83,
       "webpBytes": 2054,
-      "assetType": "source-image"
+      "assetType": "logo",
+      "sourcePages": [
+        29
+      ],
+      "eventSlugs": [
+        "ludlow-2023-01-21-p29"
+      ],
+      "alt": {
+        "en": "Ludlow Town Council logo reproduced on source page 29.",
+        "uk": "Логотип «Ludlow Town Council logo» зі сторінки 29 першоджерела."
+      }
     },
     {
       "id": "ece94ca9f825ce2eaaf4e45636ec7648820d93d7fb9053d4dd0b6368a706ed3c",
@@ -522,7 +1234,17 @@
       "width": 1280,
       "height": 960,
       "webpBytes": 208540,
-      "assetType": "source-image"
+      "assetType": "photograph",
+      "sourcePages": [
+        30
+      ],
+      "eventSlugs": [
+        "limassol-2022-12-18-p30"
+      ],
+      "alt": {
+        "en": "Source photograph accompanying the Angels of Ukraine memorial event in Limassol, Cyprus; PDF page 30.",
+        "uk": "Фотографія з першоджерела до меморіальної акції «Янголи України» у місті Лімасол, Кіпр; сторінка PDF 30."
+      }
     },
     {
       "id": "f1e49f5a40e40ed363d257d9e6eb0d71207a3aaa743d3567c9a35f5a37ab2f8c",
@@ -530,7 +1252,17 @@
       "width": 960,
       "height": 1280,
       "webpBytes": 272234,
-      "assetType": "source-image"
+      "assetType": "photograph",
+      "sourcePages": [
+        30
+      ],
+      "eventSlugs": [
+        "limassol-2022-12-18-p30"
+      ],
+      "alt": {
+        "en": "Source photograph accompanying the Angels of Ukraine memorial event in Limassol, Cyprus; PDF page 30.",
+        "uk": "Фотографія з першоджерела до меморіальної акції «Янголи України» у місті Лімасол, Кіпр; сторінка PDF 30."
+      }
     },
     {
       "id": "000f4d5ace5c642320a8472e4964f78431183e7601fa7d70a8fba443d977a22e",
@@ -538,7 +1270,17 @@
       "width": 768,
       "height": 576,
       "webpBytes": 97090,
-      "assetType": "source-image"
+      "assetType": "photograph",
+      "sourcePages": [
+        30
+      ],
+      "eventSlugs": [
+        "limassol-2022-12-18-p30"
+      ],
+      "alt": {
+        "en": "Source photograph accompanying the Angels of Ukraine memorial event in Limassol, Cyprus; PDF page 30.",
+        "uk": "Фотографія з першоджерела до меморіальної акції «Янголи України» у місті Лімасол, Кіпр; сторінка PDF 30."
+      }
     },
     {
       "id": "789c8f11b32a8f9812e44e398558da1689ee5268fc7bb6f69eeebbf24807a575",
@@ -546,7 +1288,17 @@
       "width": 1024,
       "height": 576,
       "webpBytes": 70894,
-      "assetType": "source-image"
+      "assetType": "photograph",
+      "sourcePages": [
+        30
+      ],
+      "eventSlugs": [
+        "limassol-2022-12-18-p30"
+      ],
+      "alt": {
+        "en": "Source photograph accompanying the Angels of Ukraine memorial event in Limassol, Cyprus; PDF page 30.",
+        "uk": "Фотографія з першоджерела до меморіальної акції «Янголи України» у місті Лімасол, Кіпр; сторінка PDF 30."
+      }
     },
     {
       "id": "1cc2377d455c928884a425272e35a40020e8ee2b77991554fc5abd850a0d25b0",
@@ -554,7 +1306,17 @@
       "width": 960,
       "height": 1280,
       "webpBytes": 288292,
-      "assetType": "source-image"
+      "assetType": "photograph",
+      "sourcePages": [
+        31
+      ],
+      "eventSlugs": [
+        "larnaca-2022-12-07-p31"
+      ],
+      "alt": {
+        "en": "Source photograph accompanying the Angels of Ukraine memorial event in Larnaca, Cyprus; PDF page 31.",
+        "uk": "Фотографія з першоджерела до меморіальної акції «Янголи України» у місті Ларнака, Кіпр; сторінка PDF 31."
+      }
     },
     {
       "id": "0e222fc4d000be162e237bee5720d174960612a241c18d758bfeb75be8a6422e",
@@ -562,7 +1324,17 @@
       "width": 960,
       "height": 1280,
       "webpBytes": 264380,
-      "assetType": "source-image"
+      "assetType": "photograph",
+      "sourcePages": [
+        31
+      ],
+      "eventSlugs": [
+        "larnaca-2022-12-07-p31"
+      ],
+      "alt": {
+        "en": "Source photograph accompanying the Angels of Ukraine memorial event in Larnaca, Cyprus; PDF page 31.",
+        "uk": "Фотографія з першоджерела до меморіальної акції «Янголи України» у місті Ларнака, Кіпр; сторінка PDF 31."
+      }
     },
     {
       "id": "5a84a3b203635d0510320381a99d17dfa73dc0103ac31772682a5016fdab93d1",
@@ -570,7 +1342,17 @@
       "width": 1800,
       "height": 1200,
       "webpBytes": 504358,
-      "assetType": "source-image"
+      "assetType": "photograph",
+      "sourcePages": [
+        32
+      ],
+      "eventSlugs": [
+        "kosice-2022-09-25-p32"
+      ],
+      "alt": {
+        "en": "Source photograph accompanying the Angels of Ukraine memorial event in Košice, Slovakia; PDF page 32.",
+        "uk": "Фотографія з першоджерела до меморіальної акції «Янголи України» у місті Кошице, Словаччина; сторінка PDF 32."
+      }
     },
     {
       "id": "b0127ddd8bbda221a07a690c68e301ca619ccc9f4d2450458979e360dd3077de",
@@ -578,7 +1360,17 @@
       "width": 1800,
       "height": 1200,
       "webpBytes": 283280,
-      "assetType": "source-image"
+      "assetType": "photograph",
+      "sourcePages": [
+        32
+      ],
+      "eventSlugs": [
+        "kosice-2022-09-25-p32"
+      ],
+      "alt": {
+        "en": "Source photograph accompanying the Angels of Ukraine memorial event in Košice, Slovakia; PDF page 32.",
+        "uk": "Фотографія з першоджерела до меморіальної акції «Янголи України» у місті Кошице, Словаччина; сторінка PDF 32."
+      }
     },
     {
       "id": "5d6789211c56ca6a35bac6da96b88accf124f482c7921e569e30ef43c96b0f47",
@@ -586,7 +1378,17 @@
       "width": 721,
       "height": 960,
       "webpBytes": 70706,
-      "assetType": "source-image"
+      "assetType": "photograph",
+      "sourcePages": [
+        33
+      ],
+      "eventSlugs": [
+        "bratislava-2022-09-14-p33"
+      ],
+      "alt": {
+        "en": "Source photograph accompanying the Angels of Ukraine memorial event in Bratislava, Slovakia; PDF page 33.",
+        "uk": "Фотографія з першоджерела до меморіальної акції «Янголи України» у місті Братислава, Словаччина; сторінка PDF 33."
+      }
     },
     {
       "id": "8f68e0ec565454206f46197d207cfaa67ab76013af14b3decfc7c634b675ecbc",
@@ -594,7 +1396,17 @@
       "width": 1092,
       "height": 1639,
       "webpBytes": 241382,
-      "assetType": "source-image"
+      "assetType": "photograph",
+      "sourcePages": [
+        34
+      ],
+      "eventSlugs": [
+        "banska-bystrica-2022-08-24-p34"
+      ],
+      "alt": {
+        "en": "Source photograph accompanying the Angels of Ukraine memorial event in Banská Bystrica, Slovakia; PDF page 34.",
+        "uk": "Фотографія з першоджерела до меморіальної акції «Янголи України» у місті Банська Бистриця, Словаччина; сторінка PDF 34."
+      }
     },
     {
       "id": "84d3c5b13f90850658b1f0ae60a7ff1043e5c82bba7b60f42a76ce4798ed330f",
@@ -602,7 +1414,17 @@
       "width": 960,
       "height": 720,
       "webpBytes": 152270,
-      "assetType": "source-image"
+      "assetType": "photograph",
+      "sourcePages": [
+        35
+      ],
+      "eventSlugs": [
+        "presov-2022-07-17-p35"
+      ],
+      "alt": {
+        "en": "Source photograph accompanying the Angels of Ukraine memorial event in Prešov, Slovakia; PDF page 35.",
+        "uk": "Фотографія з першоджерела до меморіальної акції «Янголи України» у місті Пряшів, Словаччина; сторінка PDF 35."
+      }
     },
     {
       "id": "b4057fd14cbb863f345cb3580d737048a6511d3dbdd3257b87621ddf7a213f48",
@@ -610,7 +1432,17 @@
       "width": 1428,
       "height": 1065,
       "webpBytes": 157580,
-      "assetType": "source-image"
+      "assetType": "photograph",
+      "sourcePages": [
+        35
+      ],
+      "eventSlugs": [
+        "presov-2022-07-17-p35"
+      ],
+      "alt": {
+        "en": "Source photograph accompanying the Angels of Ukraine memorial event in Prešov, Slovakia; PDF page 35.",
+        "uk": "Фотографія з першоджерела до меморіальної акції «Янголи України» у місті Пряшів, Словаччина; сторінка PDF 35."
+      }
     },
     {
       "id": "87e24a8da3ab10684bc6e10087c83f3a2ceb1bd73a04a880b07f2ec1facaa683",
@@ -618,7 +1450,17 @@
       "width": 1152,
       "height": 864,
       "webpBytes": 239088,
-      "assetType": "source-image"
+      "assetType": "photograph",
+      "sourcePages": [
+        36
+      ],
+      "eventSlugs": [
+        "zilina-2022-07-12-p36"
+      ],
+      "alt": {
+        "en": "Source photograph accompanying the Angels of Ukraine memorial event in Žilina, Slovakia; PDF page 36.",
+        "uk": "Фотографія з першоджерела до меморіальної акції «Янголи України» у місті Жиліна, Словаччина; сторінка PDF 36."
+      }
     },
     {
       "id": "2c16b8b855d046549f32c3df9a32e5761cdfd61913d406fdc9efee9a143a42ee",
@@ -626,7 +1468,17 @@
       "width": 1152,
       "height": 868,
       "webpBytes": 137978,
-      "assetType": "source-image"
+      "assetType": "photograph",
+      "sourcePages": [
+        36
+      ],
+      "eventSlugs": [
+        "zilina-2022-07-12-p36"
+      ],
+      "alt": {
+        "en": "Source photograph accompanying the Angels of Ukraine memorial event in Žilina, Slovakia; PDF page 36.",
+        "uk": "Фотографія з першоджерела до меморіальної акції «Янголи України» у місті Жиліна, Словаччина; сторінка PDF 36."
+      }
     },
     {
       "id": "549878cfa301b92e8a6188485ff130bd6a1a47503a3b1e771d6779df6614d2c6",
@@ -634,7 +1486,17 @@
       "width": 1600,
       "height": 720,
       "webpBytes": 328318,
-      "assetType": "source-image"
+      "assetType": "photograph",
+      "sourcePages": [
+        37
+      ],
+      "eventSlugs": [
+        "kosice-2022-06-01-p37"
+      ],
+      "alt": {
+        "en": "Source photograph accompanying the Angels of Ukraine memorial event in Košice, Slovakia; PDF page 37.",
+        "uk": "Фотографія з першоджерела до меморіальної акції «Янголи України» у місті Кошице, Словаччина; сторінка PDF 37."
+      }
     },
     {
       "id": "efb4167514c4f3bcee5877155949f5f2e97b6bb6f848b172108620b0cb14067e",
@@ -642,7 +1504,15 @@
       "width": 410,
       "height": 410,
       "webpBytes": 23508,
-      "assetType": "portrait"
+      "assetType": "portrait",
+      "sourcePages": [
+        40
+      ],
+      "eventSlugs": [],
+      "alt": {
+        "en": "Portrait of Nataliia Mitso, identified on source page 40.",
+        "uk": "Портрет Nataliia Mitso, зазначеної на сторінці 40 першоджерела."
+      }
     },
     {
       "id": "9b1591505f73611629743218d910b5deb002ad9f9d5481d3db1c340e38ec014a",
@@ -650,7 +1520,15 @@
       "width": 410,
       "height": 410,
       "webpBytes": 25910,
-      "assetType": "portrait"
+      "assetType": "portrait",
+      "sourcePages": [
+        40
+      ],
+      "eventSlugs": [],
+      "alt": {
+        "en": "Portrait of Svitlana Peshterianu, identified on source page 40.",
+        "uk": "Портрет Svitlana Peshterianu, зазначеної на сторінці 40 першоджерела."
+      }
     },
     {
       "id": "062f997adbbbac0fb02a942c49a250b4720a7ffc79cfe8ace3019d0d7dafafc3",
@@ -658,7 +1536,15 @@
       "width": 1392,
       "height": 627,
       "webpBytes": 237846,
-      "assetType": "source-image"
+      "assetType": "photograph",
+      "sourcePages": [
+        41
+      ],
+      "eventSlugs": [],
+      "alt": {
+        "en": "Source photograph from page 41 of the Angels of Ukraine archive.",
+        "uk": "Фотографія з першоджерела «Янголи України», сторінка 41."
+      }
     },
     {
       "id": "2d482128a7fc6e6c9418d33d8dbb81ce624ac1bf9fc44b85a63f1e5b4bd2141b",
@@ -666,7 +1552,15 @@
       "width": 555,
       "height": 555,
       "webpBytes": 8612,
-      "assetType": "qr-code"
+      "assetType": "qr-code",
+      "sourcePages": [
+        41
+      ],
+      "eventSlugs": [],
+      "alt": {
+        "en": "QR code printed on source page 41, beside the social media contact section.",
+        "uk": "QR-код зі сторінки 41 першоджерела поруч із розділом соціальних мереж."
+      }
     }
   ],
   "placements": [
@@ -675,9 +1569,10 @@
       "pdfPage": 1,
       "occurrence": 1,
       "assetId": "844fa479db60ae4c6ab305783f3bdce680b376f7ffef6aed9900051f6b220ebc",
+      "assetType": "photograph",
       "alt": {
-        "en": "Archival image from page 1 of the Angels of Ukraine source PDF.",
-        "uk": "Архівне зображення зі сторінки 1 PDF «Янголи України»."
+        "en": "Source photograph from page 1 of the Angels of Ukraine archive.",
+        "uk": "Фотографія з першоджерела «Янголи України», сторінка 1."
       },
       "eventId": null,
       "eventSlug": null,
@@ -688,6 +1583,7 @@
       "pdfPage": 1,
       "occurrence": 2,
       "assetId": "8ce30b02eea734e2509a02042c790f1f240c7332696808f1816828f2bf9a3696",
+      "assetType": "emblem",
       "alt": {
         "en": "The Ukrainian trident emblem shown in the source document.",
         "uk": "Тризуб — емблема України, зображена в першоджерелі."
@@ -701,9 +1597,10 @@
       "pdfPage": 2,
       "occurrence": 1,
       "assetId": "efb526e1909de5b6a5139906c48b7096863df555064419012841a14857c96d53",
+      "assetType": "photograph",
       "alt": {
-        "en": "Archival image from page 2 of the Angels of Ukraine source PDF.",
-        "uk": "Архівне зображення зі сторінки 2 PDF «Янголи України»."
+        "en": "Source photograph from page 2 of the Angels of Ukraine archive.",
+        "uk": "Фотографія з першоджерела «Янголи України», сторінка 2."
       },
       "eventId": null,
       "eventSlug": null,
@@ -714,6 +1611,7 @@
       "pdfPage": 2,
       "occurrence": 2,
       "assetId": "8ce30b02eea734e2509a02042c790f1f240c7332696808f1816828f2bf9a3696",
+      "assetType": "emblem",
       "alt": {
         "en": "The Ukrainian trident emblem shown in the source document.",
         "uk": "Тризуб — емблема України, зображена в першоджерелі."
@@ -727,6 +1625,7 @@
       "pdfPage": 3,
       "occurrence": 1,
       "assetId": "8ce30b02eea734e2509a02042c790f1f240c7332696808f1816828f2bf9a3696",
+      "assetType": "emblem",
       "alt": {
         "en": "The Ukrainian trident emblem shown in the source document.",
         "uk": "Тризуб — емблема України, зображена в першоджерелі."
@@ -740,9 +1639,10 @@
       "pdfPage": 4,
       "occurrence": 1,
       "assetId": "313533092d2e1df5999b004ece21ccb3cacfec86538c2a98f41e6bf3bc487e72",
+      "assetType": "photograph",
       "alt": {
-        "en": "Archival image from page 4 of the Angels of Ukraine source PDF.",
-        "uk": "Архівне зображення зі сторінки 4 PDF «Янголи України»."
+        "en": "Source photograph from page 4 of the Angels of Ukraine archive.",
+        "uk": "Фотографія з першоджерела «Янголи України», сторінка 4."
       },
       "eventId": null,
       "eventSlug": null,
@@ -753,6 +1653,7 @@
       "pdfPage": 4,
       "occurrence": 2,
       "assetId": "8ce30b02eea734e2509a02042c790f1f240c7332696808f1816828f2bf9a3696",
+      "assetType": "emblem",
       "alt": {
         "en": "The Ukrainian trident emblem shown in the source document.",
         "uk": "Тризуб — емблема України, зображена в першоджерелі."
@@ -766,6 +1667,7 @@
       "pdfPage": 5,
       "occurrence": 1,
       "assetId": "8ce30b02eea734e2509a02042c790f1f240c7332696808f1816828f2bf9a3696",
+      "assetType": "emblem",
       "alt": {
         "en": "The Ukrainian trident emblem shown in the source document.",
         "uk": "Тризуб — емблема України, зображена в першоджерелі."
@@ -779,9 +1681,10 @@
       "pdfPage": 5,
       "occurrence": 2,
       "assetId": "2b2f867a075b91f6a784148b7b2d0c1fe14537564080099f22a5967e893789f0",
+      "assetType": "photograph",
       "alt": {
-        "en": "Archival image accompanying the Angels of Ukraine record for Banská Bystrica, Slovakia, source page 5.",
-        "uk": "Архівне зображення до запису «Янголи України» про місто Банська Бистриця, Словаччина, сторінка 5 першоджерела."
+        "en": "Source photograph accompanying the Angels of Ukraine memorial event in Banská Bystrica, Slovakia; PDF page 5.",
+        "uk": "Фотографія з першоджерела до меморіальної акції «Янголи України» у місті Банська Бистриця, Словаччина; сторінка PDF 5."
       },
       "eventId": "banska-bystrica-2025-08-24-p5",
       "eventSlug": "banska-bystrica-2025-08-24-p5",
@@ -792,9 +1695,10 @@
       "pdfPage": 5,
       "occurrence": 3,
       "assetId": "d91e6a91fc39f96aa6e60f3282971896fdc44d67806ab9d3c68ae316ea80f120",
+      "assetType": "photograph",
       "alt": {
-        "en": "Archival image accompanying the Angels of Ukraine record for Banská Bystrica, Slovakia, source page 5.",
-        "uk": "Архівне зображення до запису «Янголи України» про місто Банська Бистриця, Словаччина, сторінка 5 першоджерела."
+        "en": "Source photograph accompanying the Angels of Ukraine memorial event in Banská Bystrica, Slovakia; PDF page 5.",
+        "uk": "Фотографія з першоджерела до меморіальної акції «Янголи України» у місті Банська Бистриця, Словаччина; сторінка PDF 5."
       },
       "eventId": "banska-bystrica-2025-08-24-p5",
       "eventSlug": "banska-bystrica-2025-08-24-p5",
@@ -805,9 +1709,10 @@
       "pdfPage": 5,
       "occurrence": 4,
       "assetId": "b2dc6e2bc763a2ceb7e2246d9a03cb1629ffc6dde8e087aadf73e9e093959a61",
+      "assetType": "photograph",
       "alt": {
-        "en": "Archival image accompanying the Angels of Ukraine record for Banská Bystrica, Slovakia, source page 5.",
-        "uk": "Архівне зображення до запису «Янголи України» про місто Банська Бистриця, Словаччина, сторінка 5 першоджерела."
+        "en": "Source photograph accompanying the Angels of Ukraine memorial event in Banská Bystrica, Slovakia; PDF page 5.",
+        "uk": "Фотографія з першоджерела до меморіальної акції «Янголи України» у місті Банська Бистриця, Словаччина; сторінка PDF 5."
       },
       "eventId": "banska-bystrica-2025-08-24-p5",
       "eventSlug": "banska-bystrica-2025-08-24-p5",
@@ -818,6 +1723,7 @@
       "pdfPage": 6,
       "occurrence": 1,
       "assetId": "8ce30b02eea734e2509a02042c790f1f240c7332696808f1816828f2bf9a3696",
+      "assetType": "emblem",
       "alt": {
         "en": "The Ukrainian trident emblem shown in the source document.",
         "uk": "Тризуб — емблема України, зображена в першоджерелі."
@@ -831,9 +1737,10 @@
       "pdfPage": 6,
       "occurrence": 2,
       "assetId": "7dba5c43d302c78846198d3c2ccfe22e334054770e2e5d5761e021692b492ea0",
+      "assetType": "logo",
       "alt": {
-        "en": "Archival image accompanying the Angels of Ukraine record for Warsaw, Poland, source page 6.",
-        "uk": "Архівне зображення до запису «Янголи України» про місто Варшава, Польща, сторінка 6 першоджерела."
+        "en": "Plast logo reproduced on source page 6.",
+        "uk": "Логотип «Plast logo» зі сторінки 6 першоджерела."
       },
       "eventId": "warsaw-2025-02-23-p6",
       "eventSlug": "warsaw-2025-02-23-p6",
@@ -844,9 +1751,10 @@
       "pdfPage": 6,
       "occurrence": 3,
       "assetId": "7d85cbc0fdeb04bf3e91431d9ee341214dd73a2e7f6b2215e4a170c4e10e9cdf",
+      "assetType": "photograph",
       "alt": {
-        "en": "Archival image accompanying the Angels of Ukraine record for Warsaw, Poland, source page 6.",
-        "uk": "Архівне зображення до запису «Янголи України» про місто Варшава, Польща, сторінка 6 першоджерела."
+        "en": "Source photograph accompanying the Angels of Ukraine memorial event in Warsaw, Poland; PDF page 6.",
+        "uk": "Фотографія з першоджерела до меморіальної акції «Янголи України» у місті Варшава, Польща; сторінка PDF 6."
       },
       "eventId": "warsaw-2025-02-23-p6",
       "eventSlug": "warsaw-2025-02-23-p6",
@@ -857,9 +1765,10 @@
       "pdfPage": 6,
       "occurrence": 4,
       "assetId": "09506622126eb882b496dc96448f003effacfbbe9c97c1643897a98dde281633",
+      "assetType": "photograph",
       "alt": {
-        "en": "Archival image accompanying the Angels of Ukraine record for Warsaw, Poland, source page 6.",
-        "uk": "Архівне зображення до запису «Янголи України» про місто Варшава, Польща, сторінка 6 першоджерела."
+        "en": "Source photograph accompanying the Angels of Ukraine memorial event in Warsaw, Poland; PDF page 6.",
+        "uk": "Фотографія з першоджерела до меморіальної акції «Янголи України» у місті Варшава, Польща; сторінка PDF 6."
       },
       "eventId": "warsaw-2025-02-23-p6",
       "eventSlug": "warsaw-2025-02-23-p6",
@@ -870,9 +1779,10 @@
       "pdfPage": 6,
       "occurrence": 5,
       "assetId": "f1c34a30d04ae091df4df4052cec7537a2863a9f4d0a16bca0fd6a3dd9bcb94c",
+      "assetType": "photograph",
       "alt": {
-        "en": "Archival image accompanying the Angels of Ukraine record for Warsaw, Poland, source page 6.",
-        "uk": "Архівне зображення до запису «Янголи України» про місто Варшава, Польща, сторінка 6 першоджерела."
+        "en": "Source photograph accompanying the Angels of Ukraine memorial event in Warsaw, Poland; PDF page 6.",
+        "uk": "Фотографія з першоджерела до меморіальної акції «Янголи України» у місті Варшава, Польща; сторінка PDF 6."
       },
       "eventId": "warsaw-2025-02-23-p6",
       "eventSlug": "warsaw-2025-02-23-p6",
@@ -883,6 +1793,7 @@
       "pdfPage": 7,
       "occurrence": 1,
       "assetId": "8ce30b02eea734e2509a02042c790f1f240c7332696808f1816828f2bf9a3696",
+      "assetType": "emblem",
       "alt": {
         "en": "The Ukrainian trident emblem shown in the source document.",
         "uk": "Тризуб — емблема України, зображена в першоджерелі."
@@ -896,9 +1807,10 @@
       "pdfPage": 7,
       "occurrence": 2,
       "assetId": "e1d96107a013b7bc14249230eba74a761993a5eec7df64f7e6977f1db3b32809",
+      "assetType": "photograph",
       "alt": {
-        "en": "Archival image accompanying the Angels of Ukraine record for Prešov, Slovakia, source page 7.",
-        "uk": "Архівне зображення до запису «Янголи України» про місто Пряшів, Словаччина, сторінка 7 першоджерела."
+        "en": "Source photograph accompanying the Angels of Ukraine memorial event in Prešov, Slovakia; PDF page 7.",
+        "uk": "Фотографія з першоджерела до меморіальної акції «Янголи України» у місті Пряшів, Словаччина; сторінка PDF 7."
       },
       "eventId": "presov-2024-12-06-p7",
       "eventSlug": "presov-2024-12-06-p7",
@@ -909,9 +1821,10 @@
       "pdfPage": 7,
       "occurrence": 3,
       "assetId": "1421a570dd56d2805fc05a49f5905801917daa66beef5d92bea6d822d493ebdf",
+      "assetType": "photograph",
       "alt": {
-        "en": "Archival image accompanying the Angels of Ukraine record for Prešov, Slovakia, source page 7.",
-        "uk": "Архівне зображення до запису «Янголи України» про місто Пряшів, Словаччина, сторінка 7 першоджерела."
+        "en": "Source photograph accompanying the Angels of Ukraine memorial event in Prešov, Slovakia; PDF page 7.",
+        "uk": "Фотографія з першоджерела до меморіальної акції «Янголи України» у місті Пряшів, Словаччина; сторінка PDF 7."
       },
       "eventId": "presov-2024-12-06-p7",
       "eventSlug": "presov-2024-12-06-p7",
@@ -922,9 +1835,10 @@
       "pdfPage": 7,
       "occurrence": 4,
       "assetId": "a8488655ec08381cafe6b48183818881f583fdd2250fc4f9b0fd98c79c06f651",
+      "assetType": "photograph",
       "alt": {
-        "en": "Archival image accompanying the Angels of Ukraine record for Prešov, Slovakia, source page 7.",
-        "uk": "Архівне зображення до запису «Янголи України» про місто Пряшів, Словаччина, сторінка 7 першоджерела."
+        "en": "Source photograph accompanying the Angels of Ukraine memorial event in Prešov, Slovakia; PDF page 7.",
+        "uk": "Фотографія з першоджерела до меморіальної акції «Янголи України» у місті Пряшів, Словаччина; сторінка PDF 7."
       },
       "eventId": "presov-2024-12-06-p7",
       "eventSlug": "presov-2024-12-06-p7",
@@ -935,9 +1849,10 @@
       "pdfPage": 7,
       "occurrence": 5,
       "assetId": "83c3882495b049142bb54c6617c47b064ed5eba73967d5a55f22973f1cd3d7ea",
+      "assetType": "photograph",
       "alt": {
-        "en": "Archival image accompanying the Angels of Ukraine record for Prešov, Slovakia, source page 7.",
-        "uk": "Архівне зображення до запису «Янголи України» про місто Пряшів, Словаччина, сторінка 7 першоджерела."
+        "en": "Source photograph accompanying the Angels of Ukraine memorial event in Prešov, Slovakia; PDF page 7.",
+        "uk": "Фотографія з першоджерела до меморіальної акції «Янголи України» у місті Пряшів, Словаччина; сторінка PDF 7."
       },
       "eventId": "presov-2024-12-06-p7",
       "eventSlug": "presov-2024-12-06-p7",
@@ -948,6 +1863,7 @@
       "pdfPage": 8,
       "occurrence": 1,
       "assetId": "8ce30b02eea734e2509a02042c790f1f240c7332696808f1816828f2bf9a3696",
+      "assetType": "emblem",
       "alt": {
         "en": "The Ukrainian trident emblem shown in the source document.",
         "uk": "Тризуб — емблема України, зображена в першоджерелі."
@@ -961,9 +1877,10 @@
       "pdfPage": 8,
       "occurrence": 2,
       "assetId": "9e11c6a23da454b4ff7e611b271093bf7f524b114e5a977ae44bf14a4efaed29",
+      "assetType": "photograph",
       "alt": {
-        "en": "Archival image accompanying the Angels of Ukraine record for Košice, Slovakia, source page 8.",
-        "uk": "Архівне зображення до запису «Янголи України» про місто Кошице, Словаччина, сторінка 8 першоджерела."
+        "en": "Source photograph accompanying the Angels of Ukraine memorial event in Košice, Slovakia; PDF page 8.",
+        "uk": "Фотографія з першоджерела до меморіальної акції «Янголи України» у місті Кошице, Словаччина; сторінка PDF 8."
       },
       "eventId": "kosice-2024-11-19-p8",
       "eventSlug": "kosice-2024-11-19-p8",
@@ -974,9 +1891,10 @@
       "pdfPage": 8,
       "occurrence": 3,
       "assetId": "55915b4fae2a43b754fbccd0f5e5a0754c8b7aff7a8dc2da66342bcfda8ea44a",
+      "assetType": "photograph",
       "alt": {
-        "en": "Archival image accompanying the Angels of Ukraine record for Košice, Slovakia, source page 8.",
-        "uk": "Архівне зображення до запису «Янголи України» про місто Кошице, Словаччина, сторінка 8 першоджерела."
+        "en": "Source photograph accompanying the Angels of Ukraine memorial event in Košice, Slovakia; PDF page 8.",
+        "uk": "Фотографія з першоджерела до меморіальної акції «Янголи України» у місті Кошице, Словаччина; сторінка PDF 8."
       },
       "eventId": "kosice-2024-11-19-p8",
       "eventSlug": "kosice-2024-11-19-p8",
@@ -987,9 +1905,10 @@
       "pdfPage": 8,
       "occurrence": 4,
       "assetId": "2f379a814c7e734b56f20f6b2900d66d958bdaa99778a7ae5358095b9cc2a2a5",
+      "assetType": "photograph",
       "alt": {
-        "en": "Archival image accompanying the Angels of Ukraine record for Košice, Slovakia, source page 8.",
-        "uk": "Архівне зображення до запису «Янголи України» про місто Кошице, Словаччина, сторінка 8 першоджерела."
+        "en": "Source photograph accompanying the Angels of Ukraine memorial event in Košice, Slovakia; PDF page 8.",
+        "uk": "Фотографія з першоджерела до меморіальної акції «Янголи України» у місті Кошице, Словаччина; сторінка PDF 8."
       },
       "eventId": "kosice-2024-11-19-p8",
       "eventSlug": "kosice-2024-11-19-p8",
@@ -1000,6 +1919,7 @@
       "pdfPage": 9,
       "occurrence": 1,
       "assetId": "8ce30b02eea734e2509a02042c790f1f240c7332696808f1816828f2bf9a3696",
+      "assetType": "emblem",
       "alt": {
         "en": "The Ukrainian trident emblem shown in the source document.",
         "uk": "Тризуб — емблема України, зображена в першоджерелі."
@@ -1013,9 +1933,10 @@
       "pdfPage": 9,
       "occurrence": 2,
       "assetId": "3cd36219cf659c55fe949902178068f17005cf49674d77e05542924ece84fa18",
+      "assetType": "document-graphic",
       "alt": {
-        "en": "Archival image accompanying the Angels of Ukraine record for Košice, Slovakia, source page 9.",
-        "uk": "Архівне зображення до запису «Янголи України» про місто Кошице, Словаччина, сторінка 9 першоджерела."
+        "en": "Event graphic or printed poster reproduced on source page 9.",
+        "uk": "Графічний матеріал або афіша зі сторінки 9 першоджерела."
       },
       "eventId": "kosice-2024-09-22-p9",
       "eventSlug": "kosice-2024-09-22-p9",
@@ -1026,9 +1947,10 @@
       "pdfPage": 9,
       "occurrence": 3,
       "assetId": "f53a287337277d83eaa687a251968590df525f3cf816fa5d0889139b302256bd",
+      "assetType": "photograph",
       "alt": {
-        "en": "Archival image accompanying the Angels of Ukraine record for Košice, Slovakia, source page 9.",
-        "uk": "Архівне зображення до запису «Янголи України» про місто Кошице, Словаччина, сторінка 9 першоджерела."
+        "en": "Source photograph accompanying the Angels of Ukraine memorial event in Košice, Slovakia; PDF page 9.",
+        "uk": "Фотографія з першоджерела до меморіальної акції «Янголи України» у місті Кошице, Словаччина; сторінка PDF 9."
       },
       "eventId": "kosice-2024-09-22-p9",
       "eventSlug": "kosice-2024-09-22-p9",
@@ -1039,9 +1961,10 @@
       "pdfPage": 9,
       "occurrence": 4,
       "assetId": "f5aea96f853601d9e8c629506920ff4c53049265e40b67fc2eb6b26b12ff1751",
+      "assetType": "photograph",
       "alt": {
-        "en": "Archival image accompanying the Angels of Ukraine record for Košice, Slovakia, source page 9.",
-        "uk": "Архівне зображення до запису «Янголи України» про місто Кошице, Словаччина, сторінка 9 першоджерела."
+        "en": "Source photograph accompanying the Angels of Ukraine memorial event in Košice, Slovakia; PDF page 9.",
+        "uk": "Фотографія з першоджерела до меморіальної акції «Янголи України» у місті Кошице, Словаччина; сторінка PDF 9."
       },
       "eventId": "kosice-2024-09-22-p9",
       "eventSlug": "kosice-2024-09-22-p9",
@@ -1052,6 +1975,7 @@
       "pdfPage": 10,
       "occurrence": 1,
       "assetId": "8ce30b02eea734e2509a02042c790f1f240c7332696808f1816828f2bf9a3696",
+      "assetType": "emblem",
       "alt": {
         "en": "The Ukrainian trident emblem shown in the source document.",
         "uk": "Тризуб — емблема України, зображена в першоджерелі."
@@ -1065,9 +1989,10 @@
       "pdfPage": 10,
       "occurrence": 2,
       "assetId": "9890981de06c3b9c941c21ecfdeaca48e8f6fac42c2fdfc09be8a83b6c4d3feb",
+      "assetType": "photograph",
       "alt": {
-        "en": "Archival image accompanying the Angels of Ukraine record for Toronto, Canada, source page 10.",
-        "uk": "Архівне зображення до запису «Янголи України» про місто Торонто, Канада, сторінка 10 першоджерела."
+        "en": "Source photograph accompanying the Angels of Ukraine memorial event in Toronto, Canada; PDF page 10.",
+        "uk": "Фотографія з першоджерела до меморіальної акції «Янголи України» у місті Торонто, Канада; сторінка PDF 10."
       },
       "eventId": "toronto-2024-08-24-p10",
       "eventSlug": "toronto-2024-08-24-p10",
@@ -1078,9 +2003,10 @@
       "pdfPage": 10,
       "occurrence": 3,
       "assetId": "1cb446a558ae5ba7c4aa94fcc452d8de21decf6b890653bf997359c7d5fcfcb9",
+      "assetType": "photograph",
       "alt": {
-        "en": "Archival image accompanying the Angels of Ukraine record for Toronto, Canada, source page 10.",
-        "uk": "Архівне зображення до запису «Янголи України» про місто Торонто, Канада, сторінка 10 першоджерела."
+        "en": "Source photograph accompanying the Angels of Ukraine memorial event in Toronto, Canada; PDF page 10.",
+        "uk": "Фотографія з першоджерела до меморіальної акції «Янголи України» у місті Торонто, Канада; сторінка PDF 10."
       },
       "eventId": "toronto-2024-08-24-p10",
       "eventSlug": "toronto-2024-08-24-p10",
@@ -1091,9 +2017,10 @@
       "pdfPage": 10,
       "occurrence": 4,
       "assetId": "9f938cded22660a2d4b613fb05b6c95843ef602cfda4b1b25b1c912181e8491f",
+      "assetType": "document-graphic",
       "alt": {
-        "en": "Archival image accompanying the Angels of Ukraine record for Toronto, Canada, source page 10.",
-        "uk": "Архівне зображення до запису «Янголи України» про місто Торонто, Канада, сторінка 10 першоджерела."
+        "en": "Event graphic or printed poster reproduced on source page 10.",
+        "uk": "Графічний матеріал або афіша зі сторінки 10 першоджерела."
       },
       "eventId": "toronto-2024-08-24-p10",
       "eventSlug": "toronto-2024-08-24-p10",
@@ -1104,6 +2031,7 @@
       "pdfPage": 11,
       "occurrence": 1,
       "assetId": "8ce30b02eea734e2509a02042c790f1f240c7332696808f1816828f2bf9a3696",
+      "assetType": "emblem",
       "alt": {
         "en": "The Ukrainian trident emblem shown in the source document.",
         "uk": "Тризуб — емблема України, зображена в першоджерелі."
@@ -1117,9 +2045,10 @@
       "pdfPage": 11,
       "occurrence": 2,
       "assetId": "688263d7b896d49fa57667c0c799cf36ece042046e9f3f18d2ec9e6cf46694a6",
+      "assetType": "photograph",
       "alt": {
-        "en": "Archival image accompanying the Angels of Ukraine record for Montréal, Canada, source page 11.",
-        "uk": "Архівне зображення до запису «Янголи України» про місто Монреаль, Канада, сторінка 11 першоджерела."
+        "en": "Source photograph accompanying the Angels of Ukraine memorial event in Montréal, Canada; PDF page 11.",
+        "uk": "Фотографія з першоджерела до меморіальної акції «Янголи України» у місті Монреаль, Канада; сторінка PDF 11."
       },
       "eventId": "montreal-2024-07-p11",
       "eventSlug": "montreal-2024-07-p11",
@@ -1130,6 +2059,7 @@
       "pdfPage": 12,
       "occurrence": 1,
       "assetId": "8ce30b02eea734e2509a02042c790f1f240c7332696808f1816828f2bf9a3696",
+      "assetType": "emblem",
       "alt": {
         "en": "The Ukrainian trident emblem shown in the source document.",
         "uk": "Тризуб — емблема України, зображена в першоджерелі."
@@ -1143,9 +2073,10 @@
       "pdfPage": 12,
       "occurrence": 2,
       "assetId": "31c33622bb6e7558f59153c30ca2873ee087c7895f3439f6996aa28e4345ddef",
+      "assetType": "photograph",
       "alt": {
-        "en": "Archival image accompanying the Angels of Ukraine record for Québec City, Canada, source page 12.",
-        "uk": "Архівне зображення до запису «Янголи України» про місто Квебек, Канада, сторінка 12 першоджерела."
+        "en": "Source photograph accompanying the Angels of Ukraine memorial event in Québec City, Canada; PDF page 12.",
+        "uk": "Фотографія з першоджерела до меморіальної акції «Янголи України» у місті Квебек, Канада; сторінка PDF 12."
       },
       "eventId": "quebec-city-2024-07-17-p12",
       "eventSlug": "quebec-city-2024-07-17-p12",
@@ -1156,6 +2087,7 @@
       "pdfPage": 13,
       "occurrence": 1,
       "assetId": "8ce30b02eea734e2509a02042c790f1f240c7332696808f1816828f2bf9a3696",
+      "assetType": "emblem",
       "alt": {
         "en": "The Ukrainian trident emblem shown in the source document.",
         "uk": "Тризуб — емблема України, зображена в першоджерелі."
@@ -1169,9 +2101,10 @@
       "pdfPage": 13,
       "occurrence": 2,
       "assetId": "8bb79206bb6c98c5f94929b6625ac74787b6b060ded27a7a0b8e51d9c4241b06",
+      "assetType": "photograph",
       "alt": {
-        "en": "Archival image accompanying the Angels of Ukraine record for Montréal, Canada, source page 13.",
-        "uk": "Архівне зображення до запису «Янголи України» про місто Монреаль, Канада, сторінка 13 першоджерела."
+        "en": "Source photograph accompanying the Angels of Ukraine memorial event in Montréal, Canada; PDF page 13.",
+        "uk": "Фотографія з першоджерела до меморіальної акції «Янголи України» у місті Монреаль, Канада; сторінка PDF 13."
       },
       "eventId": "montreal-2024-07-12-p13",
       "eventSlug": "montreal-2024-07-12-p13",
@@ -1182,6 +2115,7 @@
       "pdfPage": 14,
       "occurrence": 1,
       "assetId": "8ce30b02eea734e2509a02042c790f1f240c7332696808f1816828f2bf9a3696",
+      "assetType": "emblem",
       "alt": {
         "en": "The Ukrainian trident emblem shown in the source document.",
         "uk": "Тризуб — емблема України, зображена в першоджерелі."
@@ -1195,9 +2129,10 @@
       "pdfPage": 14,
       "occurrence": 2,
       "assetId": "d74c260e88ff744e0e49621d89817b6041032e3bb3cd27893c753abae240d78f",
+      "assetType": "photograph",
       "alt": {
-        "en": "Archival image accompanying the Angels of Ukraine record for Edmonton, Canada, source page 14.",
-        "uk": "Архівне зображення до запису «Янголи України» про місто Едмонтон, Канада, сторінка 14 першоджерела."
+        "en": "Source photograph accompanying the Angels of Ukraine memorial event in Edmonton, Canada; PDF page 14.",
+        "uk": "Фотографія з першоджерела до меморіальної акції «Янголи України» у місті Едмонтон, Канада; сторінка PDF 14."
       },
       "eventId": "edmonton-2024-04-p14",
       "eventSlug": "edmonton-2024-04-p14",
@@ -1208,9 +2143,10 @@
       "pdfPage": 14,
       "occurrence": 3,
       "assetId": "57097e49c7f7ea8caa863abe7e74de49844bea1486a158163cf86e9c0acc0e2f",
+      "assetType": "photograph",
       "alt": {
-        "en": "Archival image accompanying the Angels of Ukraine record for Edmonton, Canada, source page 14.",
-        "uk": "Архівне зображення до запису «Янголи України» про місто Едмонтон, Канада, сторінка 14 першоджерела."
+        "en": "Source photograph accompanying the Angels of Ukraine memorial event in Edmonton, Canada; PDF page 14.",
+        "uk": "Фотографія з першоджерела до меморіальної акції «Янголи України» у місті Едмонтон, Канада; сторінка PDF 14."
       },
       "eventId": "edmonton-2024-04-p14",
       "eventSlug": "edmonton-2024-04-p14",
@@ -1221,9 +2157,10 @@
       "pdfPage": 14,
       "occurrence": 4,
       "assetId": "f8d56cba9579977d14aa22c64844fc892fd1781311455f8aa526f8032c71301b",
+      "assetType": "photograph",
       "alt": {
-        "en": "Archival image accompanying the Angels of Ukraine record for Edmonton, Canada, source page 14.",
-        "uk": "Архівне зображення до запису «Янголи України» про місто Едмонтон, Канада, сторінка 14 першоджерела."
+        "en": "Source photograph accompanying the Angels of Ukraine memorial event in Edmonton, Canada; PDF page 14.",
+        "uk": "Фотографія з першоджерела до меморіальної акції «Янголи України» у місті Едмонтон, Канада; сторінка PDF 14."
       },
       "eventId": "edmonton-2024-04-p14",
       "eventSlug": "edmonton-2024-04-p14",
@@ -1234,6 +2171,7 @@
       "pdfPage": 15,
       "occurrence": 1,
       "assetId": "8ce30b02eea734e2509a02042c790f1f240c7332696808f1816828f2bf9a3696",
+      "assetType": "emblem",
       "alt": {
         "en": "The Ukrainian trident emblem shown in the source document.",
         "uk": "Тризуб — емблема України, зображена в першоджерелі."
@@ -1247,9 +2185,10 @@
       "pdfPage": 15,
       "occurrence": 2,
       "assetId": "c6ca1fd18b5cea99f3ef7aaf65fb84e19c9babcb535993abc86f0f617ca5a74e",
+      "assetType": "photograph",
       "alt": {
-        "en": "Archival image accompanying the Angels of Ukraine record for Winnipeg, Canada, source page 15.",
-        "uk": "Архівне зображення до запису «Янголи України» про місто Вінніпег, Канада, сторінка 15 першоджерела."
+        "en": "Source photograph accompanying the Angels of Ukraine memorial event in Winnipeg, Canada; PDF page 15.",
+        "uk": "Фотографія з першоджерела до меморіальної акції «Янголи України» у місті Вінніпег, Канада; сторінка PDF 15."
       },
       "eventId": "winnipeg-2024-04-p15",
       "eventSlug": "winnipeg-2024-04-p15",
@@ -1260,6 +2199,7 @@
       "pdfPage": 16,
       "occurrence": 1,
       "assetId": "8ce30b02eea734e2509a02042c790f1f240c7332696808f1816828f2bf9a3696",
+      "assetType": "emblem",
       "alt": {
         "en": "The Ukrainian trident emblem shown in the source document.",
         "uk": "Тризуб — емблема України, зображена в першоджерелі."
@@ -1273,9 +2213,10 @@
       "pdfPage": 16,
       "occurrence": 2,
       "assetId": "f0ed8a9bc6f76ea72e9d734eb709105ef0690e61d7622e5d8d182d83d6eb767f",
+      "assetType": "photograph",
       "alt": {
-        "en": "Archival image accompanying the Angels of Ukraine record for Bratislava, Slovakia, source page 16.",
-        "uk": "Архівне зображення до запису «Янголи України» про місто Братислава, Словаччина, сторінка 16 першоджерела."
+        "en": "Source photograph accompanying the Angels of Ukraine memorial event in Bratislava, Slovakia; PDF page 16.",
+        "uk": "Фотографія з першоджерела до меморіальної акції «Янголи України» у місті Братислава, Словаччина; сторінка PDF 16."
       },
       "eventId": "bratislava-2024-02-24-p16",
       "eventSlug": "bratislava-2024-02-24-p16",
@@ -1286,9 +2227,10 @@
       "pdfPage": 16,
       "occurrence": 3,
       "assetId": "a27a009a9b6d35ba590b3d35a42b6942a5f2ae1bc51004adf67294730c54eecb",
+      "assetType": "photograph",
       "alt": {
-        "en": "Archival image accompanying the Angels of Ukraine record for Bratislava, Slovakia, source page 16.",
-        "uk": "Архівне зображення до запису «Янголи України» про місто Братислава, Словаччина, сторінка 16 першоджерела."
+        "en": "Source photograph accompanying the Angels of Ukraine memorial event in Bratislava, Slovakia; PDF page 16.",
+        "uk": "Фотографія з першоджерела до меморіальної акції «Янголи України» у місті Братислава, Словаччина; сторінка PDF 16."
       },
       "eventId": "bratislava-2024-02-24-p16",
       "eventSlug": "bratislava-2024-02-24-p16",
@@ -1299,6 +2241,7 @@
       "pdfPage": 17,
       "occurrence": 1,
       "assetId": "8ce30b02eea734e2509a02042c790f1f240c7332696808f1816828f2bf9a3696",
+      "assetType": "emblem",
       "alt": {
         "en": "The Ukrainian trident emblem shown in the source document.",
         "uk": "Тризуб — емблема України, зображена в першоджерелі."
@@ -1312,9 +2255,10 @@
       "pdfPage": 17,
       "occurrence": 2,
       "assetId": "d84ac81787f8843ff8260c688beb17c9c20fd7c3515c65e672167347dfbaad2e",
+      "assetType": "photograph",
       "alt": {
-        "en": "Archival image accompanying the Angels of Ukraine record for Kežmarok, Slovakia, source page 17.",
-        "uk": "Архівне зображення до запису «Янголи України» про місто Кежмарок, Словаччина, сторінка 17 першоджерела."
+        "en": "Source photograph accompanying the Angels of Ukraine memorial event in Kežmarok, Slovakia; PDF page 17.",
+        "uk": "Фотографія з першоджерела до меморіальної акції «Янголи України» у місті Кежмарок, Словаччина; сторінка PDF 17."
       },
       "eventId": "kezmarok-2023-12-p17",
       "eventSlug": "kezmarok-2023-12-p17",
@@ -1325,9 +2269,10 @@
       "pdfPage": 17,
       "occurrence": 3,
       "assetId": "1f01ebf82226870c1a92c7f929c1a3a14f48cb258f4d03c98036a34a8eedcc80",
+      "assetType": "photograph",
       "alt": {
-        "en": "Archival image accompanying the Angels of Ukraine record for Kežmarok, Slovakia, source page 17.",
-        "uk": "Архівне зображення до запису «Янголи України» про місто Кежмарок, Словаччина, сторінка 17 першоджерела."
+        "en": "Source photograph accompanying the Angels of Ukraine memorial event in Kežmarok, Slovakia; PDF page 17.",
+        "uk": "Фотографія з першоджерела до меморіальної акції «Янголи України» у місті Кежмарок, Словаччина; сторінка PDF 17."
       },
       "eventId": "kezmarok-2023-12-p17",
       "eventSlug": "kezmarok-2023-12-p17",
@@ -1338,9 +2283,10 @@
       "pdfPage": 17,
       "occurrence": 4,
       "assetId": "fc4864dba9d6977916befe8336af18dbb595b62a06ad4844c491d8653af4e565",
+      "assetType": "photograph",
       "alt": {
-        "en": "Archival image accompanying the Angels of Ukraine record for Kežmarok, Slovakia, source page 17.",
-        "uk": "Архівне зображення до запису «Янголи України» про місто Кежмарок, Словаччина, сторінка 17 першоджерела."
+        "en": "Source photograph accompanying the Angels of Ukraine memorial event in Kežmarok, Slovakia; PDF page 17.",
+        "uk": "Фотографія з першоджерела до меморіальної акції «Янголи України» у місті Кежмарок, Словаччина; сторінка PDF 17."
       },
       "eventId": "kezmarok-2023-12-p17",
       "eventSlug": "kezmarok-2023-12-p17",
@@ -1351,9 +2297,10 @@
       "pdfPage": 17,
       "occurrence": 5,
       "assetId": "c90ce308f166732813547e364c48ff3c9175c58cb778bd921fb8837b16d4aeac",
+      "assetType": "photograph",
       "alt": {
-        "en": "Archival image accompanying the Angels of Ukraine record for Kežmarok, Slovakia, source page 17.",
-        "uk": "Архівне зображення до запису «Янголи України» про місто Кежмарок, Словаччина, сторінка 17 першоджерела."
+        "en": "Source photograph accompanying the Angels of Ukraine memorial event in Kežmarok, Slovakia; PDF page 17.",
+        "uk": "Фотографія з першоджерела до меморіальної акції «Янголи України» у місті Кежмарок, Словаччина; сторінка PDF 17."
       },
       "eventId": "kezmarok-2023-12-p17",
       "eventSlug": "kezmarok-2023-12-p17",
@@ -1364,6 +2311,7 @@
       "pdfPage": 18,
       "occurrence": 1,
       "assetId": "8ce30b02eea734e2509a02042c790f1f240c7332696808f1816828f2bf9a3696",
+      "assetType": "emblem",
       "alt": {
         "en": "The Ukrainian trident emblem shown in the source document.",
         "uk": "Тризуб — емблема України, зображена в першоджерелі."
@@ -1377,9 +2325,10 @@
       "pdfPage": 18,
       "occurrence": 2,
       "assetId": "d84ac81787f8843ff8260c688beb17c9c20fd7c3515c65e672167347dfbaad2e",
+      "assetType": "photograph",
       "alt": {
-        "en": "Archival image accompanying the Angels of Ukraine record for Sliema, Malta, source page 18.",
-        "uk": "Архівне зображення до запису «Янголи України» про місто Сліма, Мальта, сторінка 18 першоджерела."
+        "en": "Source photograph accompanying the Angels of Ukraine memorial event in Sliema, Malta; PDF page 18.",
+        "uk": "Фотографія з першоджерела до меморіальної акції «Янголи України» у місті Сліма, Мальта; сторінка PDF 18."
       },
       "eventId": "sliema-2023-11-04-p18",
       "eventSlug": "sliema-2023-11-04-p18",
@@ -1390,9 +2339,10 @@
       "pdfPage": 18,
       "occurrence": 3,
       "assetId": "84cb437b044a7fe458a1887beb1831bdcb12a7e1303b3d631702e701ca5ecbea",
+      "assetType": "photograph",
       "alt": {
-        "en": "Archival image accompanying the Angels of Ukraine record for Sliema, Malta, source page 18.",
-        "uk": "Архівне зображення до запису «Янголи України» про місто Сліма, Мальта, сторінка 18 першоджерела."
+        "en": "Source photograph accompanying the Angels of Ukraine memorial event in Sliema, Malta; PDF page 18.",
+        "uk": "Фотографія з першоджерела до меморіальної акції «Янголи України» у місті Сліма, Мальта; сторінка PDF 18."
       },
       "eventId": "sliema-2023-11-04-p18",
       "eventSlug": "sliema-2023-11-04-p18",
@@ -1403,6 +2353,7 @@
       "pdfPage": 19,
       "occurrence": 1,
       "assetId": "8ce30b02eea734e2509a02042c790f1f240c7332696808f1816828f2bf9a3696",
+      "assetType": "emblem",
       "alt": {
         "en": "The Ukrainian trident emblem shown in the source document.",
         "uk": "Тризуб — емблема України, зображена в першоджерелі."
@@ -1416,9 +2367,10 @@
       "pdfPage": 19,
       "occurrence": 2,
       "assetId": "a40bcf8e927da6eea4b1a8254cb8087b68cf26ce1be76df3024b0e5b9de63c4c",
+      "assetType": "photograph",
       "alt": {
-        "en": "Archival image accompanying the Angels of Ukraine record for Valletta, Malta, source page 19.",
-        "uk": "Архівне зображення до запису «Янголи України» про місто Валлетта, Мальта, сторінка 19 першоджерела."
+        "en": "Source photograph accompanying the Angels of Ukraine memorial event in Valletta, Malta; PDF page 19.",
+        "uk": "Фотографія з першоджерела до меморіальної акції «Янголи України» у місті Валлетта, Мальта; сторінка PDF 19."
       },
       "eventId": "valletta-2023-10-28-p19",
       "eventSlug": "valletta-2023-10-28-p19",
@@ -1429,6 +2381,7 @@
       "pdfPage": 20,
       "occurrence": 1,
       "assetId": "8ce30b02eea734e2509a02042c790f1f240c7332696808f1816828f2bf9a3696",
+      "assetType": "emblem",
       "alt": {
         "en": "The Ukrainian trident emblem shown in the source document.",
         "uk": "Тризуб — емблема України, зображена в першоджерелі."
@@ -1442,9 +2395,10 @@
       "pdfPage": 20,
       "occurrence": 2,
       "assetId": "21f776344bd8937994e526c92f1a53c0caa45c2d5794f105f0acda8de700b9c3",
+      "assetType": "photograph",
       "alt": {
-        "en": "Archival image accompanying the Angels of Ukraine record for Košice, Slovakia, source page 20.",
-        "uk": "Архівне зображення до запису «Янголи України» про місто Кошице, Словаччина, сторінка 20 першоджерела."
+        "en": "Source photograph accompanying the Angels of Ukraine memorial event in Košice, Slovakia; PDF page 20.",
+        "uk": "Фотографія з першоджерела до меморіальної акції «Янголи України» у місті Кошице, Словаччина; сторінка PDF 20."
       },
       "eventId": "kosice-2023-09-24-p20",
       "eventSlug": "kosice-2023-09-24-p20",
@@ -1455,9 +2409,10 @@
       "pdfPage": 20,
       "occurrence": 3,
       "assetId": "63bef8cfc5122dbc959aba5e3628efd2f3fe58903766f1c58db55aaba91bca6f",
+      "assetType": "photograph",
       "alt": {
-        "en": "Archival image accompanying the Angels of Ukraine record for Košice, Slovakia, source page 20.",
-        "uk": "Архівне зображення до запису «Янголи України» про місто Кошице, Словаччина, сторінка 20 першоджерела."
+        "en": "Source photograph accompanying the Angels of Ukraine memorial event in Košice, Slovakia; PDF page 20.",
+        "uk": "Фотографія з першоджерела до меморіальної акції «Янголи України» у місті Кошице, Словаччина; сторінка PDF 20."
       },
       "eventId": "kosice-2023-09-24-p20",
       "eventSlug": "kosice-2023-09-24-p20",
@@ -1468,9 +2423,10 @@
       "pdfPage": 20,
       "occurrence": 4,
       "assetId": "57e873181fdca1af18778cb17e6d2d46bc98cf132638165314be3a1352075385",
+      "assetType": "logo",
       "alt": {
-        "en": "Archival image accompanying the Angels of Ukraine record for Košice, Slovakia, source page 20.",
-        "uk": "Архівне зображення до запису «Янголи України» про місто Кошице, Словаччина, сторінка 20 першоджерела."
+        "en": "scouting emblem reproduced on source page 20.",
+        "uk": "Логотип «scouting emblem» зі сторінки 20 першоджерела."
       },
       "eventId": "kosice-2023-09-24-p20",
       "eventSlug": "kosice-2023-09-24-p20",
@@ -1481,9 +2437,10 @@
       "pdfPage": 20,
       "occurrence": 5,
       "assetId": "7dba5c43d302c78846198d3c2ccfe22e334054770e2e5d5761e021692b492ea0",
+      "assetType": "logo",
       "alt": {
-        "en": "Archival image accompanying the Angels of Ukraine record for Košice, Slovakia, source page 20.",
-        "uk": "Архівне зображення до запису «Янголи України» про місто Кошице, Словаччина, сторінка 20 першоджерела."
+        "en": "Plast logo reproduced on source page 20.",
+        "uk": "Логотип «Plast logo» зі сторінки 20 першоджерела."
       },
       "eventId": "kosice-2023-09-24-p20",
       "eventSlug": "kosice-2023-09-24-p20",
@@ -1494,9 +2451,10 @@
       "pdfPage": 20,
       "occurrence": 6,
       "assetId": "4d99719dc707fa453804ac61d22937dfcc47c27d303aedab6a33c4fedc684a9b",
+      "assetType": "logo",
       "alt": {
-        "en": "Archival image accompanying the Angels of Ukraine record for Košice, Slovakia, source page 20.",
-        "uk": "Архівне зображення до запису «Янголи України» про місто Кошице, Словаччина, сторінка 20 першоджерела."
+        "en": "FEMAN logo reproduced on source page 20.",
+        "uk": "Логотип «FEMAN logo» зі сторінки 20 першоджерела."
       },
       "eventId": "kosice-2023-09-24-p20",
       "eventSlug": "kosice-2023-09-24-p20",
@@ -1507,9 +2465,10 @@
       "pdfPage": 20,
       "occurrence": 7,
       "assetId": "3cd36219cf659c55fe949902178068f17005cf49674d77e05542924ece84fa18",
+      "assetType": "document-graphic",
       "alt": {
-        "en": "Archival image accompanying the Angels of Ukraine record for Košice, Slovakia, source page 20.",
-        "uk": "Архівне зображення до запису «Янголи України» про місто Кошице, Словаччина, сторінка 20 першоджерела."
+        "en": "Event graphic or printed poster reproduced on source page 20.",
+        "uk": "Графічний матеріал або афіша зі сторінки 20 першоджерела."
       },
       "eventId": "kosice-2023-09-24-p20",
       "eventSlug": "kosice-2023-09-24-p20",
@@ -1520,9 +2479,10 @@
       "pdfPage": 20,
       "occurrence": 8,
       "assetId": "8ec0f395cf73ec789a5b8750d59c5a7c0a04497b5d0d68d698933971a9a4ee97",
+      "assetType": "photograph",
       "alt": {
-        "en": "Archival image accompanying the Angels of Ukraine record for Košice, Slovakia, source page 20.",
-        "uk": "Архівне зображення до запису «Янголи України» про місто Кошице, Словаччина, сторінка 20 першоджерела."
+        "en": "Source photograph accompanying the Angels of Ukraine memorial event in Košice, Slovakia; PDF page 20.",
+        "uk": "Фотографія з першоджерела до меморіальної акції «Янголи України» у місті Кошице, Словаччина; сторінка PDF 20."
       },
       "eventId": "kosice-2023-09-24-p20",
       "eventSlug": "kosice-2023-09-24-p20",
@@ -1533,6 +2493,7 @@
       "pdfPage": 21,
       "occurrence": 1,
       "assetId": "8ce30b02eea734e2509a02042c790f1f240c7332696808f1816828f2bf9a3696",
+      "assetType": "emblem",
       "alt": {
         "en": "The Ukrainian trident emblem shown in the source document.",
         "uk": "Тризуб — емблема України, зображена в першоджерелі."
@@ -1546,9 +2507,10 @@
       "pdfPage": 21,
       "occurrence": 2,
       "assetId": "070f4668f241b2719400a0221de47344f3eca8e5fa7f4e8778fc62704fd7361f",
+      "assetType": "photograph",
       "alt": {
-        "en": "Archival image accompanying the Angels of Ukraine record for Stockholm, Sweden, source page 21.",
-        "uk": "Архівне зображення до запису «Янголи України» про місто Стокгольм, Швеція, сторінка 21 першоджерела."
+        "en": "Source photograph accompanying the Angels of Ukraine memorial event in Stockholm, Sweden; PDF page 21.",
+        "uk": "Фотографія з першоджерела до меморіальної акції «Янголи України» у місті Стокгольм, Швеція; сторінка PDF 21."
       },
       "eventId": "stockholm-2023-09-10-p21",
       "eventSlug": "stockholm-2023-09-10-p21",
@@ -1559,6 +2521,7 @@
       "pdfPage": 22,
       "occurrence": 1,
       "assetId": "8ce30b02eea734e2509a02042c790f1f240c7332696808f1816828f2bf9a3696",
+      "assetType": "emblem",
       "alt": {
         "en": "The Ukrainian trident emblem shown in the source document.",
         "uk": "Тризуб — емблема України, зображена в першоджерелі."
@@ -1572,9 +2535,10 @@
       "pdfPage": 22,
       "occurrence": 2,
       "assetId": "b8c2c9b136452dd9669ef6935e504e567d7cbd884bdd0b74ab8c6e036e32b2a6",
+      "assetType": "photograph",
       "alt": {
-        "en": "Archival image accompanying the Angels of Ukraine record for Uppsala, Sweden, source page 22.",
-        "uk": "Архівне зображення до запису «Янголи України» про місто Уппсала, Швеція, сторінка 22 першоджерела."
+        "en": "Source photograph accompanying the Angels of Ukraine memorial event in Uppsala, Sweden; PDF page 22.",
+        "uk": "Фотографія з першоджерела до меморіальної акції «Янголи України» у місті Уппсала, Швеція; сторінка PDF 22."
       },
       "eventId": "uppsala-2023-08-20-p22",
       "eventSlug": "uppsala-2023-08-20-p22",
@@ -1585,9 +2549,10 @@
       "pdfPage": 22,
       "occurrence": 3,
       "assetId": "e3fd3ac32db11b6658c8a8ef656a2f9edc300a318802d703644a9a182ae8fc01",
+      "assetType": "photograph",
       "alt": {
-        "en": "Archival image accompanying the Angels of Ukraine record for Uppsala, Sweden, source page 22.",
-        "uk": "Архівне зображення до запису «Янголи України» про місто Уппсала, Швеція, сторінка 22 першоджерела."
+        "en": "Source photograph accompanying the Angels of Ukraine memorial event in Uppsala, Sweden; PDF page 22.",
+        "uk": "Фотографія з першоджерела до меморіальної акції «Янголи України» у місті Уппсала, Швеція; сторінка PDF 22."
       },
       "eventId": "uppsala-2023-08-20-p22",
       "eventSlug": "uppsala-2023-08-20-p22",
@@ -1598,6 +2563,7 @@
       "pdfPage": 23,
       "occurrence": 1,
       "assetId": "8ce30b02eea734e2509a02042c790f1f240c7332696808f1816828f2bf9a3696",
+      "assetType": "emblem",
       "alt": {
         "en": "The Ukrainian trident emblem shown in the source document.",
         "uk": "Тризуб — емблема України, зображена в першоджерелі."
@@ -1611,9 +2577,10 @@
       "pdfPage": 23,
       "occurrence": 2,
       "assetId": "bef9f42be21ec187042b3931bf8abd092cc1396b8736aaaf45a9b5a5e13ee6b3",
+      "assetType": "photograph",
       "alt": {
-        "en": "Archival image accompanying the Angels of Ukraine record for Newbury, United Kingdom, source page 23.",
-        "uk": "Архівне зображення до запису «Янголи України» про місто Ньюбері, Велика Британія, сторінка 23 першоджерела."
+        "en": "Source photograph accompanying the Angels of Ukraine memorial event in Newbury, United Kingdom; PDF page 23.",
+        "uk": "Фотографія з першоджерела до меморіальної акції «Янголи України» у місті Ньюбері, Велика Британія; сторінка PDF 23."
       },
       "eventId": "newbury-2023-07-12-p23",
       "eventSlug": "newbury-2023-07-12-p23",
@@ -1624,9 +2591,10 @@
       "pdfPage": 23,
       "occurrence": 3,
       "assetId": "4d0c6384fa02f631182813ac9e7a462787011a6aaf438a6af9997f24115bf7fd",
+      "assetType": "logo",
       "alt": {
-        "en": "Archival image accompanying the Angels of Ukraine record for Newbury, United Kingdom, source page 23.",
-        "uk": "Архівне зображення до запису «Янголи України» про місто Ньюбері, Велика Британія, сторінка 23 першоджерела."
+        "en": "Newbury Today logo reproduced on source page 23.",
+        "uk": "Логотип «Newbury Today logo» зі сторінки 23 першоджерела."
       },
       "eventId": "newbury-2023-07-12-p23",
       "eventSlug": "newbury-2023-07-12-p23",
@@ -1637,9 +2605,10 @@
       "pdfPage": 23,
       "occurrence": 4,
       "assetId": "02c99ca387c4e4211edd0a2693bdac9fa2a00ce25ad0fbceb80b9e65ec4867b7",
+      "assetType": "logo",
       "alt": {
-        "en": "Archival image accompanying the Angels of Ukraine record for Newbury, United Kingdom, source page 23.",
-        "uk": "Архівне зображення до запису «Янголи України» про місто Ньюбері, Велика Британія, сторінка 23 першоджерела."
+        "en": "BBC News logo reproduced on source page 23.",
+        "uk": "Логотип «BBC News logo» зі сторінки 23 першоджерела."
       },
       "eventId": "newbury-2023-07-12-p23",
       "eventSlug": "newbury-2023-07-12-p23",
@@ -1650,6 +2619,7 @@
       "pdfPage": 24,
       "occurrence": 1,
       "assetId": "8ce30b02eea734e2509a02042c790f1f240c7332696808f1816828f2bf9a3696",
+      "assetType": "emblem",
       "alt": {
         "en": "The Ukrainian trident emblem shown in the source document.",
         "uk": "Тризуб — емблема України, зображена в першоджерелі."
@@ -1663,9 +2633,10 @@
       "pdfPage": 24,
       "occurrence": 2,
       "assetId": "99ba88d73c44c23d989496063c9f5b37a81465b0339a10f450f5a0d0ce72c8a7",
+      "assetType": "photograph",
       "alt": {
-        "en": "Archival image accompanying the Angels of Ukraine record for Berlin, Germany, source page 24.",
-        "uk": "Архівне зображення до запису «Янголи України» про місто Берлін, Німеччина, сторінка 24 першоджерела."
+        "en": "Source photograph accompanying the Angels of Ukraine memorial event in Berlin, Germany; PDF page 24.",
+        "uk": "Фотографія з першоджерела до меморіальної акції «Янголи України» у місті Берлін, Німеччина; сторінка PDF 24."
       },
       "eventId": "berlin-2023-06-01-p24",
       "eventSlug": "berlin-2023-06-01-p24",
@@ -1676,9 +2647,10 @@
       "pdfPage": 24,
       "occurrence": 3,
       "assetId": "fa2179bd42c6f454533770d7f9138443316aa447b3e98fb2e05822b79b1d9d10",
+      "assetType": "photograph",
       "alt": {
-        "en": "Archival image accompanying the Angels of Ukraine record for Berlin, Germany, source page 24.",
-        "uk": "Архівне зображення до запису «Янголи України» про місто Берлін, Німеччина, сторінка 24 першоджерела."
+        "en": "Source photograph accompanying the Angels of Ukraine memorial event in Berlin, Germany; PDF page 24.",
+        "uk": "Фотографія з першоджерела до меморіальної акції «Янголи України» у місті Берлін, Німеччина; сторінка PDF 24."
       },
       "eventId": "berlin-2023-06-01-p24",
       "eventSlug": "berlin-2023-06-01-p24",
@@ -1689,9 +2661,10 @@
       "pdfPage": 24,
       "occurrence": 4,
       "assetId": "8071e4fb838f14b3bc1283e90b5217c1be498eeeaf3cd98dca13d6a79eeb170b",
+      "assetType": "document-graphic",
       "alt": {
-        "en": "Archival image accompanying the Angels of Ukraine record for Berlin, Germany, source page 24.",
-        "uk": "Архівне зображення до запису «Янголи України» про місто Берлін, Німеччина, сторінка 24 першоджерела."
+        "en": "Event graphic or printed poster reproduced on source page 24.",
+        "uk": "Графічний матеріал або афіша зі сторінки 24 першоджерела."
       },
       "eventId": "berlin-2023-06-01-p24",
       "eventSlug": "berlin-2023-06-01-p24",
@@ -1702,6 +2675,7 @@
       "pdfPage": 25,
       "occurrence": 1,
       "assetId": "8ce30b02eea734e2509a02042c790f1f240c7332696808f1816828f2bf9a3696",
+      "assetType": "emblem",
       "alt": {
         "en": "The Ukrainian trident emblem shown in the source document.",
         "uk": "Тризуб — емблема України, зображена в першоджерелі."
@@ -1715,9 +2689,10 @@
       "pdfPage": 25,
       "occurrence": 2,
       "assetId": "c67a45a2ff7cac6c89d40801b63414277c866c363da930c09603b0513dec3886",
+      "assetType": "photograph",
       "alt": {
-        "en": "Archival image accompanying the Angels of Ukraine record for Leipzig, Germany, source page 25.",
-        "uk": "Архівне зображення до запису «Янголи України» про місто Лейпциг, Німеччина, сторінка 25 першоджерела."
+        "en": "Source photograph accompanying the Angels of Ukraine memorial event in Leipzig, Germany; PDF page 25.",
+        "uk": "Фотографія з першоджерела до меморіальної акції «Янголи України» у місті Лейпциг, Німеччина; сторінка PDF 25."
       },
       "eventId": "leipzig-2023-05-p25",
       "eventSlug": "leipzig-2023-05-p25",
@@ -1728,9 +2703,10 @@
       "pdfPage": 25,
       "occurrence": 3,
       "assetId": "afe4fa2ae3eb62145541c95bdd90f6436ed7aac12668bc6abb75fbc2093cf86d",
+      "assetType": "photograph",
       "alt": {
-        "en": "Archival image accompanying the Angels of Ukraine record for Leipzig, Germany, source page 25.",
-        "uk": "Архівне зображення до запису «Янголи України» про місто Лейпциг, Німеччина, сторінка 25 першоджерела."
+        "en": "Source photograph accompanying the Angels of Ukraine memorial event in Leipzig, Germany; PDF page 25.",
+        "uk": "Фотографія з першоджерела до меморіальної акції «Янголи України» у місті Лейпциг, Німеччина; сторінка PDF 25."
       },
       "eventId": "leipzig-2023-05-p25",
       "eventSlug": "leipzig-2023-05-p25",
@@ -1741,6 +2717,7 @@
       "pdfPage": 26,
       "occurrence": 1,
       "assetId": "8ce30b02eea734e2509a02042c790f1f240c7332696808f1816828f2bf9a3696",
+      "assetType": "emblem",
       "alt": {
         "en": "The Ukrainian trident emblem shown in the source document.",
         "uk": "Тризуб — емблема України, зображена в першоджерелі."
@@ -1754,9 +2731,10 @@
       "pdfPage": 26,
       "occurrence": 2,
       "assetId": "0f099834fb9d917cc66dee572bde35c41acd75415d681aed7720e4d7c96e9fcc",
+      "assetType": "photograph",
       "alt": {
-        "en": "Archival image accompanying the Angels of Ukraine record for Potsdam, Germany, source page 26.",
-        "uk": "Архівне зображення до запису «Янголи України» про місто Потсдам, Німеччина, сторінка 26 першоджерела."
+        "en": "Source photograph accompanying the Angels of Ukraine memorial event in Potsdam, Germany; PDF page 26.",
+        "uk": "Фотографія з першоджерела до меморіальної акції «Янголи України» у місті Потсдам, Німеччина; сторінка PDF 26."
       },
       "eventId": "potsdam-2023-04-p26",
       "eventSlug": "potsdam-2023-04-p26",
@@ -1767,9 +2745,10 @@
       "pdfPage": 26,
       "occurrence": 3,
       "assetId": "c4370cb039b77f8b51804313a55e0671335283cc3cb9a30163d18f7459d62bdc",
+      "assetType": "photograph",
       "alt": {
-        "en": "Archival image accompanying the Angels of Ukraine record for Potsdam, Germany, source page 26.",
-        "uk": "Архівне зображення до запису «Янголи України» про місто Потсдам, Німеччина, сторінка 26 першоджерела."
+        "en": "Source photograph accompanying the Angels of Ukraine memorial event in Potsdam, Germany; PDF page 26.",
+        "uk": "Фотографія з першоджерела до меморіальної акції «Янголи України» у місті Потсдам, Німеччина; сторінка PDF 26."
       },
       "eventId": "potsdam-2023-04-p26",
       "eventSlug": "potsdam-2023-04-p26",
@@ -1780,9 +2759,10 @@
       "pdfPage": 26,
       "occurrence": 4,
       "assetId": "46ee0eb1a06d197ded39895f3b9dec01a75decdf6f25db04e9e3adcf2c5d13e2",
+      "assetType": "photograph",
       "alt": {
-        "en": "Archival image accompanying the Angels of Ukraine record for Potsdam, Germany, source page 26.",
-        "uk": "Архівне зображення до запису «Янголи України» про місто Потсдам, Німеччина, сторінка 26 першоджерела."
+        "en": "Source photograph accompanying the Angels of Ukraine memorial event in Potsdam, Germany; PDF page 26.",
+        "uk": "Фотографія з першоджерела до меморіальної акції «Янголи України» у місті Потсдам, Німеччина; сторінка PDF 26."
       },
       "eventId": "potsdam-2023-04-p26",
       "eventSlug": "potsdam-2023-04-p26",
@@ -1793,6 +2773,7 @@
       "pdfPage": 27,
       "occurrence": 1,
       "assetId": "8ce30b02eea734e2509a02042c790f1f240c7332696808f1816828f2bf9a3696",
+      "assetType": "emblem",
       "alt": {
         "en": "The Ukrainian trident emblem shown in the source document.",
         "uk": "Тризуб — емблема України, зображена в першоджерелі."
@@ -1806,9 +2787,10 @@
       "pdfPage": 27,
       "occurrence": 2,
       "assetId": "d8bd421080ab9869a0e18c799224fac56f9959102e81bf4b592e123bf9686333",
+      "assetType": "photograph",
       "alt": {
-        "en": "Archival image accompanying the Angels of Ukraine record for Shrewsbury, United Kingdom, source page 27.",
-        "uk": "Архівне зображення до запису «Янголи України» про місто Шрусбері, Велика Британія, сторінка 27 першоджерела."
+        "en": "Source photograph accompanying the Angels of Ukraine memorial event in Shrewsbury, United Kingdom; PDF page 27.",
+        "uk": "Фотографія з першоджерела до меморіальної акції «Янголи України» у місті Шрусбері, Велика Британія; сторінка PDF 27."
       },
       "eventId": "shrewsbury-2023-03-04-p27",
       "eventSlug": "shrewsbury-2023-03-04-p27",
@@ -1819,9 +2801,10 @@
       "pdfPage": 27,
       "occurrence": 3,
       "assetId": "cc9e98377d80ea263eb50d993de31f9b0a09d19e4ca2bd586789e60dea6764f7",
+      "assetType": "document-graphic",
       "alt": {
-        "en": "Archival image accompanying the Angels of Ukraine record for Shrewsbury, United Kingdom, source page 27.",
-        "uk": "Архівне зображення до запису «Янголи України» про місто Шрусбері, Велика Британія, сторінка 27 першоджерела."
+        "en": "Event graphic or printed poster reproduced on source page 27.",
+        "uk": "Графічний матеріал або афіша зі сторінки 27 першоджерела."
       },
       "eventId": "shrewsbury-2023-03-04-p27",
       "eventSlug": "shrewsbury-2023-03-04-p27",
@@ -1832,6 +2815,7 @@
       "pdfPage": 28,
       "occurrence": 1,
       "assetId": "8ce30b02eea734e2509a02042c790f1f240c7332696808f1816828f2bf9a3696",
+      "assetType": "emblem",
       "alt": {
         "en": "The Ukrainian trident emblem shown in the source document.",
         "uk": "Тризуб — емблема України, зображена в першоджерелі."
@@ -1845,9 +2829,10 @@
       "pdfPage": 28,
       "occurrence": 2,
       "assetId": "e1fd68e53e4ffc1815c78a1de8096550602f2025dc77e778e221d53d25416c7e",
+      "assetType": "photograph",
       "alt": {
-        "en": "Archival image accompanying the Angels of Ukraine record for Cleobury Mortimer, United Kingdom, source page 28.",
-        "uk": "Архівне зображення до запису «Янголи України» про місто Клебері-Мортімер, Велика Британія, сторінка 28 першоджерела."
+        "en": "Source photograph accompanying the Angels of Ukraine memorial event in Cleobury Mortimer, United Kingdom; PDF page 28.",
+        "uk": "Фотографія з першоджерела до меморіальної акції «Янголи України» у місті Клебері-Мортімер, Велика Британія; сторінка PDF 28."
       },
       "eventId": "cleobury-mortimer-2023-02-12-p28",
       "eventSlug": "cleobury-mortimer-2023-02-12-p28",
@@ -1858,6 +2843,7 @@
       "pdfPage": 29,
       "occurrence": 1,
       "assetId": "8ce30b02eea734e2509a02042c790f1f240c7332696808f1816828f2bf9a3696",
+      "assetType": "emblem",
       "alt": {
         "en": "The Ukrainian trident emblem shown in the source document.",
         "uk": "Тризуб — емблема України, зображена в першоджерелі."
@@ -1871,9 +2857,10 @@
       "pdfPage": 29,
       "occurrence": 2,
       "assetId": "df238bf4f75c043eceb2f5a00fba1f30812bb4ab26fe4af8e69937b0d953be5a",
+      "assetType": "photograph",
       "alt": {
-        "en": "Archival image accompanying the Angels of Ukraine record for Ludlow, United Kingdom, source page 29.",
-        "uk": "Архівне зображення до запису «Янголи України» про місто Ладлоу, Велика Британія, сторінка 29 першоджерела."
+        "en": "Source photograph accompanying the Angels of Ukraine memorial event in Ludlow, United Kingdom; PDF page 29.",
+        "uk": "Фотографія з першоджерела до меморіальної акції «Янголи України» у місті Ладлоу, Велика Британія; сторінка PDF 29."
       },
       "eventId": "ludlow-2023-01-21-p29",
       "eventSlug": "ludlow-2023-01-21-p29",
@@ -1884,9 +2871,10 @@
       "pdfPage": 29,
       "occurrence": 3,
       "assetId": "a6bd5a963e065f397320c02a6fd167f4aecf48abedbf6ed68b5277b5ed7484a6",
+      "assetType": "photograph",
       "alt": {
-        "en": "Archival image accompanying the Angels of Ukraine record for Ludlow, United Kingdom, source page 29.",
-        "uk": "Архівне зображення до запису «Янголи України» про місто Ладлоу, Велика Британія, сторінка 29 першоджерела."
+        "en": "Source photograph accompanying the Angels of Ukraine memorial event in Ludlow, United Kingdom; PDF page 29.",
+        "uk": "Фотографія з першоджерела до меморіальної акції «Янголи України» у місті Ладлоу, Велика Британія; сторінка PDF 29."
       },
       "eventId": "ludlow-2023-01-21-p29",
       "eventSlug": "ludlow-2023-01-21-p29",
@@ -1897,9 +2885,10 @@
       "pdfPage": 29,
       "occurrence": 4,
       "assetId": "6e0318a359230d1090d6f444123b56e74494654e5166a1c435cb0336519fbeb9",
+      "assetType": "logo",
       "alt": {
-        "en": "Archival image accompanying the Angels of Ukraine record for Ludlow, United Kingdom, source page 29.",
-        "uk": "Архівне зображення до запису «Янголи України» про місто Ладлоу, Велика Британія, сторінка 29 першоджерела."
+        "en": "Ludlow Town Council logo reproduced on source page 29.",
+        "uk": "Логотип «Ludlow Town Council logo» зі сторінки 29 першоджерела."
       },
       "eventId": "ludlow-2023-01-21-p29",
       "eventSlug": "ludlow-2023-01-21-p29",
@@ -1910,9 +2899,10 @@
       "pdfPage": 30,
       "occurrence": 1,
       "assetId": "ece94ca9f825ce2eaaf4e45636ec7648820d93d7fb9053d4dd0b6368a706ed3c",
+      "assetType": "photograph",
       "alt": {
-        "en": "Archival image accompanying the Angels of Ukraine record for Limassol, Cyprus, source page 30.",
-        "uk": "Архівне зображення до запису «Янголи України» про місто Лімасол, Кіпр, сторінка 30 першоджерела."
+        "en": "Source photograph accompanying the Angels of Ukraine memorial event in Limassol, Cyprus; PDF page 30.",
+        "uk": "Фотографія з першоджерела до меморіальної акції «Янголи України» у місті Лімасол, Кіпр; сторінка PDF 30."
       },
       "eventId": "limassol-2022-12-18-p30",
       "eventSlug": "limassol-2022-12-18-p30",
@@ -1923,6 +2913,7 @@
       "pdfPage": 30,
       "occurrence": 2,
       "assetId": "8ce30b02eea734e2509a02042c790f1f240c7332696808f1816828f2bf9a3696",
+      "assetType": "emblem",
       "alt": {
         "en": "The Ukrainian trident emblem shown in the source document.",
         "uk": "Тризуб — емблема України, зображена в першоджерелі."
@@ -1936,9 +2927,10 @@
       "pdfPage": 30,
       "occurrence": 3,
       "assetId": "f1e49f5a40e40ed363d257d9e6eb0d71207a3aaa743d3567c9a35f5a37ab2f8c",
+      "assetType": "photograph",
       "alt": {
-        "en": "Archival image accompanying the Angels of Ukraine record for Limassol, Cyprus, source page 30.",
-        "uk": "Архівне зображення до запису «Янголи України» про місто Лімасол, Кіпр, сторінка 30 першоджерела."
+        "en": "Source photograph accompanying the Angels of Ukraine memorial event in Limassol, Cyprus; PDF page 30.",
+        "uk": "Фотографія з першоджерела до меморіальної акції «Янголи України» у місті Лімасол, Кіпр; сторінка PDF 30."
       },
       "eventId": "limassol-2022-12-18-p30",
       "eventSlug": "limassol-2022-12-18-p30",
@@ -1949,9 +2941,10 @@
       "pdfPage": 30,
       "occurrence": 4,
       "assetId": "000f4d5ace5c642320a8472e4964f78431183e7601fa7d70a8fba443d977a22e",
+      "assetType": "photograph",
       "alt": {
-        "en": "Archival image accompanying the Angels of Ukraine record for Limassol, Cyprus, source page 30.",
-        "uk": "Архівне зображення до запису «Янголи України» про місто Лімасол, Кіпр, сторінка 30 першоджерела."
+        "en": "Source photograph accompanying the Angels of Ukraine memorial event in Limassol, Cyprus; PDF page 30.",
+        "uk": "Фотографія з першоджерела до меморіальної акції «Янголи України» у місті Лімасол, Кіпр; сторінка PDF 30."
       },
       "eventId": "limassol-2022-12-18-p30",
       "eventSlug": "limassol-2022-12-18-p30",
@@ -1962,9 +2955,10 @@
       "pdfPage": 30,
       "occurrence": 5,
       "assetId": "789c8f11b32a8f9812e44e398558da1689ee5268fc7bb6f69eeebbf24807a575",
+      "assetType": "photograph",
       "alt": {
-        "en": "Archival image accompanying the Angels of Ukraine record for Limassol, Cyprus, source page 30.",
-        "uk": "Архівне зображення до запису «Янголи України» про місто Лімасол, Кіпр, сторінка 30 першоджерела."
+        "en": "Source photograph accompanying the Angels of Ukraine memorial event in Limassol, Cyprus; PDF page 30.",
+        "uk": "Фотографія з першоджерела до меморіальної акції «Янголи України» у місті Лімасол, Кіпр; сторінка PDF 30."
       },
       "eventId": "limassol-2022-12-18-p30",
       "eventSlug": "limassol-2022-12-18-p30",
@@ -1975,6 +2969,7 @@
       "pdfPage": 31,
       "occurrence": 1,
       "assetId": "8ce30b02eea734e2509a02042c790f1f240c7332696808f1816828f2bf9a3696",
+      "assetType": "emblem",
       "alt": {
         "en": "The Ukrainian trident emblem shown in the source document.",
         "uk": "Тризуб — емблема України, зображена в першоджерелі."
@@ -1988,9 +2983,10 @@
       "pdfPage": 31,
       "occurrence": 2,
       "assetId": "1cc2377d455c928884a425272e35a40020e8ee2b77991554fc5abd850a0d25b0",
+      "assetType": "photograph",
       "alt": {
-        "en": "Archival image accompanying the Angels of Ukraine record for Larnaca, Cyprus, source page 31.",
-        "uk": "Архівне зображення до запису «Янголи України» про місто Ларнака, Кіпр, сторінка 31 першоджерела."
+        "en": "Source photograph accompanying the Angels of Ukraine memorial event in Larnaca, Cyprus; PDF page 31.",
+        "uk": "Фотографія з першоджерела до меморіальної акції «Янголи України» у місті Ларнака, Кіпр; сторінка PDF 31."
       },
       "eventId": "larnaca-2022-12-07-p31",
       "eventSlug": "larnaca-2022-12-07-p31",
@@ -2001,9 +2997,10 @@
       "pdfPage": 31,
       "occurrence": 3,
       "assetId": "0e222fc4d000be162e237bee5720d174960612a241c18d758bfeb75be8a6422e",
+      "assetType": "photograph",
       "alt": {
-        "en": "Archival image accompanying the Angels of Ukraine record for Larnaca, Cyprus, source page 31.",
-        "uk": "Архівне зображення до запису «Янголи України» про місто Ларнака, Кіпр, сторінка 31 першоджерела."
+        "en": "Source photograph accompanying the Angels of Ukraine memorial event in Larnaca, Cyprus; PDF page 31.",
+        "uk": "Фотографія з першоджерела до меморіальної акції «Янголи України» у місті Ларнака, Кіпр; сторінка PDF 31."
       },
       "eventId": "larnaca-2022-12-07-p31",
       "eventSlug": "larnaca-2022-12-07-p31",
@@ -2014,9 +3011,10 @@
       "pdfPage": 32,
       "occurrence": 1,
       "assetId": "5a84a3b203635d0510320381a99d17dfa73dc0103ac31772682a5016fdab93d1",
+      "assetType": "photograph",
       "alt": {
-        "en": "Archival image accompanying the Angels of Ukraine record for Košice, Slovakia, source page 32.",
-        "uk": "Архівне зображення до запису «Янголи України» про місто Кошице, Словаччина, сторінка 32 першоджерела."
+        "en": "Source photograph accompanying the Angels of Ukraine memorial event in Košice, Slovakia; PDF page 32.",
+        "uk": "Фотографія з першоджерела до меморіальної акції «Янголи України» у місті Кошице, Словаччина; сторінка PDF 32."
       },
       "eventId": "kosice-2022-09-25-p32",
       "eventSlug": "kosice-2022-09-25-p32",
@@ -2027,9 +3025,10 @@
       "pdfPage": 32,
       "occurrence": 2,
       "assetId": "b0127ddd8bbda221a07a690c68e301ca619ccc9f4d2450458979e360dd3077de",
+      "assetType": "photograph",
       "alt": {
-        "en": "Archival image accompanying the Angels of Ukraine record for Košice, Slovakia, source page 32.",
-        "uk": "Архівне зображення до запису «Янголи України» про місто Кошице, Словаччина, сторінка 32 першоджерела."
+        "en": "Source photograph accompanying the Angels of Ukraine memorial event in Košice, Slovakia; PDF page 32.",
+        "uk": "Фотографія з першоджерела до меморіальної акції «Янголи України» у місті Кошице, Словаччина; сторінка PDF 32."
       },
       "eventId": "kosice-2022-09-25-p32",
       "eventSlug": "kosice-2022-09-25-p32",
@@ -2040,6 +3039,7 @@
       "pdfPage": 32,
       "occurrence": 3,
       "assetId": "8ce30b02eea734e2509a02042c790f1f240c7332696808f1816828f2bf9a3696",
+      "assetType": "emblem",
       "alt": {
         "en": "The Ukrainian trident emblem shown in the source document.",
         "uk": "Тризуб — емблема України, зображена в першоджерелі."
@@ -2053,9 +3053,10 @@
       "pdfPage": 33,
       "occurrence": 1,
       "assetId": "5d6789211c56ca6a35bac6da96b88accf124f482c7921e569e30ef43c96b0f47",
+      "assetType": "photograph",
       "alt": {
-        "en": "Archival image accompanying the Angels of Ukraine record for Bratislava, Slovakia, source page 33.",
-        "uk": "Архівне зображення до запису «Янголи України» про місто Братислава, Словаччина, сторінка 33 першоджерела."
+        "en": "Source photograph accompanying the Angels of Ukraine memorial event in Bratislava, Slovakia; PDF page 33.",
+        "uk": "Фотографія з першоджерела до меморіальної акції «Янголи України» у місті Братислава, Словаччина; сторінка PDF 33."
       },
       "eventId": "bratislava-2022-09-14-p33",
       "eventSlug": "bratislava-2022-09-14-p33",
@@ -2066,6 +3067,7 @@
       "pdfPage": 33,
       "occurrence": 2,
       "assetId": "8ce30b02eea734e2509a02042c790f1f240c7332696808f1816828f2bf9a3696",
+      "assetType": "emblem",
       "alt": {
         "en": "The Ukrainian trident emblem shown in the source document.",
         "uk": "Тризуб — емблема України, зображена в першоджерелі."
@@ -2079,9 +3081,10 @@
       "pdfPage": 34,
       "occurrence": 1,
       "assetId": "8f68e0ec565454206f46197d207cfaa67ab76013af14b3decfc7c634b675ecbc",
+      "assetType": "photograph",
       "alt": {
-        "en": "Archival image accompanying the Angels of Ukraine record for Banská Bystrica, Slovakia, source page 34.",
-        "uk": "Архівне зображення до запису «Янголи України» про місто Банська Бистриця, Словаччина, сторінка 34 першоджерела."
+        "en": "Source photograph accompanying the Angels of Ukraine memorial event in Banská Bystrica, Slovakia; PDF page 34.",
+        "uk": "Фотографія з першоджерела до меморіальної акції «Янголи України» у місті Банська Бистриця, Словаччина; сторінка PDF 34."
       },
       "eventId": "banska-bystrica-2022-08-24-p34",
       "eventSlug": "banska-bystrica-2022-08-24-p34",
@@ -2092,6 +3095,7 @@
       "pdfPage": 34,
       "occurrence": 2,
       "assetId": "8ce30b02eea734e2509a02042c790f1f240c7332696808f1816828f2bf9a3696",
+      "assetType": "emblem",
       "alt": {
         "en": "The Ukrainian trident emblem shown in the source document.",
         "uk": "Тризуб — емблема України, зображена в першоджерелі."
@@ -2105,9 +3109,10 @@
       "pdfPage": 35,
       "occurrence": 1,
       "assetId": "84d3c5b13f90850658b1f0ae60a7ff1043e5c82bba7b60f42a76ce4798ed330f",
+      "assetType": "photograph",
       "alt": {
-        "en": "Archival image accompanying the Angels of Ukraine record for Prešov, Slovakia, source page 35.",
-        "uk": "Архівне зображення до запису «Янголи України» про місто Пряшів, Словаччина, сторінка 35 першоджерела."
+        "en": "Source photograph accompanying the Angels of Ukraine memorial event in Prešov, Slovakia; PDF page 35.",
+        "uk": "Фотографія з першоджерела до меморіальної акції «Янголи України» у місті Пряшів, Словаччина; сторінка PDF 35."
       },
       "eventId": "presov-2022-07-17-p35",
       "eventSlug": "presov-2022-07-17-p35",
@@ -2118,9 +3123,10 @@
       "pdfPage": 35,
       "occurrence": 2,
       "assetId": "b4057fd14cbb863f345cb3580d737048a6511d3dbdd3257b87621ddf7a213f48",
+      "assetType": "photograph",
       "alt": {
-        "en": "Archival image accompanying the Angels of Ukraine record for Prešov, Slovakia, source page 35.",
-        "uk": "Архівне зображення до запису «Янголи України» про місто Пряшів, Словаччина, сторінка 35 першоджерела."
+        "en": "Source photograph accompanying the Angels of Ukraine memorial event in Prešov, Slovakia; PDF page 35.",
+        "uk": "Фотографія з першоджерела до меморіальної акції «Янголи України» у місті Пряшів, Словаччина; сторінка PDF 35."
       },
       "eventId": "presov-2022-07-17-p35",
       "eventSlug": "presov-2022-07-17-p35",
@@ -2131,6 +3137,7 @@
       "pdfPage": 35,
       "occurrence": 3,
       "assetId": "8ce30b02eea734e2509a02042c790f1f240c7332696808f1816828f2bf9a3696",
+      "assetType": "emblem",
       "alt": {
         "en": "The Ukrainian trident emblem shown in the source document.",
         "uk": "Тризуб — емблема України, зображена в першоджерелі."
@@ -2144,9 +3151,10 @@
       "pdfPage": 36,
       "occurrence": 1,
       "assetId": "87e24a8da3ab10684bc6e10087c83f3a2ceb1bd73a04a880b07f2ec1facaa683",
+      "assetType": "photograph",
       "alt": {
-        "en": "Archival image accompanying the Angels of Ukraine record for Žilina, Slovakia, source page 36.",
-        "uk": "Архівне зображення до запису «Янголи України» про місто Жиліна, Словаччина, сторінка 36 першоджерела."
+        "en": "Source photograph accompanying the Angels of Ukraine memorial event in Žilina, Slovakia; PDF page 36.",
+        "uk": "Фотографія з першоджерела до меморіальної акції «Янголи України» у місті Жиліна, Словаччина; сторінка PDF 36."
       },
       "eventId": "zilina-2022-07-12-p36",
       "eventSlug": "zilina-2022-07-12-p36",
@@ -2157,9 +3165,10 @@
       "pdfPage": 36,
       "occurrence": 2,
       "assetId": "2c16b8b855d046549f32c3df9a32e5761cdfd61913d406fdc9efee9a143a42ee",
+      "assetType": "photograph",
       "alt": {
-        "en": "Archival image accompanying the Angels of Ukraine record for Žilina, Slovakia, source page 36.",
-        "uk": "Архівне зображення до запису «Янголи України» про місто Жиліна, Словаччина, сторінка 36 першоджерела."
+        "en": "Source photograph accompanying the Angels of Ukraine memorial event in Žilina, Slovakia; PDF page 36.",
+        "uk": "Фотографія з першоджерела до меморіальної акції «Янголи України» у місті Жиліна, Словаччина; сторінка PDF 36."
       },
       "eventId": "zilina-2022-07-12-p36",
       "eventSlug": "zilina-2022-07-12-p36",
@@ -2170,6 +3179,7 @@
       "pdfPage": 36,
       "occurrence": 3,
       "assetId": "8ce30b02eea734e2509a02042c790f1f240c7332696808f1816828f2bf9a3696",
+      "assetType": "emblem",
       "alt": {
         "en": "The Ukrainian trident emblem shown in the source document.",
         "uk": "Тризуб — емблема України, зображена в першоджерелі."
@@ -2183,9 +3193,10 @@
       "pdfPage": 37,
       "occurrence": 1,
       "assetId": "549878cfa301b92e8a6188485ff130bd6a1a47503a3b1e771d6779df6614d2c6",
+      "assetType": "photograph",
       "alt": {
-        "en": "Archival image accompanying the Angels of Ukraine record for Košice, Slovakia, source page 37.",
-        "uk": "Архівне зображення до запису «Янголи України» про місто Кошице, Словаччина, сторінка 37 першоджерела."
+        "en": "Source photograph accompanying the Angels of Ukraine memorial event in Košice, Slovakia; PDF page 37.",
+        "uk": "Фотографія з першоджерела до меморіальної акції «Янголи України» у місті Кошице, Словаччина; сторінка PDF 37."
       },
       "eventId": "kosice-2022-06-01-p37",
       "eventSlug": "kosice-2022-06-01-p37",
@@ -2196,6 +3207,7 @@
       "pdfPage": 37,
       "occurrence": 2,
       "assetId": "8ce30b02eea734e2509a02042c790f1f240c7332696808f1816828f2bf9a3696",
+      "assetType": "emblem",
       "alt": {
         "en": "The Ukrainian trident emblem shown in the source document.",
         "uk": "Тризуб — емблема України, зображена в першоджерелі."
@@ -2209,6 +3221,7 @@
       "pdfPage": 38,
       "occurrence": 1,
       "assetId": "8ce30b02eea734e2509a02042c790f1f240c7332696808f1816828f2bf9a3696",
+      "assetType": "emblem",
       "alt": {
         "en": "The Ukrainian trident emblem shown in the source document.",
         "uk": "Тризуб — емблема України, зображена в першоджерелі."
@@ -2222,6 +3235,7 @@
       "pdfPage": 39,
       "occurrence": 1,
       "assetId": "8ce30b02eea734e2509a02042c790f1f240c7332696808f1816828f2bf9a3696",
+      "assetType": "emblem",
       "alt": {
         "en": "The Ukrainian trident emblem shown in the source document.",
         "uk": "Тризуб — емблема України, зображена в першоджерелі."
@@ -2235,6 +3249,7 @@
       "pdfPage": 40,
       "occurrence": 1,
       "assetId": "8ce30b02eea734e2509a02042c790f1f240c7332696808f1816828f2bf9a3696",
+      "assetType": "emblem",
       "alt": {
         "en": "The Ukrainian trident emblem shown in the source document.",
         "uk": "Тризуб — емблема України, зображена в першоджерелі."
@@ -2248,6 +3263,7 @@
       "pdfPage": 40,
       "occurrence": 2,
       "assetId": "efb4167514c4f3bcee5877155949f5f2e97b6bb6f848b172108620b0cb14067e",
+      "assetType": "portrait",
       "alt": {
         "en": "Portrait of Nataliia Mitso, identified on source page 40.",
         "uk": "Портрет Nataliia Mitso, зазначеної на сторінці 40 першоджерела."
@@ -2261,6 +3277,7 @@
       "pdfPage": 40,
       "occurrence": 3,
       "assetId": "9b1591505f73611629743218d910b5deb002ad9f9d5481d3db1c340e38ec014a",
+      "assetType": "portrait",
       "alt": {
         "en": "Portrait of Svitlana Peshterianu, identified on source page 40.",
         "uk": "Портрет Svitlana Peshterianu, зазначеної на сторінці 40 першоджерела."
@@ -2274,6 +3291,7 @@
       "pdfPage": 41,
       "occurrence": 1,
       "assetId": "8ce30b02eea734e2509a02042c790f1f240c7332696808f1816828f2bf9a3696",
+      "assetType": "emblem",
       "alt": {
         "en": "The Ukrainian trident emblem shown in the source document.",
         "uk": "Тризуб — емблема України, зображена в першоджерелі."
@@ -2287,9 +3305,10 @@
       "pdfPage": 41,
       "occurrence": 2,
       "assetId": "062f997adbbbac0fb02a942c49a250b4720a7ffc79cfe8ace3019d0d7dafafc3",
+      "assetType": "photograph",
       "alt": {
-        "en": "Archival image from page 41 of the Angels of Ukraine source PDF.",
-        "uk": "Архівне зображення зі сторінки 41 PDF «Янголи України»."
+        "en": "Source photograph from page 41 of the Angels of Ukraine archive.",
+        "uk": "Фотографія з першоджерела «Янголи України», сторінка 41."
       },
       "eventId": null,
       "eventSlug": null,
@@ -2300,6 +3319,7 @@
       "pdfPage": 41,
       "occurrence": 3,
       "assetId": "2d482128a7fc6e6c9418d33d8dbb81ce624ac1bf9fc44b85a63f1e5b4bd2141b",
+      "assetType": "qr-code",
       "alt": {
         "en": "QR code printed on source page 41, beside the social media contact section.",
         "uk": "QR-код зі сторінки 41 першоджерела поруч із розділом соціальних мереж."

@@ -8,6 +8,7 @@ import { formatEventDate } from "@/lib/dates";
 import { ReviewNotice } from "@/components/ReviewNotice";
 import { MediaGallery, eventPlacements } from "@/components/MediaGallery";
 import { absoluteUrl } from "@/lib/site";
+import { EventCard } from "@/components/EventCard";
 
 export function generateStaticParams() { return allEvents.map((event) => ({ slug: event.slug })); }
 export const dynamicParams = false;
@@ -41,6 +42,6 @@ export default async function EventDetailPage({ params }: { params: Promise<{ lo
     <div className="detail-grid">
       <aside className="detail-facts"><h2>{locale === "en" ? "Event record" : "Запис події"}</h2><dl><dt>{locale === "en" ? "Place in source" : "Місце у джерелі"}</dt><dd>{event.sourceCityLabel}, {localized(event.country, locale)}</dd><dt>{locale === "en" ? "Date as printed" : "Дату надруковано"}</dt><dd>{event.dateOriginal} {event.datePrecision === "month" ? `· ${t(locale, "monthOnly")}` : ""}</dd><dt>{t(locale, "count")}</dt><dd>{event.memorialAngelCount}</dd><dt>{t(locale, "source")}</dt><dd>{event.sourcePageIds.join(", ")}</dd></dl><p className="method-note">{t(locale, "note")}</p></aside></div>
     <section className="detail-copy"><h2>{locale === "en" ? "Historical description" : "Історичний опис"}</h2><p>{event.historicalDescription[locale]}</p>{event.sourceDiscrepancy && <ReviewNotice locale={locale}>{event.sourceDiscrepancy[locale]}</ReviewNotice>}<details><summary>{locale === "en" ? "Source transcription" : "Транскрипція джерела"}</summary><pre>{event.sourceTranscription}</pre></details><p className="source-ref">{locale === "en" ? "Original source page" : "Сторінка першоджерела"}: {event.sourcePageIds.join(", ")}</p></section>
-    {related.length > 0 && <section className="related-events"><h2>{locale === "en" ? "Other gatherings in this city" : "Інші акції в цьому місті"}</h2><ul>{related.map((item) => <li key={item.id}><Link href={`/${locale}/events/${item.slug}/`}>{formatEventDate(item, locale)} · {localized(item.city, locale)}</Link></li>)}</ul></section>}
+    {related.length > 0 && <section className="related-events"><h2>{locale === "en" ? "Other gatherings in this city" : "Інші акції в цьому місті"}</h2><div className="event-grid">{related.map((item) => <EventCard key={item.id} event={item} locale={locale} compact />)}</div></section>}
   </article>;
 }

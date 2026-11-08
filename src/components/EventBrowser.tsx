@@ -1,11 +1,11 @@
 "use client";
 
 import { useMemo, useState } from "react";
-import Link from "next/link";
 import type { Event, Locale } from "@/content/schema";
 import { localized } from "@/content/repository";
-import { filterEvents, formatEventDate } from "@/lib/dates";
+import { filterEvents } from "@/lib/dates";
 import { t } from "@/lib/i18n";
+import { EventCard } from "@/components/EventCard";
 
 export function EventBrowser({ events, locale, timeline = false }: { events: Event[]; locale: Locale; timeline?: boolean }) {
   const [query, setQuery] = useState("");
@@ -24,15 +24,7 @@ export function EventBrowser({ events, locale, timeline = false }: { events: Eve
     {visible.length ? <ol className={timeline ? "timeline-list" : "event-grid"}>
       {visible.map((event, index) => <li key={event.id}>
         {timeline && <span className="timeline-marker" aria-hidden="true">{String(index + 1).padStart(2, "0")}</span>}
-        <article className="event-card compact-event">
-          <div className="event-card-art" aria-hidden="true"><span>✳</span><small>{event.countryCode}</small></div>
-          <div className="event-card-body">
-            <p className="eyebrow">{localized(event.country, locale)} · {formatEventDate(event, locale)}{event.datePrecision === "month" ? ` · ${t(locale, "monthOnly")}` : ""}</p>
-            <h2><Link href={`/${locale}/events/${event.slug}/`}>{localized(event.city, locale)}</Link></h2>
-            <p>{localized(event.description, locale)}</p>
-            <div className="card-meta"><span>{t(locale, "source")} {event.sourcePageIds[0]}</span><span>{event.memorialAngelCount} {locale === "en" ? "angels" : "янголів"}</span></div>
-          </div>
-        </article>
+        <EventCard event={event} locale={locale} compact />
       </li>)}
     </ol> : <p className="empty-state">{locale === "en" ? "No events match these filters." : "За цими фільтрами подій не знайдено."}</p>}
   </>;
