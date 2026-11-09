@@ -16,7 +16,7 @@ export function SiteHeader({ locale }: { locale: Locale }) {
   return <header className="site-header">
     <div className="header-inner">
       <Link prefetch={false} className="brand" href={`/${locale}/`} aria-label="Angels of Ukraine — home">
-        <Image className="brand-mark" src="/brand/angel-option-a.svg" alt="" width={40} height={40} unoptimized />
+        <Image className="brand-mark" src="/icon-512.png" alt="" width={40} height={40} unoptimized />
         <span>Angels of Ukraine</span>
       </Link>
       <nav className="main-nav" aria-label={locale === "en" ? "Main navigation" : "Основна навігація"}>

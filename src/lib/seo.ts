@@ -22,9 +22,10 @@ export function createPageMetadata({ locale, path, title, description, keywords,
     "x-default": absoluteUrl("/"),
   };
   const socialImage = {
-    url: absoluteUrl("/social-card.svg"),
+    url: absoluteUrl("/social-card.png?v=2e1de4ea00"),
     width: 1200,
     height: 630,
+    type: "image/png",
     alt: locale === "en" ? "Angels of Ukraine travelling memorial archive" : "Архів мандрівного меморіалу «Янголи України»",
   };
 

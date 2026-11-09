@@ -6,6 +6,7 @@ import json
 import re
 import sys
 import os
+import struct
 from pathlib import Path
 from urllib.parse import unquote, urlsplit
 
@@ -107,20 +108,48 @@ def main() -> int:
             robots_text = robots_path.read_text(encoding="utf-8", errors="replace")
             if f"Sitemap: {site_url}{base_path}/sitemap.xml" not in robots_text:
                 errors.append("robots.txt does not reference the configured sitemap URL")
-        for relative in ("favicon.png", "apple-touch-icon.png", "site.webmanifest", "brand/angel-option-a.svg"):
+        icon_dimensions = {
+            "favicon-16x16.png": (16, 16),
+            "favicon-32x32.png": (32, 32),
+            "favicon-48x48.png": (48, 48),
+            "apple-touch-icon.png": (180, 180),
+            "icon-192.png": (192, 192),
+            "icon-512.png": (512, 512),
+            "social-card.png": (1200, 630),
+        }
+        for relative, expected_size in icon_dimensions.items():
             icon_path = OUT / relative
             if not icon_path.is_file():
                 errors.append(f"missing branding asset: {relative}")
                 continue
-            if relative.endswith(".png") and not icon_path.read_bytes().startswith(b"\x89PNG\r\n\x1a\n"):
-                errors.append(f"branding asset is not a valid PNG: {relative}")
-            elif relative.endswith(".svg") and "Crocheted Angel" not in icon_path.read_text(encoding="utf-8", errors="replace"):
-                errors.append(f"branding asset does not identify the approved logo: {relative}")
+            try:
+                data = icon_path.read_bytes()
+                if not data.startswith(b"\x89PNG\r\n\x1a\n"):
+                    errors.append(f"branding asset is not a valid PNG: {relative}")
+                elif struct.unpack(">II", data[16:24]) != expected_size:
+                    errors.append(f"branding asset has wrong dimensions: {relative}, expected {expected_size}")
+            except OSError:
+                errors.append(f"could not read branding asset: {relative}")
+        for relative in ("site.webmanifest", "brand/angel-option-a.svg", "icon.svg"):
+            icon_path = OUT / relative
+            if not icon_path.is_file():
+                errors.append(f"missing branding asset: {relative}")
+                continue
+            if relative.endswith(".svg"):
+                svg = icon_path.read_text(encoding="utf-8", errors="replace")
+                if "Crocheted Angel" not in svg or "data:image/png;base64," not in svg or re.search(r'(?:href|src)="(?:https?:|/)', svg, re.I):
+                    errors.append(f"branding SVG is not self-contained: {relative}")
             elif relative.endswith(".webmanifest"):
                 try:
                     manifest = json.loads(icon_path.read_text(encoding="utf-8"))
                     if not manifest.get("icons"):
                         errors.append("web manifest has no app icons")
+                    for item in manifest.get("icons", []):
+                        if item.get("purpose") not in {"any", "monochrome"}:
+                            errors.append(f"invalid or unsafe manifest icon purpose: {item.get('purpose')}")
+                        icon_target = OUT / item.get("src", "").lstrip("/")
+                        if not icon_target.is_file():
+                            errors.append(f"manifest icon is missing: {item.get('src')}")
                 except (OSError, json.JSONDecodeError):
                     errors.append("web manifest is not valid JSON")
         for route in ("index.html", "en/index.html", "uk/index.html"):
@@ -129,9 +158,30 @@ def main() -> int:
                 html = page.read_text(encoding="utf-8", errors="replace")
                 if 'rel="canonical"' not in html or not re.search(r'hreflang="en"', html, re.I) or not re.search(r'hreflang="uk"', html, re.I):
                     errors.append(f"homepage metadata is missing canonical or hreflang tags: {route}")
-                for marker in ('property="og:title"', 'property="og:description"', 'property="og:image"', 'name="twitter:card"', 'application/ld+json'):
-                    if marker not in html:
-                        errors.append(f"homepage metadata is missing {marker}: {route}")
+                exact_once = ('rel="canonical"', 'property="og:url"', 'property="og:title"', 'property="og:description"', 'property="og:image"', 'property="og:image:width"', 'property="og:image:height"', 'property="og:image:type"', 'name="twitter:card"', 'name="twitter:image"')
+                for marker in exact_once:
+                    if html.count(marker) != 1:
+                        errors.append(f"homepage metadata must contain exactly one {marker}: {route}")
+                if 'property="og:image:width" content="1200"' not in html or 'property="og:image:height" content="630"' not in html or 'property="og:image:type" content="image/png"' not in html:
+                    errors.append(f"homepage Open Graph image dimensions or MIME type are incorrect: {route}")
+                if 'name="twitter:card" content="summary_large_image"' not in html or "social-card.svg" in html:
+                    errors.append(f"homepage has incorrect Twitter card or stale SVG social preview: {route}")
+                if 'social-card.png?v=2e1de4ea00' not in html:
+                    errors.append(f"homepage does not reference the versioned social card: {route}")
+                if 'src="/icon-512.png"' not in html or '"logo":{"@type":"ImageObject","url":"https://uateg.com/icon-512.png"}' not in html:
+                    errors.append(f"homepage brand images or organization logo metadata are missing: {route}")
+                if html.count('rel="icon"') != 3 or html.count('rel="apple-touch-icon"') != 1 or html.count('rel="manifest"') != 1:
+                    errors.append(f"homepage has duplicate or missing icon metadata: {route}")
+        uk_home = OUT / "uk" / "index.html"
+        if uk_home.is_file() and '<html lang="uk"' not in uk_home.read_text(encoding="utf-8", errors="replace"):
+            errors.append("Ukrainian homepage HTML language must be uk")
+        if (OUT / "en" / "index.html").is_file() and '<html lang="en"' not in (OUT / "en" / "index.html").read_text(encoding="utf-8", errors="replace"):
+            errors.append("English homepage HTML language must be en")
+        if (OUT / "404.html").is_file():
+            not_found_html = (OUT / "404.html").read_text(encoding="utf-8", errors="replace")
+            robot_tags = re.findall(r'<meta\s+name="robots"\s+content="([^"]+)"', not_found_html, re.I)
+            if len(robot_tags) != 1 or not robot_tags[0].lower().startswith("noindex"):
+                errors.append("404.html must have exactly one noindex robots tag")
         for page in (path for path in all_files if path.suffix.lower() == ".html"):
             parser = Links()
             parser.feed(page.read_text(encoding="utf-8", errors="replace"))

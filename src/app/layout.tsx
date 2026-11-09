@@ -11,7 +11,7 @@ const organizationSchema = {
       "@id": `${siteOrigin}/#organization`,
       name: "Angels of Ukraine",
       url: siteOrigin,
-      logo: { "@type": "ImageObject", url: absoluteUrl("/brand/angel-option-a.svg") },
+      logo: { "@type": "ImageObject", url: absoluteUrl("/icon-512.png") },
       description: "A travelling memorial and bilingual historical archive documenting Angels of Ukraine events.",
     },
     {
@@ -34,13 +34,14 @@ export const metadata: Metadata = {
   manifest: absoluteUrl("/site.webmanifest"),
   icons: {
     icon: [
-      { url: absoluteUrl("/favicon.png"), type: "image/png", sizes: "110x115" },
-      { url: absoluteUrl("/brand/angel-option-a.svg"), type: "image/svg+xml", sizes: "any" },
+      { url: absoluteUrl("/favicon-16x16.png"), type: "image/png", sizes: "16x16" },
+      { url: absoluteUrl("/favicon-32x32.png"), type: "image/png", sizes: "32x32" },
+      { url: absoluteUrl("/favicon-48x48.png"), type: "image/png", sizes: "48x48" },
     ],
-    apple: [{ url: absoluteUrl("/apple-touch-icon.png"), type: "image/png", sizes: "110x115" }],
+    apple: [{ url: absoluteUrl("/apple-touch-icon.png"), type: "image/png", sizes: "180x180" }],
   },
-  openGraph: { type: "website", siteName: "Angels of Ukraine", locale: "en_US", images: [{ url: absoluteUrl("/social-card.svg"), width: 1200, height: 630, alt: "Angels of Ukraine travelling memorial archive" }] },
-  twitter: { card: "summary_large_image", images: [absoluteUrl("/social-card.svg")] },
+  openGraph: { type: "website", siteName: "Angels of Ukraine", locale: "en_US", images: [{ url: absoluteUrl("/social-card.png?v=2e1de4ea00"), width: 1200, height: 630, type: "image/png", alt: "Angels of Ukraine travelling memorial archive" }] },
+  twitter: { card: "summary_large_image", images: [absoluteUrl("/social-card.png?v=2e1de4ea00")] },
   robots: { index: true, follow: true },
 };
 

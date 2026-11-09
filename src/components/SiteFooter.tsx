@@ -6,7 +6,7 @@ import { t } from "@/lib/i18n";
 export function SiteFooter({ locale }: { locale: Locale }) {
   return <footer className="site-footer"><div className="footer-inner">
     <Link prefetch={false} className="footer-brand" href={`/${locale}/`}>
-      <Image className="footer-brand-mark" src="/brand/angel-option-a.svg" alt="" width={36} height={36} unoptimized />
+      <Image className="footer-brand-mark" src="/icon-512.png" alt="" width={36} height={36} unoptimized />
       <span>Angels of Ukraine</span>
     </Link>
     <p>{t(locale, "tagline")}</p>
