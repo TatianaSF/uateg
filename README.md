@@ -1,6 +1,6 @@
 # Angels of Ukraine
 
-A bilingual, mobile-first historical archive and organizer guide. The first deployment targets `https://tatianasf.github.io/uateg/` using the GitHub Pages project-site path. The future `uaTeg.com` root domain is not configured yet.
+A bilingual, mobile-first historical archive and organizer guide. The current published build targets `https://tatianasf.github.io/uateg/`; root-domain migration to `https://uateg.com/` is prepared. GitHub account domain verification and apex DNS setup are complete; repository Pages configuration, deployment, and certificate verification remain. See `DOMAIN_MIGRATION.md`.
 
 ## Local development
 
@@ -11,7 +11,7 @@ npm ci
 npm run dev
 ```
 
-Open `http://localhost:3000/`. The root is a language-choice page. The site routes are `/en/` and `/uk/`.
+Open `http://localhost:3000/`. The root is the English homepage; `/en/` and `/uk/` provide the dedicated language routes.
 
 After `npm run build`, preview the static export in a second terminal:
 
@@ -48,4 +48,4 @@ No organizer form provider is configured, so the guide shows `FORM_NOT_CONFIGURE
 
 ## Deployment
 
-The manual-only workflow builds with `NEXT_PUBLIC_BASE_PATH=/uateg` and `NEXT_PUBLIC_SITE_URL=https://tatianasf.github.io`. For the future custom domain, use an empty base path and `NEXT_PUBLIC_SITE_URL=https://uaTeg.com`; no DNS or custom-domain configuration is part of this release.
+The deployment workflow remains manual-only. It builds for the apex domain with an empty `NEXT_PUBLIC_BASE_PATH` and `NEXT_PUBLIC_SITE_URL=https://uateg.com`, and safely stops before build/deploy until GitHub reports `uateg.com` as the repository custom domain and the protected domain state as `verified`. The account-level domain verification and Cloudflare DNS preflight are complete; configure the repository Pages custom domain only after the root-domain export passes. See `DOMAIN_MIGRATION.md` for the live preflight and rollback reference.

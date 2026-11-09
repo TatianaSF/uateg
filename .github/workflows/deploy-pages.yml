@@ -26,6 +26,29 @@ jobs:
           cache: npm
       - name: Configure GitHub Pages
         uses: actions/configure-pages@v5
+      - name: Require verified apex domain before deployment
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+        run: |
+          node --input-type=module <<'NODE'
+          const response = await fetch(`https://api.github.com/repos/${process.env.GITHUB_REPOSITORY}/pages`, {
+            headers: {
+              Accept: "application/vnd.github+json",
+              Authorization: `Bearer ${process.env.GITHUB_TOKEN}`,
+              "X-GitHub-Api-Version": "2022-11-28",
+            },
+          });
+          if (!response.ok) throw new Error(`Could not verify Pages domain settings (HTTP ${response.status}).`);
+          const pages = await response.json();
+          if (pages.cname?.toLowerCase() !== "uateg.com") {
+            throw new Error("Deployment stopped safely: configure uateg.com as the repository Pages custom domain first.");
+          }
+          if (pages.protected_domain_state !== "verified") {
+            throw new Error("Deployment stopped safely: verify uateg.com in the GitHub account Pages settings first.");
+          }
+          console.log("Verified Pages apex domain is configured.");
+          NODE
       - name: Install from lockfile
         run: npm ci
       - name: Typecheck
@@ -38,8 +61,8 @@ jobs:
         run: npm audit --audit-level=moderate
       - name: Static export and public-data scan
         env:
-          NEXT_PUBLIC_BASE_PATH: /uateg
-          NEXT_PUBLIC_SITE_URL: https://tatianasf.github.io
+          NEXT_PUBLIC_BASE_PATH: ""
+          NEXT_PUBLIC_SITE_URL: https://uateg.com
         run: npm run build
       - name: Report artifact size
         shell: bash

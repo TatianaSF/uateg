@@ -11,7 +11,7 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   return {
     title: locale === "en" ? "Angels of Ukraine · A travelling memorial" : "«Янголи України» · Мандрівний меморіал",
     description: locale === "en" ? "Explore the Angels of Ukraine memorial story, photographs and historical events across eight countries." : "Історія, фотографії та архів меморіальних акцій «Янголи України» у восьми країнах.",
-    alternates: { canonical: absoluteUrl(`/${locale}/`), languages: { en: absoluteUrl("/"), uk: absoluteUrl("/uk/") } },
+    alternates: { canonical: absoluteUrl(locale === "en" ? "/" : "/uk/"), languages: { en: absoluteUrl("/"), uk: absoluteUrl("/uk/") } },
   };
 }
 
