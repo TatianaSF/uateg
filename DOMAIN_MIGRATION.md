@@ -8,7 +8,7 @@ Audit date: 2026-11-09 (Europe/Budapest)
 - Custom domain: `uateg.com`; account-level protected-domain state: `verified`.
 - HTTPS certificate: `approved` for `uateg.com`; HTTPS enforcement: enabled.
 - Live URL: `https://uateg.com/`.
-- Current root-domain migration commit: `a9ee4c0c791a62b34f567f08af91f6e54ab894be` (a small accessibility/mobile navigation fix is being validated for the next manual deployment).
+- Currently published root-domain site commit: `018b17d66443b5e4385a7da0aed2ad28c026487a`; latest repository report-only commit: `a90dfb91a9d61cad4a73dc0f3a57d0f1bb7a30a`.
 - Workflow: [GitHub Pages deployment](https://github.com/TatianaSF/uateg/actions/workflows/deploy-pages.yml), manual dispatch only and gated on the verified custom domain.
 
 ## DNS records
