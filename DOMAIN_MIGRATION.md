@@ -17,7 +17,7 @@ Audit date: 2026-11-09 (Europe/Budapest)
 - Four apex A records retained: `185.199.108.153`, `185.199.109.153`, `185.199.110.153`, `185.199.111.153`.
 - Four apex AAAA records retained: `2606:50c0:8000::153`, `2606:50c0:8001::153`, `2606:50c0:8002::153`, `2606:50c0:8003::153`.
 - GitHub account verification TXT retained at `_github-pages-challenge-TatianaSF.uateg.com`.
-- Added `www` CNAME to `TatianaSF.github.io` (DNS-only) after confirming no pre-existing `www` record. GitHub recommends this alongside an apex custom domain and documents automatic redirects to the configured canonical domain.
+- No `www` record is configured. A DNS-only `www` CNAME was briefly tested after confirming the name was free, then removed because `https://www.uateg.com/` returned a certificate hostname mismatch while GitHub's approved certificate covered only `uateg.com`. The apex remains healthy and enforced over HTTPS; `www` is optional and awaits a GitHub certificate/configuration that covers that hostname.
 - Existing three MX records, SPF, DKIM (`cf2024-1._domainkey`), DMARC, and all four apex A records were preserved.
 - The private source inventory is saved at `source-private/domain-migration/dns-inventory-final-2026-11-09.json`; initial and intermediate inventories are also retained in that git-ignored directory.
 - Domain verification challenge value is intentionally not copied into tracked files.
@@ -25,7 +25,7 @@ Audit date: 2026-11-09 (Europe/Budapest)
 ## Deployment and validation
 
 - Root-domain Next.js export uses an empty `NEXT_PUBLIC_BASE_PATH` and `NEXT_PUBLIC_SITE_URL=https://uateg.com`.
-- Last verified domain migration deployment: run `42590921837`, commit `a9ee4c0c791a62b34f567f08af91f6e54ab894be`; build and deploy jobs passed.
+- Last verified deployment: run `42592348957`, commit `018b17d66443b5e4385a7da0aed2ad28c026487a`; build and deploy jobs passed.
 - All 89 static HTML routes and five extra endpoints (English/Ukrainian roots, sitemap, robots, source PDF) were requested from the live domain: 94 checked, no failures. The PDF returned `200` for HEAD; it remains the previously approved public archive asset.
 - `http://uateg.com/` and `https://tatianasf.github.io/uateg/` both returned `301` to `https://uateg.com/` after HTTPS enforcement.
 - `npm ci`, `npm run typecheck`, `npm run lint`, `npm test` (17/17), `npm audit --audit-level=moderate` (0 vulnerabilities), and `npm run build` passed on 2026-11-09. Static export checks confirmed 83 media assets, 126 placements across all 41 source pages, all 33 events illustrated, 84 localized non-home routes, and local links resolving.
@@ -35,8 +35,9 @@ Audit date: 2026-11-09 (Europe/Budapest)
 
 - The latest screenshots revealed the final navigation item was partially clipped at 320px. Mobile navigation now wraps instead of horizontally clipping.
 - Event-card `aria-label` overrides were removed so accessible names include all visible card text.
-- The above changes passed typecheck, lint, all 17 tests, dependency audit, static build/export checks. A new manual Pages workflow run is required to publish these changes; it has not yet been dispatched.
-- Browser screenshot outputs were shown in the QA session, but Chrome MCP denied saving screenshot files because its filesystem allowlist does not include the repository path.
+- The changes passed typecheck, lint, all 17 tests, dependency audit, static build/export checks, and were published by run `42592348957`.
+- Post-deployment Lighthouse mobile: Accessibility 100, Best Practices 100, SEO 100, Agentic Browsing 100; 56 passed, 0 failed. Performance scoring was not included in this audit.
+- Actual 320, 390, 768 and 1440px browser screenshots were captured and shown in the QA session. Chrome MCP denied saving screenshot files because its filesystem allowlist does not include the repository path.
 
 ## Rollback
 
