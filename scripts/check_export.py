@@ -48,7 +48,7 @@ def main() -> int:
     else:
         all_files = [path for path in OUT.rglob("*") if path.is_file()]
         root_html = (OUT / "index.html").read_text(encoding="utf-8", errors="replace") if (OUT / "index.html").is_file() else ""
-        if "Memory that travels" not in root_html or "Explore Our Story" not in root_html:
+        if "Remembering," not in root_html or "The Archive" not in root_html or "Organize an Event" not in root_html:
             errors.append("root route must render the English landing page")
         if "Photographs &amp; source materials" not in (OUT / "en" / "gallery" / "index.html").read_text(encoding="utf-8", errors="replace") if (OUT / "en" / "gallery" / "index.html").is_file() else True:
             errors.append("English photo archive page is missing its gallery heading")

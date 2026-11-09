@@ -1,22 +1,13 @@
-import Image from "next/image";
 import Link from "next/link";
 import type { Locale } from "@/content/schema";
 import { allEvents, cities } from "@/content/repository";
 import { EventCard } from "@/components/EventCard";
+import { ClassicHero } from "@/components/ClassicHero";
 import { MediaGallery, pagePlacements } from "@/components/MediaGallery";
-import { ReviewNotice } from "@/components/ReviewNotice";
 import { MapPreview } from "@/components/MapPreview";
-import mediaData from "@/content/media.json";
-import { isPhotograph } from "@/lib/media";
-import { sitePath } from "@/lib/site";
 import { t } from "@/lib/i18n";
 
 export function HomeLanding({ locale }: { locale: Locale }) {
-  const originPlacement = pagePlacements(37).find((placement) => {
-    const asset = mediaData.assets.find((candidate) => candidate.id === placement.assetId);
-    return asset ? isPhotograph(asset) : false;
-  });
-  const originPhoto = originPlacement ? mediaData.assets.find((asset) => asset.id === originPlacement.assetId) : undefined;
   const featured = [
     allEvents.find((event) => event.countryCode === "CA"),
     allEvents.find((event) => event.countryCode === "DE"),
@@ -29,26 +20,8 @@ export function HomeLanding({ locale }: { locale: Locale }) {
   });
 
   return <>
-    <section className="hero-section">
-      <div className="hero-copy">
-        <p className="eyebrow"><span className="eyebrow-dot" />{t(locale, "historyLabel")}</p>
-        <h1>{locale === "en" ? <>Angels of Ukraine.<br /><em>Memory that travels.</em></> : <>«Янголи України».<br /><em>Пам’ять, що мандрує.</em></>}</h1>
-        <p className="hero-lead">{locale === "en" ? "A travelling memorial made by communities, carrying the memory of children killed in Russia’s war against Ukraine from city to city." : "Мандрівний меморіал, створений громадами, несе від міста до міста пам’ять про дітей, загиблих у війні Росії проти України."}</p>
-        <div className="hero-actions">
-          <Link className="button button-primary" href={`/${locale}/about/`}>{locale === "en" ? "Explore Our Story" : "Дізнатися історію"}</Link>
-          <Link className="button button-outline" href={`/${locale}/events/`}>{locale === "en" ? "Explore Events" : "Переглянути події"}</Link>
-          <Link className="button button-outline" href={`/${locale}/organize/`}>{t(locale, "organizeCta")}</Link>
-        </div>
-        <ReviewNotice locale={locale}>{locale === "en" ? "A historical archive based on the 15 October 2025 source PDF. Figures describe that document, not current statistics." : "Історичний архів на основі PDF від 15 жовтня 2025 року. Наведені числа стосуються джерела, а не поточної статистики."}</ReviewNotice>
-      </div>
-      {originPhoto && originPlacement && <figure className="hero-photo"><Image src={sitePath(originPhoto.src)} width={originPhoto.width} height={originPhoto.height} sizes="(max-width: 699px) 100vw, 50vw" alt={originPlacement.alt[locale]} priority unoptimized /><figcaption>{locale === "en" ? "A gathering in Košice · source page 37" : "Акція в Кошицях · сторінка джерела 37"}</figcaption></figure>}
-    </section>
-
-    <section className="stats-band" aria-label={locale === "en" ? "Archive coverage" : "Охоплення архіву"}>
-      <p>{locale === "en" ? "The source archive records" : "У джерельному архіві задокументовано"}</p>
-      <div className="stats-grid"><div><strong>33</strong><span>{t(locale, "events")}</span></div><div><strong>25</strong><span>{t(locale, "cities")}</span></div><div><strong>8</strong><span>{t(locale, "countries")}</span></div><div><strong>2022–2025</strong><span>{locale === "en" ? "historical coverage" : "роки в джерелі"}</span></div></div>
-      <small>{locale === "en" ? "Coverage in the source PDF dated 15 October 2025." : "Охоплення PDF-джерела від 15 жовтня 2025 року."}</small>
-    </section>
+    <ClassicHero locale={locale} />
+    <p className="classic-hero-provenance content-section">{locale === "en" ? "The hero image is a symbolic AI-generated scene, not an archival event photograph. Statistics describe the source PDF dated 15 October 2025." : "Зображення на головному екрані — символічна сцена, створена ШІ, а не архівна фотографія події. Статистика взята з PDF-джерела від 15 жовтня 2025 року."}</p>
 
     <section className="content-section mission-section">
       <div><p className="eyebrow">{locale === "en" ? "A shared act of remembrance" : "Спільне вшанування пам’яті"}</p><h2>{locale === "en" ? "Small handmade angels. A message carried across borders." : "Маленькі рукотворні янголи. Послання, що долає кордони."}</h2></div>

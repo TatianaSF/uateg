@@ -10,11 +10,11 @@ export function SiteHeader({ locale }: { locale: Locale }) {
   ] as const;
   return <header className="site-header">
     <div className="header-inner">
-      <Link className="brand" href={`/${locale}/`} aria-label="Angels of Ukraine — home">
+      <Link prefetch={false} className="brand" href={`/${locale}/`} aria-label="Angels of Ukraine — home">
         <span className="brand-mark" aria-hidden="true">✳</span><span>Angels of Ukraine</span>
       </Link>
       <nav className="main-nav" aria-label={locale === "en" ? "Main navigation" : "Основна навігація"}>
-        {links.map(([path, label]) => <Link key={path} href={`/${locale}/${path}/`}>{label}</Link>)}
+        {links.map(([path, label]) => <Link prefetch={false} key={path} href={`/${locale}/${path}/`}>{label}</Link>)}
       </nav>
       <LocaleSwitch locale={locale} />
     </div>

@@ -13,8 +13,8 @@ export function LocaleSwitch({ locale }: { locale: Locale }) {
     return logicalPath.replace(/^\/(en|uk)(?=\/|$)/, `/${next}`);
   };
   return <div className="locale-switch" aria-label="Language / Мова">
-    <Link href={target("en")} lang="en" aria-current={locale === "en" ? "page" : undefined}>EN</Link>
+    <Link prefetch={false} href={target("en")} lang="en" aria-current={locale === "en" ? "page" : undefined}>EN</Link>
     <span aria-hidden="true">·</span>
-    <Link href={target("uk")} lang="uk" aria-current={locale === "uk" ? "page" : undefined}>UK</Link>
+    <Link prefetch={false} href={target("uk")} lang="uk" aria-current={locale === "uk" ? "page" : undefined}>UK</Link>
   </div>;
 }

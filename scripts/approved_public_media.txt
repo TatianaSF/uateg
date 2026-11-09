@@ -84,3 +84,6 @@ images/archive/fa2179bd42c6f454533770d7f9138443316aa447b3e98fb2e05822b79b1d9d10.
 images/archive/fc4864dba9d6977916befe8336af18dbb595b62a06ad4844c491d8653af4e565.webp
 _next/static/media/layers*.png
 _next/static/media/marker-icon*.png
+# Symbolic AI-created Classic Hero artwork; not an archival event photograph.
+images/hero/classic-hero-wide.webp
+images/hero/classic-hero-mobile.webp
