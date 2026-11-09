@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import type { ReactNode } from "react";
 import type { Locale } from "@/content/schema";
 import { CLASSIC_ARCHIVE_TOTALS, getClassicHeroCards, type ClassicHeroCardKey } from "@/lib/classic-hero";
@@ -21,7 +22,10 @@ const heroCopy = {
     statsLabel: "Historical archive coverage",
     statNames: ["events", "cities", "countries"],
     navigationLabel: "Explore the archive",
-    artAlt: "Symbolic AI-created scene, not an archival photograph: a girl seen from behind in a Ukrainian flag, a crocheted memorial angel, flowering branches and a cathedral.",
+    artAlt: "Symbolic AI-created background, not an archival photograph: a girl in a Ukrainian flag, a cathedral, flowering branches and a symbolic crocheted angel. The original archival angel photograph is shown separately in a labeled frame.",
+    sourceAlt: "Original archival photograph of crocheted memorial angels on pine branches at the Banská Bystrica event; selected source angel from PDF page 5, image 07.",
+    sourceCaption: "Original photograph · PDF p. 5",
+    sourceEvent: "Banská Bystrica · 2025",
   },
   uk: {
     label: "ПУБЛІЧНИЙ МЕМОРІАЛЬНИЙ ПРОЄКТ",
@@ -31,7 +35,10 @@ const heroCopy = {
     statsLabel: "Охоплення історичного архіву",
     statNames: ["акцій", "міст", "країн"],
     navigationLabel: "Переглянути архів",
-    artAlt: "Символічна сцена, створена ШІ, а не архівна світлина: дівчинка зі спини в українському прапорі, в’язаний меморіальний янгол, квітучі гілки та собор.",
+    artAlt: "Символічне тло, створене ШІ, а не архівна світлина: дівчинка в українському прапорі, собор, квітучі гілки та умовний в’язаний янгол. Окремо в рамці показано оригінальну архівну фотографію янгола.",
+    sourceAlt: "Оригінальна архівна фотографія в’язаних меморіальних янголів на соснових гілках під час акції в Банській Бистриці; обраний янгол із PDF, сторінка 5, зображення 07.",
+    sourceCaption: "Оригінальне фото · PDF, с. 5",
+    sourceEvent: "Банська Бистриця · 2025",
   },
 } satisfies Record<Locale, {
   label: string;
@@ -42,6 +49,9 @@ const heroCopy = {
   statNames: string[];
   navigationLabel: string;
   artAlt: string;
+  sourceAlt: string;
+  sourceCaption: string;
+  sourceEvent: string;
 }>;
 
 export function ClassicHero({ locale }: { locale: Locale }) {
@@ -49,12 +59,18 @@ export function ClassicHero({ locale }: { locale: Locale }) {
   const cards = getClassicHeroCards(locale);
 
   return <section className="classic-hero" aria-labelledby="classic-hero-title">
-    <figure className="classic-hero-art">
+    <div className="classic-hero-art">
       <picture>
         <source media="(max-width: 600px)" srcSet={sitePath("images/hero/classic-hero-mobile.webp")} />
         <img src={sitePath("images/hero/classic-hero-wide.webp")} width="1600" height="900" alt={copy.artAlt} fetchPriority="high" />
       </picture>
-    </figure>
+      <figure className="classic-hero-source-photo">
+        <Link prefetch={false} href={`/${locale}/events/banska-bystrica-2025-08-24-p5/`} aria-label={locale === "en" ? "Open the Banská Bystrica source event and its archival photograph" : "Відкрити сторінку акції в Банській Бистриці та архівну фотографію"}>
+          <Image src={sitePath("images/archive/b2dc6e2bc763a2ceb7e2246d9a03cb1629ffc6dde8e087aadf73e9e093959a61.webp")} width={2400} height={1600} sizes="(max-width: 600px) 42vw, (max-width: 900px) 30vw, 26vw" alt={copy.sourceAlt} priority unoptimized />
+        </Link>
+        <figcaption><Link prefetch={false} href={`/${locale}/events/banska-bystrica-2025-08-24-p5/`}><span>{copy.sourceCaption}</span><span>{copy.sourceEvent} <span aria-hidden="true">↗</span></span></Link></figcaption>
+      </figure>
+    </div>
     <div className="classic-hero-shade" aria-hidden="true" />
     <div className="classic-hero-body">
       <div className="classic-hero-copy">

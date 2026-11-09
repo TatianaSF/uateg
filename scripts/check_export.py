@@ -56,6 +56,24 @@ def main() -> int:
             gallery = OUT / locale / "gallery" / "index.html"
             if gallery.is_file() and "photo-archive-grid" not in gallery.read_text(encoding="utf-8", errors="replace"):
                 errors.append(f"photo gallery /{locale}/gallery/ has no rendered archive grid")
+            archive = OUT / locale / "events" / "index.html"
+            timeline = OUT / locale / "timeline" / "index.html"
+            map_page = OUT / locale / "map" / "index.html"
+            if archive.is_file():
+                archive_html = archive.read_text(encoding="utf-8", errors="replace")
+                if archive_html.count('class="event-card compact-event"') != 33:
+                    errors.append(f"event archive /{locale}/events/ must render exactly 33 linked compact cards")
+                for flag in ("🇸🇰", "🇵🇱", "🇨🇦", "🇩🇪", "🇨🇾", "🇸🇪", "🇬🇧", "🇲🇹"):
+                    if flag not in archive_html:
+                        errors.append(f"event archive /{locale}/events/ is missing country flag {flag}")
+            if timeline.is_file():
+                timeline_html = timeline.read_text(encoding="utf-8", errors="replace")
+                if timeline_html.count('class="timeline-year-heading"') != 4 or timeline_html.count('class="event-card compact-event"') != 33:
+                    errors.append(f"timeline /{locale}/timeline/ must retain all events grouped under four year headings")
+            if map_page.is_file():
+                map_html = map_page.read_text(encoding="utf-8", errors="replace")
+                if 'class="city-index-item"' not in map_html or "GeoNames" not in map_html or "OpenStreetMap" not in map_html:
+                    errors.append(f"map /{locale}/map/ is missing the accessible city index or attribution")
         for locale in ("en", "uk"):
             organizer_page = OUT / locale / "organize" / "index.html"
             if organizer_page.is_file():

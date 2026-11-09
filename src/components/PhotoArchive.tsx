@@ -26,6 +26,8 @@ export function PhotoArchive({ locale }: { locale: Locale }) {
   const [sourcePage, setSourcePage] = useState("all");
   const [selectedId, setSelectedId] = useState<string | null>(null);
   const closeButton = useRef<HTMLButtonElement>(null);
+  const returnFocus = useRef<HTMLButtonElement | null>(null);
+  const dialogWasOpen = useRef(false);
   const dialogRef = useRef<HTMLDialogElement>(null);
 
   const countries = [...new Map(eventData.map((event) => [event.countryCode, event.country[locale]])).entries()]
@@ -52,10 +54,17 @@ export function PhotoArchive({ locale }: { locale: Locale }) {
   const selected = selectedIndex >= 0 ? filtered[selectedIndex] : undefined;
 
   useEffect(() => {
-    if (!selected) return;
+    if (!selected) {
+      if (dialogWasOpen.current) {
+        dialogWasOpen.current = false;
+        requestAnimationFrame(() => returnFocus.current?.focus());
+      }
+      return;
+    }
     const dialog = dialogRef.current;
     if (!dialog) return;
     if (!dialog.open) dialog.showModal();
+    dialogWasOpen.current = true;
     closeButton.current?.focus();
   }, [selected, selectedIndex, filtered]);
 
@@ -83,23 +92,24 @@ export function PhotoArchive({ locale }: { locale: Locale }) {
         return event ? [[event.slug, event] as const] : [];
       })).values()];
       return <article className="photo-archive-card" key={asset.id}>
-        <button className="photo-open-button" type="button" onClick={() => setSelectedId(asset.id)} aria-label={`${locale === "en" ? "Open image" : "Відкрити зображення"}: ${asset.alt[locale]}`}>
+        <button className="photo-open-button" type="button" aria-haspopup="dialog" onClick={(event) => { returnFocus.current = event.currentTarget; setSelectedId(asset.id); }} aria-label={`${locale === "en" ? "Open image" : "Відкрити зображення"}: ${asset.alt[locale]}`}>
           <Image src={sitePath(asset.src)} width={asset.width} height={asset.height} alt={asset.alt[locale]} sizes="(max-width: 699px) 100vw, (max-width: 1099px) 50vw, 25vw" unoptimized />
         </button>
         <div className="photo-archive-card-copy"><p className="photo-source-pages">{[...new Set(references.map((item) => item.pdfPage))].sort((a, b) => a - b).map((page) => <a key={page} href={sitePath(`/archive/angels-of-ukraine-source-2025-10-15.pdf#page=${page}`)} target="_blank" rel="noreferrer">PDF · {page}</a>)}</p>
-          {associatedEvents.length > 0 && <ul>{associatedEvents.map((event) => <li key={event.slug}><Link href={`/${locale}/events/${event.slug}/`}>{locale === "en" ? event.city.en : event.city.uk} · {event.dateOriginal}</Link></li>)}</ul>}
+          {associatedEvents.length > 0 && <ul>{associatedEvents.map((event) => <li key={event.slug}><Link prefetch={false} href={`/${locale}/events/${event.slug}/`}>{locale === "en" ? event.city.en : event.city.uk} · {event.dateOriginal}</Link></li>)}</ul>}
           {references.length > 1 && <small>{locale === "en" ? `This asset appears ${references.length} times in the source.` : `Цей файл повторюється в джерелі ${references.length} разів.`}</small>}
         </div>
       </article>;
     })}</div> : <p className="empty-state">{locale === "en" ? "No images match these filters." : "За цими фільтрами зображень не знайдено."}</p>}
-    {selected && <dialog ref={dialogRef} className="photo-lightbox" aria-label={locale === "en" ? "Image viewer" : "Перегляд зображення"} onCancel={(event) => { event.preventDefault(); setSelectedId(null); }} onClick={(event) => { if (event.target === event.currentTarget) setSelectedId(null); }} onKeyDown={(event) => {
-      if (event.key === "ArrowRight") setSelectedId(filtered[(selectedIndex + 1) % filtered.length]?.id ?? null);
-      if (event.key === "ArrowLeft") setSelectedId(filtered[(selectedIndex - 1 + filtered.length) % filtered.length]?.id ?? null);
+    {selected && <dialog ref={dialogRef} className="photo-lightbox" aria-labelledby="photo-lightbox-title" onCancel={(event) => { event.preventDefault(); setSelectedId(null); }} onClick={(event) => { if (event.target === event.currentTarget) setSelectedId(null); }} onKeyDown={(event) => {
+      if (event.key === "ArrowRight") { event.preventDefault(); setSelectedId(filtered[(selectedIndex + 1) % filtered.length]?.id ?? null); }
+      if (event.key === "ArrowLeft") { event.preventDefault(); setSelectedId(filtered[(selectedIndex - 1 + filtered.length) % filtered.length]?.id ?? null); }
     }}>
-        <div className="photo-lightbox-toolbar"><p>{locale === "en" ? `Image ${selectedIndex + 1} of ${filtered.length}` : `Зображення ${selectedIndex + 1} з ${filtered.length}`}</p><button type="button" ref={closeButton} onClick={() => setSelectedId(null)}>{locale === "en" ? "Close" : "Закрити"}<span aria-hidden="true"> ×</span></button></div>
+        <div className="photo-lightbox-toolbar"><p id="photo-lightbox-title">{locale === "en" ? `Image ${selectedIndex + 1} of ${filtered.length}` : `Зображення ${selectedIndex + 1} з ${filtered.length}`}</p><button type="button" ref={closeButton} onClick={() => setSelectedId(null)}>{locale === "en" ? "Close" : "Закрити"}<span aria-hidden="true"> ×</span></button></div>
         <Image src={sitePath(selected.src)} width={selected.width} height={selected.height} alt={selected.alt[locale]} sizes="100vw" unoptimized />
         <p className="photo-lightbox-caption">{selected.alt[locale]}</p>
-        <div className="photo-lightbox-nav"><button type="button" onClick={() => setSelectedId(filtered[(selectedIndex - 1 + filtered.length) % filtered.length]?.id ?? null)}>{locale === "en" ? "Previous image" : "Попереднє"}</button><button type="button" onClick={() => setSelectedId(filtered[(selectedIndex + 1) % filtered.length]?.id ?? null)}>{locale === "en" ? "Next image" : "Наступне"}</button></div>
+        <p className="photo-lightbox-source"><span>{locale === "en" ? "Source PDF pages:" : "Сторінки PDF-джерела:"} {[...new Set((placementsByAsset.get(selected.id) ?? []).map((placement) => placement.pdfPage))].sort((a, b) => a - b).join(", ")}</span><a href={sitePath(`/archive/angels-of-ukraine-source-2025-10-15.pdf#page=${(placementsByAsset.get(selected.id) ?? [])[0]?.pdfPage ?? 1}`)} target="_blank" rel="noreferrer">{locale === "en" ? "Open original page" : "Відкрити сторінку PDF"}</a></p>
+        <div className="photo-lightbox-nav"><button type="button" aria-label={locale === "en" ? "Previous image (left arrow)" : "Попереднє зображення (стрілка ліворуч)"} onClick={() => setSelectedId(filtered[(selectedIndex - 1 + filtered.length) % filtered.length]?.id ?? null)}>{locale === "en" ? "Previous image" : "Попереднє"}</button><button type="button" aria-label={locale === "en" ? "Next image (right arrow)" : "Наступне зображення (стрілка праворуч)"} onClick={() => setSelectedId(filtered[(selectedIndex + 1) % filtered.length]?.id ?? null)}>{locale === "en" ? "Next image" : "Наступне"}</button></div>
       </dialog>
     }
   </>;

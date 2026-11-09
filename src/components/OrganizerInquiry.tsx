@@ -1,6 +1,7 @@
 "use client";
 
 import { useState, type FormEvent } from "react";
+import Link from "next/link";
 import type { Locale } from "@/content/schema";
 import { OrganizerRequestSchema, organizerAdapterFromConfig, FORM_NOT_CONFIGURED } from "@/lib/organizer";
 import { t } from "@/lib/i18n";
@@ -12,8 +13,10 @@ export function OrganizerInquiry({ locale }: { locale: Locale }) {
   const [message, setMessage] = useState("");
   const adapter = organizerAdapterFromConfig(endpoint, provider);
   if (!adapter) return <section className="form-not-configured" aria-labelledby="form-state" data-form-state={FORM_NOT_CONFIGURED}>
+    <span className="form-status-kicker">{locale === "en" ? "Inquiry status" : "Статус звернень"}</span>
     <h2 id="form-state">{t(locale, "formOff")}</h2>
     <p>{t(locale, "noContact")}</p>
+    <Link prefetch={false} className="text-link organize-contact-link" href={`/${locale}/contact/`}>{locale === "en" ? "View historical contact details" : "Переглянути історичні контакти"} <span aria-hidden="true">→</span></Link>
   </section>;
   const activeAdapter = adapter;
 

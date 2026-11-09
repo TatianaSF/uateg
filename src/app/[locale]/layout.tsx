@@ -25,6 +25,6 @@ export default async function LocaleLayout({ children, params }: Readonly<{ chil
     <SiteHeader locale={locale} />
     <main id="main-content">{children}</main>
     <SiteFooter locale={locale} />
-    <Link className="contact-shortcut" href={`/${locale}/organize/`}>{t(locale, "organizeCta")} <span aria-hidden="true">↗</span></Link>
+    <Link prefetch={false} className="contact-shortcut" href={`/${locale}/organize/`}>{t(locale, "organizeCta")} <span aria-hidden="true">↗</span></Link>
   </div>;
 }

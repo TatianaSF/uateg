@@ -58,6 +58,11 @@ def main() -> int:
         for asset in ("classic-hero-wide.webp", "classic-hero-mobile.webp"):
             if asset not in html:
                 errors.append(f"{relative} is missing responsive artwork reference {asset}")
+        if "images/archive/b2dc6e2bc763a2ceb7e2246d9a03cb1629ffc6dde8e087aadf73e9e093959a61.webp" not in html:
+            errors.append(f"{relative} is missing the selected archival angel photograph")
+        provenance_terms = ("символіч", "оригінальна архівна фотографія") if relative == "uk/index.html" else ("symbolic", "original photograph")
+        if any(term not in html.lower() for term in provenance_terms):
+            errors.append(f"{relative} must distinguish the symbolic background from the original source photograph")
         if "APPROVED_CLASSIC_HERO_MOCKUP.png" in html:
             errors.append(f"{relative} must not embed the full-page reference mockup")
 
