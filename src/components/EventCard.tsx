@@ -11,7 +11,7 @@ export function EventCard({ event, locale, compact = false }: { event: Event; lo
   const photo = photoForEvent(event.media);
   const className = `event-card${compact ? " compact-event" : ""}`;
   return <article className={className}>
-    <Link className="event-card-link" href={`/${locale}/events/${event.slug}/`} aria-label={`${localized(event.city, locale)} · ${formatEventDate(event, locale)} · ${localized(event.country, locale)}`}>
+    <Link className="event-card-link" href={`/${locale}/events/${event.slug}/`}>
     <div className="event-card-photo">
       {photo ? <Image src={sitePath(photo.src)} width={photo.width} height={photo.height} sizes="(max-width: 699px) 100vw, (max-width: 1099px) 50vw, 33vw" alt={placementAlt(photo.id, event.slug, locale)} unoptimized /> : <div className="event-card-fallback" aria-hidden="true">{localized(event.city, locale)}</div>}
       <small>{event.countryCode}</small>
