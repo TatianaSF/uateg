@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import Image from "next/image";
 import { usePathname } from "next/navigation";
 import type { Locale } from "@/content/schema";
 import { t } from "@/lib/i18n";
@@ -15,7 +16,8 @@ export function SiteHeader({ locale }: { locale: Locale }) {
   return <header className="site-header">
     <div className="header-inner">
       <Link prefetch={false} className="brand" href={`/${locale}/`} aria-label="Angels of Ukraine — home">
-        <span className="brand-mark" aria-hidden="true">✳</span><span>Angels of Ukraine</span>
+        <Image className="brand-mark" src="/brand/angel-option-a.svg" alt="" width={40} height={40} unoptimized />
+        <span>Angels of Ukraine</span>
       </Link>
       <nav className="main-nav" aria-label={locale === "en" ? "Main navigation" : "Основна навігація"}>
         {links.map(([path, label]) => {

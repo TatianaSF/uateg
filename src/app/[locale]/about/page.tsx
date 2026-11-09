@@ -5,11 +5,12 @@ import { validLocale, t } from "@/lib/i18n";
 import Link from "next/link";
 import { MediaGallery, pagePlacements } from "@/components/MediaGallery";
 import { sitePath } from "@/lib/site";
+import { createPageMetadata } from "@/lib/seo";
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {
   const { locale } = await params;
   if (!validLocale(locale)) return {};
-  return { title: locale === "en" ? "About the memorial" : "Про меморіал", alternates: { canonical: `/${locale}/about/`, languages: { en: "/en/about/", uk: "/uk/about/" } } };
+  return createPageMetadata({ locale, path: `/${locale}/about/`, title: locale === "en" ? "About the Angels of Ukraine Memorial" : "Про меморіал «Янголи України»", description: locale === "en" ? "Learn about the travelling Angels of Ukraine memorial, its origins and the historical archive documenting public remembrance events." : "Дізнайтеся про мандрівний меморіал «Янголи України», його історію та архів публічних акцій ушанування пам’яті.", keywords: locale === "en" ? ["Angels of Ukraine memorial story", "Ukrainian remembrance project"] : ["історія меморіалу Янголи України", "український меморіальний проєкт"] });
 }
 
 export default async function AboutPage({ params }: { params: Promise<{ locale: string }> }) {

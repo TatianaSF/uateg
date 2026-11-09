@@ -4,11 +4,12 @@ import { allEvents } from "@/content/repository";
 import type { Locale } from "@/content/schema";
 import { validLocale, t } from "@/lib/i18n";
 import { EventBrowser } from "@/components/EventBrowser";
+import { createPageMetadata } from "@/lib/seo";
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {
   const { locale } = await params;
   if (!validLocale(locale)) return {};
-  return { title: locale === "en" ? "Historical timeline" : "Історична хронологія", alternates: { canonical: `/${locale}/timeline/`, languages: { en: "/en/timeline/", uk: "/uk/timeline/" } } };
+  return createPageMetadata({ locale, path: `/${locale}/timeline/`, title: locale === "en" ? "Angels of Ukraine Remembrance Timeline" : "Хронологія пам’яті «Янголи України»", description: locale === "en" ? "Follow the documented Angels of Ukraine memorial events from 2022 to 2025, with source dates and historical context." : "Перегляньте задокументовані меморіальні акції «Янголи України» з 2022 до 2025 року з датами й історичним контекстом.", keywords: locale === "en" ? ["Angels of Ukraine timeline", "Ukrainian memorial chronology"] : ["хронологія Янголи України", "історія меморіальних акцій"] });
 }
 
 export default async function TimelinePage({ params }: { params: Promise<{ locale: string }> }) {

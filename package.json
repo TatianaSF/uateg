@@ -7,7 +7,7 @@
     "build": "next build && python scripts/check_public.py out && python scripts/check_media_coverage.py out && python scripts/check_export.py out && python scripts/check_classic_hero.py out",
     "lint": "eslint",
     "typecheck": "tsc --noEmit",
-    "test": "tsx --test tests/events.test.ts tests/organizer.test.ts tests/classic-hero.test.ts tests/country-display.test.ts",
+    "test": "tsx --test tests/events.test.ts tests/classic-hero.test.ts tests/country-display.test.ts tests/seo.test.ts",
     "source:migrate": "python scripts/migrate_source.py"
   },
   "dependencies": {

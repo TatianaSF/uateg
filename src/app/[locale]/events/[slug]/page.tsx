@@ -7,10 +7,10 @@ import type { Locale } from "@/content/schema";
 import { formatEventDate } from "@/lib/dates";
 import { ReviewNotice } from "@/components/ReviewNotice";
 import { MediaGallery, eventPlacements } from "@/components/MediaGallery";
-import { absoluteUrl } from "@/lib/site";
 import { sitePath } from "@/lib/site";
 import { EventCard } from "@/components/EventCard";
 import { countryFlag } from "@/lib/country-display";
+import { createPageMetadata } from "@/lib/seo";
 
 export function generateStaticParams() { return allEvents.map((event) => ({ slug: event.slug })); }
 export const dynamicParams = false;
@@ -20,14 +20,17 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   if (!validLocale(locale)) return {};
   const event = contentRepository.getEventBySlug(slug);
   if (!event) return {};
-  return {
-    title: `${localized(event.city, locale)} · ${formatEventDate(event, locale)}`,
-    description: localized(event.description, locale),
-    alternates: {
-      canonical: absoluteUrl(`/${locale}/events/${slug}/`),
-      languages: { en: absoluteUrl(`/en/events/${slug}/`), uk: absoluteUrl(`/uk/events/${slug}/`) },
-    },
-  };
+  const city = localized(event.city, locale);
+  const date = formatEventDate(event, locale);
+  return createPageMetadata({
+    locale,
+    path: "/" + locale + "/events/" + slug + "/",
+    title: city + " · " + date + " Memorial Event",
+    description: locale === "en"
+      ? "Read the historical Angels of Ukraine event record for " + city + " on " + date + ", with photographs, source page references and archival context."
+      : "Перегляньте історичний запис про акцію «Янголи України» у місті " + city + " (" + date + "), фотографії, посилання на джерело та архівний контекст.",
+    keywords: locale === "en" ? ["Angels of Ukraine " + city, city + " memorial event"] : ["Янголи України " + city, "меморіальна акція " + city],
+  });
 }
 
 export default async function EventDetailPage({ params }: { params: Promise<{ locale: string; slug: string }> }) {

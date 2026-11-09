@@ -3,11 +3,12 @@ import { notFound } from "next/navigation";
 import type { Locale } from "@/content/schema";
 import { validLocale } from "@/lib/i18n";
 import { MediaGallery, pagePlacements } from "@/components/MediaGallery";
+import { createPageMetadata } from "@/lib/seo";
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {
   const { locale } = await params;
   if (!validLocale(locale)) return {};
-  return { title: locale === "en" ? "People behind the initiative" : "Люди, які створили ініціативу", alternates: { canonical: `/${locale}/team/`, languages: { en: "/en/team/", uk: "/uk/team/" } } };
+  return createPageMetadata({ locale, path: "/" + locale + "/team/", title: locale === "en" ? "People Behind Angels of Ukraine" : "Люди, які стоять за «Янголами України»", description: locale === "en" ? "Meet the people named in the Angels of Ukraine historical source and read the project’s attribution and editorial context." : "Дізнайтеся про людей, згаданих у джерелі «Янголів України», та ознайомтеся з атрибуцією й редакційним контекстом." });
 }
 
 export default async function TeamPage({ params }: { params: Promise<{ locale: string }> }) {

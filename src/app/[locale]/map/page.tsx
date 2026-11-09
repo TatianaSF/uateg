@@ -4,11 +4,12 @@ import { cities, countries } from "@/content/repository";
 import type { Locale } from "@/content/schema";
 import { validLocale } from "@/lib/i18n";
 import { MapClient } from "@/components/MapClient";
+import { createPageMetadata } from "@/lib/seo";
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {
   const { locale } = await params;
   if (!validLocale(locale)) return {};
-  return { title: locale === "en" ? "Event map" : "Мапа подій", alternates: { canonical: `/${locale}/map/`, languages: { en: "/en/map/", uk: "/uk/map/" } } };
+  return createPageMetadata({ locale, path: `/${locale}/map/`, title: locale === "en" ? "Memorial Events Map: 25 Cities, 8 Countries" : "Мапа меморіальних акцій: 25 міст, 8 країн", description: locale === "en" ? "Explore the Angels of Ukraine historical archive geographically across 25 cities and 8 countries. Map points show approximate city locations, not event venues." : "Досліджуйте історичний архів «Янголи України» на мапі 25 міст і 8 країн. Позначки показують приблизні точки міст, а не місця проведення акцій.", keywords: locale === "en" ? ["Angels of Ukraine map", "Ukrainian memorial events by city"] : ["мапа Янголи України", "меморіальні акції за містами"] });
 }
 
 export default async function MapPage({ params }: { params: Promise<{ locale: string }> }) {

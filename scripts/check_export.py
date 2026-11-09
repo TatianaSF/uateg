@@ -13,7 +13,7 @@ ROOT = Path(__file__).resolve().parents[1]
 OUT = Path(sys.argv[1]) if len(sys.argv) > 1 else ROOT / "out"
 events = json.loads((ROOT / "src/content/events.json").read_text(encoding="utf-8"))
 base_path = os.environ.get("NEXT_PUBLIC_BASE_PATH", "").rstrip("/")
-site_url = os.environ.get("NEXT_PUBLIC_SITE_URL", "https://uaTeg.com").rstrip("/").lower()
+site_url = os.environ.get("NEXT_PUBLIC_SITE_URL", "https://uateg.com").rstrip("/").lower()
 
 class Links(html.parser.HTMLParser):
     def __init__(self) -> None:
@@ -78,18 +78,60 @@ def main() -> int:
             organizer_page = OUT / locale / "organize" / "index.html"
             if organizer_page.is_file():
                 organizer_html = organizer_page.read_text(encoding="utf-8", errors="replace")
-                if "FORM_NOT_CONFIGURED" not in organizer_html:
-                    errors.append(f"organizer page /{locale}/organize/ must expose its unconfigured state")
                 if re.search(r"<form(?:\s|>)", organizer_html, flags=re.I):
-                    errors.append(f"unconfigured organizer page /{locale}/organize/ contains an active form")
+                    errors.append(f"organizer page /{locale}/organize/ must not contain an inquiry form")
+                for channel in ("mailto:", "tel:", "sms:"):
+                    if channel not in organizer_html:
+                        errors.append(f"organizer page /{locale}/organize/ is missing the {channel} contact path")
+            contact_page = OUT / locale / "contact" / "index.html"
+            if contact_page.is_file():
+                contact_html = contact_page.read_text(encoding="utf-8", errors="replace")
+                if re.search(r"<form(?:\s|>)", contact_html, flags=re.I):
+                    errors.append(f"contact page /{locale}/contact/ must not contain a form")
+                for channel in ("mailto:", "tel:", "sms:"):
+                    if channel not in contact_html:
+                        errors.append(f"contact page /{locale}/contact/ is missing the {channel} contact path")
         sitemap_path = OUT / "sitemap.xml"
         if sitemap_path.is_file():
             sitemap_text = sitemap_path.read_text(encoding="utf-8", errors="replace")
+            for required_url in ("/en/", "/uk/", "/en/events/", "/uk/events/", "/en/map/", "/uk/map/", "/en/timeline/", "/uk/timeline/", "/en/gallery/", "/uk/gallery/", "/en/organize/", "/uk/organize/"):
+                if f"{site_url}{base_path}{required_url}" not in sitemap_text:
+                    errors.append(f"sitemap is missing required route {required_url}")
             for locale in ("en", "uk"):
                 for event in events:
                     expected = f"{site_url}{base_path}/{locale}/events/{event['slug']}/"
                     if expected not in sitemap_text:
                         errors.append(f"sitemap is missing {expected}")
+        robots_path = OUT / "robots.txt"
+        if robots_path.is_file():
+            robots_text = robots_path.read_text(encoding="utf-8", errors="replace")
+            if f"Sitemap: {site_url}{base_path}/sitemap.xml" not in robots_text:
+                errors.append("robots.txt does not reference the configured sitemap URL")
+        for relative in ("favicon.png", "apple-touch-icon.png", "site.webmanifest", "brand/angel-option-a.svg"):
+            icon_path = OUT / relative
+            if not icon_path.is_file():
+                errors.append(f"missing branding asset: {relative}")
+                continue
+            if relative.endswith(".png") and not icon_path.read_bytes().startswith(b"\x89PNG\r\n\x1a\n"):
+                errors.append(f"branding asset is not a valid PNG: {relative}")
+            elif relative.endswith(".svg") and "Crocheted Angel" not in icon_path.read_text(encoding="utf-8", errors="replace"):
+                errors.append(f"branding asset does not identify the approved logo: {relative}")
+            elif relative.endswith(".webmanifest"):
+                try:
+                    manifest = json.loads(icon_path.read_text(encoding="utf-8"))
+                    if not manifest.get("icons"):
+                        errors.append("web manifest has no app icons")
+                except (OSError, json.JSONDecodeError):
+                    errors.append("web manifest is not valid JSON")
+        for route in ("index.html", "en/index.html", "uk/index.html"):
+            page = OUT / route
+            if page.is_file():
+                html = page.read_text(encoding="utf-8", errors="replace")
+                if 'rel="canonical"' not in html or not re.search(r'hreflang="en"', html, re.I) or not re.search(r'hreflang="uk"', html, re.I):
+                    errors.append(f"homepage metadata is missing canonical or hreflang tags: {route}")
+                for marker in ('property="og:title"', 'property="og:description"', 'property="og:image"', 'name="twitter:card"', 'application/ld+json'):
+                    if marker not in html:
+                        errors.append(f"homepage metadata is missing {marker}: {route}")
         for page in (path for path in all_files if path.suffix.lower() == ".html"):
             parser = Links()
             parser.feed(page.read_text(encoding="utf-8", errors="replace"))

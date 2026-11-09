@@ -3,16 +3,12 @@ import { notFound } from "next/navigation";
 import { PhotoArchive } from "@/components/PhotoArchive";
 import type { Locale } from "@/content/schema";
 import { validLocale } from "@/lib/i18n";
-import { absoluteUrl } from "@/lib/site";
+import { createPageMetadata } from "@/lib/seo";
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {
   const { locale } = await params;
   if (!validLocale(locale)) return {};
-  return {
-    title: locale === "en" ? "Photo archive" : "Фотоархів",
-    description: locale === "en" ? "Browse photographs and source graphics from the Angels of Ukraine historical archive." : "Переглядайте фотографії та графічні матеріали з історичного архіву «Янголи України»." ,
-    alternates: { canonical: absoluteUrl(`/${locale}/gallery/`), languages: { en: absoluteUrl("/en/gallery/"), uk: absoluteUrl("/uk/gallery/") } },
-  };
+  return createPageMetadata({ locale, path: `/${locale}/gallery/`, title: locale === "en" ? "Angels of Ukraine Photo Archive" : "Фотоархів «Янголи України»", description: locale === "en" ? "Browse 71 historical photographs and 12 source graphics, linked to their original PDF pages and documented events." : "Перегляньте 71 історичну фотографію та 12 графічних матеріалів із посиланнями на сторінки PDF і задокументовані події.", keywords: locale === "en" ? ["Angels of Ukraine photo archive", "memorial gallery Ukraine"] : ["фотоархів Янголи України", "галерея меморіалу"] });
 }
 
 export default async function GalleryPage({ params }: { params: Promise<{ locale: string }> }) {

@@ -2,14 +2,15 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import type { Locale } from "@/content/schema";
 import { validLocale, t } from "@/lib/i18n";
-import { OrganizerInquiry } from "@/components/OrganizerInquiry";
+import { ContactOptions } from "@/components/ContactOptions";
 import { MediaGallery, pagePlacements } from "@/components/MediaGallery";
 import Link from "next/link";
+import { createPageMetadata } from "@/lib/seo";
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {
   const { locale } = await params;
   if (!validLocale(locale)) return {};
-  return { title: locale === "en" ? "Organize a memorial event" : "Організувати меморіальну акцію", alternates: { canonical: `/${locale}/organize/`, languages: { en: "/en/organize/", uk: "/uk/organize/" } } };
+  return createPageMetadata({ locale, path: "/" + locale + "/organize/", title: locale === "en" ? "Organize an Angels of Ukraine Memorial Event" : "Організуйте меморіальну акцію «Янголи України»", description: locale === "en" ? "Learn how to prepare a respectful local gathering using the historical source guide, then contact the project by email, phone or SMS." : "Дізнайтеся, як підготувати місцеву акцію з повагою до пам’яті, і зв’яжіться з проєктом електронною поштою, телефоном або SMS.", keywords: locale === "en" ? ["organize Angels of Ukraine event", "public memorial installation Ukraine"] : ["організувати акцію Янголи України", "меморіальна інсталяція"] });
 }
 
 export default async function OrganizePage({ params }: { params: Promise<{ locale: string }> }) {
@@ -30,6 +31,6 @@ export default async function OrganizePage({ params }: { params: Promise<{ local
         <li><strong>{locale === "en" ? "Use careful, source-based communication." : "Спілкуйтеся уважно й спирайтеся на джерела."}</strong><p>{locale === "en" ? "Explain that slide counts are historical figures from the source, and seek permission before using photographs or names." : "Пояснюйте, що числа на слайдах є історичними показниками з джерела, і отримуйте дозвіл перед публікацією фото чи імен."}</p></li></ol>
       <div className="organize-resource-list"><strong>{locale === "en" ? "Before you proceed" : "Перш ніж почати"}</strong><ul><li>{locale === "en" ? "Choose a local team and an accessible place." : "Зберіть місцеву команду й оберіть доступне місце."}</li><li>{locale === "en" ? "Confirm a date before sharing an announcement." : "Погодьте дату перед публікацією анонсу."}</li><li>{locale === "en" ? "Request the installation materials through an approved current contact." : "Запитуйте матеріали через затверджений актуальний канал зв’язку."}</li><li>{locale === "en" ? "Keep historical source figures and photographs clearly attributed." : "Чітко зазначайте джерело історичних чисел і фотографій."}</li></ul><p className="source-ref">{locale === "en" ? "These steps summarize the original invitation on PDF pages 38–39." : "Ці кроки стисло переказують оригінальне запрошення на сторінках 38–39 PDF."}</p></div>
       <p className="method-note">{locale === "en" ? "The source’s wording about the number of angels is time-bound to the event. Do not present it as current verified data." : "Формулювання джерела про кількість янголів прив’язане до часу події. Не подавайте її як актуальні підтверджені дані."}</p>
-    </div><aside className="organizer-contact-panel"><h2>{locale === "en" ? "Prepare an inquiry" : "Підготуйте звернення"}</h2><p>{locale === "en" ? "You may draft your city, country, possible date and questions while a public contact channel is being approved." : "Поки погоджується публічний канал зв’язку, підготуйте місто, країну, можливу дату й запитання."}</p><OrganizerInquiry locale={locale} /></aside></div>
+    </div><aside className="organizer-contact-panel"><h2>{locale === "en" ? "Contact the project" : "Зв’яжіться з проєктом"}</h2><p>{locale === "en" ? "To discuss an event, contact the project directly by email, phone call or SMS." : "Щоб обговорити подію, зв’яжіться з проєктом електронною поштою, телефоном або SMS."}</p><ContactOptions locale={locale} /></aside></div>
   </section>;
 }

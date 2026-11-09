@@ -13,10 +13,9 @@ export const copy = {
     featured: "From the archive", allEvents: "View all events", source: "Source page", count: "Angels shown on source slide",
     search: "Search by city or country", year: "Year", country: "Country", city: "City", all: "All", results: "events found",
     monthOnly: "Month only in source", mapFallback: "No event coordinates have been verified yet. The grouped city index below keeps every event available without guessing locations.",
-    coordinatesPending: "Location review pending", checklist: "Before you organize", formOff: "New inquiry form is not available yet.",
-    noContact: "The form is not configured and does not send submissions. The Contact page contains historical details from the source; their current status has not been independently confirmed.",
+    coordinatesPending: "Location review pending", checklist: "Before you organize",
     reviewBanner: "Editorial review pending", rightsPending: "Source photographs appear in the gallery with their PDF page references.",
-    back: "Back to archive", privacyConsent: "I agree to the privacy notice for an organizer inquiry.",
+    back: "Back to archive",
   },
   uk: {
     home: "Головна", about: "Про проєкт", archive: "Архів", map: "Мапа", timeline: "Хронологія",
@@ -27,10 +26,9 @@ export const copy = {
     featured: "З архіву", allEvents: "Усі події", source: "Сторінка джерела", count: "Янголів на слайді джерела",
     search: "Пошук за містом або країною", year: "Рік", country: "Країна", city: "Місто", all: "Усі", results: "подій знайдено",
     monthOnly: "У джерелі вказано лише місяць", mapFallback: "Перевірених координат подій поки немає. Нижче наведено список за містами, щоб не вгадувати місця.",
-    coordinatesPending: "Перевірка місць триває", checklist: "Перш ніж організовувати", formOff: "Форма для нових звернень поки недоступна.",
-    noContact: "Форму не налаштовано, і вона не надсилає звернень. На сторінці «Контакти» наведено історичні дані з джерела; їхню актуальність незалежно не підтверджено.",
+    coordinatesPending: "Перевірка місць триває", checklist: "Перш ніж організовувати",
     reviewBanner: "Очікує редакційної перевірки", rightsPending: "Фотографії з джерела наведено в галереї з посиланнями на сторінки PDF.",
-    back: "До архіву", privacyConsent: "Я погоджуюся з повідомленням про приватність для звернення організатора.",
+    back: "До архіву",
   },
 } as const;
 

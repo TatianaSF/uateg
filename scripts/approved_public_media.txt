@@ -87,3 +87,7 @@ _next/static/media/marker-icon*.png
 # Symbolic AI-created Classic Hero artwork; not an archival event photograph.
 images/hero/classic-hero-wide.webp
 images/hero/classic-hero-mobile.webp
+# Owner-approved Crocheted Angel logo assets from the AOUS logo pack.
+brand/logo-option-a-main.png
+favicon.png
+apple-touch-icon.png

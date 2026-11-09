@@ -1,0 +1,14 @@
+{
+  "name": "Angels of Ukraine",
+  "short_name": "Angels of Ukraine",
+  "description": "A travelling memorial and bilingual historical archive.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#fbfaf7",
+  "theme_color": "#203e5c",
+  "icons": [
+    { "src": "/favicon.png", "sizes": "110x115", "type": "image/png", "purpose": "any" },
+    { "src": "/brand/angel-option-a.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }
+  ]
+}
