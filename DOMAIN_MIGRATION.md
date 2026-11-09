@@ -17,7 +17,7 @@ Audit date: 2026-11-09 (Europe/Budapest)
 - Four apex A records retained: `185.199.108.153`, `185.199.109.153`, `185.199.110.153`, `185.199.111.153`.
 - Four apex AAAA records retained: `2606:50c0:8000::153`, `2606:50c0:8001::153`, `2606:50c0:8002::153`, `2606:50c0:8003::153`.
 - GitHub account verification TXT retained at `_github-pages-challenge-TatianaSF.uateg.com`.
-- No `www` record is configured. A DNS-only `www` CNAME was briefly tested after confirming the name was free, then removed because `https://www.uateg.com/` returned a certificate hostname mismatch while GitHub's approved certificate covered only `uateg.com`. The apex remains healthy and enforced over HTTPS; `www` is optional and awaits a GitHub certificate/configuration that covers that hostname.
+- No `www` record remains in the Cloudflare API inventory. A DNS-only `www` CNAME was briefly tested after confirming the name was free, then removed because `https://www.uateg.com/` returned a certificate hostname mismatch while GitHub's approved certificate covered only `uateg.com`. Cloudflare's API confirms deletion, but recursive DNS queries still returned the cached CNAME at last check; do not rely on `www` until caches expire and HTTPS is verified. The apex remains healthy and enforced over HTTPS.
 - Existing three MX records, SPF, DKIM (`cf2024-1._domainkey`), DMARC, and all four apex A records were preserved.
 - The private source inventory is saved at `source-private/domain-migration/dns-inventory-final-2026-11-09.json`; initial and intermediate inventories are also retained in that git-ignored directory.
 - Domain verification challenge value is intentionally not copied into tracked files.
